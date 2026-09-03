@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-08-28T13:16:10.431859+00:00",
+  "sources": {
+    "Tier2_BiLSTM_Neural": "outputs/reports/ie_results_full_neural.json",
+    "Tier3_Transformer": "outputs/reports/ie_results_full_neural.json",
+    "Tier1_CRF_LogReg": "outputs/reports/metrics_full.json"
+  },
+  "note": "Recovered from existing artifacts only; no model was trained."
+}

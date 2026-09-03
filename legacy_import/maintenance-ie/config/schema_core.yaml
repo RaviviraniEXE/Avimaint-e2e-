@@ -1,0 +1,40 @@
+# Derived core schema used only for the RQ2 schema ablation.
+# It removes the sparse REFERENCE extension without changing the source annotations.
+entities:
+  MAINT_ITEM: {canonical: "PHYSICAL_OBJECT/MAINTAINABLE_ITEM", tier: core}
+  ACTION: {canonical: "ACTIVITY/MAINTENANCE_ACTION", tier: core}
+  FAULT: {canonical: "STATE/FAULT_STATE", tier: core}
+  ABN_PROC: {canonical: "PROCESS/ABNORMAL_PROCESS", tier: core}
+  OUTCOME: {canonical: "STATE/MAINTENANCE_OUTCOME", tier: core}
+  LOC: {canonical: "PROPERTY/LOCATION_POSITION", tier: core}
+  TECH_OBS: {canonical: "PROPERTY/TECHNICAL_OBSERVATION", tier: core}
+  OP_CTX: {canonical: "CONTEXT/OPERATING_CONTEXT", tier: core}
+relations:
+  HAS_PART: {head: [MAINT_ITEM], tail: [MAINT_ITEM], tier: core}
+  ISSUE_ON_ITEM: {head: [FAULT, ABN_PROC], tail: [MAINT_ITEM], tier: core}
+  ACTION_ON_ITEM: {head: [ACTION], tail: [MAINT_ITEM], tier: core}
+  OBSERVATION_OF_ITEM: {head: [TECH_OBS], tail: [MAINT_ITEM], tier: core}
+  HAS_LOCATION: {head: [MAINT_ITEM, FAULT, ABN_PROC], tail: [LOC], tier: core}
+  OCCURS_UNDER_CONTEXT: {head: [FAULT, ABN_PROC, ACTION], tail: [OP_CTX], tier: core}
+  ACTION_ADDRESSES_ISSUE: {head: [ACTION], tail: [FAULT, ABN_PROC], tier: core}
+  ACTION_INVESTIGATES_ISSUE: {head: [ACTION], tail: [FAULT, ABN_PROC], tier: core}
+  ACTION_USES_ITEM: {head: [ACTION], tail: [MAINT_ITEM], tier: core}
+  ACTION_RESULTS_IN_OUTCOME: {head: [ACTION], tail: [OUTCOME], tier: core}
+attributes:
+  action_family: [REPLACE, REPAIR, ADJUST, SERVICE, INSPECT_DIAGNOSE, CALIBRATE, OTHER]
+  outcome_polarity: [positive, negative, inconclusive]
+  certainty: [asserted, suspected, attempted, unknown]
+models:
+  transformer:
+    encoder: distilbert-base-uncased
+    max_len: 96
+    ner: {epochs: 30, lr: 3.0e-5, batch_size: 8, patience: 3}
+    re: {epochs: 30, lr: 3.0e-5, batch_size: 4, patience: 3}
+  tuning:
+    crf: {c1: [0.01, 0.05, 0.1, 0.5, 1.0], c2: [0.01, 0.1, 0.5, 1.0]}
+    logreg: {C: [0.25, 0.5, 1.0, 2.0, 4.0]}
+    bilstm: {lr: [1.0e-3, 5.0e-4], dropout: [0.4, 0.5]}
+    transformer: {lr: [2.0e-5, 3.0e-5, 5.0e-5]}
+annotation:
+  seed: 42
+

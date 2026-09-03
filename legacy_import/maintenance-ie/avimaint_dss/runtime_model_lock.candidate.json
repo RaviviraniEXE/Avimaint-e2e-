@@ -1,0 +1,27 @@
+{
+  "schema": "avimaint-runtime-model-lock-v4",
+  "project_root": "D:\\avimaint-e2e-research",
+  "semantic_representation": "normalized_operational",
+  "normalized_spert": {
+    "enabled": true,
+    "verified_representation": true,
+    "reason": "Explicitly selected through AVIMAINT_NORMALIZED_SPERT_MODEL.",
+    "model_path": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\spert_normalized\\byt5\\save\\avimaint_spert_norm_byt5\\2026-08-30_15-07-30_657037\\final_model",
+    "weights_path": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\spert_normalized\\byt5\\save\\avimaint_spert_norm_byt5\\2026-08-30_15-07-30_657037\\final_model\\model.safetensors",
+    "weight_sha256": "3aa14091b1d6803ef9535fe08df4cbe801b07d2a828ce433440ccabf3cc8638d",
+    "types_path": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\spert\\avimaint_types.json",
+    "selection": "explicit_override",
+    "frozen_operational_model_id": "1f9c094789f591991ad26ca65ca1c36689b57ff0dd248cd30b4fc81b853b4ad9"
+  },
+  "byt5": {
+    "enabled": true,
+    "reason": "Explicitly selected through AVIMAINT_BYT5_MODEL.",
+    "model_path": "D:\\avimaint-e2e-research\\outputs\\normalization\\models\\byt5_gold_v1\\checkpoint-1953",
+    "source": "AVIMAINT_BYT5_MODEL",
+    "task_prefix": ""
+  },
+  "research_branch": {
+    "rq4": "true_raw_structure",
+    "rq5_recalibrated": false
+  }
+}

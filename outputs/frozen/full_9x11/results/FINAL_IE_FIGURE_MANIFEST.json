@@ -1,0 +1,89 @@
+{
+  "created_utc": "2026-08-28T13:58:27.955929+00:00",
+  "mode": "existing-results-only",
+  "training_performed": false,
+  "old_legacy_figures_deleted": false,
+  "legacy_figure_directory_preserved": "outputs/reports/figures",
+  "stable_final_figure_directory": "outputs/reports/final_figures",
+  "stable_final_table_directory": "outputs/reports/final_tables",
+  "archived_previous_final_outputs": [],
+  "frozen_test": {
+    "core": 225,
+    "full": 225
+  },
+  "gold_corpus_records": {
+    "core": 1600,
+    "full": 1600
+  },
+  "rare_class_test_support": {
+    "REFERENCE": 2,
+    "ACTION_FOLLOWS_REFERENCE": 2
+  },
+  "rare_class_interpretation": "Perfect rare-class F1 is retained as measured but labelled with n=2 support and must not be presented as robust generalization.",
+  "source_files": [
+    {
+      "path": "outputs/reports/ie_results_core.json",
+      "sha256": "1e70b1a80b4fa34a07c5305bc7ae5fefd180f38fd0155894413ce835c689a7af"
+    },
+    {
+      "path": "outputs/reports/ie_results_core_neural.json",
+      "sha256": "7c9eba3886f9429865beac9c4c037b85eb5c8e29679e1961ea95d57481f86ae5"
+    },
+    {
+      "path": "outputs/spert_core/test.json",
+      "sha256": "3f1994efa5e4064d441f62100b10a3ba9d0b99b4a0abadafa1361ab748aab71f"
+    },
+    {
+      "path": "outputs/spert_core/predictions_test.json",
+      "sha256": "9f01e64ff51c257c3f82efbb301619c2bbeb0cf9427660769386faee1a53b1c4"
+    },
+    {
+      "path": "outputs/reports/ie_results_combined_existing.json",
+      "sha256": "cfa530c908e1a9e71c5d05f4b7bca3157bf4410ae46e58f94c96f1bc119bc15d"
+    },
+    {
+      "path": "outputs/spert/test.json",
+      "sha256": "cabf2580c8bea3b3c7b73ae0a3952c8f316bf50994602e81ab515fe49f0c786e"
+    },
+    {
+      "path": "outputs/spert/predictions_test.json",
+      "sha256": "a7f4e04072c253d7c7d30ce05167af9adf7bb924dfb9291efcb9e66e00efb14e"
+    }
+  ],
+  "generated_files": [
+    "outputs/reports/final_figures/core_8x10/overall_four_model_comparison.png",
+    "outputs/reports/final_figures/core_8x10/overall_four_model_comparison.pdf",
+    "outputs/reports/final_figures/core_8x10/entity_per_class_f1_all_models.png",
+    "outputs/reports/final_figures/core_8x10/entity_per_class_f1_all_models.pdf",
+    "outputs/reports/final_figures/core_8x10/relation_per_class_f1_all_models.png",
+    "outputs/reports/final_figures/core_8x10/relation_per_class_f1_all_models.pdf",
+    "outputs/reports/final_figures/core_8x10/test_entity_support.png",
+    "outputs/reports/final_figures/core_8x10/test_entity_support.pdf",
+    "outputs/reports/final_figures/core_8x10/test_relation_support.png",
+    "outputs/reports/final_figures/core_8x10/test_relation_support.pdf",
+    "outputs/reports/final_figures/core_8x10/corpus_entity_support.png",
+    "outputs/reports/final_figures/core_8x10/corpus_entity_support.pdf",
+    "outputs/reports/final_figures/core_8x10/corpus_relation_support.png",
+    "outputs/reports/final_figures/core_8x10/corpus_relation_support.pdf",
+    "outputs/reports/final_figures/full_9x11/overall_four_model_comparison.png",
+    "outputs/reports/final_figures/full_9x11/overall_four_model_comparison.pdf",
+    "outputs/reports/final_figures/full_9x11/entity_per_class_f1_all_models.png",
+    "outputs/reports/final_figures/full_9x11/entity_per_class_f1_all_models.pdf",
+    "outputs/reports/final_figures/full_9x11/relation_per_class_f1_all_models.png",
+    "outputs/reports/final_figures/full_9x11/relation_per_class_f1_all_models.pdf",
+    "outputs/reports/final_figures/full_9x11/test_entity_support.png",
+    "outputs/reports/final_figures/full_9x11/test_entity_support.pdf",
+    "outputs/reports/final_figures/full_9x11/test_relation_support.png",
+    "outputs/reports/final_figures/full_9x11/test_relation_support.pdf",
+    "outputs/reports/final_figures/full_9x11/corpus_entity_support.png",
+    "outputs/reports/final_figures/full_9x11/corpus_entity_support.pdf",
+    "outputs/reports/final_figures/full_9x11/corpus_relation_support.png",
+    "outputs/reports/final_figures/full_9x11/corpus_relation_support.pdf",
+    "outputs/reports/final_figures/core_vs_full/entity_micro_f1.png",
+    "outputs/reports/final_figures/core_vs_full/entity_micro_f1.pdf",
+    "outputs/reports/final_figures/core_vs_full/strict_relation_micro_f1.png",
+    "outputs/reports/final_figures/core_vs_full/strict_relation_micro_f1.pdf",
+    "outputs/reports/final_figures/core_vs_full/relation_macro_f1.png",
+    "outputs/reports/final_figures/core_vs_full/relation_macro_f1.pdf"
+  ]
+}

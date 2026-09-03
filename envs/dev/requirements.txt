@@ -1,0 +1,10 @@
+pytest==8.3.4
+pytest-cov==6.0.0
+ruff==0.8.4
+mypy==1.13.0
+pre-commit==4.0.1
+jupyterlab==4.3.4
+types-PyYAML==6.0.12.20241230
+PyYAML==6.0.2
+pydantic==2.10.4
+

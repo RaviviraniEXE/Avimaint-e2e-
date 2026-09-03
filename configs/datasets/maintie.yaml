@@ -1,0 +1,16 @@
+dataset:
+  id: maintie
+  version: "official-release"
+  adapter: maintie
+  raw_path: data/maintie/raw/
+  processed_path: data/maintie/processed/records.jsonl
+  manifest_path: data/manifests/maintie_manifest.json
+  schema_id: maintie_native_v1
+  shared_schema_id: shared_coarse_v1
+  allow_dataset_defined_labels: true
+  allow_recommender: false
+  purpose:
+    - native_information_extraction_benchmark
+    - shared_schema_comparison
+    - optional_transfer_study
+

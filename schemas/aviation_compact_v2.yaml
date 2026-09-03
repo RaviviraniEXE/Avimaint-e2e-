@@ -1,0 +1,12 @@
+schema:
+  id: aviation_compact_v2
+  version: "2.0.0-draft"
+  status: not_adopted
+  based_on: aviation_compact_v1
+  description: >-
+    Reserved migration placeholder. The 1,600 supplied records already conform
+    to aviation_compact_v1, so no semantic schema change or full reannotation
+    is authorized. RQ2 compares derived core and full-hybrid views instead.
+  proposed_changes: []
+  decision: retain_aviation_compact_v1
+  reannotation_required: false

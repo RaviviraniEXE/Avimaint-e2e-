@@ -1,0 +1,88 @@
+{
+  "entities": {
+    "MAINT_ITEM": {
+      "short": "MAINT_ITEM",
+      "verbose": "PHYSICAL_OBJECT/MAINTAINABLE_ITEM"
+    },
+    "ACTION": {
+      "short": "ACTION",
+      "verbose": "ACTIVITY/MAINTENANCE_ACTION"
+    },
+    "FAULT": {
+      "short": "FAULT",
+      "verbose": "STATE/FAULT_STATE"
+    },
+    "ABN_PROC": {
+      "short": "ABN_PROC",
+      "verbose": "PROCESS/ABNORMAL_PROCESS"
+    },
+    "OUTCOME": {
+      "short": "OUTCOME",
+      "verbose": "STATE/MAINTENANCE_OUTCOME"
+    },
+    "LOC": {
+      "short": "LOC",
+      "verbose": "PROPERTY/LOCATION_POSITION"
+    },
+    "TECH_OBS": {
+      "short": "TECH_OBS",
+      "verbose": "PROPERTY/TECHNICAL_OBSERVATION"
+    },
+    "OP_CTX": {
+      "short": "OP_CTX",
+      "verbose": "CONTEXT/OPERATING_CONTEXT"
+    }
+  },
+  "relations": {
+    "HAS_PART": {
+      "short": "HAS_PART",
+      "verbose": "HAS_PART",
+      "symmetric": false
+    },
+    "ISSUE_ON_ITEM": {
+      "short": "ISSUE_ON_ITEM",
+      "verbose": "ISSUE_ON_ITEM",
+      "symmetric": false
+    },
+    "ACTION_ON_ITEM": {
+      "short": "ACTION_ON_ITEM",
+      "verbose": "ACTION_ON_ITEM",
+      "symmetric": false
+    },
+    "OBSERVATION_OF_ITEM": {
+      "short": "OBSERVATION_OF_ITEM",
+      "verbose": "OBSERVATION_OF_ITEM",
+      "symmetric": false
+    },
+    "HAS_LOCATION": {
+      "short": "HAS_LOCATION",
+      "verbose": "HAS_LOCATION",
+      "symmetric": false
+    },
+    "OCCURS_UNDER_CONTEXT": {
+      "short": "OCCURS_UNDER_CONTEXT",
+      "verbose": "OCCURS_UNDER_CONTEXT",
+      "symmetric": false
+    },
+    "ACTION_ADDRESSES_ISSUE": {
+      "short": "ACTION_ADDRESSES_ISSUE",
+      "verbose": "ACTION_ADDRESSES_ISSUE",
+      "symmetric": false
+    },
+    "ACTION_INVESTIGATES_ISSUE": {
+      "short": "ACTION_INVESTIGATES_ISSUE",
+      "verbose": "ACTION_INVESTIGATES_ISSUE",
+      "symmetric": false
+    },
+    "ACTION_USES_ITEM": {
+      "short": "ACTION_USES_ITEM",
+      "verbose": "ACTION_USES_ITEM",
+      "symmetric": false
+    },
+    "ACTION_RESULTS_IN_OUTCOME": {
+      "short": "ACTION_RESULTS_IN_OUTCOME",
+      "verbose": "ACTION_RESULTS_IN_OUTCOME",
+      "symmetric": false
+    }
+  }
+}

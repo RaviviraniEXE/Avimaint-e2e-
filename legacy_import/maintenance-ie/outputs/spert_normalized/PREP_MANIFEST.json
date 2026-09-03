@@ -1,0 +1,201 @@
+{
+ "experiment": "representation_matched_normalization_spert_full_9x11",
+ "status": "prepared_no_training_yet",
+ "raw_model_policy": "reuse already-frozen authoritative raw SpERT; do not retrain raw",
+ "normalized_systems_to_train": [
+  "rules",
+  "byt5",
+  "selective_byt5",
+  "rules_then_byt5"
+ ],
+ "split_counts": {
+  "train": 1275,
+  "dev": 100,
+  "test": 225
+ },
+ "split_membership_source": "legacy_import/maintenance-ie/outputs/splits.json",
+ "ordering_source": "authoritative raw outputs/spert/{train,dev,test}.json orig_id order",
+ "frozen_id_sha256": {
+  "train": "35b4665a5d9b5cdbe8d685e526a22c430e8879bfd69c889e492ca29b6848e1fb",
+  "dev": "5b3ec934389da825e523767f26bff6b878a8d36e6bcb050558ec0581bd5c19ed",
+  "test": "0e7eb73b4f6206fc3defa508f774bf8289c3abe90d16d8c94ecb457de7f1f835"
+ },
+ "schema": {
+  "entities": 9,
+  "relations": 11
+ },
+ "raw_test_support": {
+  "entities": 1693,
+  "relations": 1419
+ },
+ "variant_supports": {
+  "rules": {
+   "train": {
+    "records": 1275,
+    "entities": 10150,
+    "relations": 8764
+   },
+   "dev": {
+    "records": 100,
+    "entities": 783,
+    "relations": 651
+   },
+   "test": {
+    "records": 225,
+    "entities": 1693,
+    "relations": 1419
+   }
+  },
+  "byt5": {
+   "train": {
+    "records": 1275,
+    "entities": 10145,
+    "relations": 8764
+   },
+   "dev": {
+    "records": 100,
+    "entities": 783,
+    "relations": 651
+   },
+   "test": {
+    "records": 225,
+    "entities": 1693,
+    "relations": 1419
+   }
+  },
+  "selective_byt5": {
+   "train": {
+    "records": 1275,
+    "entities": 10150,
+    "relations": 8764
+   },
+   "dev": {
+    "records": 100,
+    "entities": 783,
+    "relations": 651
+   },
+   "test": {
+    "records": 225,
+    "entities": 1693,
+    "relations": 1419
+   }
+  },
+  "rules_then_byt5": {
+   "train": {
+    "records": 1275,
+    "entities": 10147,
+    "relations": 8764
+   },
+   "dev": {
+    "records": 100,
+    "entities": 783,
+    "relations": 651
+   },
+   "test": {
+    "records": 225,
+    "entities": 1693,
+    "relations": 1419
+   }
+  }
+ },
+ "projection_by_split": {
+  "raw": {
+   "train": {
+    "dropped_entities": 0,
+    "dropped_relations": 0,
+    "rows": 1275
+   },
+   "dev": {
+    "dropped_entities": 0,
+    "dropped_relations": 0,
+    "rows": 100
+   },
+   "test": {
+    "dropped_entities": 0,
+    "dropped_relations": 0,
+    "rows": 225
+   }
+  },
+  "rules": {
+   "train": {
+    "dropped_entities": 0,
+    "dropped_relations": 0,
+    "rows": 1275
+   },
+   "dev": {
+    "dropped_entities": 0,
+    "dropped_relations": 0,
+    "rows": 100
+   },
+   "test": {
+    "dropped_entities": 0,
+    "dropped_relations": 0,
+    "rows": 225
+   }
+  },
+  "byt5": {
+   "train": {
+    "dropped_entities": 5,
+    "dropped_relations": 0,
+    "rows": 1275
+   },
+   "dev": {
+    "dropped_entities": 0,
+    "dropped_relations": 0,
+    "rows": 100
+   },
+   "test": {
+    "dropped_entities": 0,
+    "dropped_relations": 0,
+    "rows": 225
+   }
+  },
+  "selective_byt5": {
+   "train": {
+    "dropped_entities": 0,
+    "dropped_relations": 0,
+    "rows": 1275
+   },
+   "dev": {
+    "dropped_entities": 0,
+    "dropped_relations": 0,
+    "rows": 100
+   },
+   "test": {
+    "dropped_entities": 0,
+    "dropped_relations": 0,
+    "rows": 225
+   }
+  },
+  "rules_then_byt5": {
+   "train": {
+    "dropped_entities": 3,
+    "dropped_relations": 0,
+    "rows": 1275
+   },
+   "dev": {
+    "dropped_entities": 0,
+    "dropped_relations": 0,
+    "rows": 100
+   },
+   "test": {
+    "dropped_entities": 0,
+    "dropped_relations": 0,
+    "rows": 225
+   }
+  }
+ },
+ "output_dirs": {
+  "rules": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules",
+  "byt5": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\byt5",
+  "selective_byt5": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\selective_byt5",
+  "rules_then_byt5": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules_then_byt5"
+ },
+ "protocol": {
+  "matched_representation": "each normalized SpERT is trained/dev-evaluated/tested on the same normalization representation",
+  "same_architecture_and_hyperparameters": true,
+  "hyperparameter_source": "authoritative raw outputs/spert/avimaint_spert.conf; only label and filesystem paths rewritten",
+  "test_policy": "train all four fixed conditions first; calculate comparative TEST metrics only after all four prediction artifacts exist",
+  "retuning_after_test": "forbidden"
+ }
+}

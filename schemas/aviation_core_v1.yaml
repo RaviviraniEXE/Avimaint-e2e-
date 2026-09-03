@@ -1,0 +1,31 @@
+schema:
+  id: aviation_core_v1
+  version: "1.0.0-derived"
+  status: derived_evaluation_view
+  based_on: aviation_compact_v1
+  description: >-
+    Derived RQ2 view. It removes only the hybrid provenance extension from the
+    frozen full schema. It is generated from the same annotations and therefore
+    requires no new manual annotation.
+  entity_types:
+    - MAINT_ITEM
+    - ACTION
+    - FAULT
+    - ABN_PROC
+    - TECH_OBS
+    - LOC
+    - OP_CTX
+    - OUTCOME
+  excluded_entity_types: [REFERENCE]
+  excluded_relation_types: [ACTION_FOLLOWS_REFERENCE]
+  relation_types:
+    - HAS_PART
+    - ISSUE_ON_ITEM
+    - ACTION_ON_ITEM
+    - OBSERVATION_OF_ITEM
+    - HAS_LOCATION
+    - OCCURS_UNDER_CONTEXT
+    - ACTION_ADDRESSES_ISSUE
+    - ACTION_INVESTIGATES_ISSUE
+    - ACTION_USES_ITEM
+    - ACTION_RESULTS_IN_OUTCOME

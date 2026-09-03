@@ -1,0 +1,362 @@
+{
+  "status": "complete_no_post_test_retuning_allowed",
+  "generated_at_utc": "20260830T143346Z",
+  "experiment": "representation_matched_normalization_to_full_spert",
+  "systems": [
+    "raw",
+    "rules",
+    "byt5",
+    "selective_byt5",
+    "rules_then_byt5"
+  ],
+  "normalized_models_trained": 4,
+  "raw_model_retrained": false,
+  "raw_model_policy": "reuse authoritative pre-existing raw full-9x11 SpERT baseline",
+  "frozen_split": {
+    "train": 1275,
+    "dev": 100,
+    "test": 225,
+    "membership_source": "outputs/splits.json"
+  },
+  "schema": {
+    "entities": 9,
+    "relations": 11
+  },
+  "same_hyperparameters_vs_raw": {
+    "rules": {
+      "same_hyperparameters": true,
+      "differences": {}
+    },
+    "byt5": {
+      "same_hyperparameters": true,
+      "differences": {}
+    },
+    "selective_byt5": {
+      "same_hyperparameters": true,
+      "differences": {}
+    },
+    "rules_then_byt5": {
+      "same_hyperparameters": true,
+      "differences": {}
+    }
+  },
+  "raw_parity_gate": {
+    "pass": true,
+    "checks": {
+      "entity_micro_f1": {
+        "expected": 0.952,
+        "observed": 0.9519882179675994,
+        "abs_difference": 1.1782032400597942e-05,
+        "tolerance": 0.001,
+        "pass": true
+      },
+      "entity_macro_f1": {
+        "expected": 0.9063,
+        "observed": 0.9062791516429964,
+        "abs_difference": 2.0848357003555584e-05,
+        "tolerance": 0.002,
+        "pass": true
+      },
+      "strict_relation_micro_f1": {
+        "expected": 0.8537,
+        "observed": 0.8537005163511187,
+        "abs_difference": 5.163511186401237e-07,
+        "tolerance": 0.001,
+        "pass": true
+      },
+      "relation_macro_f1": {
+        "expected": 0.7898,
+        "observed": 0.7898109760868629,
+        "abs_difference": 1.0976086862957146e-05,
+        "tolerance": 0.002,
+        "pass": true
+      }
+    }
+  },
+  "metrics": {
+    "raw": {
+      "entity_precision": 0.9494712103407755,
+      "entity_recall": 0.954518606024808,
+      "entity_micro_f1": 0.9519882179675994,
+      "entity_macro_f1": 0.9062791516429964,
+      "strict_relation_precision": 0.8344549125168237,
+      "strict_relation_recall": 0.8738548273431994,
+      "strict_relation_micro_f1": 0.8537005163511187,
+      "relation_macro_f1": 0.7898109760868629,
+      "gold_entities": 1693,
+      "gold_relations": 1419,
+      "pred_entities": 1702,
+      "pred_relations": 1486,
+      "invalid_relation_endpoints": 0
+    },
+    "rules": {
+      "entity_precision": 0.944872554831061,
+      "entity_recall": 0.941523922031896,
+      "entity_micro_f1": 0.9431952662721893,
+      "entity_macro_f1": 0.8889132463419701,
+      "strict_relation_precision": 0.766935985083903,
+      "strict_relation_recall": 0.8696264975334743,
+      "strict_relation_micro_f1": 0.8150594451783356,
+      "relation_macro_f1": 0.7466122643266957,
+      "gold_entities": 1693,
+      "gold_relations": 1419,
+      "pred_entities": 1687,
+      "pred_relations": 1609,
+      "invalid_relation_endpoints": 0
+    },
+    "byt5": {
+      "entity_precision": 0.9274099883855982,
+      "entity_recall": 0.9432959243945659,
+      "entity_micro_f1": 0.9352855051244511,
+      "entity_macro_f1": 0.8753259543371864,
+      "strict_relation_precision": 0.7434052757793765,
+      "strict_relation_recall": 0.8738548273431994,
+      "strict_relation_micro_f1": 0.8033689666342727,
+      "relation_macro_f1": 0.7476388128184024,
+      "gold_entities": 1693,
+      "gold_relations": 1419,
+      "pred_entities": 1722,
+      "pred_relations": 1668,
+      "invalid_relation_endpoints": 0
+    },
+    "selective_byt5": {
+      "entity_precision": 0.9421487603305785,
+      "entity_recall": 0.9427052569403426,
+      "entity_micro_f1": 0.9424269264836138,
+      "entity_macro_f1": 0.8939646647770453,
+      "strict_relation_precision": 0.7649230769230769,
+      "strict_relation_recall": 0.875968992248062,
+      "strict_relation_micro_f1": 0.816688567674113,
+      "relation_macro_f1": 0.7780761360340441,
+      "gold_entities": 1693,
+      "gold_relations": 1419,
+      "pred_entities": 1694,
+      "pred_relations": 1625,
+      "invalid_relation_endpoints": 0
+    },
+    "rules_then_byt5": {
+      "entity_precision": 0.9363957597173145,
+      "entity_recall": 0.9391612522150029,
+      "entity_micro_f1": 0.937776467118844,
+      "entity_macro_f1": 0.8714564741844648,
+      "strict_relation_precision": 0.7637600494743352,
+      "strict_relation_recall": 0.8703312191684285,
+      "strict_relation_micro_f1": 0.813570487483531,
+      "relation_macro_f1": 0.7622282056701342,
+      "gold_entities": 1693,
+      "gold_relations": 1419,
+      "pred_entities": 1698,
+      "pred_relations": 1617,
+      "invalid_relation_endpoints": 0
+    }
+  },
+  "model_registry": "MODEL_REGISTRY.json",
+  "preparation_manifest": {
+    "experiment": "representation_matched_normalization_spert_full_9x11",
+    "status": "prepared_no_training_yet",
+    "raw_model_policy": "reuse already-frozen authoritative raw SpERT; do not retrain raw",
+    "normalized_systems_to_train": [
+      "rules",
+      "byt5",
+      "selective_byt5",
+      "rules_then_byt5"
+    ],
+    "split_counts": {
+      "train": 1275,
+      "dev": 100,
+      "test": 225
+    },
+    "split_membership_source": "legacy_import/maintenance-ie/outputs/splits.json",
+    "ordering_source": "authoritative raw outputs/spert/{train,dev,test}.json orig_id order",
+    "frozen_id_sha256": {
+      "train": "35b4665a5d9b5cdbe8d685e526a22c430e8879bfd69c889e492ca29b6848e1fb",
+      "dev": "5b3ec934389da825e523767f26bff6b878a8d36e6bcb050558ec0581bd5c19ed",
+      "test": "0e7eb73b4f6206fc3defa508f774bf8289c3abe90d16d8c94ecb457de7f1f835"
+    },
+    "schema": {
+      "entities": 9,
+      "relations": 11
+    },
+    "raw_test_support": {
+      "entities": 1693,
+      "relations": 1419
+    },
+    "variant_supports": {
+      "rules": {
+        "train": {
+          "records": 1275,
+          "entities": 10150,
+          "relations": 8764
+        },
+        "dev": {
+          "records": 100,
+          "entities": 783,
+          "relations": 651
+        },
+        "test": {
+          "records": 225,
+          "entities": 1693,
+          "relations": 1419
+        }
+      },
+      "byt5": {
+        "train": {
+          "records": 1275,
+          "entities": 10145,
+          "relations": 8764
+        },
+        "dev": {
+          "records": 100,
+          "entities": 783,
+          "relations": 651
+        },
+        "test": {
+          "records": 225,
+          "entities": 1693,
+          "relations": 1419
+        }
+      },
+      "selective_byt5": {
+        "train": {
+          "records": 1275,
+          "entities": 10150,
+          "relations": 8764
+        },
+        "dev": {
+          "records": 100,
+          "entities": 783,
+          "relations": 651
+        },
+        "test": {
+          "records": 225,
+          "entities": 1693,
+          "relations": 1419
+        }
+      },
+      "rules_then_byt5": {
+        "train": {
+          "records": 1275,
+          "entities": 10147,
+          "relations": 8764
+        },
+        "dev": {
+          "records": 100,
+          "entities": 783,
+          "relations": 651
+        },
+        "test": {
+          "records": 225,
+          "entities": 1693,
+          "relations": 1419
+        }
+      }
+    },
+    "projection_by_split": {
+      "raw": {
+        "train": {
+          "dropped_entities": 0,
+          "dropped_relations": 0,
+          "rows": 1275
+        },
+        "dev": {
+          "dropped_entities": 0,
+          "dropped_relations": 0,
+          "rows": 100
+        },
+        "test": {
+          "dropped_entities": 0,
+          "dropped_relations": 0,
+          "rows": 225
+        }
+      },
+      "rules": {
+        "train": {
+          "dropped_entities": 0,
+          "dropped_relations": 0,
+          "rows": 1275
+        },
+        "dev": {
+          "dropped_entities": 0,
+          "dropped_relations": 0,
+          "rows": 100
+        },
+        "test": {
+          "dropped_entities": 0,
+          "dropped_relations": 0,
+          "rows": 225
+        }
+      },
+      "byt5": {
+        "train": {
+          "dropped_entities": 5,
+          "dropped_relations": 0,
+          "rows": 1275
+        },
+        "dev": {
+          "dropped_entities": 0,
+          "dropped_relations": 0,
+          "rows": 100
+        },
+        "test": {
+          "dropped_entities": 0,
+          "dropped_relations": 0,
+          "rows": 225
+        }
+      },
+      "selective_byt5": {
+        "train": {
+          "dropped_entities": 0,
+          "dropped_relations": 0,
+          "rows": 1275
+        },
+        "dev": {
+          "dropped_entities": 0,
+          "dropped_relations": 0,
+          "rows": 100
+        },
+        "test": {
+          "dropped_entities": 0,
+          "dropped_relations": 0,
+          "rows": 225
+        }
+      },
+      "rules_then_byt5": {
+        "train": {
+          "dropped_entities": 3,
+          "dropped_relations": 0,
+          "rows": 1275
+        },
+        "dev": {
+          "dropped_entities": 0,
+          "dropped_relations": 0,
+          "rows": 100
+        },
+        "test": {
+          "dropped_entities": 0,
+          "dropped_relations": 0,
+          "rows": 225
+        }
+      }
+    },
+    "output_dirs": {
+      "rules": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules",
+      "byt5": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\byt5",
+      "selective_byt5": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\selective_byt5",
+      "rules_then_byt5": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules_then_byt5"
+    },
+    "protocol": {
+      "matched_representation": "each normalized SpERT is trained/dev-evaluated/tested on the same normalization representation",
+      "same_architecture_and_hyperparameters": true,
+      "hyperparameter_source": "authoritative raw outputs/spert/avimaint_spert.conf; only label and filesystem paths rewritten",
+      "test_policy": "train all four fixed conditions first; calculate comparative TEST metrics only after all four prediction artifacts exist",
+      "retuning_after_test": "forbidden"
+    }
+  },
+  "interpretation_policy": {
+    "primary_question": "Does normalization help the strongest IE architecture when train/dev/test representations are matched?",
+    "test_metrics_calculated_only_after_all_four_normalized_models_and_predictions_exist": true,
+    "post_test_hyperparameter_tuning": "forbidden",
+    "automatic_winner_selection_for_deployment": false,
+    "earlier_frozen_raw_model_on_normalized_test_experiment": "retain only as inference-time representation-shift sensitivity analysis"
+  }
+}

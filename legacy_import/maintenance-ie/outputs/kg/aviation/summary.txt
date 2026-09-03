@@ -1,0 +1,29 @@
+Knowledge Graph: aviation
+records=6169  nodes=3197  edges(aggregated)=9331
+entity mentions=45771  relation record-support=41469
+invalid entities skipped=0
+invalid relations skipped=0
+
+nodes by type:
+  MAINT_ITEM: 1398 distinct
+  ACTION: 455 distinct
+  TECH_OBS: 359 distinct
+  LOC: 259 distinct
+  ABN_PROC: 235 distinct
+  OP_CTX: 202 distinct
+  FAULT: 127 distinct
+  OUTCOME: 122 distinct
+  REFERENCE: 40 distinct
+
+edges by relation (distinct-record support):
+  ACTION_ON_ITEM: 11495
+  HAS_LOCATION: 9524
+  ISSUE_ON_ITEM: 6539
+  ACTION_ADDRESSES_ISSUE: 5409
+  HAS_PART: 5074
+  ACTION_INVESTIGATES_ISSUE: 1229
+  OBSERVATION_OF_ITEM: 768
+  ACTION_RESULTS_IN_OUTCOME: 616
+  OCCURS_UNDER_CONTEXT: 459
+  ACTION_USES_ITEM: 244
+  ACTION_FOLLOWS_REFERENCE: 112

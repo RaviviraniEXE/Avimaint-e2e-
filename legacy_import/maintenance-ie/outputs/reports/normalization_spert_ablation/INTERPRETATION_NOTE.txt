@@ -1,0 +1,3 @@
+The earlier five-way frozen-RAW-model experiment is an inference-time representation-shift sensitivity test.
+It must NOT be used as the main answer to whether normalization improves a representation-matched IE pipeline.
+The main RQ1 downstream SpERT experiment is outputs/reports/normalization_spert_matched/.

@@ -1,0 +1,38 @@
+run:
+  id: byt5_gold_v1
+  stage: gold_only
+  seed: 42
+  input_path: data/splits/normalization_cluster_safe_v1.csv
+  output_dir: outputs/normalization/models/byt5_gold_v1
+  prediction_dir: outputs/normalization/predictions/byt5_gold_v1
+
+model:
+  name_or_path: google/byt5-small
+  max_source_length: 256
+  max_target_length: 256
+  num_beams: 4
+
+training:
+  learning_rate: 0.0001
+  weight_decay: 0.01
+  warmup_ratio: 0.05
+  max_epochs: 20
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 16
+  gradient_checkpointing: true
+  optim: adafactor
+  fp16: false
+  bf16: true
+  early_stopping_patience: 3
+  save_total_limit: 2
+  metric_for_best_model: eval_wer
+  greater_is_better: false
+
+safety:
+  protected_token_patterns:
+    - "\\b[A-Z]{1,5}[-/]?\\d[A-Z0-9./-]*\\b"
+    - "\\b\\d+(?:\\.\\d+)?\\s?(?:V|A|PSI|PSIG|IN|MM|CM|NM|LB|LBS|HR|HRS|MIN|SEC|DEG|°C|°F)\\b"
+    - "\\b(?:LEFT|RIGHT|LH|RH|NO|NOT|NEVER)\\b"
+  fallback_order: [rules, raw]
+  forbid_unsupported_completion: true

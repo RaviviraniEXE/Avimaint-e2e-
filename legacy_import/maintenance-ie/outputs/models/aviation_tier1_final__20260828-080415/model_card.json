@@ -1,0 +1,199 @@
+{
+  "version": "aviation_tier1_final__20260828-080415",
+  "run_id": "aviation_tier1_final",
+  "timestamp": "20260828-080415",
+  "tuned": true,
+  "encoder": "distilbert-base-uncased",
+  "n_train": 1275,
+  "n_dev": 100,
+  "n_test": 225,
+  "train_batches": "all",
+  "tiers": [
+    "Tier1_CRF_LogReg"
+  ],
+  "dev_selected_hyperparameters": {
+    "tier1_crf": {
+      "c1": 0.05,
+      "c2": 0.1,
+      "micro_f1": 0.9428,
+      "history": [
+        {
+          "c1": 0.01,
+          "c2": 0.01,
+          "micro_f1": 0.9385
+        },
+        {
+          "c1": 0.01,
+          "c2": 0.1,
+          "micro_f1": 0.9397
+        },
+        {
+          "c1": 0.01,
+          "c2": 0.5,
+          "micro_f1": 0.9416
+        },
+        {
+          "c1": 0.01,
+          "c2": 1.0,
+          "micro_f1": 0.9344
+        },
+        {
+          "c1": 0.05,
+          "c2": 0.01,
+          "micro_f1": 0.9391
+        },
+        {
+          "c1": 0.05,
+          "c2": 0.1,
+          "micro_f1": 0.9428
+        },
+        {
+          "c1": 0.05,
+          "c2": 0.5,
+          "micro_f1": 0.9397
+        },
+        {
+          "c1": 0.05,
+          "c2": 1.0,
+          "micro_f1": 0.9344
+        },
+        {
+          "c1": 0.1,
+          "c2": 0.01,
+          "micro_f1": 0.941
+        },
+        {
+          "c1": 0.1,
+          "c2": 0.1,
+          "micro_f1": 0.9416
+        },
+        {
+          "c1": 0.1,
+          "c2": 0.5,
+          "micro_f1": 0.9351
+        },
+        {
+          "c1": 0.1,
+          "c2": 1.0,
+          "micro_f1": 0.9319
+        },
+        {
+          "c1": 0.5,
+          "c2": 0.01,
+          "micro_f1": 0.9364
+        },
+        {
+          "c1": 0.5,
+          "c2": 0.1,
+          "micro_f1": 0.9306
+        },
+        {
+          "c1": 0.5,
+          "c2": 0.5,
+          "micro_f1": 0.9306
+        },
+        {
+          "c1": 0.5,
+          "c2": 1.0,
+          "micro_f1": 0.9254
+        },
+        {
+          "c1": 1.0,
+          "c2": 0.01,
+          "micro_f1": 0.9313
+        },
+        {
+          "c1": 1.0,
+          "c2": 0.1,
+          "micro_f1": 0.9299
+        },
+        {
+          "c1": 1.0,
+          "c2": 0.5,
+          "micro_f1": 0.9279
+        },
+        {
+          "c1": 1.0,
+          "c2": 1.0,
+          "micro_f1": 0.9227
+        }
+      ]
+    },
+    "tier1_logreg": {
+      "C": 4.0,
+      "micro_f1": 0.8726,
+      "history": [
+        {
+          "C": 0.25,
+          "micro_f1": 0.8489
+        },
+        {
+          "C": 0.5,
+          "micro_f1": 0.8538
+        },
+        {
+          "C": 1.0,
+          "micro_f1": 0.8629
+        },
+        {
+          "C": 2.0,
+          "micro_f1": 0.871
+        },
+        {
+          "C": 4.0,
+          "micro_f1": 0.8726
+        }
+      ],
+      "training_stats": {
+        "records": 1275,
+        "candidate_pairs": 30284,
+        "positive_pairs": 8755,
+        "negative_pairs": 21529,
+        "negative_to_positive_ratio": 2.4591,
+        "label_counts": {
+          "ACTION_ADDRESSES_ISSUE": 607,
+          "ACTION_FOLLOWS_REFERENCE": 65,
+          "ACTION_INVESTIGATES_ISSUE": 835,
+          "ACTION_ON_ITEM": 2284,
+          "ACTION_RESULTS_IN_OUTCOME": 494,
+          "ACTION_USES_ITEM": 39,
+          "HAS_LOCATION": 1439,
+          "HAS_PART": 699,
+          "ISSUE_ON_ITEM": 1307,
+          "OBSERVATION_OF_ITEM": 624,
+          "OCCURS_UNDER_CONTEXT": 362,
+          "__NONE__": 21529
+        },
+        "negative_policy": "all schema-valid negatives retained",
+        "class_weight": "balanced",
+        "random_state": 42
+      }
+    }
+  },
+  "metrics": {
+    "Tier1_CRF_LogReg": {
+      "entity_micro_f1": 0.9402,
+      "entity_ci": {
+        "point": 0.9402,
+        "lo": 0.9248,
+        "hi": 0.9547,
+        "n": 1000
+      },
+      "relation_micro_f1": 0.8036,
+      "relation_ci": {
+        "point": 0.8036,
+        "lo": 0.7766,
+        "hi": 0.8315,
+        "n": 1000
+      }
+    }
+  },
+  "diagnostics": {
+    "memorization_baseline_f1": 0.8211,
+    "test_oov_rate": 0.1547,
+    "tier1_train_f1": 0.9911,
+    "tier1_test_f1": 0.9402,
+    "generalization_gap": 0.0509,
+    "context_gain_over_memorization": 0.1191
+  }
+}

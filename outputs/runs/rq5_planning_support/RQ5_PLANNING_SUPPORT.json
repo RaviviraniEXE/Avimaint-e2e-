@@ -1,0 +1,60 @@
+{
+  "selected_retrieval_mode": "structure",
+  "calibration_population": "DEV only",
+  "evaluation_population": "locked TEST",
+  "ece_10_bins": 0.0368410838632245,
+  "brier_score": 0.1322169562961793,
+  "risk_coverage": [
+    {
+      "coverage": 0.1,
+      "agreement_accuracy": 1.0,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.2,
+      "agreement_accuracy": 1.0,
+      "risk": 0.0
+    },
+    {
+      "coverage": 0.30000000000000004,
+      "agreement_accuracy": 0.9862385321100917,
+      "risk": 0.013761467889908285
+    },
+    {
+      "coverage": 0.4,
+      "agreement_accuracy": 0.9551724137931035,
+      "risk": 0.04482758620689653
+    },
+    {
+      "coverage": 0.5,
+      "agreement_accuracy": 0.9281767955801105,
+      "risk": 0.07182320441988954
+    },
+    {
+      "coverage": 0.6,
+      "agreement_accuracy": 0.9195402298850575,
+      "risk": 0.08045977011494254
+    },
+    {
+      "coverage": 0.7000000000000001,
+      "agreement_accuracy": 0.9092702169625246,
+      "risk": 0.09072978303747536
+    },
+    {
+      "coverage": 0.8,
+      "agreement_accuracy": 0.8741379310344828,
+      "risk": 0.12586206896551722
+    },
+    {
+      "coverage": 0.9,
+      "agreement_accuracy": 0.8328220858895705,
+      "risk": 0.16717791411042948
+    },
+    {
+      "coverage": 1.0,
+      "agreement_accuracy": 0.7983425414364641,
+      "risk": 0.2016574585635359
+    }
+  ],
+  "interpretation": "Probability estimates historical action-family agreement only. It is NOT probability of technical correctness, safety, or regulatory applicability."
+}

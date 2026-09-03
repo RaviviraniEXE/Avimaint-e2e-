@@ -1,0 +1,363 @@
+{
+  "split": "frozen",
+  "n_train": 1275,
+  "n_dev": 100,
+  "n_test": 225,
+  "selection": {
+    "tier1_crf": {
+      "c1": 0.05,
+      "c2": 0.1,
+      "micro_f1": 0.9428,
+      "history": [
+        {
+          "c1": 0.01,
+          "c2": 0.01,
+          "micro_f1": 0.9385
+        },
+        {
+          "c1": 0.01,
+          "c2": 0.1,
+          "micro_f1": 0.9397
+        },
+        {
+          "c1": 0.01,
+          "c2": 0.5,
+          "micro_f1": 0.9416
+        },
+        {
+          "c1": 0.01,
+          "c2": 1.0,
+          "micro_f1": 0.9344
+        },
+        {
+          "c1": 0.05,
+          "c2": 0.01,
+          "micro_f1": 0.9391
+        },
+        {
+          "c1": 0.05,
+          "c2": 0.1,
+          "micro_f1": 0.9428
+        },
+        {
+          "c1": 0.05,
+          "c2": 0.5,
+          "micro_f1": 0.9397
+        },
+        {
+          "c1": 0.05,
+          "c2": 1.0,
+          "micro_f1": 0.9344
+        },
+        {
+          "c1": 0.1,
+          "c2": 0.01,
+          "micro_f1": 0.941
+        },
+        {
+          "c1": 0.1,
+          "c2": 0.1,
+          "micro_f1": 0.9416
+        },
+        {
+          "c1": 0.1,
+          "c2": 0.5,
+          "micro_f1": 0.9351
+        },
+        {
+          "c1": 0.1,
+          "c2": 1.0,
+          "micro_f1": 0.9319
+        },
+        {
+          "c1": 0.5,
+          "c2": 0.01,
+          "micro_f1": 0.9364
+        },
+        {
+          "c1": 0.5,
+          "c2": 0.1,
+          "micro_f1": 0.9306
+        },
+        {
+          "c1": 0.5,
+          "c2": 0.5,
+          "micro_f1": 0.9306
+        },
+        {
+          "c1": 0.5,
+          "c2": 1.0,
+          "micro_f1": 0.9254
+        },
+        {
+          "c1": 1.0,
+          "c2": 0.01,
+          "micro_f1": 0.9313
+        },
+        {
+          "c1": 1.0,
+          "c2": 0.1,
+          "micro_f1": 0.9299
+        },
+        {
+          "c1": 1.0,
+          "c2": 0.5,
+          "micro_f1": 0.9279
+        },
+        {
+          "c1": 1.0,
+          "c2": 1.0,
+          "micro_f1": 0.9227
+        }
+      ]
+    },
+    "tier1_logreg": {
+      "C": 4.0,
+      "micro_f1": 0.8726,
+      "history": [
+        {
+          "C": 0.25,
+          "micro_f1": 0.8489
+        },
+        {
+          "C": 0.5,
+          "micro_f1": 0.8538
+        },
+        {
+          "C": 1.0,
+          "micro_f1": 0.8629
+        },
+        {
+          "C": 2.0,
+          "micro_f1": 0.871
+        },
+        {
+          "C": 4.0,
+          "micro_f1": 0.8726
+        }
+      ],
+      "training_stats": {
+        "records": 1275,
+        "candidate_pairs": 30284,
+        "positive_pairs": 8755,
+        "negative_pairs": 21529,
+        "negative_to_positive_ratio": 2.4591,
+        "label_counts": {
+          "ACTION_ADDRESSES_ISSUE": 607,
+          "ACTION_FOLLOWS_REFERENCE": 65,
+          "ACTION_INVESTIGATES_ISSUE": 835,
+          "ACTION_ON_ITEM": 2284,
+          "ACTION_RESULTS_IN_OUTCOME": 494,
+          "ACTION_USES_ITEM": 39,
+          "HAS_LOCATION": 1439,
+          "HAS_PART": 699,
+          "ISSUE_ON_ITEM": 1307,
+          "OBSERVATION_OF_ITEM": 624,
+          "OCCURS_UNDER_CONTEXT": 362,
+          "__NONE__": 21529
+        },
+        "negative_policy": "all schema-valid negatives retained",
+        "class_weight": "balanced",
+        "random_state": 42
+      }
+    }
+  },
+  "metrics": {
+    "Tier1_CRF_LogReg": {
+      "entity": {
+        "micro_p": 0.9467,
+        "micro_r": 0.9338,
+        "micro_f1": 0.9402,
+        "macro_f1": 0.8822,
+        "per_class": {
+          "LOC": [
+            0.9723,
+            0.9664,
+            0.9693
+          ],
+          "MAINT_ITEM": [
+            0.951,
+            0.9381,
+            0.9445
+          ],
+          "ACTION": [
+            0.9576,
+            0.9475,
+            0.9525
+          ],
+          "ABN_PROC": [
+            0.9353,
+            0.9701,
+            0.9524
+          ],
+          "FAULT": [
+            0.9583,
+            0.9109,
+            0.934
+          ],
+          "TECH_OBS": [
+            0.6857,
+            0.6316,
+            0.6575
+          ],
+          "OUTCOME": [
+            0.84,
+            0.75,
+            0.7925
+          ],
+          "REFERENCE": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "OP_CTX": [
+            0.7778,
+            0.7,
+            0.7368
+          ]
+        },
+        "support": 1693,
+        "ci": {
+          "point": 0.9402,
+          "lo": 0.9248,
+          "hi": 0.9547,
+          "n": 1000
+        }
+      },
+      "relation": {
+        "micro_p": 0.7581,
+        "micro_r": 0.8548,
+        "micro_f1": 0.8036,
+        "macro_f1": 0.7409,
+        "per_class": {
+          "ACTION_ADDRESSES_ISSUE": [
+            0.8392,
+            0.9126,
+            0.8743
+          ],
+          "ACTION_ON_ITEM": [
+            0.7852,
+            0.8613,
+            0.8215
+          ],
+          "ISSUE_ON_ITEM": [
+            0.7907,
+            0.8681,
+            0.8276
+          ],
+          "HAS_LOCATION": [
+            0.7947,
+            0.9255,
+            0.8551
+          ],
+          "HAS_PART": [
+            0.7288,
+            0.7725,
+            0.75
+          ],
+          "OBSERVATION_OF_ITEM": [
+            0.4324,
+            0.5333,
+            0.4776
+          ],
+          "ACTION_INVESTIGATES_ISSUE": [
+            0.4085,
+            0.725,
+            0.5225
+          ],
+          "ACTION_RESULTS_IN_OUTCOME": [
+            0.6897,
+            0.6897,
+            0.6897
+          ],
+          "ACTION_FOLLOWS_REFERENCE": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "ACTION_USES_ITEM": [
+            0.7692,
+            1.0,
+            0.8696
+          ],
+          "OCCURS_UNDER_CONTEXT": [
+            0.45,
+            0.4737,
+            0.4615
+          ]
+        },
+        "support": 1419,
+        "ci": {
+          "point": 0.8036,
+          "lo": 0.7766,
+          "hi": 0.8315,
+          "n": 1000
+        }
+      },
+      "relation_gold_entities": {
+        "micro_p": 0.8252,
+        "micro_r": 0.9415,
+        "micro_f1": 0.8795,
+        "macro_f1": 0.8706,
+        "per_class": {
+          "ACTION_ADDRESSES_ISSUE": [
+            0.8544,
+            0.9617,
+            0.9049
+          ],
+          "ACTION_ON_ITEM": [
+            0.8405,
+            0.9241,
+            0.8803
+          ],
+          "ISSUE_ON_ITEM": [
+            0.8702,
+            0.9702,
+            0.9175
+          ],
+          "HAS_LOCATION": [
+            0.832,
+            0.9689,
+            0.8953
+          ],
+          "HAS_PART": [
+            0.7737,
+            0.8802,
+            0.8235
+          ],
+          "OBSERVATION_OF_ITEM": [
+            0.697,
+            0.7667,
+            0.7302
+          ],
+          "ACTION_INVESTIGATES_ISSUE": [
+            0.619,
+            0.975,
+            0.7573
+          ],
+          "ACTION_RESULTS_IN_OUTCOME": [
+            0.7838,
+            1.0,
+            0.8788
+          ],
+          "ACTION_FOLLOWS_REFERENCE": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "ACTION_USES_ITEM": [
+            0.7692,
+            1.0,
+            0.8696
+          ],
+          "OCCURS_UNDER_CONTEXT": [
+            0.9444,
+            0.8947,
+            0.9189
+          ]
+        },
+        "support": 1419
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+model,entity_micro_f1,entity_macro_f1,nested_entity_recall,n_nested_gold
+BiLSTM_BIO,0.7007,0.6114,0.4615,39
+BiLSTM_Span,0.7435,0.6537,0.6923,39
+Transformer_BIO,0.8288,0.8822,0.4103,39
+Transformer_Span,0.8556,0.9204,0.8462,39
+SpERT,0.882759,0.904465,0.820513,39

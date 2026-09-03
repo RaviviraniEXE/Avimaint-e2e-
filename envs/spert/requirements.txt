@@ -1,0 +1,13 @@
+# Isolated compatibility environment for the unmodified official SpERT source.
+# CUDA build is pinned explicitly so a later environment update cannot silently
+# replace GPU-enabled PyTorch with the CPU-only PyPI wheel.
+--extra-index-url https://download.pytorch.org/whl/cu121
+numpy==1.26.4
+pandas==2.2.3
+torch==2.5.1+cu121
+transformers[sentencepiece]==4.36.2
+tokenizers==0.15.2
+tqdm==4.67.1
+scikit-learn==1.6.0
+PyYAML==6.0.2
+tensorboardX==2.6.2.2

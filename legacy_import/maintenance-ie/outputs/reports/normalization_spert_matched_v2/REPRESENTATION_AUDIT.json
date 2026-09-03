@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "gold_records": 1600,
+  "normalized_corpus_normalized_token_matches": 1600,
+  "historical_spert_export_token_matches": 1600,
+  "historical_spert_export_split_counts": {
+    "train": 1275,
+    "dev": 100,
+    "test": 225
+  },
+  "conclusion": "The historical outputs/spert baseline was trained/evaluated on the legacy normalized annotation representation, not on true source-raw text.",
+  "rq1_correction": "The five-way matched normalization ablation therefore requires a new System-A raw SpERT model trained on outputs/gold_variants/raw. The four already-trained rules/byt5/selective_byt5/rules_then_byt5 models remain valid and are reused without retraining."
+}

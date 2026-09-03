@@ -1,0 +1,184 @@
+{
+  "run_id": "core_tier1",
+  "created_utc": "2026-08-26T18:07:38.804706+00:00",
+  "status": "complete",
+  "schema_path": "config/schema_core.yaml",
+  "schema": "CORE (8 entities / 10 relations)",
+  "gold_glob": "outputs/gold_core/*.jsonl",
+  "split": "FROZEN",
+  "seed": 42,
+  "n_gold": 1600,
+  "n_train": 1275,
+  "n_dev": 100,
+  "n_test": 225,
+  "test_policy": "DEV-only model selection; frozen TEST evaluated after selection",
+  "tiers": [
+    "1"
+  ],
+  "tuned": true,
+  "selections": {
+    "crf": {
+      "c1": 0.01,
+      "c2": 0.01,
+      "micro_f1": 0.9461,
+      "history": [
+        {
+          "c1": 0.01,
+          "c2": 0.01,
+          "micro_f1": 0.9461
+        },
+        {
+          "c1": 0.01,
+          "c2": 0.1,
+          "micro_f1": 0.9427
+        },
+        {
+          "c1": 0.01,
+          "c2": 0.5,
+          "micro_f1": 0.9425
+        },
+        {
+          "c1": 0.01,
+          "c2": 1.0,
+          "micro_f1": 0.9368
+        },
+        {
+          "c1": 0.05,
+          "c2": 0.01,
+          "micro_f1": 0.9416
+        },
+        {
+          "c1": 0.05,
+          "c2": 0.1,
+          "micro_f1": 0.9434
+        },
+        {
+          "c1": 0.05,
+          "c2": 0.5,
+          "micro_f1": 0.94
+        },
+        {
+          "c1": 0.05,
+          "c2": 1.0,
+          "micro_f1": 0.9381
+        },
+        {
+          "c1": 0.1,
+          "c2": 0.01,
+          "micro_f1": 0.9421
+        },
+        {
+          "c1": 0.1,
+          "c2": 0.1,
+          "micro_f1": 0.9453
+        },
+        {
+          "c1": 0.1,
+          "c2": 0.5,
+          "micro_f1": 0.9387
+        },
+        {
+          "c1": 0.1,
+          "c2": 1.0,
+          "micro_f1": 0.9335
+        },
+        {
+          "c1": 0.5,
+          "c2": 0.01,
+          "micro_f1": 0.9375
+        },
+        {
+          "c1": 0.5,
+          "c2": 0.1,
+          "micro_f1": 0.9342
+        },
+        {
+          "c1": 0.5,
+          "c2": 0.5,
+          "micro_f1": 0.9316
+        },
+        {
+          "c1": 0.5,
+          "c2": 1.0,
+          "micro_f1": 0.9289
+        },
+        {
+          "c1": 1.0,
+          "c2": 0.01,
+          "micro_f1": 0.929
+        },
+        {
+          "c1": 1.0,
+          "c2": 0.1,
+          "micro_f1": 0.9277
+        },
+        {
+          "c1": 1.0,
+          "c2": 0.5,
+          "micro_f1": 0.9264
+        },
+        {
+          "c1": 1.0,
+          "c2": 1.0,
+          "micro_f1": 0.9237
+        }
+      ]
+    },
+    "logreg": {
+      "C": 4.0,
+      "micro_f1": 0.8746,
+      "history": [
+        {
+          "C": 0.25,
+          "micro_f1": 0.85
+        },
+        {
+          "C": 0.5,
+          "micro_f1": 0.8538
+        },
+        {
+          "C": 1.0,
+          "micro_f1": 0.8654
+        },
+        {
+          "C": 2.0,
+          "micro_f1": 0.8711
+        },
+        {
+          "C": 4.0,
+          "micro_f1": 0.8746
+        }
+      ],
+      "training_stats": {
+        "records": 1275,
+        "candidate_pairs": 30183,
+        "positive_pairs": 8690,
+        "negative_pairs": 21493,
+        "negative_to_positive_ratio": 2.4733,
+        "label_counts": {
+          "ACTION_ADDRESSES_ISSUE": 607,
+          "ACTION_INVESTIGATES_ISSUE": 835,
+          "ACTION_ON_ITEM": 2284,
+          "ACTION_RESULTS_IN_OUTCOME": 494,
+          "ACTION_USES_ITEM": 39,
+          "HAS_LOCATION": 1439,
+          "HAS_PART": 699,
+          "ISSUE_ON_ITEM": 1307,
+          "OBSERVATION_OF_ITEM": 624,
+          "OCCURS_UNDER_CONTEXT": 362,
+          "__NONE__": 21493
+        },
+        "negative_policy": "all schema-valid negatives retained",
+        "class_weight": "balanced",
+        "random_state": 42
+      }
+    }
+  },
+  "results_file": "outputs/reports/ie_results_core.json",
+  "log_file": "outputs/reports/ie_results_core_log.csv",
+  "trace_file": "outputs\\reports\\training_logs\\ie_results_core__core_tier1__20260826T180515Z.jsonl",
+  "elapsed_seconds": 143.22,
+  "python": "3.11.16",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "conda_env": "avimaint-ie-classical"
+}

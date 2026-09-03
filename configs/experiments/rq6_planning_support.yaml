@@ -1,0 +1,30 @@
+experiment:
+  id: rq6_auditable_planning_support
+  research_question: RQ6
+  question: >-
+    How can retrieved historical evidence, provenance, alternatives, negative
+    outcomes, and uncertainty be presented as useful planning support without
+    pretending to make an approved maintenance decision?
+  interface: dashboard
+  evidence_policy:
+    always_show_nearest_cases_when_corpus_nonempty: true
+    preserve_source_identifiers: true
+    show_recorded_problem_and_action: true
+    show_alternatives: true
+    separate_negative_and_mixed_outcomes: true
+    request_missing_context_at_low_confidence: true
+    never_claim_airworthiness_authority: true
+  confidence_features:
+    - top_retrieval_score
+    - top1_top2_margin
+    - lexical_dense_agreement
+    - extracted_information_coverage
+    - supporting_case_count
+  evaluation:
+    - expected_calibration_error
+    - brier_score
+    - risk_coverage_curve
+    - error_rate_by_confidence_bin
+    - evidence_coverage
+    - provenance_completeness
+  output_root: outputs/runs/rq6_auditable_planning_support

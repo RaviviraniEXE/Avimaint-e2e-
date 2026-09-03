@@ -1,0 +1,39 @@
+# ---- Python caches / bytecode ----
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- pip-installed packages / virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+.conda/
+*.egg-info/
+.eggs/
+
+# ---- Trained models (the >100 MB files GitHub rejects) ----
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.npy
+*.npz
+*.h5
+*.onnx
+*.joblib
+*.pkl
+*.model
+*.model.wv.*
+*.model.trainables.*
+*.model.vectors*.npy
+
+# model output folders
+outputs/normalization/models/
+legacy_import/**/outputs/embeddings/
+legacy_import/**/outputs/**/save/

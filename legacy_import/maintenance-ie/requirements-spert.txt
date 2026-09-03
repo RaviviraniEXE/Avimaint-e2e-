@@ -1,0 +1,15 @@
+# ============================================================
+# Environment: spert   (official SpERT only — separate env)
+# github.com/lavis-nlp/spert   |   Python 3.11
+#   conda create -n spert python=3.11
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+#   pip install -r requirements-spert.txt
+# ============================================================
+numpy==2.2.6
+transformers==4.36.2
+scikit-learn
+tqdm
+jinja2
+tensorboardX
+spacy
+

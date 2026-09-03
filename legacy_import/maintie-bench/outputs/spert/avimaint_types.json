@@ -1,0 +1,56 @@
+{
+  "entities": {
+    "PhysicalObject": {
+      "short": "PhysicalObject",
+      "verbose": "PhysicalObject"
+    },
+    "Activity": {
+      "short": "Activity",
+      "verbose": "Activity"
+    },
+    "State": {
+      "short": "State",
+      "verbose": "State"
+    },
+    "Process": {
+      "short": "Process",
+      "verbose": "Process"
+    },
+    "Property": {
+      "short": "Property",
+      "verbose": "Property"
+    }
+  },
+  "relations": {
+    "hasPart": {
+      "short": "hasPart",
+      "verbose": "hasPart",
+      "symmetric": false
+    },
+    "contains": {
+      "short": "contains",
+      "verbose": "contains",
+      "symmetric": false
+    },
+    "hasProperty": {
+      "short": "hasProperty",
+      "verbose": "hasProperty",
+      "symmetric": false
+    },
+    "hasAgent": {
+      "short": "hasAgent",
+      "verbose": "hasAgent",
+      "symmetric": false
+    },
+    "hasPatient": {
+      "short": "hasPatient",
+      "verbose": "hasPatient",
+      "symmetric": false
+    },
+    "isA": {
+      "short": "isA",
+      "verbose": "isA",
+      "symmetric": false
+    }
+  }
+}

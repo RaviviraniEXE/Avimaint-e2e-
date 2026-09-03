@@ -1,0 +1,18 @@
+# Dashboard-only dependencies. NONE of these depend on `transformers`, so you can
+# install them straight into your existing SpERT conda env (transformers 4.36.2)
+# without disturbing it. Then run BOTH the dashboard and SpERT from that one env.
+# (The reranker is NOT here — it needs sentence-transformers, the only package
+#  that dragged in transformers 5.x. Leave the reranker off, or add it separately.)
+streamlit>=1.36
+streamlit-option-menu>=0.3.6
+plotly>=5.20
+pyvis>=0.3.2
+rank-bm25>=0.2.2
+rapidfuzz>=3.0
+pyarrow>=14.0
+# usually already present in your SpERT env, listed for completeness:
+pandas
+scikit-learn
+networkx
+pyyaml
+

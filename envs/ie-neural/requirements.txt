@@ -1,0 +1,19 @@
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==18.1.0
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+transformers==4.47.1
+tokenizers==0.21.0
+accelerate==1.2.1
+seqeval==1.2.2
+PyYAML==6.0.2
+scikit-learn==1.6.0
+sklearn-crfsuite==0.5.0
+pytorch-crf==0.7.2
+gensim==4.3.3
+joblib==1.4.2
+matplotlib==3.10.0
+seaborn==0.13.2
+networkx==3.4.2
+safetensors==0.4.5

@@ -1,0 +1,24 @@
+# Isolated environment for the SpERT service ONLY — pinned to your KNOWN-GOOD
+# SpERT env (from maintenance-ie/env-maintie.lock). Kept separate from the
+# dashboard env (which has transformers 5.x for the reranker). Used by
+# setup_spert.bat; the dashboard reaches this service over HTTP (port 8765),
+# so the two transformers versions never conflict.
+
+# --- CPU torch is plenty for query inference (one sentence at a time). ---
+torch==2.5.1
+# For GPU instead, comment the line above and uncomment these two:
+# --extra-index-url https://download.pytorch.org/whl/cu121
+# torch==2.5.1+cu121
+
+transformers==4.36.2
+tokenizers==0.15.2
+safetensors==0.8.0
+huggingface_hub==0.36.2
+numpy==2.2.6
+scipy==1.17.1
+scikit-learn==1.9.0
+spacy==3.8.14
+protobuf==7.35.1
+regex==2026.7.19
+tqdm==4.69.1
+

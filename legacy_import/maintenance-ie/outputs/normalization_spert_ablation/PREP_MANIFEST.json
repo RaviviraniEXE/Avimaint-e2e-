@@ -1,0 +1,81 @@
+{
+ "experiment": "normalization_to_frozen_spert_full_9x11",
+ "training_performed": false,
+ "systems": [
+  "raw",
+  "rules",
+  "byt5",
+  "selective_byt5",
+  "rules_then_byt5"
+ ],
+ "frozen_test_n": 225,
+ "test_order_source": "outputs/spert/test.json::orig_id",
+ "full_schema": {
+  "entity_types": [
+   "ABN_PROC",
+   "ACTION",
+   "FAULT",
+   "LOC",
+   "MAINT_ITEM",
+   "OP_CTX",
+   "OUTCOME",
+   "REFERENCE",
+   "TECH_OBS"
+  ],
+  "relation_types": [
+   "ACTION_ADDRESSES_ISSUE",
+   "ACTION_FOLLOWS_REFERENCE",
+   "ACTION_INVESTIGATES_ISSUE",
+   "ACTION_ON_ITEM",
+   "ACTION_RESULTS_IN_OUTCOME",
+   "ACTION_USES_ITEM",
+   "HAS_LOCATION",
+   "HAS_PART",
+   "ISSUE_ON_ITEM",
+   "OBSERVATION_OF_ITEM",
+   "OCCURS_UNDER_CONTEXT"
+  ],
+  "gold_entity_support_raw": 1693,
+  "gold_relation_support_raw": 1419
+ },
+ "common_full_projection_n": 225,
+ "projection_test_summary": {
+  "raw": {
+   "n_test": 225,
+   "mean_record_entity_coverage": 1.0,
+   "dropped_entities_test": 0,
+   "dropped_relations_test": 0,
+   "full_projection_records": 225
+  },
+  "rules": {
+   "n_test": 225,
+   "mean_record_entity_coverage": 1.0,
+   "dropped_entities_test": 0,
+   "dropped_relations_test": 0,
+   "full_projection_records": 225
+  },
+  "byt5": {
+   "n_test": 225,
+   "mean_record_entity_coverage": 1.0,
+   "dropped_entities_test": 0,
+   "dropped_relations_test": 0,
+   "full_projection_records": 225
+  },
+  "selective_byt5": {
+   "n_test": 225,
+   "mean_record_entity_coverage": 1.0,
+   "dropped_entities_test": 0,
+   "dropped_relations_test": 0,
+   "full_projection_records": 225
+  },
+  "rules_then_byt5": {
+   "n_test": 225,
+   "mean_record_entity_coverage": 1.0,
+   "dropped_entities_test": 0,
+   "dropped_relations_test": 0,
+   "full_projection_records": 225
+  }
+ },
+ "prepared_dir": "legacy_import\\maintenance-ie\\outputs\\normalization_spert_ablation\\prepared",
+ "prediction_driver": "scripts/ie/06_predict_existing_spert.ps1"
+}

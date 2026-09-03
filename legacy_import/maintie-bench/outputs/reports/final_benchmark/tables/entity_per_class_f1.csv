@@ -1,0 +1,6 @@
+entity_type,support,CRF+LogReg,BiLSTM+Neural,DistilBERT,SpERT
+PhysicalObject,204,0.6614,0.6382,0.7316,0.834862
+Activity,102,0.9326,0.8601,0.9901,0.980392
+State,29,0.8197,0.6494,0.871,0.888889
+Process,6,0.8333,0.9091,0.9091,0.909091
+Property,6,0.9091,0.0,0.9091,0.909091

@@ -1,0 +1,41 @@
+@echo off
+setlocal EnableExtensions
+set "ENV=avimaint-spert"
+
+echo.
+echo ======================================================================
+echo   AviMaint SpERT - CUDA Repair
+echo   Target: PyTorch 2.5.1 + CUDA 12.1 on NVIDIA GPU
+echo ======================================================================
+echo.
+
+echo [1/4] Current SpERT PyTorch state...
+call conda run --no-capture-output -n %ENV% python -u -c "import torch; print('torch=',torch.__version__); print('torch CUDA build=',torch.version.cuda); print('cuda available=',torch.cuda.is_available()); print('device=',torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU ONLY')"
+
+echo.
+echo [2/4] Reinstalling CUDA-enabled PyTorch...
+call conda run --no-capture-output -n %ENV% python -m pip uninstall -y torch torchvision torchaudio
+if errorlevel 1 goto :failed
+call conda run --no-capture-output -n %ENV% python -m pip install --no-cache-dir --force-reinstall torch==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+if errorlevel 1 goto :failed
+
+echo.
+echo [3/4] Verifying CUDA with a real GPU matrix multiplication...
+call conda run --no-capture-output -n %ENV% python -u -c "import sys,torch; print('torch=',torch.__version__); print('torch CUDA build=',torch.version.cuda); print('cuda available=',torch.cuda.is_available()); print('GPU count=',torch.cuda.device_count()); print('device=',torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'NO CUDA GPU'); sys.exit(20) if not torch.cuda.is_available() else None; x=torch.randn((1536,1536),device='cuda'); y=x@x; torch.cuda.synchronize(); print('CUDA compute test=PASS'); print('allocated_MB=',round(torch.cuda.memory_allocated()/1024/1024,1)); print('total_VRAM_GB=',round(torch.cuda.get_device_properties(0).total_memory/1024**3,2))"
+if errorlevel 1 goto :failed
+
+echo.
+echo [4/4] NVIDIA process/device view...
+nvidia-smi
+
+echo.
+echo ======================================================================
+echo   SPERT CUDA REPAIR COMPLETE
+echo   Next: scripts\ie\00_verify_spert_gpu.bat
+echo ======================================================================
+exit /b 0
+
+:failed
+echo.
+echo ERROR: SpERT CUDA repair failed. Do not start SpERT training.
+exit /b 1

@@ -1,0 +1,2 @@
+"""Structured historical-case construction."""
+

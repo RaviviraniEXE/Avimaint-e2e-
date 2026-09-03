@@ -1,0 +1,62 @@
+{
+  "raw_bm25": {
+    "queries": 810,
+    "hit_at_1": 0.8222222222222222,
+    "hit_at_3": 0.9629629629629629,
+    "hit_at_5": 0.9851851851851852,
+    "mrr": 0.8926954732510287,
+    "ndcg_at_5": 0.9159554911751157,
+    "macro_action_family_recall": 0.2631357038457178,
+    "interpretation": "agreement with recorded historical action family, not technical correctness"
+  },
+  "norm_bm25": {
+    "queries": 810,
+    "hit_at_1": 0.825925925925926,
+    "hit_at_3": 0.9679012345679012,
+    "hit_at_5": 0.9851851851851852,
+    "mrr": 0.8963786008230452,
+    "ndcg_at_5": 0.9187969162133098,
+    "macro_action_family_recall": 0.27649531125457283,
+    "interpretation": "agreement with recorded historical action family, not technical correctness"
+  },
+  "norm_tfidf": {
+    "queries": 810,
+    "hit_at_1": 0.8148148148148148,
+    "hit_at_3": 0.9629629629629629,
+    "hit_at_5": 0.9814814814814815,
+    "mrr": 0.8882510288065844,
+    "ndcg_at_5": 0.9116272076518486,
+    "macro_action_family_recall": 0.24442356782852023,
+    "interpretation": "agreement with recorded historical action family, not technical correctness"
+  },
+  "structure": {
+    "queries": 810,
+    "hit_at_1": 0.845679012345679,
+    "hit_at_3": 0.9493827160493827,
+    "hit_at_5": 0.9592592592592593,
+    "mrr": 0.8942592592592593,
+    "ndcg_at_5": 0.9108357248958565,
+    "macro_action_family_recall": 0.30361584034677197,
+    "interpretation": "agreement with recorded historical action family, not technical correctness"
+  },
+  "weighted_hybrid": {
+    "queries": 810,
+    "hit_at_1": 0.8358024691358025,
+    "hit_at_3": 0.9679012345679012,
+    "hit_at_5": 0.9839506172839506,
+    "mrr": 0.9005349794238684,
+    "ndcg_at_5": 0.9216946099280564,
+    "macro_action_family_recall": 0.2949810362859021,
+    "interpretation": "agreement with recorded historical action family, not technical correctness"
+  },
+  "rrf_hybrid": {
+    "queries": 810,
+    "hit_at_1": 0.8345679012345679,
+    "hit_at_3": 0.9641975308641976,
+    "hit_at_5": 0.9827160493827161,
+    "mrr": 0.8998559670781893,
+    "ndcg_at_5": 0.9205580529804648,
+    "macro_action_family_recall": 0.2885586908639545,
+    "interpretation": "agreement with recorded historical action family, not technical correctness"
+  }
+}

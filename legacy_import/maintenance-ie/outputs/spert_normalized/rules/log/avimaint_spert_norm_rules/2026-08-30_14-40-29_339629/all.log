@@ -1,0 +1,61 @@
+2026-08-30 14:40:30,851 [MainThread  ] [INFO ]  Datasets: D:/avimaint-e2e-research/legacy_import/maintenance-ie/outputs/spert_normalized/rules/train.json, D:/avimaint-e2e-research/legacy_import/maintenance-ie/outputs/spert_normalized/rules/dev.json
+2026-08-30 14:40:30,853 [MainThread  ] [INFO ]  Model type: spert
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  Relation type count: 12
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  Entity type count: 10
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  Entities:
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  No Entity=0
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  PHYSICAL_OBJECT/MAINTAINABLE_ITEM=1
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  ACTIVITY/MAINTENANCE_ACTION=2
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  STATE/FAULT_STATE=3
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  PROCESS/ABNORMAL_PROCESS=4
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  STATE/MAINTENANCE_OUTCOME=5
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  PROPERTY/LOCATION_POSITION=6
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  PROPERTY/TECHNICAL_OBSERVATION=7
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  CONTEXT/OPERATING_CONTEXT=8
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  REFERENCE/MAINTENANCE_REFERENCE=9
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  Relations:
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  No Relation=0
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  HAS_PART=1
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  ISSUE_ON_ITEM=2
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  ACTION_ON_ITEM=3
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  OBSERVATION_OF_ITEM=4
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  HAS_LOCATION=5
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  OCCURS_UNDER_CONTEXT=6
+2026-08-30 14:40:31,961 [MainThread  ] [INFO ]  ACTION_ADDRESSES_ISSUE=7
+2026-08-30 14:40:31,963 [MainThread  ] [INFO ]  ACTION_INVESTIGATES_ISSUE=8
+2026-08-30 14:40:31,963 [MainThread  ] [INFO ]  ACTION_USES_ITEM=9
+2026-08-30 14:40:31,963 [MainThread  ] [INFO ]  ACTION_RESULTS_IN_OUTCOME=10
+2026-08-30 14:40:31,963 [MainThread  ] [INFO ]  ACTION_FOLLOWS_REFERENCE=11
+2026-08-30 14:40:31,963 [MainThread  ] [INFO ]  Dataset: train
+2026-08-30 14:40:31,963 [MainThread  ] [INFO ]  Document count: 1275
+2026-08-30 14:40:31,963 [MainThread  ] [INFO ]  Relation count: 8764
+2026-08-30 14:40:31,963 [MainThread  ] [INFO ]  Entity count: 10150
+2026-08-30 14:40:31,963 [MainThread  ] [INFO ]  Dataset: valid
+2026-08-30 14:40:31,963 [MainThread  ] [INFO ]  Document count: 100
+2026-08-30 14:40:31,963 [MainThread  ] [INFO ]  Relation count: 651
+2026-08-30 14:40:31,963 [MainThread  ] [INFO ]  Entity count: 783
+2026-08-30 14:40:31,963 [MainThread  ] [INFO ]  Updates per epoch: 637
+2026-08-30 14:40:31,963 [MainThread  ] [INFO ]  Updates total: 12740
+2026-08-30 14:40:33,256 [MainThread  ] [INFO ]  Train epoch: 0
+2026-08-30 14:41:51,006 [MainThread  ] [INFO ]  Train epoch: 1
+2026-08-30 14:43:07,860 [MainThread  ] [INFO ]  Train epoch: 2
+2026-08-30 14:44:24,814 [MainThread  ] [INFO ]  Train epoch: 3
+2026-08-30 14:45:41,713 [MainThread  ] [INFO ]  Train epoch: 4
+2026-08-30 14:46:58,542 [MainThread  ] [INFO ]  Train epoch: 5
+2026-08-30 14:48:15,777 [MainThread  ] [INFO ]  Train epoch: 6
+2026-08-30 14:49:32,966 [MainThread  ] [INFO ]  Train epoch: 7
+2026-08-30 14:50:50,053 [MainThread  ] [INFO ]  Train epoch: 8
+2026-08-30 14:52:07,091 [MainThread  ] [INFO ]  Train epoch: 9
+2026-08-30 14:53:24,212 [MainThread  ] [INFO ]  Train epoch: 10
+2026-08-30 14:54:41,444 [MainThread  ] [INFO ]  Train epoch: 11
+2026-08-30 14:55:58,441 [MainThread  ] [INFO ]  Train epoch: 12
+2026-08-30 14:57:15,734 [MainThread  ] [INFO ]  Train epoch: 13
+2026-08-30 14:58:32,658 [MainThread  ] [INFO ]  Train epoch: 14
+2026-08-30 14:59:49,525 [MainThread  ] [INFO ]  Train epoch: 15
+2026-08-30 15:01:06,685 [MainThread  ] [INFO ]  Train epoch: 16
+2026-08-30 15:02:23,511 [MainThread  ] [INFO ]  Train epoch: 17
+2026-08-30 15:03:40,569 [MainThread  ] [INFO ]  Train epoch: 18
+2026-08-30 15:04:57,716 [MainThread  ] [INFO ]  Train epoch: 19
+2026-08-30 15:06:14,716 [MainThread  ] [INFO ]  Evaluate: valid
+2026-08-30 15:06:31,747 [MainThread  ] [INFO ]  Logged in: D:/avimaint-e2e-research/legacy_import/maintenance-ie/outputs/spert_normalized/rules/log\avimaint_spert_norm_rules\2026-08-30_14-40-29_339629
+2026-08-30 15:06:31,747 [MainThread  ] [INFO ]  Saved in: D:/avimaint-e2e-research/legacy_import/maintenance-ie/outputs/spert_normalized/rules/save\avimaint_spert_norm_rules\2026-08-30_14-40-29_339629

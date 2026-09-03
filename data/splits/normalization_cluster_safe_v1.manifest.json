@@ -1,0 +1,14 @@
+{
+  "clusters": 1840,
+  "output_path": "data\\splits\\normalization_cluster_safe_v1.csv",
+  "records": 5124,
+  "seed": 42,
+  "similarity_threshold": 0.9,
+  "source_path": "data/aviation/processed/normalization_pairs.parquet",
+  "source_sha256": "9d6223088d61055e99ce694a4091025e7f2578765a7794ad02afc373de5e4d72",
+  "split_counts": {
+    "test": 741,
+    "train": 3457,
+    "validation": 926
+  }
+}

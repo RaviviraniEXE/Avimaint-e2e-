@@ -1,0 +1,72 @@
+"""Evidence-grounded historical planning support.
+
+The system always shows nearest traceable cases, but it only surfaces an action
+family when independent evidence is sufficient. Similarity is a ranking signal,
+not a probability of maintenance correctness.
+"""
+from __future__ import annotations
+from dataclasses import dataclass,field
+import pandas as pd
+from . import normalize as N
+from .extraction import SpERTClient,extract_structure
+from .retrieval import Retriever
+
+@dataclass
+class CaseEvidence:
+    ident:str; problem:str; action:str; action_family:str; outcome:str; cluster_id:str; score:float
+    text_score:float=0.; structure_score:float=0.; channels:dict=field(default_factory=dict)
+@dataclass
+class Recommendation:
+    query:str; components:list[str]; faults:list[str]; badge:str; lens:str; headline_action:str; headline_reason:str; support_clusters:int
+    structured_sentence:str=""; strategies:list=field(default_factory=list); recommended_cases:list=field(default_factory=list); alternatives:list=field(default_factory=list); nearest_cases:list=field(default_factory=list); negative_evidence:list=field(default_factory=list); structure_source:str="rule"; entities:list=field(default_factory=list); relations:list=field(default_factory=list); evidence_margin:float=0.; anchor_coverage:float=0.; abstain:bool=True
+_BADGE_LABEL={"strong":"Strong historical evidence","moderate":"Moderate historical evidence","exploratory":"Exploratory evidence","abstain":"No action recommendation — nearest cases only"}
+def badge_label(badge): return _BADGE_LABEL.get(badge,badge)
+
+class Recommender:
+    def __init__(self,df,retriever:Retriever,spert_client=None,normalizer=None,reranker=None,strong_min_clusters=3,moderate_min_clusters=2,strong_min_margin=.08,moderate_min_margin=.03,require_anchor_for_action=True,abstain_on_single_cluster=True,retrieval_mode="rrf_hybrid"):
+        self.df=df.reset_index(drop=True); self.r=retriever; self.client=spert_client; self.reranker=reranker; self.strong_min_clusters=int(strong_min_clusters); self.moderate_min_clusters=int(moderate_min_clusters); self.strong_min_margin=float(strong_min_margin); self.moderate_min_margin=float(moderate_min_margin); self.require_anchor=bool(require_anchor_for_action); self.abstain_single=bool(abstain_on_single_cluster); self.retrieval_mode=retrieval_mode
+    def _case(self,h):
+        r=self.df.iloc[h.idx]; return CaseEvidence(str(r.ident),r.problem,r.action,r.action_family,r.outcome,str(r.cluster_id),round(float(h.score),4),round(float(h.text_sim),4),round(float(h.struct),4),h.channels)
+    def _family_evidence(self,cases):
+        fam={}
+        for c in cases:
+            if c.action_family=="Other" or c.outcome in ("negative","mixed"): continue
+            d=fam.setdefault(c.action_family,{"clusters":{},"example":c})
+            d["clusters"][c.cluster_id]=max(d["clusters"].get(c.cluster_id,0.),c.score)
+            if c.score>d["example"].score:d["example"]=c
+        ranked=sorted(fam.items(),key=lambda kv:(len(kv[1]["clusters"]),sum(kv[1]["clusters"].values())),reverse=True)
+        return ranked
+    def _anchor_coverage(self,cases,qc,qf):
+        anchors=[*("c:"+x for x in qc),*("f:"+x for x in qf)]
+        if not anchors:return 0.
+        found=set()
+        for c in cases[:10]:
+            row=self.df[self.df.ident.astype(str)==c.ident]
+            if row.empty:continue
+            r=row.iloc[0]
+            found.update("c:"+x for x in qc if x in r.components); found.update("f:"+x for x in qf if x in r.faults)
+        return len(found)/len(anchors)
+    def recommend(self,query,top_k=25):
+        from .textnorm import normalize_text
+        raw=query; nq=normalize_text(raw)
+        # CRITICAL: raw-model SpERT receives the user's original text; lexical channels use normalized text.
+        st=extract_structure(raw,"",self.client)
+        qc=st.components or N.find_components(nq); qf=st.faults or ([N.issue_family(nq)] if N.issue_family(nq) else []); qf=[x for x in qf if x]
+        hits=self.r.search(nq,qc,qf,top_k=max(top_k,50 if self.reranker and self.reranker.available() else top_k),q_entity_types=[e.get("type") for e in st.entities if e.get("type")],q_relation_types=[r.get("type") for r in st.relations if r.get("type")],raw_query=raw,mode=self.retrieval_mode,diversify=True)
+        if self.reranker and self.reranker.available() and hits:
+            cand=[(h.idx,self.df.iloc[h.idx].problem_norm,h.score) for h in hits]; order=self.reranker.rerank(nq,cand); by={h.idx:h for h in hits}; hits=[by[i] for i,_ in order[:top_k] if i in by]
+        else:hits=hits[:top_k]
+        cases=[self._case(h) for h in hits]; neg=[c for c in cases if c.outcome in ("negative","mixed")][:3]
+        ranked=self._family_evidence(cases); headline=ranked[0][0] if ranked else ""; support=len(ranked[0][1]["clusters"]) if ranked else 0
+        first=sum(ranked[0][1]["clusters"].values()) if ranked else 0.; second=sum(ranked[1][1]["clusters"].values()) if len(ranked)>1 else 0.; margin=first-second
+        coverage=self._anchor_coverage(cases,qc,qf); has_anchor=bool(qc or qf)
+        badge="abstain"; abstain=True
+        if headline and (has_anchor or not self.require_anchor) and not (self.abstain_single and support<2):
+            if support>=self.strong_min_clusters and margin>=self.strong_min_margin and coverage>=.75: badge="strong"; abstain=False
+            elif support>=self.moderate_min_clusters and margin>=self.moderate_min_margin and coverage>=.5: badge="moderate"; abstain=False
+            else: badge="exploratory"; abstain=True
+        reason=(f"{support} independent problem cluster(s) support the historical action family '{headline}'. Anchor coverage={coverage:.0%}; evidence margin={margin:.3f}." if headline else "No corroborated historical action family was found.")
+        sentence=(f"Historical evidence most often records the action family: {headline}. Verify applicability against current approved maintenance data." if headline and not abstain else "")
+        alts=[{"action_family":f,"support_clusters":len(m["clusters"]),"example_action":m["example"].action,"example_ident":m["example"].ident} for f,m in ranked[1:4]]
+        rec_cases=[c for c in cases if c.action_family==headline and c.outcome not in ("negative","mixed")][:5]
+        return Recommendation(query,qc,qf,badge,"problem" if cases else "none",headline if not abstain else "",reason,support,sentence,[],rec_cases,alts,cases[:8],neg,st.source,st.entities,st.relations,margin,coverage,abstain)

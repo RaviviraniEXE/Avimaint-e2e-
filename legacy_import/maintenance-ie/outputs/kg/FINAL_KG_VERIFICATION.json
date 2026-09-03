@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-08-30T20:57:24.760322+00:00",
+  "status": "pass",
+  "records": 6169,
+  "representation": "selective_byt5",
+  "normalization_system": "Selective ByT5",
+  "raw_source_retained_in_extraction_index": true,
+  "prediction_sha256": "0dd804b6ec8a7d51be6a261b77724c559a8849da0c73e2546e6625e0f0a8b80e",
+  "kg_summary_sha256": "b6a698605217d184a4eb78ed4337de33a7b1ad61cd82756a920a1e3ea03624e8",
+  "kg_manifest_sha256": "0ac415707e34ebf2d4ce9261815e8f3a5f5c809e2c2a95431d1f7055197d15ff",
+  "invalid_entities_skipped": 0,
+  "invalid_relations_skipped": 0,
+  "previous_aviation_kg_archived_to": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\kg\\_archive\\aviation_before_final_selective_byt5_20260830_225724"
+}

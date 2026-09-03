@@ -1,0 +1,66 @@
+schema:
+  id: aviation_compact_v1
+  version: "1.0.0"
+  status: frozen
+  description: >-
+    Frozen planning-oriented schema used by all 1,600 aviation gold records.
+    Eight entity types and ten relation types form the core view; REFERENCE and
+    ACTION_FOLLOWS_REFERENCE form the provenance-oriented hybrid extension.
+  entity_types:
+    - MAINT_ITEM
+    - ACTION
+    - FAULT
+    - ABN_PROC
+    - TECH_OBS
+    - LOC
+    - OP_CTX
+    - OUTCOME
+    - REFERENCE
+  relation_types:
+    HAS_PART:
+      source: [MAINT_ITEM]
+      target: [MAINT_ITEM]
+    ISSUE_ON_ITEM:
+      source: [FAULT, ABN_PROC]
+      target: [MAINT_ITEM]
+    ACTION_ON_ITEM:
+      source: [ACTION]
+      target: [MAINT_ITEM]
+    OBSERVATION_OF_ITEM:
+      source: [TECH_OBS]
+      target: [MAINT_ITEM]
+    HAS_LOCATION:
+      source: [MAINT_ITEM, FAULT, ABN_PROC]
+      target: [LOC]
+    OCCURS_UNDER_CONTEXT:
+      source: [FAULT, ABN_PROC, ACTION]
+      target: [OP_CTX]
+    ACTION_ADDRESSES_ISSUE:
+      source: [ACTION]
+      target: [FAULT, ABN_PROC]
+    ACTION_INVESTIGATES_ISSUE:
+      source: [ACTION]
+      target: [FAULT, ABN_PROC]
+    ACTION_USES_ITEM:
+      source: [ACTION]
+      target: [MAINT_ITEM]
+    ACTION_RESULTS_IN_OUTCOME:
+      source: [ACTION]
+      target: [OUTCOME]
+    ACTION_FOLLOWS_REFERENCE:
+      source: [ACTION]
+      target: [REFERENCE]
+  annotation_rules:
+    text_visible_only: true
+    orphan_entities_allowed: true
+    missing_outcome_is_unknown: true
+    infer_unmentioned_information: false
+  evaluation_views:
+    full_hybrid:
+      entities: 9
+      relations: 11
+    core:
+      exclude_entities: [REFERENCE]
+      exclude_relations: [ACTION_FOLLOWS_REFERENCE]
+      entities: 8
+      relations: 10

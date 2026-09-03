@@ -1,0 +1,78 @@
+@echo off
+setlocal EnableExtensions EnableDelayedExpansion
+title AviMaint-DSS - Final Validated Dashboard
+cd /d "%~dp0"
+
+set "DASH_ENV=avimaint-dash"
+set "SPERT_HEALTH=http://127.0.0.1:8765/health"
+
+echo ============================================================
+echo  AviMaint-DSS - FINAL validated launcher
+echo  RQ4 base       : structure
+echo  SpERT          : matched TRUE-RAW RQ4 service
+echo  Reranker       : optional display-order layer
+echo  Frozen outputs : read-only
+echo ============================================================
+echo.
+
+echo [1/4] Checking whether the live :8765 service is the matched TRUE-RAW SpERT...
+powershell -NoProfile -Command ^
+ "$ok=$false; try {$r=Invoke-RestMethod -TimeoutSec 2 '%SPERT_HEALTH%'; $ok=($r.status -eq 'ready' -and [int]$r.entity_types -eq 9 -and [int]$r.relation_types -eq 11 -and $r.query_case_normalization -eq 'none_true_raw')} catch {}; if($ok){exit 0}else{exit 1}"
+if not errorlevel 1 goto :SPERT_READY
+
+echo     Existing service is absent or is NOT the matched TRUE-RAW service.
+echo     Stopping any stale listener on port 8765 owned by this user...
+powershell -NoProfile -Command ^
+ "try {$pids=Get-NetTCPConnection -LocalPort 8765 -State Listen -ErrorAction Stop ^| Select-Object -ExpandProperty OwningProcess -Unique; foreach($pid in $pids){Stop-Process -Id $pid -Force -ErrorAction SilentlyContinue}} catch {}"
+timeout /t 2 /nobreak >nul
+
+echo     Starting FINAL_03_START_MATCHED_SPERT.bat ...
+start "AviMaint MATCHED SpERT - keep open" cmd /k call "%~dp0FINAL_03_START_MATCHED_SPERT.bat"
+
+echo     Waiting for exact matched service identity...
+set "SPERT_OK=0"
+for /L %%N in (1,1,60) do (
+    powershell -NoProfile -Command ^
+     "$ok=$false; try {$r=Invoke-RestMethod -TimeoutSec 2 '%SPERT_HEALTH%'; $ok=($r.status -eq 'ready' -and [int]$r.entity_types -eq 9 -and [int]$r.relation_types -eq 11 -and $r.query_case_normalization -eq 'none_true_raw')} catch {}; if($ok){exit 0}else{exit 1}" >nul 2>&1
+    if not errorlevel 1 (
+        set "SPERT_OK=1"
+        goto :SPERT_READY
+    )
+    <nul set /p="."
+    timeout /t 3 /nobreak >nul
+)
+
+echo.
+echo ERROR: Matched TRUE-RAW SpERT did not become ready.
+echo The dashboard will NOT start against an unverified legacy SpERT service.
+echo Check the separate matched-SpERT window.
+pause
+exit /b 2
+
+:SPERT_READY
+echo.
+echo [2/4] Live SpERT identity:
+powershell -NoProfile -Command ^
+ "$r=Invoke-RestMethod -TimeoutSec 3 '%SPERT_HEALTH%'; $r ^| ConvertTo-Json -Depth 5"
+
+echo.
+echo [3/4] Checking reranker...
+set "CUDA_VISIBLE_DEVICES=-1"
+call conda run --no-capture-output -n %DASH_ENV% python -u check_reranker.py
+if errorlevel 1 (
+    echo.
+    echo ERROR: reranker check failed.
+    pause
+    exit /b 3
+)
+
+echo.
+echo [4/4] Starting AviMaint-DSS...
+echo     http://localhost:8502
+echo.
+call conda run --no-capture-output -n %DASH_ENV% python -m streamlit run app.py --server.port 8502
+set "RESULT=%ERRORLEVEL%"
+echo.
+echo Dashboard stopped with exit code %RESULT%.
+pause
+exit /b %RESULT%

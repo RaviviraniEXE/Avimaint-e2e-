@@ -1,0 +1,51 @@
+dataset:
+  id: MaintNet
+  display_name: MaintNet — SpERT-predicted maintenance cases
+  domain: Aviation maintenance work-order narratives
+  source_name: MaintNet
+  record_unit: One original problem narrative paired with one original historical
+    solution narrative
+  language: English
+  corpus_status: Automatically extracted silver corpus; not manual gold
+  ie_model: SpERT (Tier 4), AviMaint-DSS-IE v1.1
+  description: Dashboard case library joined to the original problem and solution
+    fields. Retrieval indexes only problem_text.
+fields:
+  case_id: Original source-record identifier.
+  problem_text: Original problem narrative; the only text indexed for retrieval.
+  solution_text: Original complete historical action/solution narrative.
+  cluster_id: Problem-only exact or near-duplicate group used for independent support.
+  problem_graph: Problem-side SpERT entities and valid relations.
+  procedure: One complete historical solution and its ordered extracted actions.
+computed:
+  records: 6169
+  recommendation_ready: 6169
+  excluded_from_recommendation: 0
+  unique_clusters: 3486
+  invalid_relations_quarantined: 105
+  action_roles:
+    unresolved: 1024
+    enabling: 3036
+    verification: 310
+    diagnostic: 402
+    corrective: 5005
+  join_methods:
+    id: 6169
+  boundary_methods:
+    project_tokenizer_prefix: 822
+    unresolved: 5290
+    alphanumeric_prefix: 57
+  cluster_methods:
+    exact_normalized_problem_hash: 6169
+  parquet_written: true
+  prediction_index: D:\information extraction\maintenance-ie\outputs\kg\full_index.jsonl
+limitations:
+- SpERT predictions are silver data, not manually reviewed gold annotations.
+- A missing outcome means unknown; it does not prove success or failure.
+- Only valid AviMaint-DSS-IE v1.1 relation signatures are used as evidence.
+- Final recommender claims require a manually reviewed, cluster-safe test set.
+- Some cluster IDs are exact normalized problem hashes. Supply --cluster-map for final
+  near-duplicate-safe evaluation.
+- Some problem/solution token boundaries could not be aligned. Those records use conservative
+  text-only retrieval features.
+

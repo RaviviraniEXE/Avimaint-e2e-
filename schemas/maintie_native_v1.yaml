@@ -1,0 +1,15 @@
+schema:
+  id: maintie_native_v1
+  version: official-release
+  description: MaintIE native schema; leaf labels and relations must be loaded from the official release files.
+  allow_dataset_defined_labels: true
+  top_level_entity_types:
+    - PhysicalObject
+    - State
+    - Process
+    - Activity
+    - Property
+  leaf_entity_types_source: data/maintie/raw/maintie_scheme.json
+  relation_types_source: data/maintie/raw/maintie_scheme.json
+  recommender_compatible: false
+

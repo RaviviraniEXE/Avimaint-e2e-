@@ -1,0 +1,10 @@
+{
+  "dataset_id": "maintie",
+  "version": "official-release",
+  "source_files": [],
+  "sha256": {},
+  "license": "VERIFY_FROM_OFFICIAL_RELEASE",
+  "schema_source": "official MaintIE scheme file",
+  "created_at_utc": "REPLACE_ME"
+}
+

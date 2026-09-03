@@ -1,0 +1,551 @@
+{
+  "run_id": "core_neural",
+  "created_utc": "2026-08-27T18:51:47.331886+00:00",
+  "status": "complete",
+  "schema_path": "config/schema_core.yaml",
+  "schema": "CORE (8 entities / 10 relations)",
+  "gold_glob": "outputs/gold_core/*.jsonl",
+  "split": "FROZEN",
+  "seed": 42,
+  "n_gold": 1600,
+  "n_train": 1275,
+  "n_dev": 100,
+  "n_test": 225,
+  "test_policy": "DEV-only model selection; frozen TEST evaluated after selection",
+  "tiers": [
+    "2",
+    "3"
+  ],
+  "tuned": false,
+  "selections": {
+    "bilstm": {
+      "params": {
+        "word_dim": 100,
+        "hidden_dim": 192,
+        "char_dim": 32,
+        "dropout": 0.4,
+        "lr": 0.001,
+        "seed": 42
+      },
+      "training_summary": {
+        "model": "BiLSTM-CRF NER",
+        "device": "cuda",
+        "max_epochs": 60,
+        "stopped_epoch": 25,
+        "best_epoch": 17,
+        "best_dev_loss": 2.339854,
+        "patience": 8,
+        "early_stopped": true,
+        "early_stopping_metric": "dev_loss",
+        "batch_size": 16,
+        "params": {
+          "word_dim": 100,
+          "hidden_dim": 192,
+          "char_dim": 32,
+          "dropout": 0.4,
+          "lr": 0.001,
+          "seed": 42
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "train_loss": 34.04590938,
+            "dev_loss": 12.64426231,
+            "dev_f1": 0.7405,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 2,
+            "train_loss": 15.78460695,
+            "dev_loss": 6.11177349,
+            "dev_f1": 0.8561,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 3,
+            "train_loss": 10.33011773,
+            "dev_loss": 4.13881636,
+            "dev_f1": 0.8985,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 4,
+            "train_loss": 7.97437484,
+            "dev_loss": 3.53925872,
+            "dev_f1": 0.9097,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 5,
+            "train_loss": 6.33894476,
+            "dev_loss": 3.15953875,
+            "dev_f1": 0.9226,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 6,
+            "train_loss": 5.46146066,
+            "dev_loss": 2.94853711,
+            "dev_f1": 0.9199,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 7,
+            "train_loss": 4.68265492,
+            "dev_loss": 2.79286289,
+            "dev_f1": 0.9266,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 8,
+            "train_loss": 4.15009933,
+            "dev_loss": 2.76344848,
+            "dev_f1": 0.9248,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 9,
+            "train_loss": 3.7579874,
+            "dev_loss": 2.71947622,
+            "dev_f1": 0.9288,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 10,
+            "train_loss": 3.31599812,
+            "dev_loss": 2.47321272,
+            "dev_f1": 0.9323,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 11,
+            "train_loss": 3.0302907,
+            "dev_loss": 2.61189985,
+            "dev_f1": 0.933,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 12,
+            "train_loss": 2.82472055,
+            "dev_loss": 2.4206481,
+            "dev_f1": 0.9361,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 13,
+            "train_loss": 2.5594001,
+            "dev_loss": 2.44906998,
+            "dev_f1": 0.9355,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 14,
+            "train_loss": 2.34770162,
+            "dev_loss": 2.48248982,
+            "dev_f1": 0.9348,
+            "stale": 2,
+            "improved": false
+          },
+          {
+            "epoch": 15,
+            "train_loss": 2.16282722,
+            "dev_loss": 2.42946553,
+            "dev_f1": 0.9392,
+            "stale": 3,
+            "improved": false
+          },
+          {
+            "epoch": 16,
+            "train_loss": 2.03299241,
+            "dev_loss": 2.36642504,
+            "dev_f1": 0.9361,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 17,
+            "train_loss": 1.88378392,
+            "dev_loss": 2.339854,
+            "dev_f1": 0.9401,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 18,
+            "train_loss": 1.78743577,
+            "dev_loss": 2.45300245,
+            "dev_f1": 0.9397,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 19,
+            "train_loss": 1.64580831,
+            "dev_loss": 2.39571095,
+            "dev_f1": 0.9397,
+            "stale": 2,
+            "improved": false
+          },
+          {
+            "epoch": 20,
+            "train_loss": 1.50919454,
+            "dev_loss": 2.42859173,
+            "dev_f1": 0.9374,
+            "stale": 3,
+            "improved": false
+          },
+          {
+            "epoch": 21,
+            "train_loss": 1.45536614,
+            "dev_loss": 2.51262617,
+            "dev_f1": 0.9416,
+            "stale": 4,
+            "improved": false
+          },
+          {
+            "epoch": 22,
+            "train_loss": 1.38895417,
+            "dev_loss": 2.50073695,
+            "dev_f1": 0.9437,
+            "stale": 5,
+            "improved": false
+          },
+          {
+            "epoch": 23,
+            "train_loss": 1.28777344,
+            "dev_loss": 2.49705291,
+            "dev_f1": 0.9449,
+            "stale": 6,
+            "improved": false
+          },
+          {
+            "epoch": 24,
+            "train_loss": 1.24155007,
+            "dev_loss": 2.38397264,
+            "dev_f1": 0.9417,
+            "stale": 7,
+            "improved": false
+          },
+          {
+            "epoch": 25,
+            "train_loss": 1.14641426,
+            "dev_loss": 2.53657532,
+            "dev_f1": 0.9411,
+            "stale": 8,
+            "improved": false
+          }
+        ]
+      },
+      "selection": "fixed predeclared configuration; early stopping on DEV loss"
+    },
+    "bilstm_re": {
+      "params": {
+        "seed": 42,
+        "embedding_dim": 100,
+        "hidden_dim": 160,
+        "dropout": 0.4,
+        "lr": 0.001
+      },
+      "training_summary": {
+        "model": "BiLSTM Neural RE",
+        "device": "cuda",
+        "max_epochs": 40,
+        "stopped_epoch": 12,
+        "best_epoch": 6,
+        "best_dev_loss": 0.1683102,
+        "patience": 6,
+        "early_stopped": true,
+        "early_stopping_metric": "dev_loss",
+        "batch_size": 64,
+        "train_pairs": 30183,
+        "params": {
+          "seed": 42,
+          "embedding_dim": 100,
+          "hidden_dim": 160,
+          "dropout": 0.4,
+          "lr": 0.001
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "train_loss": 0.54671049,
+            "dev_loss": 0.28393493,
+            "dev_f1": 0.5156,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 2,
+            "train_loss": 0.26526775,
+            "dev_loss": 0.22545489,
+            "dev_f1": 0.5189,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 3,
+            "train_loss": 0.22317976,
+            "dev_loss": 0.19176812,
+            "dev_f1": 0.5737,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 4,
+            "train_loss": 0.18522503,
+            "dev_loss": 0.18470495,
+            "dev_f1": 0.6522,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 5,
+            "train_loss": 0.16905907,
+            "dev_loss": 0.19214328,
+            "dev_f1": 0.7005,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 6,
+            "train_loss": 0.15084613,
+            "dev_loss": 0.1683102,
+            "dev_f1": 0.6746,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 7,
+            "train_loss": 0.14566207,
+            "dev_loss": 0.17393165,
+            "dev_f1": 0.6418,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 8,
+            "train_loss": 0.13614834,
+            "dev_loss": 0.18356977,
+            "dev_f1": 0.6872,
+            "stale": 2,
+            "improved": false
+          },
+          {
+            "epoch": 9,
+            "train_loss": 0.12975456,
+            "dev_loss": 0.18651152,
+            "dev_f1": 0.7153,
+            "stale": 3,
+            "improved": false
+          },
+          {
+            "epoch": 10,
+            "train_loss": 0.11850452,
+            "dev_loss": 0.19141646,
+            "dev_f1": 0.7459,
+            "stale": 4,
+            "improved": false
+          },
+          {
+            "epoch": 11,
+            "train_loss": 0.11904665,
+            "dev_loss": 0.18630115,
+            "dev_f1": 0.741,
+            "stale": 5,
+            "improved": false
+          },
+          {
+            "epoch": 12,
+            "train_loss": 0.10576813,
+            "dev_loss": 0.20789192,
+            "dev_f1": 0.7645,
+            "stale": 6,
+            "improved": false
+          }
+        ]
+      }
+    },
+    "transformer_ner": {
+      "lr": 3e-05,
+      "training_summary": {
+        "model": "Transformer NER",
+        "encoder": "distilbert-base-uncased",
+        "device": "cuda",
+        "max_epochs": 30,
+        "stopped_epoch": 7,
+        "best_epoch": 4,
+        "best_dev_loss": 0.14610776,
+        "patience": 3,
+        "early_stopped": true,
+        "early_stopping_metric": "dev_loss",
+        "batch_size": 8,
+        "lr": 3e-05,
+        "max_len": 96,
+        "history": [
+          {
+            "epoch": 1,
+            "train_loss": 0.85406362,
+            "dev_loss": 0.21310493,
+            "dev_f1": 0.9149,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 2,
+            "train_loss": 0.27258901,
+            "dev_loss": 0.15801089,
+            "dev_f1": 0.9342,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 3,
+            "train_loss": 0.16598023,
+            "dev_loss": 0.15212676,
+            "dev_f1": 0.9311,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 4,
+            "train_loss": 0.10760173,
+            "dev_loss": 0.14610776,
+            "dev_f1": 0.9442,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 5,
+            "train_loss": 0.07106043,
+            "dev_loss": 0.16727466,
+            "dev_f1": 0.9336,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 6,
+            "train_loss": 0.05280916,
+            "dev_loss": 0.19654556,
+            "dev_f1": 0.9237,
+            "stale": 2,
+            "improved": false
+          },
+          {
+            "epoch": 7,
+            "train_loss": 0.04181814,
+            "dev_loss": 0.19198228,
+            "dev_f1": 0.9337,
+            "stale": 3,
+            "improved": false
+          }
+        ]
+      },
+      "selection": "fixed predeclared configuration; early stopping on DEV loss"
+    },
+    "transformer_re": {
+      "lr": 3e-05,
+      "training_summary": {
+        "model": "Transformer RE",
+        "encoder": "distilbert-base-uncased",
+        "device": "cuda",
+        "max_epochs": 30,
+        "stopped_epoch": 8,
+        "best_epoch": 5,
+        "best_dev_loss": 0.21465304,
+        "patience": 3,
+        "early_stopped": true,
+        "early_stopping_metric": "dev_loss",
+        "batch_size": 4,
+        "lr": 3e-05,
+        "max_len": 96,
+        "train_pairs": 30183,
+        "history": [
+          {
+            "epoch": 1,
+            "train_loss": 0.45702682,
+            "dev_loss": 0.30995551,
+            "dev_f1": 0.8712,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 2,
+            "train_loss": 0.31390313,
+            "dev_loss": 0.25344323,
+            "dev_f1": 0.8648,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 3,
+            "train_loss": 0.26765098,
+            "dev_loss": 0.22172208,
+            "dev_f1": 0.9094,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 4,
+            "train_loss": 0.24245435,
+            "dev_loss": 0.21657685,
+            "dev_f1": 0.9013,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 5,
+            "train_loss": 0.21177514,
+            "dev_loss": 0.21465304,
+            "dev_f1": 0.907,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 6,
+            "train_loss": 0.1943427,
+            "dev_loss": 0.23064248,
+            "dev_f1": 0.909,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 7,
+            "train_loss": 0.17750316,
+            "dev_loss": 0.28407501,
+            "dev_f1": 0.907,
+            "stale": 2,
+            "improved": false
+          },
+          {
+            "epoch": 8,
+            "train_loss": 0.17512052,
+            "dev_loss": 0.2214484,
+            "dev_f1": 0.9192,
+            "stale": 3,
+            "improved": false
+          }
+        ]
+      }
+    }
+  },
+  "results_file": "outputs/reports/ie_results_core_neural.json",
+  "log_file": "outputs/reports/ie_results_core_neural_log.csv",
+  "trace_file": "outputs\\reports\\training_logs\\ie_results_core_neural__core_neural__20260827T174954Z.jsonl",
+  "elapsed_seconds": 3713.283,
+  "python": "3.11.16",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "conda_env": "avimaint-ie-neural"
+}

@@ -1,0 +1,2 @@
+model,entity_micro_f1,entity_ci_lo,entity_ci_hi,entity_macro_f1,entity_micro_p,entity_micro_r,relation_micro_f1,relation_ci_lo,relation_ci_hi,relation_macro_f1,relation_gold_entity_micro_f1
+Tier1_CRF_LogReg,0.9402,0.9248,0.9547,0.8822,0.9467,0.9338,0.8036,0.7766,0.8315,0.7409,0.8795

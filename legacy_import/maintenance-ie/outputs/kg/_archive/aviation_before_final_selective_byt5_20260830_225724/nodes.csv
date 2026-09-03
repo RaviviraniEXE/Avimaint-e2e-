@@ -1,0 +1,3189 @@
+node_id,label,type,mention_count,record_count
+ACTION:replaced,replaced,ACTION,3369,3341
+ACTION:removed,removed,ACTION,3064,3013
+ABN_PROC:leaking,leaking,ABN_PROC,2932,2922
+MAINT_ITEM:engine,engine,MAINT_ITEM,2678,2255
+MAINT_ITEM:cylinder,cylinder,MAINT_ITEM,1958,1669
+LOC:right-hand,right-hand,LOC,1219,1070
+LOC:left-hand,left-hand,LOC,1088,954
+LOC:number 2,number 2,LOC,1138,932
+MAINT_ITEM:intake gasket,intake gasket,MAINT_ITEM,1144,885
+LOC:number 3,number 3,LOC,1015,858
+MAINT_ITEM:gasket,gasket,MAINT_ITEM,856,850
+LOC:number 4,number 4,LOC,1012,848
+ACTION:installed,installed,ACTION,796,783
+MAINT_ITEM:intake,intake,MAINT_ITEM,611,601
+MAINT_ITEM:baffle,baffle,MAINT_ITEM,747,599
+MAINT_ITEM:rocker cover gasket,rocker cover gasket,MAINT_ITEM,685,499
+MAINT_ITEM:gaskets,gaskets,MAINT_ITEM,429,427
+MAINT_ITEM:intake gaskets,intake gaskets,MAINT_ITEM,537,426
+LOC:number 1,number 1,LOC,484,423
+FAULT:loose,loose,FAULT,427,412
+MAINT_ITEM:rocker cover gaskets,rocker cover gaskets,MAINT_ITEM,517,374
+FAULT:cracked,cracked,FAULT,337,326
+MAINT_ITEM:rocker cover,rocker cover,MAINT_ITEM,325,311
+OUTCOME:good,good,OUTCOME,306,300
+MAINT_ITEM:intakes,intakes,MAINT_ITEM,267,262
+FAULT:missing,missing,FAULT,281,257
+LOC:number 2 and 4,number 2 and 4,LOC,283,254
+LOC:aft,aft,LOC,270,247
+MAINT_ITEM:aircraft,aircraft,MAINT_ITEM,267,239
+FAULT:crack,crack,FAULT,284,223
+ACTION:stop drilled,stop drilled,ACTION,222,222
+LOC:forward,forward,LOC,238,218
+ACTION:tightened,tightened,ACTION,217,217
+MAINT_ITEM:rocker covers,rocker covers,MAINT_ITEM,222,208
+MAINT_ITEM:baffle seal,baffle seal,MAINT_ITEM,305,199
+MAINT_ITEM:screw,screw,MAINT_ITEM,282,196
+ACTION:leak check,leak check,ACTION,181,181
+FAULT:broken,broken,FAULT,184,179
+ACTION:ran,ran,ACTION,176,171
+ACTION:cleaned,cleaned,ACTION,182,169
+FAULT:worn,worn,FAULT,180,161
+FAULT:low,low,FAULT,158,155
+LOC:number 2 and 3,number 2 and 3,LOC,170,143
+LOC:number 3 and 4,number 3 and 4,LOC,161,138
+TECH_OBS:compression,compression,TECH_OBS,123,122
+ABN_PROC:leaks,leaks,ABN_PROC,111,111
+ACTION:secured,secured,ACTION,117,99
+MAINT_ITEM:baffle plugs,baffle plugs,MAINT_ITEM,156,97
+ACTION:fabricated,fabricated,ACTION,96,96
+ACTION:inspected,inspected,ACTION,95,95
+MAINT_ITEM:screws,screws,MAINT_ITEM,104,93
+ACTION:reinstalled,reinstalled,ACTION,95,92
+ACTION:resecured,resecured,ACTION,96,92
+LOC:rear,rear,LOC,101,91
+MAINT_ITEM:patch,patch,MAINT_ITEM,101,90
+MAINT_ITEM:baffle plug,baffle plug,MAINT_ITEM,127,87
+MAINT_ITEM:exhaust valve,exhaust valve,MAINT_ITEM,86,84
+MAINT_ITEM:oil cooler,oil cooler,MAINT_ITEM,99,84
+MAINT_ITEM:rivets,rivets,MAINT_ITEM,115,81
+LOC:lower,lower,LOC,86,80
+LOC:number 1 and 3,number 1 and 3,LOC,88,76
+MAINT_ITEM:baffle screw,baffle screw,MAINT_ITEM,85,75
+MAINT_ITEM:oil,oil,MAINT_ITEM,78,72
+LOC:top,top,LOC,79,70
+MAINT_ITEM:intake tube,intake tube,MAINT_ITEM,85,70
+MAINT_ITEM:baffling,baffling,MAINT_ITEM,71,69
+MAINT_ITEM:seal,seal,MAINT_ITEM,76,68
+MAINT_ITEM:rocker gaskets,rocker gaskets,MAINT_ITEM,75,67
+LOC:front,front,LOC,76,66
+"LOC:number 2 , 3 and 4","number 2 , 3 and 4",LOC,70,66
+LOC:side,side,LOC,67,64
+ABN_PROC:leak,leak,ABN_PROC,63,63
+MAINT_ITEM:bolt,bolt,MAINT_ITEM,90,63
+ACTION:started,started,ACTION,63,62
+ACTION:ran up,ran up,ACTION,61,61
+MAINT_ITEM:rivet,rivet,MAINT_ITEM,82,59
+FAULT:torn,torn,FAULT,62,58
+MAINT_ITEM:induction tube gasket,induction tube gasket,MAINT_ITEM,87,58
+ACTION:torqued,torqued,ACTION,57,57
+FAULT:failed,failed,FAULT,57,57
+MAINT_ITEM:like material,like material,MAINT_ITEM,57,57
+ACTION:operations,operations,ACTION,56,56
+LOC:above,above,LOC,60,56
+"LOC:number 2 , 3 , 4","number 2 , 3 , 4",LOC,59,56
+MAINT_ITEM:baffles,baffles,MAINT_ITEM,57,56
+FAULT:damaged,damaged,FAULT,55,55
+ACTION:adjusted,adjusted,ACTION,57,54
+LOC:behind,behind,LOC,53,53
+LOC:right-hand side,right-hand side,LOC,56,52
+MAINT_ITEM:intake tube gasket,intake tube gasket,MAINT_ITEM,59,51
+MAINT_ITEM:rocker gasket,rocker gasket,MAINT_ITEM,55,51
+ACTION:operations check,operations check,ACTION,48,48
+ACTION:applied,applied,ACTION,47,47
+MAINT_ITEM:exhaust,exhaust,MAINT_ITEM,50,47
+LOC:left,left,LOC,49,46
+FAULT:sheared,sheared,FAULT,51,45
+MAINT_ITEM:plug,plug,MAINT_ITEM,47,44
+MAINT_ITEM:plugs,plugs,MAINT_ITEM,46,44
+ABN_PROC:overspeed,overspeed,ABN_PROC,54,43
+MAINT_ITEM:bracket,bracket,MAINT_ITEM,49,43
+MAINT_ITEM:propeller,propeller,MAINT_ITEM,43,43
+ACTION:ground run,ground run,ACTION,42,42
+LOC:number 1 and 2,number 1 and 2,LOC,44,40
+MAINT_ITEM:baffle tie rod,baffle tie rod,MAINT_ITEM,48,40
+MAINT_ITEM:baffle bracket,baffle bracket,MAINT_ITEM,43,39
+ABN_PROC:chafing,chafing,ABN_PROC,38,38
+LOC:left-hand side,left-hand side,LOC,41,37
+"LOC:number 2 , 4","number 2 , 4",LOC,42,37
+OUTCOME:ok,ok,OUTCOME,38,37
+MAINT_ITEM:cylinder assembly,cylinder assembly,MAINT_ITEM,42,36
+MAINT_ITEM:hardware,hardware,MAINT_ITEM,50,36
+MAINT_ITEM:rtv,rtv,MAINT_ITEM,40,36
+"LOC:2 , 3 and 4","2 , 3 and 4",LOC,33,32
+MAINT_ITEM:magneto,magneto,MAINT_ITEM,34,32
+ACTION:repair,repair,ACTION,33,31
+FAULT:dirty,dirty,FAULT,31,31
+LOC:inboard,inboard,LOC,32,31
+REFERENCE:lycoming,lycoming,REFERENCE,31,31
+ACTION:reattached,reattached,ACTION,29,29
+ACTION:repositioned,repositioned,ACTION,32,29
+LOC:back,back,LOC,34,29
+LOC:number 1 and 4,number 1 and 4,LOC,36,29
+MAINT_ITEM:oil return line,oil return line,MAINT_ITEM,37,29
+OUTCOME:no defects noted,no defects noted,OUTCOME,29,29
+ABN_PROC:ran rough,ran rough,ABN_PROC,27,27
+ACTION:checked,checked,ACTION,27,27
+ACTION:repaired,repaired,ACTION,27,27
+ACTION:run up,run up,ACTION,28,27
+ACTION:sealed,sealed,ACTION,29,27
+MAINT_ITEM:cylinders,cylinders,MAINT_ITEM,28,27
+MAINT_ITEM:rocker box cover screws,rocker box cover screws,MAINT_ITEM,30,27
+MAINT_ITEM:valve,valve,MAINT_ITEM,29,27
+OP_CTX:on run up,on run up,OP_CTX,28,27
+ACTION:changed,changed,ACTION,27,26
+"LOC:number 3 , 4","number 3 , 4",LOC,27,26
+MAINT_ITEM:cowling,cowling,MAINT_ITEM,27,26
+MAINT_ITEM:rocker box cover gasket,rocker box cover gasket,MAINT_ITEM,33,26
+MAINT_ITEM:throttle,throttle,MAINT_ITEM,26,26
+"LOC:number 2 , 3","number 2 , 3",LOC,30,25
+LOC:right,right,LOC,27,25
+ABN_PROC:roughness,roughness,ABN_PROC,24,24
+ACTION:maintenance flight,maintenance flight,ACTION,26,24
+ACTION:staked,staked,ACTION,24,24
+MAINT_ITEM:alternator,alternator,MAINT_ITEM,27,24
+MAINT_ITEM:baffle seals,baffle seals,MAINT_ITEM,34,24
+MAINT_ITEM:clamps,clamps,MAINT_ITEM,31,24
+MAINT_ITEM:cowl,cowl,MAINT_ITEM,26,24
+MAINT_ITEM:piston,piston,MAINT_ITEM,28,24
+MAINT_ITEM:tie rod,tie rod,MAINT_ITEM,25,24
+TECH_OBS:rpm,rpm,TECH_OBS,24,24
+ABN_PROC:vibration,vibration,ABN_PROC,24,23
+ACTION:start assist,start assist,ACTION,23,23
+LOC:forward lower,forward lower,LOC,25,23
+MAINT_ITEM:oil filler tube,oil filler tube,MAINT_ITEM,28,23
+FAULT:no compression,no compression,FAULT,22,22
+LOC:bottom,bottom,LOC,23,22
+MAINT_ITEM:hose clamps,hose clamps,MAINT_ITEM,40,22
+MAINT_ITEM:rocker cover screws,rocker cover screws,MAINT_ITEM,26,22
+ABN_PROC:rough,rough,ABN_PROC,22,21
+ACTION:riveted,riveted,ACTION,21,21
+LOC:outboard,outboard,LOC,22,21
+MAINT_ITEM:rocker box cover gaskets,rocker box cover gaskets,MAINT_ITEM,24,21
+MAINT_ITEM:sniffler valves,sniffler valves,MAINT_ITEM,34,21
+LOC:2 and 4,2 and 4,LOC,21,20
+MAINT_ITEM:baffle spring,baffle spring,MAINT_ITEM,27,20
+MAINT_ITEM:bolts,bolts,MAINT_ITEM,25,20
+OP_CTX:in flight,in flight,OP_CTX,20,20
+TECH_OBS:idle,idle,TECH_OBS,20,20
+ACTION:compression check,compression check,ACTION,19,19
+FAULT:stuck,stuck,FAULT,20,19
+MAINT_ITEM:induction tube,induction tube,MAINT_ITEM,19,19
+MAINT_ITEM:push rod,push rod,MAINT_ITEM,23,19
+MAINT_ITEM:valves,valves,MAINT_ITEM,19,19
+OP_CTX:during run up,during run up,OP_CTX,19,19
+ABN_PROC:oil leak,oil leak,ABN_PROC,19,18
+ACTION:checks,checks,ACTION,18,18
+ACTION:disassembled,disassembled,ACTION,18,18
+ACTION:replacement,replacement,ACTION,18,18
+FAULT:cracks,cracks,FAULT,22,18
+MAINT_ITEM:clamp,clamp,MAINT_ITEM,22,18
+MAINT_ITEM:engines,engines,MAINT_ITEM,21,18
+MAINT_ITEM:lines,lines,MAINT_ITEM,18,18
+ABN_PROC:rough running,rough running,ABN_PROC,17,17
+ACTION:complied,complied,ACTION,17,17
+ACTION:disconnected,disconnected,ACTION,17,17
+ACTION:reamed,reamed,ACTION,17,17
+ACTION:safetied,safetied,ACTION,18,17
+ACTION:verified,verified,ACTION,17,17
+"LOC:number 1 , 2 , 3 and 4","number 1 , 2 , 3 and 4",LOC,17,17
+"LOC:number 1 , 3","number 1 , 3",LOC,18,17
+MAINT_ITEM:case,case,MAINT_ITEM,17,17
+MAINT_ITEM:pop rivets,pop rivets,MAINT_ITEM,17,17
+OUTCOME:no defects,no defects,OUTCOME,17,17
+ABN_PROC:running rough,running rough,ABN_PROC,16,16
+ABN_PROC:seeping,seeping,ABN_PROC,16,16
+FAULT:pulled through,pulled through,FAULT,16,16
+MAINT_ITEM:oil sump,oil sump,MAINT_ITEM,18,16
+TECH_OBS:idle speed,idle speed,TECH_OBS,18,16
+ACTION:operations checked,operations checked,ACTION,15,15
+FAULT:bad,bad,FAULT,15,15
+"LOC:number 1 , 2 , 4","number 1 , 2 , 4",LOC,17,15
+MAINT_ITEM:baffle tie,baffle tie,MAINT_ITEM,25,15
+MAINT_ITEM:cylinder baffling,cylinder baffling,MAINT_ITEM,15,15
+MAINT_ITEM:nut,nut,MAINT_ITEM,22,15
+MAINT_ITEM:push rod tube,push rod tube,MAINT_ITEM,17,15
+MAINT_ITEM:tabs,tabs,MAINT_ITEM,15,15
+ACTION:confirmed,confirmed,ACTION,14,14
+ACTION:remove,remove,ACTION,14,14
+ACTION:serviced,serviced,ACTION,14,14
+LOC:cooling,cooling,LOC,16,14
+"LOC:number 1 , 2 and 4","number 1 , 2 and 4",LOC,14,14
+"LOC:number 1 , 3 and 4","number 1 , 3 and 4",LOC,15,14
+MAINT_ITEM:black seal,black seal,MAINT_ITEM,15,14
+MAINT_ITEM:crankshaft,crankshaft,MAINT_ITEM,22,14
+MAINT_ITEM:fod,fod,MAINT_ITEM,26,14
+MAINT_ITEM:line,line,MAINT_ITEM,15,14
+ACTION:inspection,inspection,ACTION,13,13
+ACTION:leak checked,leak checked,ACTION,14,13
+ACTION:resafetied,resafetied,ACTION,13,13
+LOC:number 3 and 2,number 3 and 2,LOC,14,13
+LOC:upper,upper,LOC,13,13
+MAINT_ITEM:baffle mounting screw,baffle mounting screw,MAINT_ITEM,14,13
+MAINT_ITEM:hole,hole,MAINT_ITEM,14,13
+MAINT_ITEM:spark plug,spark plug,MAINT_ITEM,16,13
+MAINT_ITEM:spring,spring,MAINT_ITEM,15,13
+OUTCOME:could not duplicate discrepancy,could not duplicate discrepancy,OUTCOME,13,13
+ABN_PROC:ran very rough,ran very rough,ABN_PROC,12,12
+ACTION:insp,insp,ACTION,12,12
+ACTION:patched,patched,ACTION,12,12
+"LOC:number 1 , 2 and 3","number 1 , 2 and 3",LOC,12,12
+MAINT_ITEM:backbone,backbone,MAINT_ITEM,12,12
+MAINT_ITEM:baffle section,baffle section,MAINT_ITEM,12,12
+MAINT_ITEM:cowl seal,cowl seal,MAINT_ITEM,16,12
+MAINT_ITEM:intake tube gaskets,intake tube gaskets,MAINT_ITEM,13,12
+MAINT_ITEM:seals,seals,MAINT_ITEM,13,12
+MAINT_ITEM:silicone gasket,silicone gasket,MAINT_ITEM,12,12
+MAINT_ITEM:spark plugs,spark plugs,MAINT_ITEM,12,12
+MAINT_ITEM:standoff,standoff,MAINT_ITEM,16,12
+ABN_PROC:quit,quit,ABN_PROC,11,11
+ABN_PROC:rubbing,rubbing,ABN_PROC,11,11
+ABN_PROC:runs rough,runs rough,ABN_PROC,11,11
+ACTION:completed installation,completed installation,ACTION,11,11
+ACTION:disassembly,disassembly,ACTION,11,11
+ACTION:found,found,ACTION,12,11
+ACTION:preserved,preserved,ACTION,11,11
+ACTION:washed,washed,ACTION,11,11
+LOC:1 and 3,1 and 3,LOC,11,11
+LOC:2 and 3,2 and 3,LOC,13,11
+MAINT_ITEM:adel clamp,adel clamp,MAINT_ITEM,16,11
+MAINT_ITEM:baffle patch,baffle patch,MAINT_ITEM,12,11
+MAINT_ITEM:baffle plug hole,baffle plug hole,MAINT_ITEM,12,11
+MAINT_ITEM:cht probe,cht probe,MAINT_ITEM,11,11
+MAINT_ITEM:firewall,firewall,MAINT_ITEM,13,11
+MAINT_ITEM:intake tubes,intake tubes,MAINT_ITEM,11,11
+MAINT_ITEM:muffler,muffler,MAINT_ITEM,12,11
+MAINT_ITEM:pop rivet,pop rivet,MAINT_ITEM,12,11
+MAINT_ITEM:rocker,rocker,MAINT_ITEM,12,11
+MAINT_ITEM:rod,rod,MAINT_ITEM,11,11
+MAINT_ITEM:starter,starter,MAINT_ITEM,12,11
+MAINT_ITEM:sump,sump,MAINT_ITEM,12,11
+OP_CTX:after propeller strike,after propeller strike,OP_CTX,11,11
+OP_CTX:at idle,at idle,OP_CTX,11,11
+TECH_OBS:idle rpm,idle rpm,TECH_OBS,13,11
+TECH_OBS:mixture,mixture,TECH_OBS,12,11
+ABN_PROC:started running rough,started running rough,ABN_PROC,10,10
+ACTION:completed reassembly,completed reassembly,ACTION,10,10
+ACTION:determined,determined,ACTION,10,10
+ACTION:drilled out,drilled out,ACTION,10,10
+ACTION:replace,replace,ACTION,10,10
+ACTION:reviewed,reviewed,ACTION,10,10
+FAULT:burnt,burnt,FAULT,10,10
+FAULT:damage,damage,FAULT,10,10
+FAULT:metal found in oil,metal found in oil,FAULT,10,10
+LOC:1,1,LOC,10,10
+LOC:2,2,LOC,10,10
+MAINT_ITEM:accessory case,accessory case,MAINT_ITEM,11,10
+MAINT_ITEM:baffle mount,baffle mount,MAINT_ITEM,13,10
+MAINT_ITEM:baffle support,baffle support,MAINT_ITEM,14,10
+MAINT_ITEM:intake valve,intake valve,MAINT_ITEM,10,10
+MAINT_ITEM:sealant,sealant,MAINT_ITEM,11,10
+MAINT_ITEM:silicone,silicone,MAINT_ITEM,11,10
+MAINT_ITEM:washer,washer,MAINT_ITEM,13,10
+MAINT_ITEM:washers,washers,MAINT_ITEM,10,10
+OP_CTX:after start,after start,OP_CTX,10,10
+OP_CTX:during flight,during flight,OP_CTX,10,10
+ABN_PROC:backfired,backfired,ABN_PROC,9,9
+ABN_PROC:partial power loss,partial power loss,ABN_PROC,9,9
+ABN_PROC:sticking,sticking,ABN_PROC,9,9
+ABN_PROC:vibrations,vibrations,ABN_PROC,9,9
+ACTION:install,install,ACTION,9,9
+ACTION:magneto check,magneto check,ACTION,9,9
+ACTION:overhaul,overhaul,ACTION,9,9
+ACTION:reassembled,reassembled,ACTION,9,9
+LOC:left side,left side,LOC,9,9
+"LOC:number 1 , 3 , 4","number 1 , 3 , 4",LOC,9,9
+MAINT_ITEM:air intake,air intake,MAINT_ITEM,10,9
+MAINT_ITEM:cyls,cyls,MAINT_ITEM,9,9
+MAINT_ITEM:engine mount,engine mount,MAINT_ITEM,11,9
+MAINT_ITEM:fuel,fuel,MAINT_ITEM,9,9
+MAINT_ITEM:injector,injector,MAINT_ITEM,9,9
+MAINT_ITEM:nuts,nuts,MAINT_ITEM,9,9
+MAINT_ITEM:oil return lines,oil return lines,MAINT_ITEM,9,9
+MAINT_ITEM:oil seal,oil seal,MAINT_ITEM,10,9
+MAINT_ITEM:push rods,push rods,MAINT_ITEM,10,9
+MAINT_ITEM:rocker cover screw,rocker cover screw,MAINT_ITEM,11,9
+MAINT_ITEM:safety wire,safety wire,MAINT_ITEM,9,9
+MAINT_ITEM:tube,tube,MAINT_ITEM,10,9
+OP_CTX:after engine start,after engine start,OP_CTX,9,9
+OP_CTX:after start up,after start up,OP_CTX,9,9
+OP_CTX:on start up,on start up,OP_CTX,9,9
+TECH_OBS:2000 rpm,2000 rpm,TECH_OBS,9,9
+TECH_OBS:compression 40 / 80,compression 40 / 80,TECH_OBS,9,9
+TECH_OBS:idle mixture,idle mixture,TECH_OBS,10,9
+TECH_OBS:magneto drop,magneto drop,TECH_OBS,9,9
+ABN_PROC:high frequency vibration,high frequency vibration,ABN_PROC,8,8
+ABN_PROC:running very rough,running very rough,ABN_PROC,8,8
+ABN_PROC:shutdown,shutdown,ABN_PROC,8,8
+ACTION:connected,connected,ACTION,8,8
+ACTION:corrosion prevention,corrosion prevention,ACTION,8,8
+ACTION:fitted,fitted,ACTION,11,8
+"LOC:1 , 2 , 3 and 4","1 , 2 , 3 and 4",LOC,8,8
+"LOC:2 , 3 , 4","2 , 3 , 4",LOC,8,8
+LOC:near,near,LOC,8,8
+"LOC:number 1 , 2","number 1 , 2",LOC,9,8
+"LOC:number 1 , 2 , 3","number 1 , 2 , 3",LOC,8,8
+LOC:number 4 and 3,number 4 and 3,LOC,8,8
+MAINT_ITEM:baffle buttons,baffle buttons,MAINT_ITEM,11,8
+MAINT_ITEM:black rtv,black rtv,MAINT_ITEM,8,8
+MAINT_ITEM:covers,covers,MAINT_ITEM,8,8
+MAINT_ITEM:crankshaft seal,crankshaft seal,MAINT_ITEM,9,8
+MAINT_ITEM:data,data,MAINT_ITEM,9,8
+MAINT_ITEM:dipstick tube,dipstick tube,MAINT_ITEM,10,8
+MAINT_ITEM:doubler,doubler,MAINT_ITEM,10,8
+MAINT_ITEM:engine baffling,engine baffling,MAINT_ITEM,9,8
+MAINT_ITEM:exhaust push rod,exhaust push rod,MAINT_ITEM,8,8
+MAINT_ITEM:hoses,hoses,MAINT_ITEM,8,8
+MAINT_ITEM:muffler shroud,muffler shroud,MAINT_ITEM,8,8
+MAINT_ITEM:oil cooler line,oil cooler line,MAINT_ITEM,9,8
+MAINT_ITEM:wires,wires,MAINT_ITEM,8,8
+MAINT_ITEM:wiring,wiring,MAINT_ITEM,9,8
+OP_CTX:on start,on start,OP_CTX,8,8
+OP_CTX:while running up,while running up,OP_CTX,8,8
+TECH_OBS:0 / 80,0 / 80,TECH_OBS,8,8
+TECH_OBS:specs,specs,TECH_OBS,8,8
+ABN_PROC:air coming out exhaus,air coming out exhaus,ABN_PROC,7,7
+ABN_PROC:rpm dropped,rpm dropped,ABN_PROC,7,7
+ABN_PROC:shaking,shaking,ABN_PROC,7,7
+ABN_PROC:unusually rough,unusually rough,ABN_PROC,7,7
+ABN_PROC:wearing,wearing,ABN_PROC,7,7
+ACTION:change,change,ACTION,7,7
+ACTION:compression test,compression test,ACTION,7,7
+ACTION:downloaded,downloaded,ACTION,7,7
+ACTION:drilled,drilled,ACTION,7,7
+ACTION:resealed,resealed,ACTION,7,7
+ACTION:routed,routed,ACTION,7,7
+ACTION:time change,time change,ACTION,7,7
+ACTION:warmed,warmed,ACTION,7,7
+FAULT:bent,bent,FAULT,7,7
+FAULT:gouged,gouged,FAULT,7,7
+FAULT:inoperable,inoperable,FAULT,7,7
+"LOC:1 , 2 and 3","1 , 2 and 3",LOC,7,7
+LOC:3 and 4,3 and 4,LOC,7,7
+"LOC:number 1 , 4","number 1 , 4",LOC,8,7
+LOC:number 2 and 1,number 2 and 1,LOC,7,7
+MAINT_ITEM:baffle rod,baffle rod,MAINT_ITEM,7,7
+MAINT_ITEM:baffle screws,baffle screws,MAINT_ITEM,7,7
+MAINT_ITEM:baffle seal rivet,baffle seal rivet,MAINT_ITEM,7,7
+MAINT_ITEM:baffle support bracket,baffle support bracket,MAINT_ITEM,7,7
+MAINT_ITEM:dipstick,dipstick,MAINT_ITEM,10,7
+MAINT_ITEM:grommet,grommet,MAINT_ITEM,12,7
+MAINT_ITEM:high temperature silicone,high temperature silicone,MAINT_ITEM,7,7
+MAINT_ITEM:mineral oil,mineral oil,MAINT_ITEM,7,7
+MAINT_ITEM:oil coolers,oil coolers,MAINT_ITEM,11,7
+MAINT_ITEM:oil line,oil line,MAINT_ITEM,7,7
+MAINT_ITEM:patches,patches,MAINT_ITEM,7,7
+MAINT_ITEM:primer line,primer line,MAINT_ITEM,9,7
+MAINT_ITEM:rocker arm,rocker arm,MAINT_ITEM,11,7
+MAINT_ITEM:rockers,rockers,MAINT_ITEM,8,7
+MAINT_ITEM:vacuum pump,vacuum pump,MAINT_ITEM,7,7
+OP_CTX:on engine start,on engine start,OP_CTX,7,7
+OUTCOME:could not duplicate,could not duplicate,OUTCOME,7,7
+TECH_OBS:8 quarts,8 quarts,TECH_OBS,7,7
+ABN_PROC:died,died,ABN_PROC,6,6
+ABN_PROC:oversped,oversped,ABN_PROC,6,6
+ABN_PROC:would not start,would not start,ABN_PROC,6,6
+ACTION:clearance check,clearance check,ACTION,6,6
+ACTION:operations and leak checked,operations and leak checked,ACTION,6,6
+ACTION:prepped,prepped,ACTION,6,6
+ACTION:reinstall,reinstall,ACTION,6,6
+ACTION:seasonal adjustment,seasonal adjustment,ACTION,6,6
+FAULT:elongated,elongated,FAULT,6,6
+FAULT:scored,scored,FAULT,6,6
+FAULT:worn through,worn through,FAULT,6,6
+LOC:exhaust side,exhaust side,LOC,6,6
+LOC:lower forward,lower forward,LOC,6,6
+"LOC:number 1 , 2 , 3 , 4","number 1 , 2 , 3 , 4",LOC,6,6
+LOC:under,under,LOC,6,6
+MAINT_ITEM:baffle bolt,baffle bolt,MAINT_ITEM,7,6
+MAINT_ITEM:baffle support rod,baffle support rod,MAINT_ITEM,6,6
+MAINT_ITEM:baffle tab,baffle tab,MAINT_ITEM,7,6
+MAINT_ITEM:baffle wire,baffle wire,MAINT_ITEM,6,6
+MAINT_ITEM:c clip,c clip,MAINT_ITEM,6,6
+MAINT_ITEM:chafe tape,chafe tape,MAINT_ITEM,9,6
+MAINT_ITEM:cover,cover,MAINT_ITEM,6,6
+MAINT_ITEM:engine assembly,engine assembly,MAINT_ITEM,7,6
+MAINT_ITEM:exhaust stack,exhaust stack,MAINT_ITEM,6,6
+MAINT_ITEM:exhaust va,exhaust va,MAINT_ITEM,6,6
+MAINT_ITEM:exhaust valves,exhaust valves,MAINT_ITEM,6,6
+MAINT_ITEM:fdm data,fdm data,MAINT_ITEM,6,6
+MAINT_ITEM:holes,holes,MAINT_ITEM,6,6
+MAINT_ITEM:induction tube gaskets,induction tube gaskets,MAINT_ITEM,9,6
+MAINT_ITEM:lacing cord,lacing cord,MAINT_ITEM,7,6
+MAINT_ITEM:oil screen,oil screen,MAINT_ITEM,6,6
+MAINT_ITEM:oil tube,oil tube,MAINT_ITEM,6,6
+MAINT_ITEM:rocker box covers,rocker box covers,MAINT_ITEM,6,6
+MAINT_ITEM:rocker drain line,rocker drain line,MAINT_ITEM,8,6
+MAINT_ITEM:rocker drain lines,rocker drain lines,MAINT_ITEM,6,6
+MAINT_ITEM:sd card,sd card,MAINT_ITEM,6,6
+MAINT_ITEM:throttl,throttl,MAINT_ITEM,6,6
+MAINT_ITEM:upper baffle,upper baffle,MAINT_ITEM,6,6
+OP_CTX:ground ref man,ground ref man,OP_CTX,6,6
+REFERENCE:lycoming overhaul manual,lycoming overhaul manual,REFERENCE,6,6
+TECH_OBS:1600 rpm,1600 rpm,TECH_OBS,6,6
+TECH_OBS:compression 15 / 80,compression 15 / 80,TECH_OBS,6,6
+TECH_OBS:compression 20 / 80,compression 20 / 80,TECH_OBS,6,6
+TECH_OBS:momentary,momentary,TECH_OBS,6,6
+ABN_PROC:backfired when,backfired when,ABN_PROC,5,5
+ABN_PROC:began to struggle,began to struggle,ABN_PROC,5,5
+ABN_PROC:came into cont,came into cont,ABN_PROC,5,5
+ABN_PROC:coughed often,coughed often,ABN_PROC,5,5
+ABN_PROC:dropped,dropped,ABN_PROC,5,5
+ABN_PROC:exceeded,exceeded,ABN_PROC,5,5
+ABN_PROC:leaking through,leaking through,ABN_PROC,5,5
+ABN_PROC:sputtering,sputtering,ABN_PROC,5,5
+ABN_PROC:very rough,very rough,ABN_PROC,5,5
+ABN_PROC:vibrating,vibrating,ABN_PROC,5,5
+ABN_PROC:won ' t start,won ' t start,ABN_PROC,5,5
+ACTION:break - in flight,break - in flight,ACTION,5,5
+ACTION:check,check,ACTION,5,5
+ACTION:completed install,completed install,ACTION,5,5
+ACTION:filled,filled,ACTION,5,5
+ACTION:fogging,fogging,ACTION,5,5
+ACTION:ground,ground,ACTION,5,5
+ACTION:ground ran,ground ran,ACTION,5,5
+ACTION:honed,honed,ACTION,5,5
+ACTION:installation,installation,ACTION,5,5
+ACTION:lapped,lapped,ACTION,5,5
+ACTION:mixture check,mixture check,ACTION,5,5
+ACTION:painted,painted,ACTION,5,5
+ACTION:performed,performed,ACTION,5,5
+ACTION:pulled,pulled,ACTION,5,5
+ACTION:reconnected,reconnected,ACTION,5,5
+ACTION:rerouted,rerouted,ACTION,5,5
+ACTION:reswaged,reswaged,ACTION,5,5
+ACTION:run,run,ACTION,5,5
+ACTION:test flight,test flight,ACTION,6,5
+ACTION:timed,timed,ACTION,5,5
+FAULT:chafed,chafed,FAULT,5,5
+FAULT:dead,dead,FAULT,5,5
+FAULT:no tem,no tem,FAULT,5,5
+FAULT:stripped,stripped,FAULT,5,5
+FAULT:timed out,timed out,FAULT,5,5
+LOC:1 and 4,1 and 4,LOC,6,5
+LOC:inner,inner,LOC,5,5
+LOC:number 2 and 4 side,number 2 and 4 side,LOC,5,5
+LOC:number 4 and 2,number 4 and 2,LOC,5,5
+LOC:outer,outer,LOC,5,5
+MAINT_ITEM:air filter,air filter,MAINT_ITEM,6,5
+MAINT_ITEM:alternator belt,alternator belt,MAINT_ITEM,5,5
+MAINT_ITEM:baff,baff,MAINT_ITEM,5,5
+MAINT_ITEM:baffle assembly,baffle assembly,MAINT_ITEM,5,5
+MAINT_ITEM:baffle mounting bracket,baffle mounting bracket,MAINT_ITEM,6,5
+MAINT_ITEM:baffle tie wire,baffle tie wire,MAINT_ITEM,7,5
+MAINT_ITEM:brace,brace,MAINT_ITEM,5,5
+MAINT_ITEM:carb airbox,carb airbox,MAINT_ITEM,6,5
+MAINT_ITEM:case halves,case halves,MAINT_ITEM,5,5
+MAINT_ITEM:connecting rod,connecting rod,MAINT_ITEM,5,5
+MAINT_ITEM:connecting rod exchange,connecting rod exchange,MAINT_ITEM,5,5
+MAINT_ITEM:crankcase,crankcase,MAINT_ITEM,5,5
+MAINT_ITEM:drain line,drain line,MAINT_ITEM,7,5
+MAINT_ITEM:egt,egt,MAINT_ITEM,6,5
+MAINT_ITEM:exhaust valve guides,exhaust valve guides,MAINT_ITEM,5,5
+MAINT_ITEM:fastener,fastener,MAINT_ITEM,5,5
+MAINT_ITEM:fdm card,fdm card,MAINT_ITEM,5,5
+MAINT_ITEM:fingers,fingers,MAINT_ITEM,5,5
+MAINT_ITEM:fitting,fitting,MAINT_ITEM,6,5
+MAINT_ITEM:fuel pump,fuel pump,MAINT_ITEM,6,5
+MAINT_ITEM:inlet,inlet,MAINT_ITEM,5,5
+MAINT_ITEM:intake pipe,intake pipe,MAINT_ITEM,5,5
+MAINT_ITEM:intercylinder baffle,intercylinder baffle,MAINT_ITEM,6,5
+MAINT_ITEM:like materi,like materi,MAINT_ITEM,5,5
+MAINT_ITEM:oil dipstick,oil dipstick,MAINT_ITEM,5,5
+MAINT_ITEM:oil dipstick tube,oil dipstick tube,MAINT_ITEM,5,5
+MAINT_ITEM:oil fill tube,oil fill tube,MAINT_ITEM,5,5
+MAINT_ITEM:oil lines,oil lines,MAINT_ITEM,5,5
+MAINT_ITEM:oil pressure line,oil pressure line,MAINT_ITEM,5,5
+MAINT_ITEM:oil return,oil return,MAINT_ITEM,5,5
+MAINT_ITEM:paint,paint,MAINT_ITEM,9,5
+MAINT_ITEM:possible,possible,MAINT_ITEM,5,5
+MAINT_ITEM:push rod seals,push rod seals,MAINT_ITEM,5,5
+MAINT_ITEM:rings,rings,MAINT_ITEM,5,5
+MAINT_ITEM:rocker box,rocker box,MAINT_ITEM,5,5
+MAINT_ITEM:rocker box cover,rocker box cover,MAINT_ITEM,5,5
+MAINT_ITEM:scroll,scroll,MAINT_ITEM,7,5
+MAINT_ITEM:spiral wrap,spiral wrap,MAINT_ITEM,6,5
+MAINT_ITEM:sprayer nozzle,sprayer nozzle,MAINT_ITEM,5,5
+MAINT_ITEM:threads,threads,MAINT_ITEM,8,5
+MAINT_ITEM:tip,tip,MAINT_ITEM,5,5
+MAINT_ITEM:valve cover gaskets,valve cover gaskets,MAINT_ITEM,7,5
+MAINT_ITEM:valve covers,valve covers,MAINT_ITEM,6,5
+MAINT_ITEM:zip ties,zip ties,MAINT_ITEM,7,5
+OP_CTX:after takeoff,after takeoff,OP_CTX,5,5
+OP_CTX:during autorecovery,during autorecovery,OP_CTX,5,5
+OP_CTX:during cruise,during cruise,OP_CTX,5,5
+OP_CTX:during engine start,during engine start,OP_CTX,5,5
+OP_CTX:during steep turns,during steep turns,OP_CTX,5,5
+OP_CTX:full power,full power,OP_CTX,5,5
+OP_CTX:in straight and level flight,in straight and level flight,OP_CTX,5,5
+OP_CTX:in traffic pattern,in traffic pattern,OP_CTX,5,5
+OP_CTX:while taxiing,while taxiing,OP_CTX,5,5
+OUTCOME:unable to duplicate discrepancy,unable to duplicate discrepancy,OUTCOME,5,5
+TECH_OBS:1800 rpm,1800 rpm,TECH_OBS,5,5
+TECH_OBS:2,2,TECH_OBS,5,5
+TECH_OBS:3500,3500,TECH_OBS,5,5
+TECH_OBS:compression 30 / 80,compression 30 / 80,TECH_OBS,5,5
+TECH_OBS:exhaust clearance . 033 inches,exhaust clearance . 033 inches,TECH_OBS,5,5
+TECH_OBS:less than 5 %,less than 5 %,TECH_OBS,5,5
+ABN_PROC:coming loose,coming loose,ABN_PROC,4,4
+ABN_PROC:could not start,could not start,ABN_PROC,4,4
+ABN_PROC:idles very irratically,idles very irratically,ABN_PROC,4,4
+ABN_PROC:smoked out,smoked out,ABN_PROC,4,4
+ACTION:assembled,assembled,ACTION,4,4
+ACTION:attempted to start,attempted to start,ACTION,4,4
+ACTION:borescoped,borescoped,ACTION,4,4
+ACTION:clean,clean,ACTION,4,4
+ACTION:dry tappet clearance check,dry tappet clearance check,ACTION,4,4
+ACTION:finished installation,finished installation,ACTION,4,4
+ACTION:finished installing,finished installing,ACTION,4,4
+ACTION:fogged,fogged,ACTION,5,4
+ACTION:further insp,further insp,ACTION,4,4
+ACTION:leak and operations check,leak and operations check,ACTION,4,4
+ACTION:loosened,loosened,ACTION,4,4
+ACTION:measured,measured,ACTION,4,4
+ACTION:researched,researched,ACTION,4,4
+ACTION:reswedged,reswedged,ACTION,5,4
+ACTION:retrieved,retrieved,ACTION,4,4
+ACTION:started removing,started removing,ACTION,4,4
+ACTION:stripped,stripped,ACTION,4,4
+ACTION:swedged,swedged,ACTION,4,4
+FAULT:bad compression,bad compression,FAULT,4,4
+FAULT:high,high,FAULT,4,4
+FAULT:several cracks,several cracks,FAULT,4,4
+FAULT:tight,tight,FAULT,4,4
+FAULT:wear,wear,FAULT,4,4
+"LOC:1 , 2 and 4","1 , 2 and 4",LOC,5,4
+LOC:connection point,connection point,LOC,4,4
+LOC:left aft,left aft,LOC,4,4
+LOC:left-hand /,left-hand /,LOC,4,4
+LOC:number,number,LOC,4,4
+LOC:number 1 - 3,number 1 - 3,LOC,4,4
+LOC:number 1 and 3 side,number 1 and 3 side,LOC,4,4
+"LOC:number 2 , 1","number 2 , 1",LOC,4,4
+LOC:right side,right side,LOC,5,4
+LOC:top and bottom,top and bottom,LOC,4,4
+MAINT_ITEM:4 th stage nozzle,4 th stage nozzle,MAINT_ITEM,4,4
+MAINT_ITEM:90 degrees bracket,90 degrees bracket,MAINT_ITEM,4,4
+MAINT_ITEM:accessories,accessories,MAINT_ITEM,4,4
+MAINT_ITEM:airframe,airframe,MAINT_ITEM,4,4
+MAINT_ITEM:baffle button plug,baffle button plug,MAINT_ITEM,4,4
+MAINT_ITEM:baffle connecting rod,baffle connecting rod,MAINT_ITEM,4,4
+MAINT_ITEM:baffle material,baffle material,MAINT_ITEM,6,4
+MAINT_ITEM:baffle tie rods,baffle tie rods,MAINT_ITEM,5,4
+MAINT_ITEM:black baffle seal,black baffle seal,MAINT_ITEM,4,4
+MAINT_ITEM:buttons,buttons,MAINT_ITEM,4,4
+MAINT_ITEM:control cable,control cable,MAINT_ITEM,4,4
+MAINT_ITEM:cooler,cooler,MAINT_ITEM,4,4
+MAINT_ITEM:cylinder base,cylinder base,MAINT_ITEM,4,4
+MAINT_ITEM:cylinder head,cylinder head,MAINT_ITEM,4,4
+MAINT_ITEM:data plate,data plate,MAINT_ITEM,5,4
+MAINT_ITEM:edges,edges,MAINT_ITEM,4,4
+MAINT_ITEM:exhaust guide,exhaust guide,MAINT_ITEM,4,4
+MAINT_ITEM:exhaust push rod seal,exhaust push rod seal,MAINT_ITEM,4,4
+MAINT_ITEM:exhaust rocker,exhaust rocker,MAINT_ITEM,4,4
+MAINT_ITEM:fdm card data,fdm card data,MAINT_ITEM,4,4
+MAINT_ITEM:filter,filter,MAINT_ITEM,4,4
+MAINT_ITEM:hose clamp,hose clamp,MAINT_ITEM,6,4
+MAINT_ITEM:intake tube cylinder,intake tube cylinder,MAINT_ITEM,4,4
+MAINT_ITEM:lifters,lifters,MAINT_ITEM,4,4
+MAINT_ITEM:lock washer,lock washer,MAINT_ITEM,5,4
+MAINT_ITEM:mags,mags,MAINT_ITEM,4,4
+MAINT_ITEM:oil cooler hose,oil cooler hose,MAINT_ITEM,4,4
+MAINT_ITEM:oil drain line,oil drain line,MAINT_ITEM,5,4
+MAINT_ITEM:piston rings,piston rings,MAINT_ITEM,4,4
+MAINT_ITEM:ring gear,ring gear,MAINT_ITEM,4,4
+MAINT_ITEM:rivet head,rivet head,MAINT_ITEM,4,4
+MAINT_ITEM:screen,screen,MAINT_ITEM,4,4
+MAINT_ITEM:section,section,MAINT_ITEM,4,4
+MAINT_ITEM:silicone gaskets,silicone gaskets,MAINT_ITEM,4,4
+MAINT_ITEM:support,support,MAINT_ITEM,4,4
+MAINT_ITEM:tab,tab,MAINT_ITEM,4,4
+MAINT_ITEM:tangs,tangs,MAINT_ITEM,4,4
+MAINT_ITEM:tubes,tubes,MAINT_ITEM,4,4
+MAINT_ITEM:wrench,wrench,MAINT_ITEM,8,4
+OP_CTX:after engine start up,after engine start up,OP_CTX,4,4
+OP_CTX:after landing,after landing,OP_CTX,4,4
+OP_CTX:during climb out,during climb out,OP_CTX,4,4
+OP_CTX:during taxi,during taxi,OP_CTX,4,4
+OP_CTX:in fl,in fl,OP_CTX,4,4
+OUTCOME:no damage noted,no damage noted,OUTCOME,4,4
+REFERENCE:lycoming overhaul,lycoming overhaul,REFERENCE,4,4
+TECH_OBS:1 second,1 second,TECH_OBS,4,4
+TECH_OBS:2720,2720,TECH_OBS,4,4
+TECH_OBS:2720 rpm,2720 rpm,TECH_OBS,4,4
+TECH_OBS:3 times,3 times,TECH_OBS,4,4
+TECH_OBS:3400 rpm,3400 rpm,TECH_OBS,4,4
+TECH_OBS:350 rpm,350 rpm,TECH_OBS,4,4
+TECH_OBS:below 1150 rpm,below 1150 rpm,TECH_OBS,4,4
+TECH_OBS:compression 48 / 80,compression 48 / 80,TECH_OBS,4,4
+TECH_OBS:compression at 35,compression at 35,TECH_OBS,4,4
+TECH_OBS:compression at 45 / 80,compression at 45 / 80,TECH_OBS,4,4
+TECH_OBS:compression below 40 psi,compression below 40 psi,TECH_OBS,4,4
+TECH_OBS:compression test was 35 / 80,compression test was 35 / 80,TECH_OBS,4,4
+TECH_OBS:high rpm,high rpm,TECH_OBS,4,4
+TECH_OBS:idle override,idle override,TECH_OBS,4,4
+TECH_OBS:oil pressure read 100 - 105 psi,oil pressure read 100 - 105 psi,TECH_OBS,4,4
+TECH_OBS:operating temperature,operating temperature,TECH_OBS,4,4
+TECH_OBS:rpm ' s,rpm ' s,TECH_OBS,4,4
+TECH_OBS:running fine,running fine,TECH_OBS,4,4
+TECH_OBS:several places,several places,TECH_OBS,4,4
+TECH_OBS:several times,several times,TECH_OBS,4,4
+TECH_OBS:tension,tension,TECH_OBS,4,4
+ABN_PROC:backfiring,backfiring,ABN_PROC,3,3
+ABN_PROC:became incredibly rough,became incredibly rough,ABN_PROC,3,3
+ABN_PROC:became rough,became rough,ABN_PROC,3,3
+ABN_PROC:collecting,collecting,ABN_PROC,3,3
+ABN_PROC:coming out,coming out,ABN_PROC,3,3
+ABN_PROC:does not run,does not run,ABN_PROC,3,3
+ABN_PROC:fell off,fell off,ABN_PROC,3,3
+ABN_PROC:fluctuating,fluctuating,ABN_PROC,3,3
+ABN_PROC:lost,lost,ABN_PROC,3,3
+ABN_PROC:power reduc,power reduc,ABN_PROC,3,3
+ABN_PROC:ran consistently rough,ran consistently rough,ABN_PROC,3,3
+ABN_PROC:rough chopping noise,rough chopping noise,ABN_PROC,3,3
+ABN_PROC:run rough,run rough,ABN_PROC,3,3
+ABN_PROC:started normally,started normally,ABN_PROC,3,3
+ABN_PROC:would not increase,would not increase,ABN_PROC,3,3
+ABN_PROC:wouldn ' t go to full power,wouldn ' t go to full power,ABN_PROC,3,3
+ACTION:added,added,ACTION,3,3
+ACTION:attached,attached,ACTION,3,3
+ACTION:began installing,began installing,ACTION,3,3
+ACTION:canned,canned,ACTION,3,3
+ACTION:completed assembly,completed assembly,ACTION,3,3
+ACTION:completed removal,completed removal,ACTION,3,3
+ACTION:compressions,compressions,ACTION,4,3
+ACTION:drained,drained,ACTION,3,3
+ACTION:dressed,dressed,ACTION,3,3
+ACTION:firewall repair,firewall repair,ACTION,3,3
+ACTION:fitting,fitting,ACTION,3,3
+ACTION:galled,galled,ACTION,3,3
+ACTION:magneto checks,magneto checks,ACTION,3,3
+ACTION:mags check,mags check,ACTION,3,3
+ACTION:observed,observed,ACTION,3,3
+ACTION:ordered,ordered,ACTION,3,3
+ACTION:put,put,ACTION,3,3
+ACTION:rechecked,rechecked,ACTION,3,3
+ACTION:repositioning,repositioning,ACTION,3,3
+ACTION:restarted,restarted,ACTION,3,3
+ACTION:run up leak check,run up leak check,ACTION,3,3
+ACTION:separated,separated,ACTION,3,3
+ACTION:started installation,started installation,ACTION,3,3
+ACTION:swaged,swaged,ACTION,3,3
+ACTION:swapped,swapped,ACTION,4,3
+ACTION:tightening,tightening,ACTION,3,3
+FAULT:broken off,broken off,FAULT,3,3
+FAULT:fails,fails,FAULT,3,3
+FAULT:nicked,nicked,FAULT,3,3
+FAULT:not attached,not attached,FAULT,3,3
+FAULT:not connected,not connected,FAULT,3,3
+FAULT:scratch,scratch,FAULT,3,3
+FAULT:sheared off,sheared off,FAULT,3,3
+FAULT:zero,zero,FAULT,3,3
+"LOC:1 , 2 , 4","1 , 2 , 4",LOC,3,3
+LOC:1 and 2,1 and 2,LOC,3,3
+LOC:3 or 4,3 or 4,LOC,3,3
+LOC:alternate,alternate,LOC,3,3
+LOC:below,below,LOC,3,3
+LOC:forward inboard,forward inboard,LOC,3,3
+LOC:forward side,forward side,LOC,3,3
+LOC:left rear,left rear,LOC,4,3
+LOC:left-hand bottom,left-hand bottom,LOC,3,3
+LOC:lower aft,lower aft,LOC,4,3
+LOC:next,next,LOC,3,3
+"LOC:number 2 , 3 , and 4","number 2 , 3 , and 4",LOC,3,3
+MAINT_ITEM:adel clamps,adel clamps,MAINT_ITEM,6,3
+MAINT_ITEM:air filter box,air filter box,MAINT_ITEM,3,3
+MAINT_ITEM:anchor assembly,anchor assembly,MAINT_ITEM,5,3
+MAINT_ITEM:anchor standby assembly,anchor standby assembly,MAINT_ITEM,5,3
+MAINT_ITEM:assembly,assembly,MAINT_ITEM,3,3
+MAINT_ITEM:attaching hardware,attaching hardware,MAINT_ITEM,3,3
+MAINT_ITEM:b nuts,b nuts,MAINT_ITEM,4,3
+MAINT_ITEM:backbone bolt,backbone bolt,MAINT_ITEM,3,3
+MAINT_ITEM:baffl,baffl,MAINT_ITEM,3,3
+MAINT_ITEM:baffle access hole,baffle access hole,MAINT_ITEM,3,3
+MAINT_ITEM:baffle brace,baffle brace,MAINT_ITEM,3,3
+MAINT_ITEM:baffle button,baffle button,MAINT_ITEM,3,3
+MAINT_ITEM:baffle corner,baffle corner,MAINT_ITEM,3,3
+MAINT_ITEM:baffle cylinder,baffle cylinder,MAINT_ITEM,3,3
+MAINT_ITEM:baffle mount screw,baffle mount screw,MAINT_ITEM,3,3
+MAINT_ITEM:baffle plug doubler,baffle plug doubler,MAINT_ITEM,3,3
+MAINT_ITEM:baffle plug holes,baffle plug holes,MAINT_ITEM,3,3
+MAINT_ITEM:baffle spark plug,baffle spark plug,MAINT_ITEM,3,3
+MAINT_ITEM:barrel nut,barrel nut,MAINT_ITEM,4,3
+MAINT_ITEM:bolt hole,bolt hole,MAINT_ITEM,3,3
+MAINT_ITEM:bulkhead,bulkhead,MAINT_ITEM,3,3
+MAINT_ITEM:cables,cables,MAINT_ITEM,3,3
+MAINT_ITEM:cam lock,cam lock,MAINT_ITEM,3,3
+MAINT_ITEM:center,center,MAINT_ITEM,3,3
+MAINT_ITEM:cowl bracket,cowl bracket,MAINT_ITEM,3,3
+MAINT_ITEM:cowl shock mount,cowl shock mount,MAINT_ITEM,6,3
+MAINT_ITEM:cowls,cowls,MAINT_ITEM,4,3
+MAINT_ITEM:crew,crew,MAINT_ITEM,5,3
+MAINT_ITEM:cylinder engine,cylinder engine,MAINT_ITEM,4,3
+MAINT_ITEM:doubler plate,doubler plate,MAINT_ITEM,3,3
+MAINT_ITEM:drain tube,drain tube,MAINT_ITEM,3,3
+MAINT_ITEM:engine breather support,engine breather support,MAINT_ITEM,3,3
+MAINT_ITEM:engine case,engine case,MAINT_ITEM,3,3
+MAINT_ITEM:engine cover,engine cover,MAINT_ITEM,4,3
+MAINT_ITEM:engine inlet,engine inlet,MAINT_ITEM,3,3
+MAINT_ITEM:exhaust guides,exhaust guides,MAINT_ITEM,3,3
+MAINT_ITEM:exhaust push rod tube,exhaust push rod tube,MAINT_ITEM,3,3
+MAINT_ITEM:exhaust system,exhaust system,MAINT_ITEM,3,3
+MAINT_ITEM:exhaust valve 2,exhaust valve 2,MAINT_ITEM,3,3
+MAINT_ITEM:fasteners,fasteners,MAINT_ITEM,3,3
+MAINT_ITEM:fittings,fittings,MAINT_ITEM,3,3
+MAINT_ITEM:flight data,flight data,MAINT_ITEM,3,3
+MAINT_ITEM:flywheel,flywheel,MAINT_ITEM,3,3
+MAINT_ITEM:fuel injector line,fuel injector line,MAINT_ITEM,3,3
+MAINT_ITEM:fuel lines,fuel lines,MAINT_ITEM,3,3
+MAINT_ITEM:heat shroud air intake,heat shroud air intake,MAINT_ITEM,3,3
+MAINT_ITEM:helicopter,helicopter,MAINT_ITEM,3,3
+MAINT_ITEM:high temperature rtv,high temperature rtv,MAINT_ITEM,3,3
+MAINT_ITEM:housing,housing,MAINT_ITEM,3,3
+MAINT_ITEM:induction,induction,MAINT_ITEM,3,3
+MAINT_ITEM:inserts,inserts,MAINT_ITEM,3,3
+MAINT_ITEM:intake gasket tube,intake gasket tube,MAINT_ITEM,3,3
+MAINT_ITEM:intake pipe gasket,intake pipe gasket,MAINT_ITEM,3,3
+MAINT_ITEM:intake pipes,intake pipes,MAINT_ITEM,3,3
+MAINT_ITEM:intake screen,intake screen,MAINT_ITEM,4,3
+MAINT_ITEM:interior,interior,MAINT_ITEM,3,3
+MAINT_ITEM:lock nuts,lock nuts,MAINT_ITEM,3,3
+MAINT_ITEM:magnetos,magnetos,MAINT_ITEM,3,3
+MAINT_ITEM:manufacturer,manufacturer,MAINT_ITEM,3,3
+MAINT_ITEM:nacelle,nacelle,MAINT_ITEM,3,3
+MAINT_ITEM:new hardware,new hardware,MAINT_ITEM,3,3
+MAINT_ITEM:nutplate,nutplate,MAINT_ITEM,3,3
+MAINT_ITEM:o - ring,o - ring,MAINT_ITEM,3,3
+MAINT_ITEM:oil cooler bolt,oil cooler bolt,MAINT_ITEM,3,3
+MAINT_ITEM:oil cooler flange,oil cooler flange,MAINT_ITEM,3,3
+MAINT_ITEM:oil filter,oil filter,MAINT_ITEM,3,3
+MAINT_ITEM:part,part,MAINT_ITEM,4,3
+MAINT_ITEM:parts,parts,MAINT_ITEM,3,3
+MAINT_ITEM:pistons,pistons,MAINT_ITEM,3,3
+MAINT_ITEM:propeller cont,propeller cont,MAINT_ITEM,3,3
+MAINT_ITEM:propeller governor,propeller governor,MAINT_ITEM,3,3
+MAINT_ITEM:propeller tip,propeller tip,MAINT_ITEM,3,3
+MAINT_ITEM:push rod seal,push rod seal,MAINT_ITEM,3,3
+MAINT_ITEM:push rod tube seals,push rod tube seals,MAINT_ITEM,3,3
+MAINT_ITEM:rocker box gasket,rocker box gasket,MAINT_ITEM,3,3
+MAINT_ITEM:rocker shaft,rocker shaft,MAINT_ITEM,3,3
+MAINT_ITEM:rubber baffle,rubber baffle,MAINT_ITEM,4,3
+MAINT_ITEM:shaft,shaft,MAINT_ITEM,3,3
+MAINT_ITEM:sniffler valve,sniffler valve,MAINT_ITEM,3,3
+MAINT_ITEM:spark plug access hole,spark plug access hole,MAINT_ITEM,3,3
+MAINT_ITEM:support bracket,support bracket,MAINT_ITEM,3,3
+MAINT_ITEM:thrust buttons,thrust buttons,MAINT_ITEM,3,3
+MAINT_ITEM:tie rods,tie rods,MAINT_ITEM,3,3
+MAINT_ITEM:tie wire,tie wire,MAINT_ITEM,3,3
+MAINT_ITEM:upper baffle seal,upper baffle seal,MAINT_ITEM,3,3
+MAINT_ITEM:valve guide,valve guide,MAINT_ITEM,3,3
+MAINT_ITEM:valve train,valve train,MAINT_ITEM,3,3
+MAINT_ITEM:wire bundle,wire bundle,MAINT_ITEM,3,3
+OP_CTX:60 secs after start,60 secs after start,OP_CTX,3,3
+OP_CTX:a few high power man,a few high power man,OP_CTX,3,3
+OP_CTX:after engine start lean procedure,after engine start lean procedure,OP_CTX,3,3
+OP_CTX:after storage,after storage,OP_CTX,3,3
+OP_CTX:during shutdown checklist,during shutdown checklist,OP_CTX,3,3
+OP_CTX:during start up,during start up,OP_CTX,3,3
+OP_CTX:off - site maintenance,off - site maintenance,OP_CTX,3,3
+OP_CTX:on aircraft run up,on aircraft run up,OP_CTX,3,3
+OP_CTX:on application of fu,on application of fu,OP_CTX,3,3
+OP_CTX:on ground,on ground,OP_CTX,3,3
+OP_CTX:on long final,on long final,OP_CTX,3,3
+OP_CTX:on post run up,on post run up,OP_CTX,3,3
+OP_CTX:on takeoff,on takeoff,OP_CTX,3,3
+OP_CTX:start,start,OP_CTX,3,3
+OP_CTX:takeoff,takeoff,OP_CTX,3,3
+OP_CTX:unusual attitude,unusual attitude,OP_CTX,3,3
+OP_CTX:while in level flight,while in level flight,OP_CTX,3,3
+OUTCOME:goo,goo,OUTCOME,3,3
+OUTCOME:no affect,no affect,OUTCOME,3,3
+OUTCOME:no change,no change,OUTCOME,3,3
+OUTCOME:no damage,no damage,OUTCOME,3,3
+OUTCOME:no def,no def,OUTCOME,3,3
+OUTCOME:no defects found,no defects found,OUTCOME,3,3
+OUTCOME:no further action requir,no further action requir,OUTCOME,3,3
+OUTCOME:no further defects noted,no further defects noted,OUTCOME,3,3
+OUTCOME:no leaks,no leaks,OUTCOME,3,3
+OUTCOME:no leaks noted,no leaks noted,OUTCOME,3,3
+REFERENCE:lycom,lycom,REFERENCE,3,3
+REFERENCE:maintenance manual,maintenance manual,REFERENCE,3,3
+REFERENCE:standard reference material,standard reference material,REFERENCE,3,3
+TECH_OBS:031 inches,031 inches,TECH_OBS,3,3
+TECH_OBS:032 inches,032 inches,TECH_OBS,3,3
+TECH_OBS:033 inches,033 inches,TECH_OBS,3,3
+TECH_OBS:035 inches,035 inches,TECH_OBS,3,3
+TECH_OBS:1200 rp,1200 rp,TECH_OBS,3,3
+TECH_OBS:1560,1560,TECH_OBS,3,3
+TECH_OBS:1700 rpm,1700 rpm,TECH_OBS,3,3
+TECH_OBS:20 / 80,20 / 80,TECH_OBS,3,3
+TECH_OBS:200 - 300 rpm,200 - 300 rpm,TECH_OBS,3,3
+TECH_OBS:3 seconds,3 seconds,TECH_OBS,3,3
+TECH_OBS:30 seconds before los,30 seconds before los,TECH_OBS,3,3
+TECH_OBS:40 / 80,40 / 80,TECH_OBS,3,3
+TECH_OBS:75,75,TECH_OBS,3,3
+TECH_OBS:approximately 280,approximately 280,TECH_OBS,3,3
+TECH_OBS:battery,battery,TECH_OBS,3,3
+TECH_OBS:compression 18 / 80,compression 18 / 80,TECH_OBS,3,3
+TECH_OBS:compression 30 pounds,compression 30 pounds,TECH_OBS,3,3
+TECH_OBS:compression 5 / 80,compression 5 / 80,TECH_OBS,3,3
+TECH_OBS:compression 59 / 80,compression 59 / 80,TECH_OBS,3,3
+TECH_OBS:egt,egt,TECH_OBS,3,3
+TECH_OBS:exhaust clearance . 035 inches,exhaust clearance . 035 inches,TECH_OBS,3,3
+TECH_OBS:idle setting,idle setting,TECH_OBS,3,3
+TECH_OBS:lower temperat,lower temperat,TECH_OBS,3,3
+TECH_OBS:magneto drops,magneto drops,TECH_OBS,3,3
+TECH_OBS:multiple places,multiple places,TECH_OBS,3,3
+TECH_OBS:operating temps,operating temps,TECH_OBS,3,3
+TECH_OBS:rpm about 2850,rpm about 2850,TECH_OBS,3,3
+TECH_OBS:tappet clearance,tappet clearance,TECH_OBS,3,3
+ABN_PROC:air noted,air noted,ABN_PROC,2,2
+ABN_PROC:broke off,broke off,ABN_PROC,2,2
+ABN_PROC:coming from exhaust,coming from exhaust,ABN_PROC,2,2
+ABN_PROC:contacted,contacted,ABN_PROC,2,2
+ABN_PROC:coughed,coughed,ABN_PROC,2,2
+ABN_PROC:hitting,hitting,ABN_PROC,2,2
+ABN_PROC:hoisting loop,hoisting loop,ABN_PROC,2,2
+ABN_PROC:killed,killed,ABN_PROC,2,2
+ABN_PROC:leakin,leakin,ABN_PROC,2,2
+ABN_PROC:leaky,leaky,ABN_PROC,2,2
+ABN_PROC:loud tap,loud tap,ABN_PROC,2,2
+ABN_PROC:momentary power hesitation,momentary power hesitation,ABN_PROC,2,2
+ABN_PROC:running extremely rough,running extremely rough,ABN_PROC,2,2
+ABN_PROC:runs cold,runs cold,ABN_PROC,2,2
+ABN_PROC:seepage,seepage,ABN_PROC,2,2
+ABN_PROC:shakes violently,shakes violently,ABN_PROC,2,2
+ABN_PROC:shock violently,shock violently,ABN_PROC,2,2
+ABN_PROC:slight power loss,slight power loss,ABN_PROC,2,2
+ABN_PROC:sounded like,sounded like,ABN_PROC,2,2
+ABN_PROC:sputter,sputter,ABN_PROC,2,2
+ABN_PROC:sputtered,sputtered,ABN_PROC,2,2
+ABN_PROC:started running rough shortly,started running rough shortly,ABN_PROC,2,2
+ABN_PROC:unable to start,unable to start,ABN_PROC,2,2
+ABN_PROC:vibrated,vibrated,ABN_PROC,2,2
+ABN_PROC:weeping,weeping,ABN_PROC,2,2
+ABN_PROC:will not start,will not start,ABN_PROC,2,2
+ABN_PROC:would sputter,would sputter,ABN_PROC,2,2
+ACTION:adjustment,adjustment,ACTION,2,2
+ACTION:analyzed,analyzed,ACTION,2,2
+ACTION:assisted start,assisted start,ACTION,2,2
+ACTION:began disassembly,began disassembly,ACTION,2,2
+ACTION:began fabricating,began fabricating,ACTION,2,2
+ACTION:began performing,began performing,ACTION,2,2
+ACTION:began replacement,began replacement,ACTION,2,2
+ACTION:bore scoped,bore scoped,ACTION,2,2
+ACTION:capped,capped,ACTION,2,2
+ACTION:cleaned up,cleaned up,ACTION,2,2
+ACTION:cleaning,cleaning,ACTION,2,2
+ACTION:cleared,cleared,ACTION,2,2
+ACTION:continued wiring,continued wiring,ACTION,2,2
+ACTION:cowled,cowled,ACTION,2,2
+ACTION:dry tappet cl,dry tappet cl,ACTION,2,2
+ACTION:finished reaming,finished reaming,ACTION,2,2
+ACTION:fitting removed,fitting removed,ACTION,2,2
+ACTION:fixed,fixed,ACTION,2,2
+ACTION:further inspection,further inspection,ACTION,2,2
+ACTION:hand spun,hand spun,ACTION,2,2
+ACTION:idle mixture check,idle mixture check,ACTION,2,2
+ACTION:installe,installe,ACTION,2,2
+ACTION:installled,installled,ACTION,2,2
+ACTION:leaned,leaned,ACTION,2,2
+ACTION:leaned mixture,leaned mixture,ACTION,2,2
+ACTION:located,located,ACTION,2,2
+ACTION:lubed,lubed,ACTION,2,2
+ACTION:made,made,ACTION,2,2
+ACTION:mounted,mounted,ACTION,2,2
+ACTION:moved,moved,ACTION,2,2
+ACTION:oil change,oil change,ACTION,2,2
+ACTION:overspeed insp,overspeed insp,ACTION,2,2
+ACTION:patching,patching,ACTION,2,2
+ACTION:positioned too,positioned too,ACTION,2,2
+ACTION:pre - oiled,pre - oiled,ACTION,2,2
+ACTION:prepared,prepared,ACTION,2,2
+ACTION:read,read,ACTION,2,2
+ACTION:reassembly,reassembly,ACTION,2,2
+ACTION:received,received,ACTION,2,2
+ACTION:recrimped,recrimped,ACTION,2,2
+ACTION:refastened,refastened,ACTION,2,2
+ACTION:reglued,reglued,ACTION,3,2
+ACTION:reindexed,reindexed,ACTION,2,2
+ACTION:removing,removing,ACTION,2,2
+ACTION:repla,repla,ACTION,2,2
+ACTION:resafety,resafety,ACTION,2,2
+ACTION:resafety wired,resafety wired,ACTION,2,2
+ACTION:rescured,rescured,ACTION,2,2
+ACTION:retightened,retightened,ACTION,2,2
+ACTION:review,review,ACTION,2,2
+ACTION:rigged,rigged,ACTION,2,2
+ACTION:rotated,rotated,ACTION,2,2
+ACTION:sealed up,sealed up,ACTION,2,2
+ACTION:secure,secure,ACTION,2,2
+ACTION:sent,sent,ACTION,2,2
+ACTION:set,set,ACTION,2,2
+ACTION:started disassembly,started disassembly,ACTION,2,2
+ACTION:started to remove,started to remove,ACTION,2,2
+ACTION:straightened,straightened,ACTION,2,2
+ACTION:tapped,tapped,ACTION,2,2
+ACTION:test,test,ACTION,2,2
+ACTION:tightened down,tightened down,ACTION,2,2
+ACTION:transferred,transferred,ACTION,2,2
+ACTION:tried,tried,ACTION,2,2
+ACTION:tried staking,tried staking,ACTION,2,2
+ACTION:trimmed,trimmed,ACTION,2,2
+ACTION:unsecured,unsecured,ACTION,2,2
+ACTION:warmed up,warmed up,ACTION,2,2
+FAULT:blocked,blocked,FAULT,2,2
+FAULT:cold,cold,FAULT,2,2
+FAULT:enlarged,enlarged,FAULT,2,2
+FAULT:excessive fretting,excessive fretting,FAULT,2,2
+FAULT:faulty,faulty,FAULT,2,2
+FAULT:fouled,fouled,FAULT,2,2
+FAULT:kinked,kinked,FAULT,2,2
+FAULT:no egt,no egt,FAULT,2,2
+FAULT:no rise,no rise,FAULT,2,2
+FAULT:not hitting,not hitting,FAULT,2,2
+FAULT:not hooked up,not hooked up,FAULT,2,2
+FAULT:not removed,not removed,FAULT,2,2
+FAULT:not secured,not secured,FAULT,2,2
+FAULT:out of place,out of place,FAULT,2,2
+FAULT:red x,red x,FAULT,2,2
+FAULT:split,split,FAULT,2,2
+FAULT:too large,too large,FAULT,2,2
+FAULT:too short,too short,FAULT,2,2
+FAULT:unusual indication,unusual indication,FAULT,2,2
+FAULT:zero compression,zero compression,FAULT,2,2
+"LOC:1 , 2 , 3","1 , 2 , 3",LOC,2,2
+LOC:3,3,LOC,2,2
+LOC:aft inboard,aft inboard,LOC,2,2
+LOC:aft side,aft side,LOC,2,2
+LOC:attach point,attach point,LOC,2,2
+LOC:back side,back side,LOC,2,2
+LOC:base,base,LOC,2,2
+LOC:both side,both side,LOC,2,2
+LOC:bottom right-hand,bottom right-hand,LOC,2,2
+LOC:bottom right-hand side,bottom right-hand side,LOC,2,2
+LOC:inboard aft,inboard aft,LOC,2,2
+LOC:inside,inside,LOC,2,2
+LOC:left and right,left and right,LOC,2,2
+LOC:lower front,lower front,LOC,2,2
+LOC:lower portion,lower portion,LOC,2,2
+LOC:middle,middle,LOC,2,2
+LOC:number 1 and 3 bottom,number 1 and 3 bottom,LOC,2,2
+LOC:number 12,number 12,LOC,2,2
+LOC:number 2 - 4,number 2 - 4,LOC,2,2
+"LOC:number 3 , 2 , 4","number 3 , 2 , 4",LOC,2,2
+"LOC:number 3 , 2 and 4","number 3 , 2 and 4",LOC,2,2
+"LOC:number 3 , 4 and 1","number 3 , 4 and 1",LOC,2,2
+LOC:number 3 and 1,number 3 and 1,LOC,2,2
+LOC:number 3 and 4 side,number 3 and 4 side,LOC,2,2
+"LOC:number 4 , 3","number 4 , 3",LOC,2,2
+LOC:number 4 and 1,number 4 and 1,LOC,2,2
+LOC:on side,on side,LOC,2,2
+LOC:right front,right front,LOC,2,2
+LOC:right-hand bottom,right-hand bottom,LOC,2,2
+LOC:rigid,rigid,LOC,2,2
+LOC:side and aft,side and aft,LOC,2,2
+LOC:top left-hand,top left-hand,LOC,2,2
+MAINT_ITEM:2 part epoxy,2 part epoxy,MAINT_ITEM,2,2
+MAINT_ITEM:29 push rod,29 push rod,MAINT_ITEM,2,2
+MAINT_ITEM:access plug,access plug,MAINT_ITEM,2,2
+MAINT_ITEM:air door,air door,MAINT_ITEM,2,2
+MAINT_ITEM:air inlet,air inlet,MAINT_ITEM,2,2
+MAINT_ITEM:attach bolt,attach bolt,MAINT_ITEM,2,2
+MAINT_ITEM:attaching parts,attaching parts,MAINT_ITEM,2,2
+MAINT_ITEM:attachment point,attachment point,MAINT_ITEM,2,2
+MAINT_ITEM:backbone bolts,backbone bolts,MAINT_ITEM,3,2
+MAINT_ITEM:backbone case seam,backbone case seam,MAINT_ITEM,2,2
+MAINT_ITEM:baffle attach fitting,baffle attach fitting,MAINT_ITEM,2,2
+MAINT_ITEM:baffle attachment bracket,baffle attachment bracket,MAINT_ITEM,2,2
+MAINT_ITEM:baffle brackets,baffle brackets,MAINT_ITEM,2,2
+MAINT_ITEM:baffle center,baffle center,MAINT_ITEM,2,2
+MAINT_ITEM:baffle connection rod,baffle connection rod,MAINT_ITEM,2,2
+MAINT_ITEM:baffle fastener,baffle fastener,MAINT_ITEM,2,2
+MAINT_ITEM:baffle hole,baffle hole,MAINT_ITEM,2,2
+MAINT_ITEM:baffle hole plugs,baffle hole plugs,MAINT_ITEM,2,2
+MAINT_ITEM:baffle interconnect rod,baffle interconnect rod,MAINT_ITEM,3,2
+MAINT_ITEM:baffle piece,baffle piece,MAINT_ITEM,2,2
+MAINT_ITEM:baffle plug patch,baffle plug patch,MAINT_ITEM,3,2
+MAINT_ITEM:baffle plug patches,baffle plug patches,MAINT_ITEM,2,2
+MAINT_ITEM:baffle rubber seal,baffle rubber seal,MAINT_ITEM,3,2
+MAINT_ITEM:baffle seal rivets,baffle seal rivets,MAINT_ITEM,2,2
+MAINT_ITEM:baffle seal section,baffle seal section,MAINT_ITEM,2,2
+MAINT_ITEM:baffle seal staples,baffle seal staples,MAINT_ITEM,2,2
+MAINT_ITEM:baffling bracket,baffling bracket,MAINT_ITEM,2,2
+MAINT_ITEM:baffling connecting rod,baffling connecting rod,MAINT_ITEM,2,2
+MAINT_ITEM:baffling seal,baffling seal,MAINT_ITEM,2,2
+MAINT_ITEM:baffling support bracket,baffling support bracket,MAINT_ITEM,2,2
+MAINT_ITEM:base nuts,base nuts,MAINT_ITEM,2,2
+MAINT_ITEM:battery,battery,MAINT_ITEM,2,2
+MAINT_ITEM:battery mount,battery mount,MAINT_ITEM,2,2
+MAINT_ITEM:black silicone,black silicone,MAINT_ITEM,2,2
+MAINT_ITEM:blockage,blockage,MAINT_ITEM,2,2
+MAINT_ITEM:boot,boot,MAINT_ITEM,2,2
+MAINT_ITEM:both engines,both engines,MAINT_ITEM,2,2
+MAINT_ITEM:burner can drain,burner can drain,MAINT_ITEM,2,2
+MAINT_ITEM:button plug,button plug,MAINT_ITEM,3,2
+MAINT_ITEM:button plugs,button plugs,MAINT_ITEM,3,2
+MAINT_ITEM:c flange bolt,c flange bolt,MAINT_ITEM,2,2
+MAINT_ITEM:cable,cable,MAINT_ITEM,2,2
+MAINT_ITEM:cap,cap,MAINT_ITEM,3,2
+MAINT_ITEM:carb inlet gaskets,carb inlet gaskets,MAINT_ITEM,2,2
+MAINT_ITEM:card data,card data,MAINT_ITEM,2,2
+MAINT_ITEM:case bolt,case bolt,MAINT_ITEM,2,2
+MAINT_ITEM:case half seam,case half seam,MAINT_ITEM,2,2
+MAINT_ITEM:case plug,case plug,MAINT_ITEM,2,2
+MAINT_ITEM:center case bolt,center case bolt,MAINT_ITEM,2,2
+MAINT_ITEM:chafe wrap,chafe wrap,MAINT_ITEM,2,2
+MAINT_ITEM:compressor wash,compressor wash,MAINT_ITEM,2,2
+MAINT_ITEM:connecting rods,connecting rods,MAINT_ITEM,2,2
+MAINT_ITEM:core engine,core engine,MAINT_ITEM,2,2
+MAINT_ITEM:cork gasket,cork gasket,MAINT_ITEM,2,2
+MAINT_ITEM:corner,corner,MAINT_ITEM,2,2
+MAINT_ITEM:corner bracket,corner bracket,MAINT_ITEM,2,2
+MAINT_ITEM:cover gasket,cover gasket,MAINT_ITEM,2,2
+MAINT_ITEM:cowl cam lock,cowl cam lock,MAINT_ITEM,2,2
+MAINT_ITEM:cowli,cowli,MAINT_ITEM,2,2
+MAINT_ITEM:crank,crank,MAINT_ITEM,2,2
+MAINT_ITEM:crankcase lifting eyebolt,crankcase lifting eyebolt,MAINT_ITEM,2,2
+MAINT_ITEM:crankshaft plug,crankshaft plug,MAINT_ITEM,2,2
+MAINT_ITEM:cylinder bracket,cylinder bracket,MAINT_ITEM,2,2
+MAINT_ITEM:cylinder fins,cylinder fins,MAINT_ITEM,2,2
+MAINT_ITEM:cylinder valve,cylinder valve,MAINT_ITEM,2,2
+MAINT_ITEM:data card,data card,MAINT_ITEM,2,2
+MAINT_ITEM:dipstick tub,dipstick tub,MAINT_ITEM,2,2
+MAINT_ITEM:drain lines,drain lines,MAINT_ITEM,2,2
+MAINT_ITEM:electrical harness,electrical harness,MAINT_ITEM,2,2
+MAINT_ITEM:engine mounts,engine mounts,MAINT_ITEM,2,2
+MAINT_ITEM:engine section,engine section,MAINT_ITEM,2,2
+MAINT_ITEM:engines would vibrate viol,engines would vibrate viol,MAINT_ITEM,2,2
+MAINT_ITEM:engs,engs,MAINT_ITEM,2,2
+MAINT_ITEM:exhaust push rod tips,exhaust push rod tips,MAINT_ITEM,2,2
+MAINT_ITEM:exhaust shroud,exhaust shroud,MAINT_ITEM,2,2
+MAINT_ITEM:exhaust tube,exhaust tube,MAINT_ITEM,2,2
+MAINT_ITEM:ferrous chip,ferrous chip,MAINT_ITEM,2,2
+MAINT_ITEM:fire seal,fire seal,MAINT_ITEM,2,2
+MAINT_ITEM:flange bolt,flange bolt,MAINT_ITEM,2,2
+MAINT_ITEM:flitter tube,flitter tube,MAINT_ITEM,2,2
+MAINT_ITEM:frame,frame,MAINT_ITEM,2,2
+MAINT_ITEM:fuel and oil lines,fuel and oil lines,MAINT_ITEM,2,2
+MAINT_ITEM:fuel injector nozzles,fuel injector nozzles,MAINT_ITEM,2,2
+MAINT_ITEM:fuel line,fuel line,MAINT_ITEM,2,2
+MAINT_ITEM:fuel line support bracket,fuel line support bracket,MAINT_ITEM,3,2
+MAINT_ITEM:fuel pump cam,fuel pump cam,MAINT_ITEM,2,2
+MAINT_ITEM:fuel servo,fuel servo,MAINT_ITEM,2,2
+MAINT_ITEM:fuselage,fuselage,MAINT_ITEM,2,2
+MAINT_ITEM:grass,grass,MAINT_ITEM,4,2
+MAINT_ITEM:grounding bolt,grounding bolt,MAINT_ITEM,2,2
+MAINT_ITEM:grounding strap,grounding strap,MAINT_ITEM,2,2
+MAINT_ITEM:grounding strap bolt,grounding strap bolt,MAINT_ITEM,2,2
+MAINT_ITEM:guide,guide,MAINT_ITEM,2,2
+MAINT_ITEM:high temperature sealant,high temperature sealant,MAINT_ITEM,2,2
+MAINT_ITEM:hoisting loop,hoisting loop,MAINT_ITEM,2,2
+MAINT_ITEM:hold downs,hold downs,MAINT_ITEM,2,2
+MAINT_ITEM:hose,hose,MAINT_ITEM,2,2
+MAINT_ITEM:idler gear,idler gear,MAINT_ITEM,2,2
+MAINT_ITEM:impeller,impeller,MAINT_ITEM,4,2
+MAINT_ITEM:in,in,MAINT_ITEM,2,2
+MAINT_ITEM:injector line,injector line,MAINT_ITEM,2,2
+MAINT_ITEM:injector nozzles,injector nozzles,MAINT_ITEM,2,2
+MAINT_ITEM:intake bolt,intake bolt,MAINT_ITEM,2,2
+MAINT_ITEM:intake boot,intake boot,MAINT_ITEM,2,2
+MAINT_ITEM:intake elbow,intake elbow,MAINT_ITEM,2,2
+MAINT_ITEM:intake filter,intake filter,MAINT_ITEM,2,2
+MAINT_ITEM:intake port,intake port,MAINT_ITEM,2,2
+MAINT_ITEM:intake push rod tube inner seal,intake push rod tube inner seal,MAINT_ITEM,2,2
+MAINT_ITEM:intercyl baffling,intercyl baffling,MAINT_ITEM,2,2
+MAINT_ITEM:lifting eye,lifting eye,MAINT_ITEM,2,2
+MAINT_ITEM:lifting eye bolt,lifting eye bolt,MAINT_ITEM,2,2
+MAINT_ITEM:like hardware,like hardware,MAINT_ITEM,2,2
+MAINT_ITEM:like mat,like mat,MAINT_ITEM,2,2
+MAINT_ITEM:like mater,like mater,MAINT_ITEM,2,2
+MAINT_ITEM:like materials,like materials,MAINT_ITEM,2,2
+MAINT_ITEM:lueco assembly,lueco assembly,MAINT_ITEM,2,2
+MAINT_ITEM:manifold psi line,manifold psi line,MAINT_ITEM,3,2
+MAINT_ITEM:mating surfaces,mating surfaces,MAINT_ITEM,2,2
+MAINT_ITEM:mixture arm,mixture arm,MAINT_ITEM,2,2
+MAINT_ITEM:mixture control,mixture control,MAINT_ITEM,2,2
+MAINT_ITEM:mounts,mounts,MAINT_ITEM,2,2
+MAINT_ITEM:nacelle wiring,nacelle wiring,MAINT_ITEM,2,2
+MAINT_ITEM:necessary parts,necessary parts,MAINT_ITEM,2,2
+MAINT_ITEM:o - rings,o - rings,MAINT_ITEM,3,2
+MAINT_ITEM:odegaard wings,odegaard wings,MAINT_ITEM,2,2
+MAINT_ITEM:oil breather,oil breather,MAINT_ITEM,2,2
+MAINT_ITEM:oil cooler oil line,oil cooler oil line,MAINT_ITEM,2,2
+MAINT_ITEM:oil drain tube,oil drain tube,MAINT_ITEM,2,2
+MAINT_ITEM:oil filte,oil filte,MAINT_ITEM,2,2
+MAINT_ITEM:oil plug,oil plug,MAINT_ITEM,2,2
+MAINT_ITEM:oil psi line,oil psi line,MAINT_ITEM,2,2
+MAINT_ITEM:oil return tube,oil return tube,MAINT_ITEM,2,2
+MAINT_ITEM:oil sump connection area,oil sump connection area,MAINT_ITEM,2,2
+MAINT_ITEM:outer nut,outer nut,MAINT_ITEM,2,2
+MAINT_ITEM:p 3 filter,p 3 filter,MAINT_ITEM,2,2
+MAINT_ITEM:particle seperator,particle seperator,MAINT_ITEM,4,2
+MAINT_ITEM:pc flitter tube,pc flitter tube,MAINT_ITEM,2,2
+MAINT_ITEM:piece,piece,MAINT_ITEM,2,2
+MAINT_ITEM:piston assembly,piston assembly,MAINT_ITEM,2,2
+MAINT_ITEM:pressure hose,pressure hose,MAINT_ITEM,2,2
+MAINT_ITEM:primer,primer,MAINT_ITEM,2,2
+MAINT_ITEM:primer line clamp,primer line clamp,MAINT_ITEM,2,2
+MAINT_ITEM:primer line sleeve,primer line sleeve,MAINT_ITEM,3,2
+MAINT_ITEM:prongs,prongs,MAINT_ITEM,2,2
+MAINT_ITEM:propeller governor cable,propeller governor cable,MAINT_ITEM,2,2
+MAINT_ITEM:propeller shaft seal,propeller shaft seal,MAINT_ITEM,2,2
+MAINT_ITEM:propeller strike,propeller strike,MAINT_ITEM,2,2
+MAINT_ITEM:push rod exhaust housing gasket,push rod exhaust housing gasket,MAINT_ITEM,2,2
+MAINT_ITEM:push rod exhaust tube,push rod exhaust tube,MAINT_ITEM,2,2
+MAINT_ITEM:quick drain,quick drain,MAINT_ITEM,4,2
+MAINT_ITEM:retainer,retainer,MAINT_ITEM,2,2
+MAINT_ITEM:return lines,return lines,MAINT_ITEM,2,2
+MAINT_ITEM:rivnut,rivnut,MAINT_ITEM,4,2
+MAINT_ITEM:rocke,rocke,MAINT_ITEM,2,2
+MAINT_ITEM:rocker arms,rocker arms,MAINT_ITEM,4,2
+MAINT_ITEM:rocker box cover screw,rocker box cover screw,MAINT_ITEM,2,2
+MAINT_ITEM:rocker cov,rocker cov,MAINT_ITEM,2,2
+MAINT_ITEM:rocker cover gask,rocker cover gask,MAINT_ITEM,2,2
+MAINT_ITEM:rocker cover seal,rocker cover seal,MAINT_ITEM,2,2
+MAINT_ITEM:rocker covers gaskets,rocker covers gaskets,MAINT_ITEM,2,2
+MAINT_ITEM:rocker oil return line,rocker oil return line,MAINT_ITEM,2,2
+MAINT_ITEM:rocker oil return lines,rocker oil return lines,MAINT_ITEM,2,2
+MAINT_ITEM:rtv silicone,rtv silicone,MAINT_ITEM,2,2
+MAINT_ITEM:rubber baffle seal,rubber baffle seal,MAINT_ITEM,3,2
+MAINT_ITEM:scat tubing,scat tubing,MAINT_ITEM,2,2
+MAINT_ITEM:screw plate,screw plate,MAINT_ITEM,2,2
+MAINT_ITEM:seal shows signs,seal shows signs,MAINT_ITEM,2,2
+MAINT_ITEM:servo,servo,MAINT_ITEM,2,2
+MAINT_ITEM:silicone sealant,silicone sealant,MAINT_ITEM,2,2
+MAINT_ITEM:spark,spark,MAINT_ITEM,2,2
+MAINT_ITEM:spark plug hole,spark plug hole,MAINT_ITEM,2,2
+MAINT_ITEM:spine,spine,MAINT_ITEM,2,2
+MAINT_ITEM:spinner,spinner,MAINT_ITEM,2,2
+MAINT_ITEM:standoffs,standoffs,MAINT_ITEM,2,2
+MAINT_ITEM:staple,staple,MAINT_ITEM,2,2
+MAINT_ITEM:staples,staples,MAINT_ITEM,2,2
+MAINT_ITEM:suction screen,suction screen,MAINT_ITEM,2,2
+MAINT_ITEM:support baffle,support baffle,MAINT_ITEM,2,2
+MAINT_ITEM:thread,thread,MAINT_ITEM,2,2
+MAINT_ITEM:throttle linkage,throttle linkage,MAINT_ITEM,2,2
+MAINT_ITEM:thrust button,thrust button,MAINT_ITEM,2,2
+MAINT_ITEM:tie wrap,tie wrap,MAINT_ITEM,3,2
+MAINT_ITEM:upper motor moun,upper motor moun,MAINT_ITEM,2,2
+MAINT_ITEM:valve cover,valve cover,MAINT_ITEM,2,2
+MAINT_ITEM:valve cover gasket,valve cover gasket,MAINT_ITEM,3,2
+MAINT_ITEM:valve seats,valve seats,MAINT_ITEM,2,2
+MAINT_ITEM:ver,ver,MAINT_ITEM,2,2
+MAINT_ITEM:wire,wire,MAINT_ITEM,2,2
+MAINT_ITEM:wire standoff,wire standoff,MAINT_ITEM,2,2
+OP_CTX:after completing steep spirals at power idle,after completing steep spirals at power idle,OP_CTX,2,2
+OP_CTX:after start - does not run at idle,after start - does not run at idle,OP_CTX,2,2
+OP_CTX:anytime rpms were b,anytime rpms were b,OP_CTX,2,2
+OP_CTX:at full throttle,at full throttle,OP_CTX,2,2
+OP_CTX:during climb,during climb,OP_CTX,2,2
+OP_CTX:during flare phase of landing,during flare phase of landing,OP_CTX,2,2
+OP_CTX:during ground run,during ground run,OP_CTX,2,2
+OP_CTX:during idle check,during idle check,OP_CTX,2,2
+OP_CTX:during landing,during landing,OP_CTX,2,2
+OP_CTX:during late takeoff roll and pattern,during late takeoff roll and pattern,OP_CTX,2,2
+OP_CTX:during power on stall,during power on stall,OP_CTX,2,2
+OP_CTX:during preflight,during preflight,OP_CTX,2,2
+OP_CTX:during shutdown,during shutdown,OP_CTX,2,2
+OP_CTX:during takeoff at ckn,during takeoff at ckn,OP_CTX,2,2
+OP_CTX:full mixture,full mixture,OP_CTX,2,2
+OP_CTX:full power smoothly,full power smoothly,OP_CTX,2,2
+OP_CTX:full throttle,full throttle,OP_CTX,2,2
+OP_CTX:immediately after engine start,immediately after engine start,OP_CTX,2,2
+OP_CTX:in cruise fligh,in cruise fligh,OP_CTX,2,2
+OP_CTX:in hangar,in hangar,OP_CTX,2,2
+OP_CTX:in hover,in hover,OP_CTX,2,2
+OP_CTX:in middle,in middle,OP_CTX,2,2
+OP_CTX:on approach,on approach,OP_CTX,2,2
+OP_CTX:on climb out,on climb out,OP_CTX,2,2
+OP_CTX:on climbout,on climbout,OP_CTX,2,2
+OP_CTX:on compression test,on compression test,OP_CTX,2,2
+OP_CTX:on downwind,on downwind,OP_CTX,2,2
+OP_CTX:on right engine start,on right engine start,OP_CTX,2,2
+OP_CTX:run up,run up,OP_CTX,2,2
+OP_CTX:student couldn ' t start,student couldn ' t start,OP_CTX,2,2
+OP_CTX:throttle idle,throttle idle,OP_CTX,2,2
+OP_CTX:throughout flight,throughout flight,OP_CTX,2,2
+OP_CTX:upon run up,upon run up,OP_CTX,2,2
+OP_CTX:while in a hover,while in a hover,OP_CTX,2,2
+OUTCOME:correct position,correct position,OUTCOME,2,2
+OUTCOME:could not duplicate problem,could not duplicate problem,OUTCOME,2,2
+OUTCOME:failed,failed,OUTCOME,2,2
+OUTCOME:go,go,OUTCOME,2,2
+OUTCOME:negligible,negligible,OUTCOME,2,2
+OUTCOME:no,no,OUTCOME,2,2
+OUTCOME:no damaged noted,no damaged noted,OUTCOME,2,2
+OUTCOME:no defect,no defect,OUTCOME,2,2
+OUTCOME:no further,no further,OUTCOME,2,2
+OUTCOME:no roughness,no roughness,OUTCOME,2,2
+OUTCOME:normal,normal,OUTCOME,3,2
+OUTCOME:ran smooth,ran smooth,OUTCOME,2,2
+OUTCOME:runs smooth,runs smooth,OUTCOME,2,2
+OUTCOME:unable to duplicate,unable to duplicate,OUTCOME,2,2
+REFERENCE:flooded start procedure,flooded start procedure,REFERENCE,2,2
+REFERENCE:fouled plug procedure,fouled plug procedure,REFERENCE,2,2
+REFERENCE:hmi,hmi,REFERENCE,2,2
+REFERENCE:lycoming operations manual,lycoming operations manual,REFERENCE,2,2
+REFERENCE:lycoming overh,lycoming overh,REFERENCE,2,2
+TECH_OBS:1 / 8 inches long,1 / 8 inches long,TECH_OBS,2,2
+TECH_OBS:2 nd time,2 nd time,TECH_OBS,2,2
+TECH_OBS:25 pounds,25 pounds,TECH_OBS,2,2
+TECH_OBS:250,250,TECH_OBS,2,2
+TECH_OBS:250 rpm,250 rpm,TECH_OBS,2,2
+TECH_OBS:2700,2700,TECH_OBS,2,2
+TECH_OBS:2700 rpm,2700 rpm,TECH_OBS,2,2
+TECH_OBS:2730 rpm,2730 rpm,TECH_OBS,2,2
+TECH_OBS:2770 rpm,2770 rpm,TECH_OBS,3,2
+TECH_OBS:400 rpm,400 rpm,TECH_OBS,2,2
+TECH_OBS:55,55,TECH_OBS,2,2
+TECH_OBS:5500 feet,5500 feet,TECH_OBS,2,2
+TECH_OBS:7 - 10 secs,7 - 10 secs,TECH_OBS,2,2
+TECH_OBS:78,78,TECH_OBS,5,2
+TECH_OBS:78 / 80,78 / 80,TECH_OBS,2,2
+TECH_OBS:79,79,TECH_OBS,4,2
+TECH_OBS:a few seconds,a few seconds,TECH_OBS,2,2
+TECH_OBS:about 2 minutes,about 2 minutes,TECH_OBS,2,2
+TECH_OBS:approximately 3 seconds,approximately 3 seconds,TECH_OBS,2,2
+TECH_OBS:cht,cht,TECH_OBS,2,2
+TECH_OBS:cht and egt,cht and egt,TECH_OBS,2,2
+TECH_OBS:compres,compres,TECH_OBS,2,2
+TECH_OBS:compression 16 / 80,compression 16 / 80,TECH_OBS,2,2
+TECH_OBS:compression 20 / 80 psi,compression 20 / 80 psi,TECH_OBS,2,2
+TECH_OBS:compression 55 pounds,compression 55 pounds,TECH_OBS,2,2
+TECH_OBS:compression 58 / 80,compression 58 / 80,TECH_OBS,2,2
+TECH_OBS:compressions,compressions,TECH_OBS,2,2
+TECH_OBS:drop,drop,TECH_OBS,2,2
+TECH_OBS:dry tappet clearance,dry tappet clearance,TECH_OBS,2,2
+TECH_OBS:exhaust clearance . 034 inches,exhaust clearance . 034 inches,TECH_OBS,2,2
+TECH_OBS:full rich,full rich,TECH_OBS,2,2
+TECH_OBS:idle rpm was at 720,idle rpm was at 720,TECH_OBS,2,2
+TECH_OBS:idle speeds,idle speeds,TECH_OBS,2,2
+TECH_OBS:oat plus 7,oat plus 7,TECH_OBS,2,2
+TECH_OBS:ran smoother,ran smoother,TECH_OBS,2,2
+TECH_OBS:started and idled normally,started and idled normally,TECH_OBS,2,2
+TECH_OBS:temps,temps,TECH_OBS,2,2
+ABN_PROC:abnormal vib,abnormal vib,ABN_PROC,1,1
+ABN_PROC:accidentally oversped,accidentally oversped,ABN_PROC,1,1
+ABN_PROC:air noted and observed out of exhaust,air noted and observed out of exhaust,ABN_PROC,1,1
+ABN_PROC:almost quit,almost quit,ABN_PROC,1,1
+ABN_PROC:audible rpm drop,audible rpm drop,ABN_PROC,1,1
+ABN_PROC:audible rpm loss,audible rpm loss,ABN_PROC,1,1
+ABN_PROC:backed off,backed off,ABN_PROC,1,1
+ABN_PROC:barely capable,barely capable,ABN_PROC,1,1
+ABN_PROC:began to leak,began to leak,ABN_PROC,1,1
+ABN_PROC:began to leak large,began to leak large,ABN_PROC,1,1
+ABN_PROC:blown out,blown out,ABN_PROC,1,1
+ABN_PROC:bounces,bounces,ABN_PROC,1,1
+ABN_PROC:break - in,break - in,ABN_PROC,1,1
+ABN_PROC:briefly lose,briefly lose,ABN_PROC,1,1
+ABN_PROC:but ran very rough,but ran very rough,ABN_PROC,1,1
+ABN_PROC:came apart,came apart,ABN_PROC,1,1
+ABN_PROC:chafing damage,chafing damage,ABN_PROC,1,1
+ABN_PROC:chafing through,chafing through,ABN_PROC,1,1
+ABN_PROC:choke,choke,ABN_PROC,1,1
+ABN_PROC:choked,choked,ABN_PROC,1,1
+ABN_PROC:click,click,ABN_PROC,1,1
+ABN_PROC:clicking noise,clicking noise,ABN_PROC,1,1
+ABN_PROC:co level high warning came on,co level high warning came on,ABN_PROC,1,1
+ABN_PROC:co warning came o,co warning came o,ABN_PROC,1,1
+ABN_PROC:come out,come out,ABN_PROC,1,1
+ABN_PROC:coming off,coming off,ABN_PROC,1,1
+ABN_PROC:contact,contact,ABN_PROC,1,1
+ABN_PROC:could not restart,could not restart,ABN_PROC,1,1
+ABN_PROC:cut off,cut off,ABN_PROC,1,1
+ABN_PROC:decreased to zero,decreased to zero,ABN_PROC,1,1
+ABN_PROC:did not start,did not start,ABN_PROC,1,1
+ABN_PROC:die,die,ABN_PROC,1,1
+ABN_PROC:does not align,does not align,ABN_PROC,1,1
+ABN_PROC:drop in rpm,drop in rpm,ABN_PROC,1,1
+ABN_PROC:drops to zero,drops to zero,ABN_PROC,1,1
+ABN_PROC:eating into,eating into,ABN_PROC,1,1
+ABN_PROC:excessive rpm rise,excessive rpm rise,ABN_PROC,1,1
+ABN_PROC:failure,failure,ABN_PROC,1,1
+ABN_PROC:falling apart,falling apart,ABN_PROC,1,1
+ABN_PROC:fire,fire,ABN_PROC,1,1
+ABN_PROC:flame came out,flame came out,ABN_PROC,1,1
+ABN_PROC:flames,flames,ABN_PROC,1,1
+ABN_PROC:flames comi,flames comi,ABN_PROC,1,1
+ABN_PROC:gains and drops,gains and drops,ABN_PROC,1,1
+ABN_PROC:grinding noise,grinding noise,ABN_PROC,1,1
+ABN_PROC:hard landing,hard landing,ABN_PROC,1,1
+ABN_PROC:hesitation,hesitation,ABN_PROC,1,1
+ABN_PROC:high pitched squealing noise,high pitched squealing noise,ABN_PROC,1,1
+ABN_PROC:high pitched whine / squeal / wh,high pitched whine / squeal / wh,ABN_PROC,1,1
+ABN_PROC:idles extremely rough,idles extremely rough,ABN_PROC,1,1
+ABN_PROC:idling too low,idling too low,ABN_PROC,1,1
+ABN_PROC:increases in volume,increases in volume,ABN_PROC,1,1
+ABN_PROC:jumps into red,jumps into red,ABN_PROC,1,1
+ABN_PROC:kept hesitating,kept hesitating,ABN_PROC,1,1
+ABN_PROC:knocking,knocking,ABN_PROC,1,1
+ABN_PROC:knocking noise,knocking noise,ABN_PROC,1,1
+ABN_PROC:large pool of oil,large pool of oil,ABN_PROC,1,1
+ABN_PROC:leakage,leakage,ABN_PROC,1,1
+ABN_PROC:leaki,leaki,ABN_PROC,1,1
+ABN_PROC:leaking past,leaking past,ABN_PROC,1,1
+ABN_PROC:little rough,little rough,ABN_PROC,1,1
+ABN_PROC:loud bang,loud bang,ABN_PROC,1,1
+ABN_PROC:loud knock,loud knock,ABN_PROC,1,1
+ABN_PROC:loud sound,loud sound,ABN_PROC,1,1
+ABN_PROC:low power,low power,ABN_PROC,1,1
+ABN_PROC:m / r leak,m / r leak,ABN_PROC,1,1
+ABN_PROC:major shaking,major shaking,ABN_PROC,1,1
+ABN_PROC:momentary loss of power,momentary loss of power,ABN_PROC,1,1
+ABN_PROC:momentary overspeed,momentary overspeed,ABN_PROC,1,1
+ABN_PROC:momentary rpm drop aroun,momentary rpm drop aroun,ABN_PROC,1,1
+ABN_PROC:moves erratically,moves erratically,ABN_PROC,1,1
+ABN_PROC:not producing fu,not producing fu,ABN_PROC,1,1
+ABN_PROC:oil found,oil found,ABN_PROC,1,1
+ABN_PROC:oil leakage,oil leakage,ABN_PROC,1,1
+ABN_PROC:on fire,on fire,ABN_PROC,1,1
+ABN_PROC:over reved,over reved,ABN_PROC,1,1
+ABN_PROC:overspe,overspe,ABN_PROC,1,1
+ABN_PROC:overspeed 2750,overspeed 2750,ABN_PROC,1,1
+ABN_PROC:overspeed generally,overspeed generally,ABN_PROC,1,1
+ABN_PROC:ovespeed,ovespeed,ABN_PROC,1,1
+ABN_PROC:pooling,pooling,ABN_PROC,1,1
+ABN_PROC:pulling through,pulling through,ABN_PROC,1,1
+ABN_PROC:ran normally,ran normally,ABN_PROC,1,1
+ABN_PROC:reduction in power,reduction in power,ABN_PROC,1,1
+ABN_PROC:rough operation,rough operation,ABN_PROC,1,1
+ABN_PROC:rough vibra,rough vibra,ABN_PROC,1,1
+ABN_PROC:roughne,roughne,ABN_PROC,1,1
+ABN_PROC:rpm drop,rpm drop,ABN_PROC,1,1
+ABN_PROC:rpm dropped normally,rpm dropped normally,ABN_PROC,1,1
+ABN_PROC:rubbing diagonal,rubbing diagonal,ABN_PROC,1,1
+ABN_PROC:rubbing together,rubbing together,ABN_PROC,1,1
+ABN_PROC:run rough anytim,run rough anytim,ABN_PROC,1,1
+ABN_PROC:run rough momentarily,run rough momentarily,ABN_PROC,1,1
+ABN_PROC:running extremely roug,running extremely roug,ABN_PROC,1,1
+ABN_PROC:running very clean,running very clean,ABN_PROC,1,1
+ABN_PROC:runs,runs,ABN_PROC,1,1
+ABN_PROC:runs very rough,runs very rough,ABN_PROC,1,1
+ABN_PROC:shutdown when,shutdown when,ABN_PROC,1,1
+ABN_PROC:shuttered,shuttered,ABN_PROC,1,1
+ABN_PROC:significant vibratio,significant vibratio,ABN_PROC,1,1
+ABN_PROC:sitting,sitting,ABN_PROC,1,1
+ABN_PROC:slight drop in rpm,slight drop in rpm,ABN_PROC,1,1
+ABN_PROC:slight fluctuations,slight fluctuations,ABN_PROC,1,1
+ABN_PROC:sloppy,sloppy,ABN_PROC,1,1
+ABN_PROC:smoking,smoking,ABN_PROC,1,1
+ABN_PROC:smoothed out,smoothed out,ABN_PROC,1,1
+ABN_PROC:some noise,some noise,ABN_PROC,1,1
+ABN_PROC:spalling,spalling,ABN_PROC,1,1
+ABN_PROC:sprayed,sprayed,ABN_PROC,1,1
+ABN_PROC:sput,sput,ABN_PROC,1,1
+ABN_PROC:sputtering noise,sputtering noise,ABN_PROC,1,1
+ABN_PROC:squeezed out,squeezed out,ABN_PROC,1,1
+ABN_PROC:started but ran very rough,started but ran very rough,ABN_PROC,1,1
+ABN_PROC:started making abnormal sound,started making abnormal sound,ABN_PROC,1,1
+ABN_PROC:started to ru,started to ru,ABN_PROC,1,1
+ABN_PROC:started to smell heavy fumes,started to smell heavy fumes,ABN_PROC,1,1
+ABN_PROC:still showing discharge,still showing discharge,ABN_PROC,1,1
+ABN_PROC:strange howling noise,strange howling noise,ABN_PROC,1,1
+ABN_PROC:surging,surging,ABN_PROC,1,1
+ABN_PROC:tapping,tapping,ABN_PROC,1,1
+ABN_PROC:tearing off,tearing off,ABN_PROC,1,1
+ABN_PROC:ticking,ticking,ABN_PROC,1,1
+ABN_PROC:ticking / chirping noise,ticking / chirping noise,ABN_PROC,1,1
+ABN_PROC:too long,too long,ABN_PROC,1,1
+ABN_PROC:too tight,too tight,ABN_PROC,1,1
+ABN_PROC:uncommanded increase,uncommanded increase,ABN_PROC,1,1
+ABN_PROC:unsupported,unsupported,ABN_PROC,1,1
+ABN_PROC:vibration noise,vibration noise,ABN_PROC,1,1
+ABN_PROC:wants to die,wants to die,ABN_PROC,1,1
+ABN_PROC:wearing into,wearing into,ABN_PROC,1,1
+ABN_PROC:weeping fuel,weeping fuel,ABN_PROC,1,1
+ABN_PROC:went to red,went to red,ABN_PROC,1,1
+ABN_PROC:whistling noise,whistling noise,ABN_PROC,1,1
+ABN_PROC:will not loosen,will not loosen,ABN_PROC,1,1
+ABN_PROC:will not make enough,will not make enough,ABN_PROC,1,1
+ABN_PROC:will not make power,will not make power,ABN_PROC,1,1
+ABN_PROC:will not start hot,will not start hot,ABN_PROC,1,1
+ABN_PROC:won ' t go any higher,won ' t go any higher,ABN_PROC,1,1
+ABN_PROC:won ' t tighten,won ' t tighten,ABN_PROC,1,1
+ABN_PROC:would fluctuate,would fluctuate,ABN_PROC,1,1
+ABN_PROC:would increase significantly,would increase significantly,ABN_PROC,1,1
+ABN_PROC:would intermittently lose,would intermittently lose,ABN_PROC,1,1
+ABN_PROC:would not latch,would not latch,ABN_PROC,1,1
+ABN_PROC:would not stabilize,would not stabilize,ABN_PROC,1,1
+ABN_PROC:would not stay open,would not stay open,ABN_PROC,1,1
+ABN_PROC:would quit,would quit,ABN_PROC,1,1
+ABN_PROC:would rise,would rise,ABN_PROC,1,1
+ABN_PROC:would shutdown,would shutdown,ABN_PROC,1,1
+ABN_PROC:would start to quit,would start to quit,ABN_PROC,1,1
+ABN_PROC:would turn twice,would turn twice,ABN_PROC,1,1
+ABN_PROC:wouldn ' t start,wouldn ' t start,ABN_PROC,1,1
+ACTION:accessed,accessed,ACTION,1,1
+ACTION:acquired,acquired,ACTION,1,1
+ACTION:adju,adju,ACTION,1,1
+ACTION:adjust,adjust,ACTION,1,1
+ACTION:adjust mixture,adjust mixture,ACTION,1,1
+ACTION:aligned,aligned,ACTION,1,1
+ACTION:alternators check,alternators check,ACTION,1,1
+ACTION:assembly,assembly,ACTION,1,1
+ACTION:attempt to start,attempt to start,ACTION,1,1
+ACTION:attempted,attempted,ACTION,1,1
+ACTION:attempted staking,attempted staking,ACTION,1,1
+ACTION:attempted to adjust,attempted to adjust,ACTION,1,1
+ACTION:attempted to le,attempted to le,ACTION,1,1
+ACTION:attempted to stake,attempted to stake,ACTION,1,1
+ACTION:baffle checks,baffle checks,ACTION,1,1
+ACTION:bearing clearance check,bearing clearance check,ACTION,1,1
+ACTION:began,began,ACTION,1,1
+ACTION:began assembly,began assembly,ACTION,1,1
+ACTION:began disconnecti,began disconnecti,ACTION,1,1
+ACTION:began insp,began insp,ACTION,1,1
+ACTION:began install,began install,ACTION,1,1
+ACTION:began installation,began installation,ACTION,1,1
+ACTION:began reaming,began reaming,ACTION,1,1
+ACTION:began replacing,began replacing,ACTION,1,1
+ACTION:began routing,began routing,ACTION,1,1
+ACTION:began transferr,began transferr,ACTION,1,1
+ACTION:began transferring,began transferring,ACTION,1,1
+ACTION:began visual insp,began visual insp,ACTION,1,1
+ACTION:bled,bled,ACTION,1,1
+ACTION:blew out,blew out,ACTION,1,1
+ACTION:borescop,borescop,ACTION,1,1
+ACTION:brought,brought,ACTION,1,1
+ACTION:chafe protection,chafe protection,ACTION,1,1
+ACTION:chased threads,chased threads,ACTION,1,1
+ACTION:checked torque,checked torque,ACTION,1,1
+ACTION:clamped,clamped,ACTION,1,1
+ACTION:cleaned off,cleaned off,ACTION,1,1
+ACTION:clearanced,clearanced,ACTION,1,1
+ACTION:cleared initial,cleared initial,ACTION,1,1
+ACTION:comp check,comp check,ACTION,1,1
+ACTION:completed,completed,ACTION,1,1
+ACTION:completed actions,completed actions,ACTION,1,1
+ACTION:completed build up,completed build up,ACTION,1,1
+ACTION:completed engine installation,completed engine installation,ACTION,1,1
+ACTION:completed insp,completed insp,ACTION,1,1
+ACTION:completed reassy,completed reassy,ACTION,1,1
+ACTION:completed reinstallation,completed reinstallation,ACTION,1,1
+ACTION:compression,compression,ACTION,1,1
+ACTION:compressions checked,compressions checked,ACTION,1,1
+ACTION:constantly varying,constantly varying,ACTION,1,1
+ACTION:continued installation,continued installation,ACTION,1,1
+ACTION:continued reassembly,continued reassembly,ACTION,1,1
+ACTION:continued repairing,continued repairing,ACTION,1,1
+ACTION:control installation,control installation,ACTION,1,1
+ACTION:corrective action,corrective action,ACTION,1,1
+ACTION:corrosion protection,corrosion protection,ACTION,1,1
+ACTION:covered,covered,ACTION,1,1
+ACTION:cylinder installation,cylinder installation,ACTION,1,1
+ACTION:de - preserved,de - preserved,ACTION,1,1
+ACTION:decowled,decowled,ACTION,1,1
+ACTION:deriveted,deriveted,ACTION,1,1
+ACTION:differential compression test,differential compression test,ACTION,1,1
+ACTION:disassemble,disassemble,ACTION,1,1
+ACTION:displaced,displaced,ACTION,1,1
+ACTION:download,download,ACTION,1,1
+ACTION:dressed out nick,dressed out nick,ACTION,1,1
+ACTION:drilled off,drilled off,ACTION,1,1
+ACTION:drilled stripped,drilled stripped,ACTION,1,1
+ACTION:dry lash check,dry lash check,ACTION,1,1
+ACTION:dry tappet clearance checked,dry tappet clearance checked,ACTION,1,1
+ACTION:dye pe insp,dye pe insp,ACTION,1,1
+ACTION:each time rp,each time rp,ACTION,1,1
+ACTION:engine change,engine change,ACTION,1,1
+ACTION:engine run,engine run,ACTION,1,1
+ACTION:engine run up,engine run up,ACTION,1,1
+ACTION:evaluated,evaluated,ACTION,1,1
+ACTION:fabricated replacement,fabricated replacement,ACTION,1,1
+ACTION:failure insp,failure insp,ACTION,1,1
+ACTION:fastened,fastened,ACTION,1,1
+ACTION:filed off,filed off,ACTION,1,1
+ACTION:filter insp,filter insp,ACTION,1,1
+ACTION:final checks,final checks,ACTION,1,1
+ACTION:finished disassembly,finished disassembly,ACTION,1,1
+ACTION:finished grounding,finished grounding,ACTION,1,1
+ACTION:finished reassembly,finished reassembly,ACTION,1,1
+ACTION:finished reinstall,finished reinstall,ACTION,1,1
+ACTION:finished reinstallation,finished reinstallation,ACTION,1,1
+ACTION:finished removing,finished removing,ACTION,1,1
+ACTION:freed,freed,ACTION,1,1
+ACTION:fuel pressure checked,fuel pressure checked,ACTION,1,1
+ACTION:gapped,gapped,ACTION,1,1
+ACTION:ground power check,ground power check,ACTION,1,1
+ACTION:ground power performance check,ground power performance check,ACTION,1,1
+ACTION:ground r,ground r,ACTION,1,1
+ACTION:ground run checks,ground run checks,ACTION,1,1
+ACTION:ground run leak check,ground run leak check,ACTION,1,1
+ACTION:ground run several times,ground run several times,ACTION,1,1
+ACTION:ground run up,ground run up,ACTION,1,1
+ACTION:ground seat,ground seat,ACTION,1,1
+ACTION:hidden damage,hidden damage,ACTION,1,1
+ACTION:hidden damage insp,hidden damage insp,ACTION,1,1
+ACTION:hung,hung,ACTION,1,1
+ACTION:identified,identified,ACTION,1,1
+ACTION:idle adjustment,idle adjustment,ACTION,1,1
+ACTION:idle and idle mixture rise check,idle and idle mixture rise check,ACTION,1,1
+ACTION:idle check,idle check,ACTION,1,1
+ACTION:idle mixture chapter,idle mixture chapter,ACTION,1,1
+ACTION:idle over ride speed check,idle over ride speed check,ACTION,1,1
+ACTION:incorrect install,incorrect install,ACTION,1,1
+ACTION:inserted,inserted,ACTION,1,1
+ACTION:inspect,inspect,ACTION,1,1
+ACTION:inspecte,inspecte,ACTION,1,1
+ACTION:installed built up,installed built up,ACTION,1,1
+ACTION:installed repaired,installed repaired,ACTION,1,1
+ACTION:installed riveted,installed riveted,ACTION,1,1
+ACTION:installing,installing,ACTION,1,1
+ACTION:lash check,lash check,ACTION,1,1
+ACTION:leak and operations,leak and operations,ACTION,1,1
+ACTION:leak and operations checked,leak and operations checked,ACTION,1,1
+ACTION:leak and run up check,leak and run up check,ACTION,1,1
+ACTION:leak chapter,leak chapter,ACTION,1,1
+ACTION:lean,lean,ACTION,1,1
+ACTION:lifter insp and test,lifter insp and test,ACTION,1,1
+ACTION:looked,looked,ACTION,1,1
+ACTION:loosen,loosen,ACTION,1,1
+ACTION:lowered,lowered,ACTION,1,1
+ACTION:lubricated,lubricated,ACTION,1,1
+"ACTION:magneto , idle / mixt ure checks","magneto , idle / mixt ure checks",ACTION,1,1
+ACTION:magneto drops check,magneto drops check,ACTION,1,1
+ACTION:magneto timing checked,magneto timing checked,ACTION,1,1
+ACTION:maintenance break - in flight,maintenance break - in flight,ACTION,1,1
+ACTION:maintenance fl,maintenance fl,ACTION,1,1
+ACTION:maintenance fligh,maintenance fligh,ACTION,1,1
+ACTION:maintenance history,maintenance history,ACTION,1,1
+ACTION:marked,marked,ACTION,1,1
+ACTION:measured bore - check,measured bore - check,ACTION,1,1
+ACTION:mixture adjustment,mixture adjustment,ACTION,1,1
+ACTION:mixture and idle checks,mixture and idle checks,ACTION,1,1
+ACTION:mixture idle check,mixture idle check,ACTION,1,1
+ACTION:mixture override check,mixture override check,ACTION,1,1
+ACTION:operational,operational,ACTION,1,1
+ACTION:override speed check,override speed check,ACTION,1,1
+ACTION:paperwork errors,paperwork errors,ACTION,1,1
+ACTION:partially removed,partially removed,ACTION,1,1
+ACTION:patches,patches,ACTION,1,1
+ACTION:performed normal engine start,performed normal engine start,ACTION,1,1
+ACTION:phase 4 insp,phase 4 insp,ACTION,1,1
+ACTION:pilot reports start assist,pilot reports start assist,ACTION,1,1
+ACTION:placed,placed,ACTION,1,1
+ACTION:power and leak check,power and leak check,ACTION,1,1
+ACTION:power check,power check,ACTION,1,1
+ACTION:pre - oil,pre - oil,ACTION,1,1
+ACTION:precautionary landing,precautionary landing,ACTION,1,1
+ACTION:preheated,preheated,ACTION,1,1
+ACTION:primed,primed,ACTION,1,1
+ACTION:procured,procured,ACTION,1,1
+ACTION:proper alignment,proper alignment,ACTION,1,1
+ACTION:ran faulty magneto check,ran faulty magneto check,ACTION,1,1
+ACTION:ran fouled proc,ran fouled proc,ACTION,1,1
+ACTION:ran up to check,ran up to check,ACTION,1,1
+ACTION:re,re,ACTION,1,1
+ACTION:re - riveted,re - riveted,ACTION,1,1
+ACTION:readjusted,readjusted,ACTION,1,1
+ACTION:reaming,reaming,ACTION,1,1
+ACTION:reasssembled,reasssembled,ACTION,1,1
+ACTION:reattac,reattac,ACTION,1,1
+ACTION:rechecked compressions,rechecked compressions,ACTION,1,1
+ACTION:reck ' ed,reck ' ed,ACTION,1,1
+ACTION:recontoured,recontoured,ACTION,1,1
+ACTION:recowled,recowled,ACTION,1,1
+ACTION:reindexed mixture linkage,reindexed mixture linkage,ACTION,1,1
+ACTION:reinstalle,reinstalle,ACTION,1,1
+ACTION:remo,remo,ACTION,1,1
+ACTION:removal,removal,ACTION,1,1
+ACTION:rerigged,rerigged,ACTION,1,1
+ACTION:rerouting,rerouting,ACTION,1,1
+ACTION:resecure,resecure,ACTION,1,1
+ACTION:reset,reset,ACTION,1,1
+ACTION:restart,restart,ACTION,1,1
+ACTION:rethreaded,rethreaded,ACTION,1,1
+ACTION:retimed,retimed,ACTION,1,1
+ACTION:reviewed flight data,reviewed flight data,ACTION,1,1
+ACTION:rework,rework,ACTION,1,1
+ACTION:routing,routing,ACTION,1,1
+ACTION:rpm checks,rpm checks,ACTION,1,1
+ACTION:rtv ' ed,rtv ' ed,ACTION,1,1
+ACTION:rtv applied,rtv applied,ACTION,1,1
+ACTION:run out check,run out check,ACTION,1,1
+ACTION:run up 2 nd time,run up 2 nd time,ACTION,1,1
+ACTION:run up checked,run up checked,ACTION,1,1
+ACTION:run up hot,run up hot,ACTION,1,1
+ACTION:run up idle check,run up idle check,ACTION,1,1
+ACTION:run up proced,run up proced,ACTION,1,1
+ACTION:safety wired,safety wired,ACTION,1,1
+ACTION:screwed,screwed,ACTION,1,1
+ACTION:securing,securing,ACTION,1,1
+ACTION:self locking,self locking,ACTION,1,1
+ACTION:serviceable,serviceable,ACTION,1,1
+ACTION:set idle adjustment,set idle adjustment,ACTION,1,1
+ACTION:set idle speed,set idle speed,ACTION,1,1
+ACTION:set mixture,set mixture,ACTION,1,1
+ACTION:set reset,set reset,ACTION,1,1
+ACTION:shut off,shut off,ACTION,1,1
+ACTION:shutdown,shutdown,ACTION,1,1
+ACTION:squeezed,squeezed,ACTION,1,1
+ACTION:stak,stak,ACTION,1,1
+ACTION:started assembly,started assembly,ACTION,1,1
+ACTION:started creating,started creating,ACTION,1,1
+ACTION:started engine installation,started engine installation,ACTION,1,1
+ACTION:started grinding,started grinding,ACTION,1,1
+ACTION:started installing,started installing,ACTION,1,1
+ACTION:started reinstalling,started reinstalling,ACTION,1,1
+ACTION:started removal,started removal,ACTION,1,1
+ACTION:started transferring,started transferring,ACTION,1,1
+ACTION:started wiring installation,started wiring installation,ACTION,1,1
+ACTION:stop drilling,stop drilling,ACTION,1,1
+ACTION:systems check,systems check,ACTION,1,1
+ACTION:systems operations checked,systems operations checked,ACTION,1,1
+ACTION:tappet clearance check,tappet clearance check,ACTION,1,1
+ACTION:tappet clearance checked,tappet clearance checked,ACTION,1,1
+ACTION:taxied,taxied,ACTION,1,1
+ACTION:test ran,test ran,ACTION,1,1
+ACTION:tested,tested,ACTION,1,1
+ACTION:tested idle,tested idle,ACTION,1,1
+ACTION:tighten,tighten,ACTION,1,1
+ACTION:to check,to check,ACTION,1,1
+ACTION:torque,torque,ACTION,1,1
+ACTION:torque sealed,torque sealed,ACTION,1,1
+ACTION:transferring,transferring,ACTION,1,1
+ACTION:tried making several idle mixture adjustments,tried making several idle mixture adjustments,ACTION,1,1
+ACTION:tried removing,tried removing,ACTION,1,1
+ACTION:tried stacking,tried stacking,ACTION,1,1
+ACTION:tried to adjust,tried to adjust,ACTION,1,1
+ACTION:tried to stake,tried to stake,ACTION,1,1
+ACTION:ultrasonically cleaned,ultrasonically cleaned,ACTION,1,1
+ACTION:un - covered,un - covered,ACTION,1,1
+ACTION:unbolted,unbolted,ACTION,1,1
+ACTION:unkinked,unkinked,ACTION,1,1
+ACTION:unmasked,unmasked,ACTION,1,1
+ACTION:unpacked,unpacked,ACTION,1,1
+ACTION:used,used,ACTION,1,1
+ACTION:visual insp,visual insp,ACTION,1,1
+ACTION:visually inspect,visually inspect,ACTION,1,1
+ACTION:warming up,warming up,ACTION,1,1
+FAULT:bend,bend,FAULT,1,1
+FAULT:bore damaged,bore damaged,FAULT,1,1
+FAULT:broke,broke,FAULT,1,1
+FAULT:burned,burned,FAULT,1,1
+FAULT:burned / sooted,burned / sooted,FAULT,1,1
+FAULT:corroded,corroded,FAULT,1,1
+FAULT:debris,debris,FAULT,1,1
+FAULT:deteriorated,deteriorated,FAULT,1,1
+FAULT:ding,ding,FAULT,1,1
+FAULT:excessive,excessive,FAULT,1,1
+FAULT:excessive end play,excessive end play,FAULT,1,1
+FAULT:excessive free play,excessive free play,FAULT,1,1
+FAULT:gone,gone,FAULT,1,1
+FAULT:gouge,gouge,FAULT,1,1
+FAULT:hung up,hung up,FAULT,1,1
+FAULT:large puddle of liquid,large puddle of liquid,FAULT,1,1
+FAULT:lower,lower,FAULT,1,1
+FAULT:melted,melted,FAULT,1,1
+FAULT:metal found,metal found,FAULT,1,1
+FAULT:miss,miss,FAULT,1,1
+FAULT:no,no,FAULT,1,1
+FAULT:no bolts missing,no bolts missing,FAULT,1,1
+FAULT:no cylinder compression note,no cylinder compression note,FAULT,1,1
+FAULT:no egt indictaed,no egt indictaed,FAULT,1,1
+FAULT:no rpm rise,no rpm rise,FAULT,1,1
+FAULT:no smoothness,no smoothness,FAULT,1,1
+FAULT:no threads showing,no threads showing,FAULT,1,1
+FAULT:no torque seal,no torque seal,FAULT,1,1
+FAULT:not activate,not activate,FAULT,1,1
+FAULT:not applicable,not applicable,FAULT,1,1
+FAULT:not behind,not behind,FAULT,1,1
+FAULT:not repairable,not repairable,FAULT,1,1
+FAULT:not rubbing,not rubbing,FAULT,1,1
+FAULT:not running,not running,FAULT,1,1
+FAULT:not sealing,not sealing,FAULT,1,1
+FAULT:not torqued,not torqued,FAULT,1,1
+FAULT:not within tolerance,not within tolerance,FAULT,1,1
+FAULT:numerous specks of non - ferrous metal,numerous specks of non - ferrous metal,FAULT,1,1
+FAULT:out,out,FAULT,1,1
+FAULT:out of limits,out of limits,FAULT,1,1
+FAULT:out of standards,out of standards,FAULT,1,1
+FAULT:out of way,out of way,FAULT,1,1
+FAULT:outside of standards,outside of standards,FAULT,1,1
+FAULT:over temperature,over temperature,FAULT,1,1
+FAULT:oversized,oversized,FAULT,1,1
+FAULT:pulled free,pulled free,FAULT,1,1
+FAULT:ripped,ripped,FAULT,1,1
+FAULT:slightly loose,slightly loose,FAULT,1,1
+FAULT:smiled,smiled,FAULT,1,1
+FAULT:staple pulled through,staple pulled through,FAULT,1,1
+FAULT:step,step,FAULT,1,1
+FAULT:tear,tear,FAULT,1,1
+FAULT:too many damaged,too many damaged,FAULT,1,1
+FAULT:tore,tore,FAULT,1,1
+FAULT:torn loose,torn loose,FAULT,1,1
+FAULT:unable to locate,unable to locate,FAULT,1,1
+FAULT:unseated,unseated,FAULT,1,1
+FAULT:unserviceable,unserviceable,FAULT,1,1
+FAULT:weak,weak,FAULT,1,1
+FAULT:wear marks,wear marks,FAULT,1,1
+FAULT:wet with oil,wet with oil,FAULT,1,1
+FAULT:wouldn ' t adjust,wouldn ' t adjust,FAULT,1,1
+FAULT:wrong position,wrong position,FAULT,1,1
+"LOC:1 , 2 , and 4","1 , 2 , and 4",LOC,1,1
+"LOC:1 , 3 and 4","1 , 3 and 4",LOC,2,1
+LOC:1 - 4,1 - 4,LOC,1,1
+LOC:1 first stage,1 first stage,LOC,1,1
+"LOC:2 , 3 , and 4","2 , 3 , and 4",LOC,1,1
+"LOC:3 , 2 and 4","3 , 2 and 4",LOC,1,1
+"LOC:3 , 4","3 , 4",LOC,1,1
+LOC:32,32,LOC,1,1
+LOC:4,4,LOC,1,1
+LOC:aft and 2 side,aft and 2 side,LOC,1,1
+LOC:aft cooling,aft cooling,LOC,1,1
+LOC:aft middle,aft middle,LOC,1,1
+LOC:all 4,all 4,LOC,1,1
+LOC:and bottom right,and bottom right,LOC,2,1
+LOC:and bottom right sides,and bottom right sides,LOC,2,1
+LOC:and right side,and right side,LOC,1,1
+LOC:and right-hand,and right-hand,LOC,1,1
+LOC:beyond,beyond,LOC,1,1
+LOC:bottom forward portion,bottom forward portion,LOC,1,1
+LOC:bottom front,bottom front,LOC,1,1
+LOC:bottom left,bottom left,LOC,1,1
+LOC:bottom left and bottom,bottom left and bottom,LOC,1,1
+LOC:bottom left and bottom right,bottom left and bottom right,LOC,1,1
+LOC:bottom left and bottom right sides,bottom left and bottom right sides,LOC,1,1
+LOC:bottom left side,bottom left side,LOC,1,1
+LOC:bottom outboard corner,bottom outboard corner,LOC,1,1
+LOC:bottom right,bottom right,LOC,2,1
+LOC:bottom right side,bottom right side,LOC,2,1
+LOC:bottom right sides,bottom right sides,LOC,2,1
+LOC:center top,center top,LOC,1,1
+LOC:core,core,LOC,1,1
+LOC:first stage,first stage,LOC,1,1
+LOC:forward and side,forward and side,LOC,1,1
+LOC:forward bottom,forward bottom,LOC,1,1
+LOC:forward cooling,forward cooling,LOC,1,1
+LOC:forward front,forward front,LOC,1,1
+LOC:forward portion,forward portion,LOC,1,1
+LOC:front forward,front forward,LOC,1,1
+LOC:front lower,front lower,LOC,1,1
+LOC:front side,front side,LOC,1,1
+LOC:gear and,gear and,LOC,1,1
+LOC:grafton,grafton,LOC,1,1
+"LOC:guides 1 , 2 , and 4","guides 1 , 2 , and 4",LOC,1,1
+LOC:head,head,LOC,1,1
+LOC:inboard forward,inboard forward,LOC,1,1
+LOC:inboard left-hand side,inboard left-hand side,LOC,1,1
+LOC:inner and,inner and,LOC,1,1
+LOC:inner and outer,inner and outer,LOC,1,1
+LOC:left and bottom,left and bottom,LOC,2,1
+LOC:left and bottom right,left and bottom right,LOC,2,1
+LOC:left and bottom right sides,left and bottom right sides,LOC,2,1
+LOC:left and right side,left and right side,LOC,1,1
+LOC:left front,left front,LOC,1,1
+LOC:left on,left on,LOC,1,1
+LOC:left outboard,left outboard,LOC,1,1
+LOC:left side number,left side number,LOC,1,1
+LOC:left side number 4,left side number 4,LOC,1,1
+LOC:left-hand / top,left-hand / top,LOC,1,1
+LOC:left-hand left-hand,left-hand left-hand,LOC,1,1
+LOC:left-hand lower,left-hand lower,LOC,1,1
+LOC:left-hand lower forward,left-hand lower forward,LOC,1,1
+LOC:left-hand lower forward side,left-hand lower forward side,LOC,1,1
+LOC:long,long,LOC,1,1
+LOC:lower aft corner,lower aft corner,LOC,1,1
+LOC:lower couplin,lower couplin,LOC,1,1
+LOC:lower forward side,lower forward side,LOC,1,1
+LOC:lower inboard corner,lower inboard corner,LOC,1,1
+LOC:lower left,lower left,LOC,1,1
+LOC:lower outboard,lower outboard,LOC,1,1
+LOC:lower rear,lower rear,LOC,1,1
+LOC:lower right,lower right,LOC,1,1
+LOC:lower right forward,lower right forward,LOC,1,1
+LOC:lower right-hand,lower right-hand,LOC,1,1
+LOC:lower side,lower side,LOC,1,1
+LOC:middle and right-hand,middle and right-hand,LOC,1,1
+LOC:near aft,near aft,LOC,1,1
+LOC:near forward,near forward,LOC,1,1
+LOC:near tip,near tip,LOC,1,1
+"LOC:number 1 , 2 , 3 4","number 1 , 2 , 3 4",LOC,1,1
+"LOC:number 1 , 2 , and 6","number 1 , 2 , and 6",LOC,1,1
+"LOC:number 1 , 3 , 1","number 1 , 3 , 1",LOC,1,1
+"LOC:number 1 , 3 , 2","number 1 , 3 , 2",LOC,1,1
+"LOC:number 1 , 3 , 4 and 2","number 1 , 3 , 4 and 2",LOC,1,1
+LOC:number 1 / 3,number 1 / 3,LOC,2,1
+"LOC:number 2 , 3 , 1","number 2 , 3 , 1",LOC,1,1
+"LOC:number 2 , 3 4","number 2 , 3 4",LOC,1,1
+LOC:number 2 / 4,number 2 / 4,LOC,1,1
+LOC:number 2 and 4 right-hand,number 2 and 4 right-hand,LOC,1,1
+"LOC:number 3 , 1","number 3 , 1",LOC,1,1
+LOC:number 3 / 2,number 3 / 2,LOC,1,1
+LOC:number 3 right-hand,number 3 right-hand,LOC,1,1
+"LOC:number 4 , 1","number 4 , 1",LOC,1,1
+"LOC:number 4 , 1 and 3","number 4 , 1 and 3",LOC,1,1
+"LOC:number 4 , 2 , 3","number 4 , 2 , 3",LOC,1,1
+LOC:number 6,number 6,LOC,1,1
+LOC:number 7,number 7,LOC,1,1
+LOC:number and 4,number and 4,LOC,1,1
+LOC:number e,number e,LOC,1,1
+LOC:on bottom right side,on bottom right side,LOC,1,1
+LOC:outboard corner,outboard corner,LOC,1,1
+LOC:outboard forward,outboard forward,LOC,1,1
+LOC:outboard lower,outboard lower,LOC,1,1
+LOC:outboard top,outboard top,LOC,1,1
+LOC:outside,outside,LOC,1,1
+LOC:outside inner,outside inner,LOC,1,1
+LOC:over,over,LOC,1,1
+LOC:overboard,overboard,LOC,2,1
+LOC:pilot side,pilot side,LOC,1,1
+LOC:position,position,LOC,1,1
+LOC:right forward,right forward,LOC,1,1
+LOC:right sides,right sides,LOC,2,1
+LOC:right-hand bottom side,right-hand bottom side,LOC,1,1
+LOC:right-hand forward side,right-hand forward side,LOC,1,1
+LOC:right-hand lower,right-hand lower,LOC,1,1
+LOC:right-hand lower side,right-hand lower side,LOC,1,1
+LOC:right-hand side lower,right-hand side lower,LOC,1,1
+LOC:right-hand side lower forward,right-hand side lower forward,LOC,1,1
+LOC:runway,runway,LOC,1,1
+LOC:serviceable side,serviceable side,LOC,1,1
+LOC:side lower,side lower,LOC,1,1
+LOC:side lower forward,side lower forward,LOC,1,1
+LOC:side number,side number,LOC,1,1
+LOC:side number 4,side number 4,LOC,1,1
+LOC:toe,toe,LOC,1,1
+LOC:top forward side,top forward side,LOC,1,1
+LOC:top left and right side,top left and right side,LOC,1,1
+LOC:top left-hand side,top left-hand side,LOC,2,1
+LOC:top right-hand side,top right-hand side,LOC,1,1
+LOC:top side,top side,LOC,1,1
+LOC:under ground,under ground,LOC,1,1
+LOC:upper inboard,upper inboard,LOC,1,1
+LOC:upper portion,upper portion,LOC,1,1
+LOC:upper right,upper right,LOC,2,1
+MAINT_ITEM:/ prop / moun t assembly,/ prop / moun t assembly,MAINT_ITEM,1,1
+MAINT_ITEM:1 plug,1 plug,MAINT_ITEM,1,1
+MAINT_ITEM:1 st stage comp blade,1 st stage comp blade,MAINT_ITEM,1,1
+MAINT_ITEM:1000 r,1000 r,MAINT_ITEM,1,1
+MAINT_ITEM:2 buttons,2 buttons,MAINT_ITEM,1,1
+MAINT_ITEM:2 mount rivets,2 mount rivets,MAINT_ITEM,1,1
+MAINT_ITEM:2 zip ties,2 zip ties,MAINT_ITEM,1,1
+MAINT_ITEM:2024 t 3 . 040 aluminum,2024 t 3 . 040 aluminum,MAINT_ITEM,1,1
+MAINT_ITEM:28 push rods,28 push rods,MAINT_ITEM,2,1
+MAINT_ITEM:3 bolts,3 bolts,MAINT_ITEM,1,1
+MAINT_ITEM:3 gaskets,3 gaskets,MAINT_ITEM,1,1
+MAINT_ITEM:4 pistons,4 pistons,MAINT_ITEM,1,1
+MAINT_ITEM:45 degree fitting,45 degree fitting,MAINT_ITEM,1,1
+MAINT_ITEM:90 degree adel clamp bracket,90 degree adel clamp bracket,MAINT_ITEM,1,1
+MAINT_ITEM:ab,ab,MAINT_ITEM,1,1
+MAINT_ITEM:abrasion buffer pad,abrasion buffer pad,MAINT_ITEM,1,1
+MAINT_ITEM:access button,access button,MAINT_ITEM,1,1
+MAINT_ITEM:access hole,access hole,MAINT_ITEM,1,1
+MAINT_ITEM:access hole doubler,access hole doubler,MAINT_ITEM,1,1
+MAINT_ITEM:access panel screw,access panel screw,MAINT_ITEM,1,1
+MAINT_ITEM:access screw,access screw,MAINT_ITEM,1,1
+MAINT_ITEM:accessory housing,accessory housing,MAINT_ITEM,1,1
+MAINT_ITEM:accessory pad,accessory pad,MAINT_ITEM,1,1
+MAINT_ITEM:accessory plate stud,accessory plate stud,MAINT_ITEM,1,1
+MAINT_ITEM:adel clamp bracket,adel clamp bracket,MAINT_ITEM,1,1
+MAINT_ITEM:adhesive,adhesive,MAINT_ITEM,1,1
+MAINT_ITEM:adjuster safety wire,adjuster safety wire,MAINT_ITEM,1,1
+MAINT_ITEM:adjustment screw,adjustment screw,MAINT_ITEM,1,1
+MAINT_ITEM:air baffle,air baffle,MAINT_ITEM,2,1
+MAINT_ITEM:air door spring,air door spring,MAINT_ITEM,1,1
+MAINT_ITEM:air filter box cam lock nutpl,air filter box cam lock nutpl,MAINT_ITEM,1,1
+MAINT_ITEM:air induction elbow,air induction elbow,MAINT_ITEM,1,1
+MAINT_ITEM:air inlet tube,air inlet tube,MAINT_ITEM,1,1
+MAINT_ITEM:air intake assembly,air intake assembly,MAINT_ITEM,1,1
+MAINT_ITEM:air intake box,air intake box,MAINT_ITEM,1,1
+MAINT_ITEM:air intake camlocks,air intake camlocks,MAINT_ITEM,1,1
+MAINT_ITEM:air intake engine,air intake engine,MAINT_ITEM,1,1
+MAINT_ITEM:air intake filter,air intake filter,MAINT_ITEM,1,1
+MAINT_ITEM:air intake hose,air intake hose,MAINT_ITEM,1,1
+MAINT_ITEM:air intake pipe,air intake pipe,MAINT_ITEM,1,1
+MAINT_ITEM:air intake tube,air intake tube,MAINT_ITEM,1,1
+MAINT_ITEM:air intake tubing,air intake tubing,MAINT_ITEM,1,1
+MAINT_ITEM:air vent,air vent,MAINT_ITEM,1,1
+MAINT_ITEM:airbox,airbox,MAINT_ITEM,1,1
+MAINT_ITEM:airbox bushings,airbox bushings,MAINT_ITEM,1,1
+MAINT_ITEM:airbox elbow,airbox elbow,MAINT_ITEM,1,1
+MAINT_ITEM:airbox gasket,airbox gasket,MAINT_ITEM,1,1
+MAINT_ITEM:aircraft manufacturing,aircraft manufacturing,MAINT_ITEM,1,1
+MAINT_ITEM:airworthy parts,airworthy parts,MAINT_ITEM,1,1
+MAINT_ITEM:alignment pin hole,alignment pin hole,MAINT_ITEM,1,1
+MAINT_ITEM:alternator mount,alternator mount,MAINT_ITEM,1,1
+MAINT_ITEM:alternator mount bolt,alternator mount bolt,MAINT_ITEM,1,1
+MAINT_ITEM:alternator support,alternator support,MAINT_ITEM,1,1
+MAINT_ITEM:altimeter,altimeter,MAINT_ITEM,1,1
+MAINT_ITEM:aluminum fittings,aluminum fittings,MAINT_ITEM,1,1
+MAINT_ITEM:anchor stand assembly,anchor stand assembly,MAINT_ITEM,1,1
+MAINT_ITEM:anchors,anchors,MAINT_ITEM,1,1
+MAINT_ITEM:angle,angle,MAINT_ITEM,1,1
+MAINT_ITEM:angle bracket,angle bracket,MAINT_ITEM,1,1
+MAINT_ITEM:angle brackets,angle brackets,MAINT_ITEM,2,1
+MAINT_ITEM:anti - chafe strip,anti - chafe strip,MAINT_ITEM,1,1
+MAINT_ITEM:arm,arm,MAINT_ITEM,1,1
+MAINT_ITEM:attach bracket,attach bracket,MAINT_ITEM,1,1
+MAINT_ITEM:attach fitting,attach fitting,MAINT_ITEM,1,1
+MAINT_ITEM:attaching components,attaching components,MAINT_ITEM,1,1
+MAINT_ITEM:auto re - ignition,auto re - ignition,MAINT_ITEM,1,1
+MAINT_ITEM:auto relight,auto relight,MAINT_ITEM,1,1
+MAINT_ITEM:back bolts,back bolts,MAINT_ITEM,1,1
+MAINT_ITEM:backing nut,backing nut,MAINT_ITEM,1,1
+MAINT_ITEM:baf,baf,MAINT_ITEM,1,1
+MAINT_ITEM:baffle / cowl seal,baffle / cowl seal,MAINT_ITEM,2,1
+MAINT_ITEM:baffle anchor,baffle anchor,MAINT_ITEM,1,1
+MAINT_ITEM:baffle angle bracket,baffle angle bracket,MAINT_ITEM,1,1
+MAINT_ITEM:baffle anti - chafe strip,baffle anti - chafe strip,MAINT_ITEM,1,1
+MAINT_ITEM:baffle attach,baffle attach,MAINT_ITEM,1,1
+MAINT_ITEM:baffle attach bracket,baffle attach bracket,MAINT_ITEM,1,1
+MAINT_ITEM:baffle attach plate,baffle attach plate,MAINT_ITEM,1,1
+MAINT_ITEM:baffle attach screw,baffle attach screw,MAINT_ITEM,1,1
+MAINT_ITEM:baffle attachment,baffle attachment,MAINT_ITEM,1,1
+MAINT_ITEM:baffle attachment tab,baffle attachment tab,MAINT_ITEM,1,1
+MAINT_ITEM:baffle barrel nut,baffle barrel nut,MAINT_ITEM,1,1
+MAINT_ITEM:baffle black seal,baffle black seal,MAINT_ITEM,1,1
+MAINT_ITEM:baffle blast tube,baffle blast tube,MAINT_ITEM,1,1
+MAINT_ITEM:baffle bolt hole,baffle bolt hole,MAINT_ITEM,1,1
+MAINT_ITEM:baffle bolt safeties,baffle bolt safeties,MAINT_ITEM,1,1
+MAINT_ITEM:baffle bolts,baffle bolts,MAINT_ITEM,1,1
+MAINT_ITEM:baffle bracket screw,baffle bracket screw,MAINT_ITEM,1,1
+MAINT_ITEM:baffle button plugs,baffle button plugs,MAINT_ITEM,1,1
+MAINT_ITEM:baffle caps,baffle caps,MAINT_ITEM,1,1
+MAINT_ITEM:baffle center section,baffle center section,MAINT_ITEM,1,1
+MAINT_ITEM:baffle chafi,baffle chafi,MAINT_ITEM,1,1
+MAINT_ITEM:baffle connect wire,baffle connect wire,MAINT_ITEM,2,1
+MAINT_ITEM:baffle connecting spring,baffle connecting spring,MAINT_ITEM,1,1
+MAINT_ITEM:baffle connector plate,baffle connector plate,MAINT_ITEM,1,1
+MAINT_ITEM:baffle connector rod,baffle connector rod,MAINT_ITEM,1,1
+MAINT_ITEM:baffle corner support bracket,baffle corner support bracket,MAINT_ITEM,1,1
+MAINT_ITEM:baffle cover cam,baffle cover cam,MAINT_ITEM,1,1
+MAINT_ITEM:baffle cover cam lock,baffle cover cam lock,MAINT_ITEM,1,1
+MAINT_ITEM:baffle crosstie,baffle crosstie,MAINT_ITEM,1,1
+MAINT_ITEM:baffle doubler,baffle doubler,MAINT_ITEM,1,1
+MAINT_ITEM:baffle felt,baffle felt,MAINT_ITEM,1,1
+MAINT_ITEM:baffle grommet,baffle grommet,MAINT_ITEM,1,1
+MAINT_ITEM:baffle hardware,baffle hardware,MAINT_ITEM,1,1
+MAINT_ITEM:baffle inner,baffle inner,MAINT_ITEM,1,1
+MAINT_ITEM:baffle inner tie,baffle inner tie,MAINT_ITEM,1,1
+MAINT_ITEM:baffle inner tie wire,baffle inner tie wire,MAINT_ITEM,1,1
+MAINT_ITEM:baffle insp hole,baffle insp hole,MAINT_ITEM,1,1
+MAINT_ITEM:baffle insp hole doubler,baffle insp hole doubler,MAINT_ITEM,2,1
+MAINT_ITEM:baffle instllation,baffle instllation,MAINT_ITEM,1,1
+MAINT_ITEM:baffle mount bracket,baffle mount bracket,MAINT_ITEM,1,1
+MAINT_ITEM:baffle outer tie,baffle outer tie,MAINT_ITEM,1,1
+MAINT_ITEM:baffle patches,baffle patches,MAINT_ITEM,1,1
+MAINT_ITEM:baffle plug hole doubler,baffle plug hole doubler,MAINT_ITEM,1,1
+MAINT_ITEM:baffle plugs tangs,baffle plugs tangs,MAINT_ITEM,1,1
+MAINT_ITEM:baffle reinforcement angle,baffle reinforcement angle,MAINT_ITEM,2,1
+MAINT_ITEM:baffle rivet,baffle rivet,MAINT_ITEM,1,1
+MAINT_ITEM:baffle rivet head,baffle rivet head,MAINT_ITEM,1,1
+MAINT_ITEM:baffle rivets,baffle rivets,MAINT_ITEM,1,1
+MAINT_ITEM:baffle s,baffle s,MAINT_ITEM,1,1
+MAINT_ITEM:baffle safety wire,baffle safety wire,MAINT_ITEM,1,1
+MAINT_ITEM:baffle seal fastener,baffle seal fastener,MAINT_ITEM,1,1
+MAINT_ITEM:baffle seal material,baffle seal material,MAINT_ITEM,1,1
+MAINT_ITEM:baffle slot,baffle slot,MAINT_ITEM,1,1
+MAINT_ITEM:baffle snap plug,baffle snap plug,MAINT_ITEM,1,1
+MAINT_ITEM:baffle snap plug hole,baffle snap plug hole,MAINT_ITEM,1,1
+MAINT_ITEM:baffle snap plugs,baffle snap plugs,MAINT_ITEM,1,1
+MAINT_ITEM:baffle spark plug caps,baffle spark plug caps,MAINT_ITEM,1,1
+MAINT_ITEM:baffle spark plug hole covers,baffle spark plug hole covers,MAINT_ITEM,1,1
+MAINT_ITEM:baffle spr,baffle spr,MAINT_ITEM,1,1
+MAINT_ITEM:baffle standoff,baffle standoff,MAINT_ITEM,1,1
+MAINT_ITEM:baffle stiffener,baffle stiffener,MAINT_ITEM,1,1
+MAINT_ITEM:baffle strips,baffle strips,MAINT_ITEM,1,1
+MAINT_ITEM:baffle suppo,baffle suppo,MAINT_ITEM,1,1
+MAINT_ITEM:baffle support cylinder,baffle support cylinder,MAINT_ITEM,1,1
+MAINT_ITEM:baffle support fastener,baffle support fastener,MAINT_ITEM,1,1
+MAINT_ITEM:baffle support rod cylinder,baffle support rod cylinder,MAINT_ITEM,1,1
+MAINT_ITEM:baffle support screw,baffle support screw,MAINT_ITEM,1,1
+MAINT_ITEM:baffle tab rivets,baffle tab rivets,MAINT_ITEM,1,1
+MAINT_ITEM:baffle tension cable,baffle tension cable,MAINT_ITEM,1,1
+MAINT_ITEM:baffle tension rod,baffle tension rod,MAINT_ITEM,1,1
+MAINT_ITEM:baffle tension wire,baffle tension wire,MAINT_ITEM,1,1
+MAINT_ITEM:baffle tensioner wire,baffle tensioner wire,MAINT_ITEM,1,1
+MAINT_ITEM:baffle tie rod spacer,baffle tie rod spacer,MAINT_ITEM,1,1
+MAINT_ITEM:baffle tie rod wire,baffle tie rod wire,MAINT_ITEM,1,1
+MAINT_ITEM:baffle tie spring,baffle tie spring,MAINT_ITEM,1,1
+MAINT_ITEM:baffle tie wire hole,baffle tie wire hole,MAINT_ITEM,1,1
+MAINT_ITEM:baffle tie wires,baffle tie wires,MAINT_ITEM,1,1
+MAINT_ITEM:baffle ties,baffle ties,MAINT_ITEM,1,1
+MAINT_ITEM:baffle tube,baffle tube,MAINT_ITEM,1,1
+MAINT_ITEM:baffle unsecure,baffle unsecure,MAINT_ITEM,1,1
+MAINT_ITEM:baffle wire harness tab,baffle wire harness tab,MAINT_ITEM,1,1
+MAINT_ITEM:baffle wire holder,baffle wire holder,MAINT_ITEM,1,1
+MAINT_ITEM:baffle wire spring,baffle wire spring,MAINT_ITEM,1,1
+MAINT_ITEM:baffle wire standoff,baffle wire standoff,MAINT_ITEM,1,1
+MAINT_ITEM:baffles seals,baffles seals,MAINT_ITEM,1,1
+MAINT_ITEM:bafflin,bafflin,MAINT_ITEM,1,1
+MAINT_ITEM:baffling conection wire,baffling conection wire,MAINT_ITEM,1,1
+MAINT_ITEM:baffling mount bracket,baffling mount bracket,MAINT_ITEM,1,1
+MAINT_ITEM:baffling plug,baffling plug,MAINT_ITEM,1,1
+MAINT_ITEM:baffling section,baffling section,MAINT_ITEM,1,1
+MAINT_ITEM:barrel,barrel,MAINT_ITEM,1,1
+MAINT_ITEM:battery box,battery box,MAINT_ITEM,1,1
+MAINT_ITEM:battery box bracket,battery box bracket,MAINT_ITEM,1,1
+MAINT_ITEM:battery case zip tie,battery case zip tie,MAINT_ITEM,1,1
+MAINT_ITEM:battery cooling,battery cooling,MAINT_ITEM,1,1
+MAINT_ITEM:battery ground,battery ground,MAINT_ITEM,1,1
+MAINT_ITEM:bearing,bearing,MAINT_ITEM,1,1
+MAINT_ITEM:black cowling seal,black cowling seal,MAINT_ITEM,1,1
+MAINT_ITEM:blades,blades,MAINT_ITEM,1,1
+MAINT_ITEM:bleed,bleed,MAINT_ITEM,1,1
+MAINT_ITEM:bleed air duct,bleed air duct,MAINT_ITEM,1,1
+MAINT_ITEM:bleed air line,bleed air line,MAINT_ITEM,1,1
+MAINT_ITEM:bolt holes,bolt holes,MAINT_ITEM,1,1
+MAINT_ITEM:bolt that attaches cowl flap levers,bolt that attaches cowl flap levers,MAINT_ITEM,1,1
+MAINT_ITEM:bottom corner,bottom corner,MAINT_ITEM,1,1
+MAINT_ITEM:bottom cowl,bottom cowl,MAINT_ITEM,1,1
+MAINT_ITEM:bottom cowling,bottom cowling,MAINT_ITEM,1,1
+MAINT_ITEM:bottom plugs,bottom plugs,MAINT_ITEM,1,1
+MAINT_ITEM:box,box,MAINT_ITEM,1,1
+MAINT_ITEM:bracket bolts,bracket bolts,MAINT_ITEM,1,1
+MAINT_ITEM:bracket hardware,bracket hardware,MAINT_ITEM,1,1
+MAINT_ITEM:bracket screw,bracket screw,MAINT_ITEM,1,1
+MAINT_ITEM:bracket screws,bracket screws,MAINT_ITEM,1,1
+MAINT_ITEM:bracket support,bracket support,MAINT_ITEM,1,1
+MAINT_ITEM:brake,brake,MAINT_ITEM,1,1
+MAINT_ITEM:brake linings,brake linings,MAINT_ITEM,2,1
+MAINT_ITEM:breather tube,breather tube,MAINT_ITEM,1,1
+MAINT_ITEM:bush rod,bush rod,MAINT_ITEM,1,1
+MAINT_ITEM:button,button,MAINT_ITEM,1,1
+MAINT_ITEM:button plug hole,button plug hole,MAINT_ITEM,1,1
+MAINT_ITEM:cabin,cabin,MAINT_ITEM,1,1
+MAINT_ITEM:cabin area,cabin area,MAINT_ITEM,1,1
+MAINT_ITEM:cable sheath,cable sheath,MAINT_ITEM,2,1
+MAINT_ITEM:cam lock nutpl,cam lock nutpl,MAINT_ITEM,1,1
+MAINT_ITEM:cap screw,cap screw,MAINT_ITEM,1,1
+MAINT_ITEM:carb air valve,carb air valve,MAINT_ITEM,1,1
+MAINT_ITEM:carb heat,carb heat,MAINT_ITEM,1,1
+MAINT_ITEM:carb heat box,carb heat box,MAINT_ITEM,1,1
+MAINT_ITEM:carb heat box arm,carb heat box arm,MAINT_ITEM,2,1
+MAINT_ITEM:carb heat bracket,carb heat bracket,MAINT_ITEM,1,1
+MAINT_ITEM:carb heat shroud,carb heat shroud,MAINT_ITEM,2,1
+MAINT_ITEM:carb heat valve,carb heat valve,MAINT_ITEM,2,1
+MAINT_ITEM:carb ice,carb ice,MAINT_ITEM,1,1
+MAINT_ITEM:carbon,carbon,MAINT_ITEM,1,1
+MAINT_ITEM:carburetor,carburetor,MAINT_ITEM,1,1
+MAINT_ITEM:card,card,MAINT_ITEM,1,1
+MAINT_ITEM:carrier,carrier,MAINT_ITEM,1,1
+MAINT_ITEM:cas,cas,MAINT_ITEM,1,1
+MAINT_ITEM:case bolts,case bolts,MAINT_ITEM,1,1
+MAINT_ITEM:center baffle screw,center baffle screw,MAINT_ITEM,1,1
+MAINT_ITEM:center baffle seal,center baffle seal,MAINT_ITEM,1,1
+MAINT_ITEM:center bracket,center bracket,MAINT_ITEM,1,1
+MAINT_ITEM:center cowling inlet tube,center cowling inlet tube,MAINT_ITEM,1,1
+MAINT_ITEM:center line,center line,MAINT_ITEM,1,1
+MAINT_ITEM:center turnbuckle,center turnbuckle,MAINT_ITEM,1,1
+MAINT_ITEM:chin cowl,chin cowl,MAINT_ITEM,1,1
+MAINT_ITEM:chip,chip,MAINT_ITEM,1,1
+MAINT_ITEM:chip detectors,chip detectors,MAINT_ITEM,1,1
+MAINT_ITEM:chip plugs,chip plugs,MAINT_ITEM,1,1
+MAINT_ITEM:cht / egt wire anchor,cht / egt wire anchor,MAINT_ITEM,1,1
+MAINT_ITEM:cht fitting,cht fitting,MAINT_ITEM,2,1
+MAINT_ITEM:cht gauge,cht gauge,MAINT_ITEM,1,1
+MAINT_ITEM:cht needle,cht needle,MAINT_ITEM,1,1
+MAINT_ITEM:cht receptacles,cht receptacles,MAINT_ITEM,1,1
+MAINT_ITEM:cht recepticles,cht recepticles,MAINT_ITEM,1,1
+MAINT_ITEM:cht red,cht red,MAINT_ITEM,1,1
+MAINT_ITEM:clam,clam,MAINT_ITEM,1,1
+MAINT_ITEM:clinders,clinders,MAINT_ITEM,1,1
+MAINT_ITEM:clip,clip,MAINT_ITEM,2,1
+MAINT_ITEM:clog,clog,MAINT_ITEM,1,1
+MAINT_ITEM:cold oil,cold oil,MAINT_ITEM,1,1
+MAINT_ITEM:collar,collar,MAINT_ITEM,1,1
+MAINT_ITEM:collective linkage,collective linkage,MAINT_ITEM,1,1
+MAINT_ITEM:compressor blade,compressor blade,MAINT_ITEM,1,1
+MAINT_ITEM:compressor first stage blade,compressor first stage blade,MAINT_ITEM,2,1
+MAINT_ITEM:compressor rotor,compressor rotor,MAINT_ITEM,1,1
+MAINT_ITEM:connecting components,connecting components,MAINT_ITEM,1,1
+MAINT_ITEM:connecting rod accessory,connecting rod accessory,MAINT_ITEM,1,1
+MAINT_ITEM:connecting upper ends,connecting upper ends,MAINT_ITEM,1,1
+MAINT_ITEM:connection wire,connection wire,MAINT_ITEM,1,1
+MAINT_ITEM:connections,connections,MAINT_ITEM,1,1
+MAINT_ITEM:control cables,control cables,MAINT_ITEM,1,1
+MAINT_ITEM:control column,control column,MAINT_ITEM,1,1
+MAINT_ITEM:cooler system,cooler system,MAINT_ITEM,1,1
+MAINT_ITEM:coolers,coolers,MAINT_ITEM,1,1
+MAINT_ITEM:cooling fan,cooling fan,MAINT_ITEM,1,1
+MAINT_ITEM:cooling fins,cooling fins,MAINT_ITEM,1,1
+MAINT_ITEM:cooling hose,cooling hose,MAINT_ITEM,2,1
+MAINT_ITEM:copilot,copilot,MAINT_ITEM,1,1
+MAINT_ITEM:copilot yokes,copilot yokes,MAINT_ITEM,1,1
+MAINT_ITEM:core,core,MAINT_ITEM,1,1
+MAINT_ITEM:corner baffle,corner baffle,MAINT_ITEM,1,1
+MAINT_ITEM:corner patch,corner patch,MAINT_ITEM,1,1
+MAINT_ITEM:cotter pin,cotter pin,MAINT_ITEM,1,1
+MAINT_ITEM:could use,could use,MAINT_ITEM,1,1
+MAINT_ITEM:cover gaskets,cover gaskets,MAINT_ITEM,1,1
+MAINT_ITEM:cover o - ring,cover o - ring,MAINT_ITEM,1,1
+MAINT_ITEM:cover screw,cover screw,MAINT_ITEM,1,1
+MAINT_ITEM:cover screws,cover screws,MAINT_ITEM,1,1
+MAINT_ITEM:cow,cow,MAINT_ITEM,1,1
+MAINT_ITEM:cowl / exha ust - wiring,cowl / exha ust - wiring,MAINT_ITEM,1,1
+MAINT_ITEM:cowl dzus fasteners,cowl dzus fasteners,MAINT_ITEM,1,1
+MAINT_ITEM:cowl engine,cowl engine,MAINT_ITEM,1,1
+MAINT_ITEM:cowl flap,cowl flap,MAINT_ITEM,1,1
+MAINT_ITEM:cowl mounts,cowl mounts,MAINT_ITEM,1,1
+MAINT_ITEM:cowl seals,cowl seals,MAINT_ITEM,2,1
+MAINT_ITEM:cowl shock mounts,cowl shock mounts,MAINT_ITEM,2,1
+MAINT_ITEM:cowling baffle,cowling baffle,MAINT_ITEM,1,1
+MAINT_ITEM:cowling seal,cowling seal,MAINT_ITEM,1,1
+MAINT_ITEM:crankcase b,crankcase b,MAINT_ITEM,1,1
+MAINT_ITEM:crankcase backbone,crankcase backbone,MAINT_ITEM,1,1
+MAINT_ITEM:crankcase bolts,crankcase bolts,MAINT_ITEM,1,1
+MAINT_ITEM:crankcase half,crankcase half,MAINT_ITEM,1,1
+MAINT_ITEM:crankcase half bolt,crankcase half bolt,MAINT_ITEM,1,1
+MAINT_ITEM:crankcase seal,crankcase seal,MAINT_ITEM,1,1
+MAINT_ITEM:crankcase spin bolt,crankcase spin bolt,MAINT_ITEM,1,1
+MAINT_ITEM:cranks,cranks,MAINT_ITEM,1,1
+MAINT_ITEM:crosstie,crosstie,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder accessories,cylinder accessories,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder anchor,cylinder anchor,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder anchor assembly,cylinder anchor assembly,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder ass,cylinder ass,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder baffling connecting rod,cylinder baffling connecting rod,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder base nut,cylinder base nut,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder base nuts,cylinder base nuts,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder drain line b nuts,cylinder drain line b nuts,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder flange,cylinder flange,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder head end,cylinder head end,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder intake,cylinder intake,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder lueco,cylinder lueco,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder nut,cylinder nut,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder nuts,cylinder nuts,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder outer baffling,cylinder outer baffling,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder spark plugs,cylinder spark plugs,MAINT_ITEM,1,1
+MAINT_ITEM:cylinder wrap,cylinder wrap,MAINT_ITEM,1,1
+MAINT_ITEM:dash,dash,MAINT_ITEM,1,1
+MAINT_ITEM:debris,debris,MAINT_ITEM,1,1
+MAINT_ITEM:defective engine,defective engine,MAINT_ITEM,1,1
+MAINT_ITEM:deflector,deflector,MAINT_ITEM,1,1
+MAINT_ITEM:deflectors,deflectors,MAINT_ITEM,2,1
+MAINT_ITEM:dent,dent,MAINT_ITEM,1,1
+MAINT_ITEM:dips,dips,MAINT_ITEM,1,1
+MAINT_ITEM:dipstick housing,dipstick housing,MAINT_ITEM,1,1
+MAINT_ITEM:dipstick tubes,dipstick tubes,MAINT_ITEM,1,1
+MAINT_ITEM:dirt,dirt,MAINT_ITEM,1,1
+MAINT_ITEM:dog bone,dog bone,MAINT_ITEM,1,1
+MAINT_ITEM:doubler patch,doubler patch,MAINT_ITEM,1,1
+MAINT_ITEM:doubler plates,doubler plates,MAINT_ITEM,1,1
+MAINT_ITEM:drain,drain,MAINT_ITEM,1,1
+MAINT_ITEM:drain clamp,drain clamp,MAINT_ITEM,1,1
+MAINT_ITEM:drain hose clamp,drain hose clamp,MAINT_ITEM,1,1
+MAINT_ITEM:drain tube clamps,drain tube clamps,MAINT_ITEM,1,1
+MAINT_ITEM:duct tape,duct tape,MAINT_ITEM,2,1
+MAINT_ITEM:ducting,ducting,MAINT_ITEM,1,1
+MAINT_ITEM:egt / cht wire bundle mounting screw,egt / cht wire bundle mounting screw,MAINT_ITEM,1,1
+MAINT_ITEM:egt cylinder,egt cylinder,MAINT_ITEM,1,1
+MAINT_ITEM:egt probe,egt probe,MAINT_ITEM,1,1
+MAINT_ITEM:egt standoff,egt standoff,MAINT_ITEM,1,1
+MAINT_ITEM:egt wire probe standoffs,egt wire probe standoffs,MAINT_ITEM,1,1
+MAINT_ITEM:elbow,elbow,MAINT_ITEM,1,1
+MAINT_ITEM:electrical lines,electrical lines,MAINT_ITEM,1,1
+MAINT_ITEM:electrical wiring,electrical wiring,MAINT_ITEM,1,1
+MAINT_ITEM:engine / prop / moun t assembly,engine / prop / moun t assembly,MAINT_ITEM,1,1
+MAINT_ITEM:engine blanket,engine blanket,MAINT_ITEM,1,1
+MAINT_ITEM:engine breather fitting,engine breather fitting,MAINT_ITEM,1,1
+MAINT_ITEM:engine breather line,engine breather line,MAINT_ITEM,1,1
+MAINT_ITEM:engine casing,engine casing,MAINT_ITEM,1,1
+MAINT_ITEM:engine compartment,engine compartment,MAINT_ITEM,1,1
+MAINT_ITEM:engine control,engine control,MAINT_ITEM,1,1
+MAINT_ITEM:engine controls,engine controls,MAINT_ITEM,1,1
+MAINT_ITEM:engine drain line,engine drain line,MAINT_ITEM,1,1
+MAINT_ITEM:engine gasket,engine gasket,MAINT_ITEM,1,1
+MAINT_ITEM:engine ground cable,engine ground cable,MAINT_ITEM,1,1
+MAINT_ITEM:engine ground strap,engine ground strap,MAINT_ITEM,1,1
+MAINT_ITEM:engine kicks,engine kicks,MAINT_ITEM,1,1
+MAINT_ITEM:engine mount bo,engine mount bo,MAINT_ITEM,1,1
+MAINT_ITEM:engine mount bolt hole,engine mount bolt hole,MAINT_ITEM,1,1
+MAINT_ITEM:engine scroll,engine scroll,MAINT_ITEM,2,1
+MAINT_ITEM:excess metal,excess metal,MAINT_ITEM,1,1
+MAINT_ITEM:exciter lead,exciter lead,MAINT_ITEM,1,1
+MAINT_ITEM:exhaust assembly,exhaust assembly,MAINT_ITEM,1,1
+MAINT_ITEM:exhaust g,exhaust g,MAINT_ITEM,1,1
+MAINT_ITEM:exhaust gasket,exhaust gasket,MAINT_ITEM,2,1
+MAINT_ITEM:exhaust guide tight,exhaust guide tight,MAINT_ITEM,1,1
+MAINT_ITEM:exhaust lifter,exhaust lifter,MAINT_ITEM,1,1
+MAINT_ITEM:exhaust lifter plunger assembly,exhaust lifter plunger assembly,MAINT_ITEM,1,1
+MAINT_ITEM:exhaust push rod seals,exhaust push rod seals,MAINT_ITEM,1,1
+MAINT_ITEM:exhaust push rod shroud,exhaust push rod shroud,MAINT_ITEM,1,1
+MAINT_ITEM:exhaust push rod tube seal,exhaust push rod tube seal,MAINT_ITEM,1,1
+MAINT_ITEM:exhaust push rod tube seals,exhaust push rod tube seals,MAINT_ITEM,1,1
+MAINT_ITEM:exhaust push tube,exhaust push tube,MAINT_ITEM,2,1
+MAINT_ITEM:exhaust s,exhaust s,MAINT_ITEM,1,1
+MAINT_ITEM:exhaust seal,exhaust seal,MAINT_ITEM,1,1
+MAINT_ITEM:exhaust t,exhaust t,MAINT_ITEM,1,1
+MAINT_ITEM:exhaust v,exhaust v,MAINT_ITEM,1,1
+MAINT_ITEM:exhaust valve burnt,exhaust valve burnt,MAINT_ITEM,1,1
+MAINT_ITEM:external linkage,external linkage,MAINT_ITEM,1,1
+MAINT_ITEM:extraction tool,extraction tool,MAINT_ITEM,1,1
+MAINT_ITEM:factory,factory,MAINT_ITEM,1,1
+MAINT_ITEM:felt,felt,MAINT_ITEM,1,1
+MAINT_ITEM:ferrule,ferrule,MAINT_ITEM,1,1
+MAINT_ITEM:filler tube,filler tube,MAINT_ITEM,1,1
+MAINT_ITEM:filter housing,filter housing,MAINT_ITEM,1,1
+MAINT_ITEM:fins,fins,MAINT_ITEM,1,1
+MAINT_ITEM:fireseal,fireseal,MAINT_ITEM,2,1
+MAINT_ITEM:firewal,firewal,MAINT_ITEM,1,1
+MAINT_ITEM:firewall sea,firewall sea,MAINT_ITEM,1,1
+MAINT_ITEM:firewalls,firewalls,MAINT_ITEM,1,1
+MAINT_ITEM:flange,flange,MAINT_ITEM,1,1
+MAINT_ITEM:flanges,flanges,MAINT_ITEM,1,1
+MAINT_ITEM:flight data monitoring card,flight data monitoring card,MAINT_ITEM,1,1
+MAINT_ITEM:float,float,MAINT_ITEM,1,1
+MAINT_ITEM:fluid lines,fluid lines,MAINT_ITEM,1,1
+MAINT_ITEM:foam seal,foam seal,MAINT_ITEM,2,1
+MAINT_ITEM:front baffling,front baffling,MAINT_ITEM,1,1
+MAINT_ITEM:fuel and oil pressure lines,fuel and oil pressure lines,MAINT_ITEM,1,1
+MAINT_ITEM:fuel control unit,fuel control unit,MAINT_ITEM,1,1
+MAINT_ITEM:fuel distributor line,fuel distributor line,MAINT_ITEM,1,1
+MAINT_ITEM:fuel filter,fuel filter,MAINT_ITEM,1,1
+MAINT_ITEM:fuel flow transdu,fuel flow transdu,MAINT_ITEM,1,1
+MAINT_ITEM:fuel flow transducer,fuel flow transducer,MAINT_ITEM,1,1
+MAINT_ITEM:fuel flow transducer wire,fuel flow transducer wire,MAINT_ITEM,1,1
+MAINT_ITEM:fuel injector,fuel injector,MAINT_ITEM,1,1
+MAINT_ITEM:fuel injector lines,fuel injector lines,MAINT_ITEM,1,1
+MAINT_ITEM:fuel injectors,fuel injectors,MAINT_ITEM,1,1
+MAINT_ITEM:fuel nozzles,fuel nozzles,MAINT_ITEM,1,1
+MAINT_ITEM:fuel placard,fuel placard,MAINT_ITEM,1,1
+MAINT_ITEM:fuel stains,fuel stains,MAINT_ITEM,1,1
+MAINT_ITEM:fuel supply hose,fuel supply hose,MAINT_ITEM,1,1
+MAINT_ITEM:fuzz,fuzz,MAINT_ITEM,2,1
+MAINT_ITEM:gakset,gakset,MAINT_ITEM,1,1
+MAINT_ITEM:garlock seal,garlock seal,MAINT_ITEM,1,1
+MAINT_ITEM:gas,gas,MAINT_ITEM,1,1
+MAINT_ITEM:gask,gask,MAINT_ITEM,1,1
+MAINT_ITEM:gasket material,gasket material,MAINT_ITEM,1,1
+MAINT_ITEM:gauge,gauge,MAINT_ITEM,1,1
+MAINT_ITEM:governor,governor,MAINT_ITEM,1,1
+MAINT_ITEM:governor 4 turns coun,governor 4 turns coun,MAINT_ITEM,1,1
+MAINT_ITEM:governor baffle seal,governor baffle seal,MAINT_ITEM,1,1
+MAINT_ITEM:governor washer,governor washer,MAINT_ITEM,1,1
+MAINT_ITEM:greater t,greater t,MAINT_ITEM,1,1
+MAINT_ITEM:grommet hole,grommet hole,MAINT_ITEM,1,1
+MAINT_ITEM:ground cable,ground cable,MAINT_ITEM,1,1
+MAINT_ITEM:ground strap,ground strap,MAINT_ITEM,2,1
+MAINT_ITEM:ground wire,ground wire,MAINT_ITEM,1,1
+MAINT_ITEM:grounding area,grounding area,MAINT_ITEM,1,1
+MAINT_ITEM:grounding point,grounding point,MAINT_ITEM,1,1
+MAINT_ITEM:grounding points,grounding points,MAINT_ITEM,1,1
+MAINT_ITEM:grounding straps,grounding straps,MAINT_ITEM,1,1
+MAINT_ITEM:grounding wire,grounding wire,MAINT_ITEM,1,1
+MAINT_ITEM:guide hole,guide hole,MAINT_ITEM,1,1
+MAINT_ITEM:hanger nuts,hanger nuts,MAINT_ITEM,1,1
+MAINT_ITEM:hardened chafe wrap,hardened chafe wrap,MAINT_ITEM,1,1
+MAINT_ITEM:harness anchors,harness anchors,MAINT_ITEM,1,1
+MAINT_ITEM:harness clamp,harness clamp,MAINT_ITEM,1,1
+MAINT_ITEM:head,head,MAINT_ITEM,1,1
+MAINT_ITEM:heat air intake down,heat air intake down,MAINT_ITEM,1,1
+MAINT_ITEM:heat inlet,heat inlet,MAINT_ITEM,2,1
+MAINT_ITEM:heat shroud intake,heat shroud intake,MAINT_ITEM,1,1
+MAINT_ITEM:heli - coil kit,heli - coil kit,MAINT_ITEM,1,1
+MAINT_ITEM:helicoil,helicoil,MAINT_ITEM,1,1
+MAINT_ITEM:hi - temperature silicone,hi - temperature silicone,MAINT_ITEM,1,1
+MAINT_ITEM:high temperature silicone sealant,high temperature silicone sealant,MAINT_ITEM,1,1
+MAINT_ITEM:hoist loop,hoist loop,MAINT_ITEM,1,1
+MAINT_ITEM:hoist loop bolt,hoist loop bolt,MAINT_ITEM,1,1
+MAINT_ITEM:hoisting ring bolt,hoisting ring bolt,MAINT_ITEM,1,1
+MAINT_ITEM:hold down,hold down,MAINT_ITEM,1,1
+MAINT_ITEM:hold down nuts,hold down nuts,MAINT_ITEM,1,1
+MAINT_ITEM:hole plugs,hole plugs,MAINT_ITEM,1,1
+MAINT_ITEM:hos,hos,MAINT_ITEM,1,1
+MAINT_ITEM:hover power,hover power,MAINT_ITEM,1,1
+MAINT_ITEM:hydrauli,hydrauli,MAINT_ITEM,1,1
+MAINT_ITEM:idle mixture linkage,idle mixture linkage,MAINT_ITEM,1,1
+MAINT_ITEM:ignition,ignition,MAINT_ITEM,1,1
+MAINT_ITEM:ignition lead,ignition lead,MAINT_ITEM,1,1
+MAINT_ITEM:ignition lead lacing core,ignition lead lacing core,MAINT_ITEM,1,1
+MAINT_ITEM:ignition lead standoff,ignition lead standoff,MAINT_ITEM,1,1
+MAINT_ITEM:ignition leads,ignition leads,MAINT_ITEM,1,1
+MAINT_ITEM:inatke gasket,inatke gasket,MAINT_ITEM,1,1
+MAINT_ITEM:inches bat inches cable,inches bat inches cable,MAINT_ITEM,1,1
+MAINT_ITEM:inches mineral oil only inches stickers,inches mineral oil only inches stickers,MAINT_ITEM,1,1
+MAINT_ITEM:indication tube gaskets,indication tube gaskets,MAINT_ITEM,1,1
+MAINT_ITEM:induction air filter,induction air filter,MAINT_ITEM,1,1
+MAINT_ITEM:induction elbow,induction elbow,MAINT_ITEM,1,1
+MAINT_ITEM:induction elbow drain tube,induction elbow drain tube,MAINT_ITEM,1,1
+MAINT_ITEM:induction gasket,induction gasket,MAINT_ITEM,1,1
+MAINT_ITEM:induction pipes,induction pipes,MAINT_ITEM,1,1
+MAINT_ITEM:information,information,MAINT_ITEM,1,1
+MAINT_ITEM:injection line,injection line,MAINT_ITEM,1,1
+MAINT_ITEM:injector nozzle,injector nozzle,MAINT_ITEM,1,1
+MAINT_ITEM:inlet screen,inlet screen,MAINT_ITEM,1,1
+MAINT_ITEM:inlet screen cowl panel rubber unsecure,inlet screen cowl panel rubber unsecure,MAINT_ITEM,1,1
+MAINT_ITEM:inlet screen wire,inlet screen wire,MAINT_ITEM,1,1
+MAINT_ITEM:inner baffle spring,inner baffle spring,MAINT_ITEM,1,1
+MAINT_ITEM:inner cooling baffle,inner cooling baffle,MAINT_ITEM,1,1
+MAINT_ITEM:inner cylinder,inner cylinder,MAINT_ITEM,1,1
+MAINT_ITEM:inspection panel,inspection panel,MAINT_ITEM,1,1
+MAINT_ITEM:instake gasket,instake gasket,MAINT_ITEM,1,1
+MAINT_ITEM:int,int,MAINT_ITEM,1,1
+MAINT_ITEM:intake air filter frame,intake air filter frame,MAINT_ITEM,1,1
+MAINT_ITEM:intake bolt hole,intake bolt hole,MAINT_ITEM,1,1
+MAINT_ITEM:intake bolts,intake bolts,MAINT_ITEM,1,1
+MAINT_ITEM:intake clamp,intake clamp,MAINT_ITEM,1,1
+MAINT_ITEM:intake clamps,intake clamps,MAINT_ITEM,1,1
+MAINT_ITEM:intake connector,intake connector,MAINT_ITEM,1,1
+MAINT_ITEM:intake cylinder,intake cylinder,MAINT_ITEM,1,1
+MAINT_ITEM:intake cylinder gasket,intake cylinder gasket,MAINT_ITEM,1,1
+MAINT_ITEM:intake elbow gask,intake elbow gask,MAINT_ITEM,1,1
+MAINT_ITEM:intake filter bracket,intake filter bracket,MAINT_ITEM,1,1
+MAINT_ITEM:intake filter housing,intake filter housing,MAINT_ITEM,1,1
+MAINT_ITEM:intake flange,intake flange,MAINT_ITEM,1,1
+MAINT_ITEM:intake flanges,intake flanges,MAINT_ITEM,1,1
+MAINT_ITEM:intake gasket cylinder,intake gasket cylinder,MAINT_ITEM,1,1
+MAINT_ITEM:intake heat,intake heat,MAINT_ITEM,1,1
+MAINT_ITEM:intake hose clamps,intake hose clamps,MAINT_ITEM,1,1
+MAINT_ITEM:intake lines,intake lines,MAINT_ITEM,1,1
+MAINT_ITEM:intake lines oil,intake lines oil,MAINT_ITEM,1,1
+MAINT_ITEM:intake lube gasket,intake lube gasket,MAINT_ITEM,1,1
+MAINT_ITEM:intake o - ring,intake o - ring,MAINT_ITEM,1,1
+MAINT_ITEM:intake pipe gaskets,intake pipe gaskets,MAINT_ITEM,1,1
+MAINT_ITEM:intake push rod,intake push rod,MAINT_ITEM,1,1
+MAINT_ITEM:intake push rod seal,intake push rod seal,MAINT_ITEM,1,1
+MAINT_ITEM:intake rocker arm,intake rocker arm,MAINT_ITEM,1,1
+MAINT_ITEM:intake screen panel,intake screen panel,MAINT_ITEM,1,1
+MAINT_ITEM:intake tub,intake tub,MAINT_ITEM,1,1
+MAINT_ITEM:intake tube assembly,intake tube assembly,MAINT_ITEM,1,1
+MAINT_ITEM:intake tube attachment,intake tube attachment,MAINT_ITEM,1,1
+MAINT_ITEM:intake tube attachment groove,intake tube attachment groove,MAINT_ITEM,1,1
+MAINT_ITEM:intake tube flange,intake tube flange,MAINT_ITEM,1,1
+MAINT_ITEM:intake tube inserts,intake tube inserts,MAINT_ITEM,1,1
+MAINT_ITEM:intake valves,intake valves,MAINT_ITEM,1,1
+MAINT_ITEM:intakes gaskets,intakes gaskets,MAINT_ITEM,1,1
+MAINT_ITEM:interbaffle,interbaffle,MAINT_ITEM,1,1
+MAINT_ITEM:interbaffle rod fastener,interbaffle rod fastener,MAINT_ITEM,2,1
+MAINT_ITEM:interconnect rod,interconnect rod,MAINT_ITEM,1,1
+MAINT_ITEM:interconnecting rods,interconnecting rods,MAINT_ITEM,1,1
+MAINT_ITEM:intercylinder baffl,intercylinder baffl,MAINT_ITEM,1,1
+MAINT_ITEM:intercylinder baffle connecting rod,intercylinder baffle connecting rod,MAINT_ITEM,1,1
+MAINT_ITEM:intercylinder baffle rod,intercylinder baffle rod,MAINT_ITEM,1,1
+MAINT_ITEM:intercylinder baffle spring,intercylinder baffle spring,MAINT_ITEM,1,1
+MAINT_ITEM:intercylinder baffle support rod,intercylinder baffle support rod,MAINT_ITEM,1,1
+MAINT_ITEM:intercylinder baffle tension wire,intercylinder baffle tension wire,MAINT_ITEM,1,1
+MAINT_ITEM:intercylinder baffle tie rod,intercylinder baffle tie rod,MAINT_ITEM,1,1
+MAINT_ITEM:inventory,inventory,MAINT_ITEM,1,1
+MAINT_ITEM:inventory engine,inventory engine,MAINT_ITEM,1,1
+MAINT_ITEM:inventory item,inventory item,MAINT_ITEM,1,1
+MAINT_ITEM:lacing c,lacing c,MAINT_ITEM,1,1
+MAINT_ITEM:lacings,lacings,MAINT_ITEM,1,1
+MAINT_ITEM:lamp,lamp,MAINT_ITEM,1,1
+MAINT_ITEM:landing,landing,MAINT_ITEM,1,1
+MAINT_ITEM:landing light wire se,landing light wire se,MAINT_ITEM,1,1
+MAINT_ITEM:latch / pin hole,latch / pin hole,MAINT_ITEM,1,1
+MAINT_ITEM:leads,leads,MAINT_ITEM,1,1
+MAINT_ITEM:left door,left door,MAINT_ITEM,1,1
+MAINT_ITEM:left engine,left engine,MAINT_ITEM,1,1
+MAINT_ITEM:lift bolt,lift bolt,MAINT_ITEM,1,1
+MAINT_ITEM:lift ring bolt,lift ring bolt,MAINT_ITEM,1,1
+MAINT_ITEM:lifted assembly,lifted assembly,MAINT_ITEM,1,1
+MAINT_ITEM:lifter,lifter,MAINT_ITEM,1,1
+MAINT_ITEM:lifting bracket case half bolt,lifting bracket case half bolt,MAINT_ITEM,1,1
+MAINT_ITEM:lifting eye bracket,lifting eye bracket,MAINT_ITEM,1,1
+MAINT_ITEM:like material referencing,like material referencing,MAINT_ITEM,1,1
+MAINT_ITEM:lines inches b inches nut,lines inches b inches nut,MAINT_ITEM,1,1
+MAINT_ITEM:linkage,linkage,MAINT_ITEM,1,1
+MAINT_ITEM:loaner turb,loaner turb,MAINT_ITEM,1,1
+MAINT_ITEM:lock nut,lock nut,MAINT_ITEM,1,1
+MAINT_ITEM:lock plate,lock plate,MAINT_ITEM,1,1
+MAINT_ITEM:lock washers,lock washers,MAINT_ITEM,1,1
+MAINT_ITEM:locktite,locktite,MAINT_ITEM,1,1
+MAINT_ITEM:longer push rod,longer push rod,MAINT_ITEM,1,1
+MAINT_ITEM:lowest part,lowest part,MAINT_ITEM,1,1
+MAINT_ITEM:lueco,lueco,MAINT_ITEM,1,1
+MAINT_ITEM:lueco cylinder assembly,lueco cylinder assembly,MAINT_ITEM,1,1
+MAINT_ITEM:lueco markings,lueco markings,MAINT_ITEM,1,1
+MAINT_ITEM:m / r system,m / r system,MAINT_ITEM,1,1
+MAINT_ITEM:m / r transmission oil cooler,m / r transmission oil cooler,MAINT_ITEM,2,1
+MAINT_ITEM:magneto blast tube,magneto blast tube,MAINT_ITEM,1,1
+MAINT_ITEM:magneto switch sele,magneto switch sele,MAINT_ITEM,1,1
+MAINT_ITEM:magneto timin,magneto timin,MAINT_ITEM,1,1
+MAINT_ITEM:magnetos t,magnetos t,MAINT_ITEM,1,1
+MAINT_ITEM:main and tail rotor,main and tail rotor,MAINT_ITEM,1,1
+MAINT_ITEM:main bearing nuts,main bearing nuts,MAINT_ITEM,1,1
+MAINT_ITEM:main cran,main cran,MAINT_ITEM,1,1
+MAINT_ITEM:manifold pressure fitting,manifold pressure fitting,MAINT_ITEM,1,1
+MAINT_ITEM:manifold psi,manifold psi,MAINT_ITEM,1,1
+MAINT_ITEM:mineral oi,mineral oi,MAINT_ITEM,1,1
+MAINT_ITEM:mixture cable rigging,mixture cable rigging,MAINT_ITEM,1,1
+MAINT_ITEM:mixture linkage,mixture linkage,MAINT_ITEM,1,1
+MAINT_ITEM:mount,mount,MAINT_ITEM,1,1
+MAINT_ITEM:mount bolt,mount bolt,MAINT_ITEM,2,1
+MAINT_ITEM:mount bracket,mount bracket,MAINT_ITEM,1,1
+MAINT_ITEM:mountin,mountin,MAINT_ITEM,1,1
+MAINT_ITEM:mounting baffle,mounting baffle,MAINT_ITEM,1,1
+MAINT_ITEM:mounting bolt,mounting bolt,MAINT_ITEM,1,1
+MAINT_ITEM:mounting bracket,mounting bracket,MAINT_ITEM,1,1
+MAINT_ITEM:mounting grommets,mounting grommets,MAINT_ITEM,1,1
+MAINT_ITEM:muffler assembly,muffler assembly,MAINT_ITEM,1,1
+MAINT_ITEM:muffler baffle,muffler baffle,MAINT_ITEM,1,1
+MAINT_ITEM:muffler heat muff,muffler heat muff,MAINT_ITEM,1,1
+MAINT_ITEM:muffler heat shroud,muffler heat shroud,MAINT_ITEM,1,1
+MAINT_ITEM:muffler intake,muffler intake,MAINT_ITEM,1,1
+MAINT_ITEM:muffler shroud opening,muffler shroud opening,MAINT_ITEM,1,1
+MAINT_ITEM:nacelle panel,nacelle panel,MAINT_ITEM,1,1
+MAINT_ITEM:nacelle vent,nacelle vent,MAINT_ITEM,1,1
+MAINT_ITEM:necessary baffling,necessary baffling,MAINT_ITEM,1,1
+MAINT_ITEM:necessary gears,necessary gears,MAINT_ITEM,1,1
+MAINT_ITEM:new piston,new piston,MAINT_ITEM,1,1
+MAINT_ITEM:nose landing gear upper cover,nose landing gear upper cover,MAINT_ITEM,1,1
+MAINT_ITEM:number 29 push rods,number 29 push rods,MAINT_ITEM,1,1
+MAINT_ITEM:number 31 push rod,number 31 push rod,MAINT_ITEM,1,1
+MAINT_ITEM:nutplates,nutplates,MAINT_ITEM,1,1
+MAINT_ITEM:obstruction,obstruction,MAINT_ITEM,1,1
+MAINT_ITEM:oil / fuel,oil / fuel,MAINT_ITEM,1,1
+MAINT_ITEM:oil / torq uemeter mounts,oil / torq uemeter mounts,MAINT_ITEM,1,1
+MAINT_ITEM:oil baffle cooler bracket,oil baffle cooler bracket,MAINT_ITEM,1,1
+MAINT_ITEM:oil control ring,oil control ring,MAINT_ITEM,1,1
+MAINT_ITEM:oil coo,oil coo,MAINT_ITEM,1,1
+MAINT_ITEM:oil cool,oil cool,MAINT_ITEM,1,1
+MAINT_ITEM:oil coole,oil coole,MAINT_ITEM,1,1
+MAINT_ITEM:oil cooler gap,oil cooler gap,MAINT_ITEM,1,1
+MAINT_ITEM:oil cooler hose bracket,oil cooler hose bracket,MAINT_ITEM,1,1
+MAINT_ITEM:oil cooler lines,oil cooler lines,MAINT_ITEM,1,1
+MAINT_ITEM:oil cooler mount,oil cooler mount,MAINT_ITEM,1,1
+MAINT_ITEM:oil cooler shroud,oil cooler shroud,MAINT_ITEM,1,1
+MAINT_ITEM:oil cooler stand offs,oil cooler stand offs,MAINT_ITEM,2,1
+MAINT_ITEM:oil cooler support bracket,oil cooler support bracket,MAINT_ITEM,1,1
+MAINT_ITEM:oil dipstick housing,oil dipstick housing,MAINT_ITEM,1,1
+MAINT_ITEM:oil dipstick oil stick,oil dipstick oil stick,MAINT_ITEM,1,1
+MAINT_ITEM:oil dipstick tubes,oil dipstick tubes,MAINT_ITEM,1,1
+MAINT_ITEM:oil drain tubes,oil drain tubes,MAINT_ITEM,1,1
+MAINT_ITEM:oil drains,oil drains,MAINT_ITEM,1,1
+MAINT_ITEM:oil hose,oil hose,MAINT_ITEM,1,1
+MAINT_ITEM:oil line 90 degree adel clamp bracket,oil line 90 degree adel clamp bracket,MAINT_ITEM,1,1
+MAINT_ITEM:oil p,oil p,MAINT_ITEM,1,1
+MAINT_ITEM:oil pan,oil pan,MAINT_ITEM,1,1
+MAINT_ITEM:oil pressure engine,oil pressure engine,MAINT_ITEM,1,1
+MAINT_ITEM:oil pressure lines,oil pressure lines,MAINT_ITEM,1,1
+MAINT_ITEM:oil pressure relief valve,oil pressure relief valve,MAINT_ITEM,1,1
+MAINT_ITEM:oil pressure sender ground strap,oil pressure sender ground strap,MAINT_ITEM,1,1
+MAINT_ITEM:oil pressure setting adjuster safety wire,oil pressure setting adjuster safety wire,MAINT_ITEM,1,1
+MAINT_ITEM:oil pressure switch wire harness,oil pressure switch wire harness,MAINT_ITEM,1,1
+MAINT_ITEM:oil pressure tube,oil pressure tube,MAINT_ITEM,1,1
+MAINT_ITEM:oil psi sender ground strap,oil psi sender ground strap,MAINT_ITEM,1,1
+MAINT_ITEM:oil psi switch wiring grommet,oil psi switch wiring grommet,MAINT_ITEM,1,1
+MAINT_ITEM:oil re,oil re,MAINT_ITEM,1,1
+MAINT_ITEM:oil retu,oil retu,MAINT_ITEM,1,1
+MAINT_ITEM:oil retur,oil retur,MAINT_ITEM,1,1
+MAINT_ITEM:oil return like clamps,oil return like clamps,MAINT_ITEM,1,1
+MAINT_ITEM:oil return line ho,oil return line ho,MAINT_ITEM,1,1
+MAINT_ITEM:oil return t,oil return t,MAINT_ITEM,1,1
+MAINT_ITEM:oil screen housing,oil screen housing,MAINT_ITEM,1,1
+MAINT_ITEM:oil seep,oil seep,MAINT_ITEM,1,1
+MAINT_ITEM:oil stick,oil stick,MAINT_ITEM,1,1
+MAINT_ITEM:oil sump cylinder,oil sump cylinder,MAINT_ITEM,1,1
+MAINT_ITEM:oil sump screen,oil sump screen,MAINT_ITEM,2,1
+MAINT_ITEM:oil temperature light,oil temperature light,MAINT_ITEM,1,1
+MAINT_ITEM:oil tube drain lines,oil tube drain lines,MAINT_ITEM,1,1
+MAINT_ITEM:oil tube filter,oil tube filter,MAINT_ITEM,1,1
+MAINT_ITEM:ones,ones,MAINT_ITEM,1,1
+MAINT_ITEM:only 2600,only 2600,MAINT_ITEM,1,1
+MAINT_ITEM:outboard bolt,outboard bolt,MAINT_ITEM,1,1
+MAINT_ITEM:outer baffle tie,outer baffle tie,MAINT_ITEM,1,1
+MAINT_ITEM:output wire,output wire,MAINT_ITEM,2,1
+MAINT_ITEM:overhaul engine,overhaul engine,MAINT_ITEM,1,1
+MAINT_ITEM:overhaul kit,overhaul kit,MAINT_ITEM,1,1
+MAINT_ITEM:overhauled engine,overhauled engine,MAINT_ITEM,1,1
+MAINT_ITEM:overhauled propeller governor,overhauled propeller governor,MAINT_ITEM,1,1
+MAINT_ITEM:pallet,pallet,MAINT_ITEM,1,1
+MAINT_ITEM:pan drain line cluster,pan drain line cluster,MAINT_ITEM,1,1
+MAINT_ITEM:panel,panel,MAINT_ITEM,1,1
+MAINT_ITEM:panel seals,panel seals,MAINT_ITEM,1,1
+MAINT_ITEM:panels,panels,MAINT_ITEM,1,1
+MAINT_ITEM:pass down,pass down,MAINT_ITEM,1,1
+MAINT_ITEM:patch same material,patch same material,MAINT_ITEM,1,1
+MAINT_ITEM:pd,pd,MAINT_ITEM,1,1
+MAINT_ITEM:phenolic spacers,phenolic spacers,MAINT_ITEM,1,1
+MAINT_ITEM:pilots seat,pilots seat,MAINT_ITEM,1,1
+MAINT_ITEM:pins,pins,MAINT_ITEM,1,1
+MAINT_ITEM:piston pin,piston pin,MAINT_ITEM,1,1
+MAINT_ITEM:piston pins,piston pins,MAINT_ITEM,1,1
+MAINT_ITEM:placard,placard,MAINT_ITEM,1,1
+MAINT_ITEM:plastic,plastic,MAINT_ITEM,1,1
+MAINT_ITEM:plastic holder,plastic holder,MAINT_ITEM,1,1
+MAINT_ITEM:plug hole,plug hole,MAINT_ITEM,1,1
+MAINT_ITEM:plug holes,plug holes,MAINT_ITEM,1,1
+MAINT_ITEM:plug wiring,plug wiring,MAINT_ITEM,1,1
+MAINT_ITEM:plugs safety,plugs safety,MAINT_ITEM,1,1
+MAINT_ITEM:plugs safety wire,plugs safety wire,MAINT_ITEM,1,1
+MAINT_ITEM:plunger assembly,plunger assembly,MAINT_ITEM,1,1
+MAINT_ITEM:possible engine,possible engine,MAINT_ITEM,1,1
+MAINT_ITEM:power section,power section,MAINT_ITEM,1,1
+MAINT_ITEM:preservative oil,preservative oil,MAINT_ITEM,1,1
+MAINT_ITEM:pressure tube,pressure tube,MAINT_ITEM,1,1
+MAINT_ITEM:primer sleev,primer sleev,MAINT_ITEM,1,1
+MAINT_ITEM:prop / moun t assembly,prop / moun t assembly,MAINT_ITEM,1,1
+MAINT_ITEM:propeller accumul,propeller accumul,MAINT_ITEM,1,1
+MAINT_ITEM:propeller assembly,propeller assembly,MAINT_ITEM,1,1
+MAINT_ITEM:propeller bolts,propeller bolts,MAINT_ITEM,1,1
+MAINT_ITEM:propeller cable,propeller cable,MAINT_ITEM,1,1
+MAINT_ITEM:propeller could use,propeller could use,MAINT_ITEM,1,1
+MAINT_ITEM:propeller flange,propeller flange,MAINT_ITEM,1,1
+MAINT_ITEM:propeller governor line,propeller governor line,MAINT_ITEM,1,1
+MAINT_ITEM:propeller governor oil line,propeller governor oil line,MAINT_ITEM,1,1
+MAINT_ITEM:propeller governors,propeller governors,MAINT_ITEM,1,1
+MAINT_ITEM:propeller low pitch stop,propeller low pitch stop,MAINT_ITEM,1,1
+MAINT_ITEM:propeller oil line,propeller oil line,MAINT_ITEM,1,1
+MAINT_ITEM:propeller rivet,propeller rivet,MAINT_ITEM,1,1
+MAINT_ITEM:pump,pump,MAINT_ITEM,1,1
+MAINT_ITEM:purge system,purge system,MAINT_ITEM,1,1
+MAINT_ITEM:push rod adel clamp,push rod adel clamp,MAINT_ITEM,1,1
+MAINT_ITEM:push rod end,push rod end,MAINT_ITEM,1,1
+MAINT_ITEM:push rod shroud,push rod shroud,MAINT_ITEM,1,1
+MAINT_ITEM:push rod shroud tube,push rod shroud tube,MAINT_ITEM,1,1
+MAINT_ITEM:push rod shroud tube seals,push rod shroud tube seals,MAINT_ITEM,2,1
+MAINT_ITEM:push rod tube seal,push rod tube seal,MAINT_ITEM,1,1
+MAINT_ITEM:recotter pinn,recotter pinn,MAINT_ITEM,1,1
+MAINT_ITEM:red rtv,red rtv,MAINT_ITEM,1,1
+MAINT_ITEM:reinforcing brace,reinforcing brace,MAINT_ITEM,1,1
+MAINT_ITEM:relief hole,relief hole,MAINT_ITEM,1,1
+MAINT_ITEM:remaining items,remaining items,MAINT_ITEM,1,1
+MAINT_ITEM:remaining lines,remaining lines,MAINT_ITEM,1,1
+MAINT_ITEM:retainers,retainers,MAINT_ITEM,1,1
+MAINT_ITEM:retorquing nut,retorquing nut,MAINT_ITEM,1,1
+MAINT_ITEM:return line,return line,MAINT_ITEM,1,1
+MAINT_ITEM:ring,ring,MAINT_ITEM,1,1
+MAINT_ITEM:ring gaps,ring gaps,MAINT_ITEM,1,1
+MAINT_ITEM:ring gear assembly,ring gear assembly,MAINT_ITEM,1,1
+MAINT_ITEM:ring gear teeth,ring gear teeth,MAINT_ITEM,2,1
+MAINT_ITEM:riv,riv,MAINT_ITEM,1,1
+MAINT_ITEM:rive,rive,MAINT_ITEM,1,1
+MAINT_ITEM:rive ts,rive ts,MAINT_ITEM,1,1
+MAINT_ITEM:rocker arm cover,rocker arm cover,MAINT_ITEM,1,1
+MAINT_ITEM:rocker cove,rocker cove,MAINT_ITEM,1,1
+MAINT_ITEM:rocker cover bracket,rocker cover bracket,MAINT_ITEM,1,1
+MAINT_ITEM:rocker cover cylinder,rocker cover cylinder,MAINT_ITEM,1,1
+MAINT_ITEM:rocker cover drain hose clamps,rocker cover drain hose clamps,MAINT_ITEM,1,1
+MAINT_ITEM:rocker cover gasket cylinder,rocker cover gasket cylinder,MAINT_ITEM,1,1
+MAINT_ITEM:rocker cover gaskets cylinder,rocker cover gaskets cylinder,MAINT_ITEM,1,1
+MAINT_ITEM:rocker cover thrust button,rocker cover thrust button,MAINT_ITEM,1,1
+MAINT_ITEM:rocker cover thrust buttons,rocker cover thrust buttons,MAINT_ITEM,1,1
+MAINT_ITEM:rocker drain clamps,rocker drain clamps,MAINT_ITEM,1,1
+MAINT_ITEM:rocker drain hose clamps,rocker drain hose clamps,MAINT_ITEM,1,1
+MAINT_ITEM:rocker drains,rocker drains,MAINT_ITEM,1,1
+MAINT_ITEM:rocker installation,rocker installation,MAINT_ITEM,1,1
+MAINT_ITEM:rocker oil,rocker oil,MAINT_ITEM,1,1
+MAINT_ITEM:rocker return lines,rocker return lines,MAINT_ITEM,1,1
+MAINT_ITEM:rocker screw,rocker screw,MAINT_ITEM,1,1
+MAINT_ITEM:rocker screws,rocker screws,MAINT_ITEM,1,1
+MAINT_ITEM:rocker seal,rocker seal,MAINT_ITEM,1,1
+MAINT_ITEM:rocker shaft cylinder,rocker shaft cylinder,MAINT_ITEM,1,1
+MAINT_ITEM:rocker shaft plug,rocker shaft plug,MAINT_ITEM,1,1
+MAINT_ITEM:rocker shaft plugs,rocker shaft plugs,MAINT_ITEM,2,1
+MAINT_ITEM:rocker shaft thrust button,rocker shaft thrust button,MAINT_ITEM,1,1
+MAINT_ITEM:rocker shaft thrust buttons,rocker shaft thrust buttons,MAINT_ITEM,1,1
+MAINT_ITEM:rocker shaft thrust plug,rocker shaft thrust plug,MAINT_ITEM,1,1
+MAINT_ITEM:rods,rods,MAINT_ITEM,1,1
+MAINT_ITEM:roller tappets,roller tappets,MAINT_ITEM,1,1
+MAINT_ITEM:rotor,rotor,MAINT_ITEM,1,1
+MAINT_ITEM:rub mark,rub mark,MAINT_ITEM,1,1
+MAINT_ITEM:rubber,rubber,MAINT_ITEM,1,1
+MAINT_ITEM:rubber drain lines,rubber drain lines,MAINT_ITEM,1,1
+MAINT_ITEM:rubber hose section,rubber hose section,MAINT_ITEM,2,1
+MAINT_ITEM:rubber plug,rubber plug,MAINT_ITEM,1,1
+MAINT_ITEM:rubber seal,rubber seal,MAINT_ITEM,1,1
+MAINT_ITEM:rubber silicone,rubber silicone,MAINT_ITEM,1,1
+MAINT_ITEM:rudder covers,rudder covers,MAINT_ITEM,1,1
+MAINT_ITEM:rust,rust,MAINT_ITEM,1,1
+MAINT_ITEM:safeties,safeties,MAINT_ITEM,1,1
+MAINT_ITEM:safety department,safety department,MAINT_ITEM,1,1
+MAINT_ITEM:sam material,sam material,MAINT_ITEM,1,1
+MAINT_ITEM:scat tube,scat tube,MAINT_ITEM,1,1
+MAINT_ITEM:screw bracket,screw bracket,MAINT_ITEM,1,1
+MAINT_ITEM:screw moun,screw moun,MAINT_ITEM,1,1
+MAINT_ITEM:screw support,screw support,MAINT_ITEM,1,1
+MAINT_ITEM:scroll mount,scroll mount,MAINT_ITEM,1,1
+MAINT_ITEM:seal black,seal black,MAINT_ITEM,1,1
+MAINT_ITEM:seal section,seal section,MAINT_ITEM,1,1
+MAINT_ITEM:seal sections,seal sections,MAINT_ITEM,1,1
+MAINT_ITEM:seal support,seal support,MAINT_ITEM,1,1
+MAINT_ITEM:seasonal idle,seasonal idle,MAINT_ITEM,1,1
+MAINT_ITEM:seat,seat,MAINT_ITEM,1,1
+MAINT_ITEM:serviceable bracket,serviceable bracket,MAINT_ITEM,1,1
+MAINT_ITEM:serviceable components,serviceable components,MAINT_ITEM,1,1
+MAINT_ITEM:serviceable gear,serviceable gear,MAINT_ITEM,1,1
+MAINT_ITEM:serviceable part,serviceable part,MAINT_ITEM,1,1
+MAINT_ITEM:set,set,MAINT_ITEM,1,1
+MAINT_ITEM:shear rivets,shear rivets,MAINT_ITEM,1,1
+MAINT_ITEM:sheet metal doubler,sheet metal doubler,MAINT_ITEM,1,1
+MAINT_ITEM:shim,shim,MAINT_ITEM,1,1
+MAINT_ITEM:short dipstick,short dipstick,MAINT_ITEM,1,1
+MAINT_ITEM:shroud,shroud,MAINT_ITEM,1,1
+MAINT_ITEM:sid,sid,MAINT_ITEM,1,1
+MAINT_ITEM:side baffle,side baffle,MAINT_ITEM,1,1
+MAINT_ITEM:silicone gask,silicone gask,MAINT_ITEM,1,1
+MAINT_ITEM:simulation,simulation,MAINT_ITEM,1,1
+MAINT_ITEM:sleeve,sleeve,MAINT_ITEM,1,1
+MAINT_ITEM:sling point,sling point,MAINT_ITEM,1,1
+MAINT_ITEM:sling point bolt,sling point bolt,MAINT_ITEM,1,1
+MAINT_ITEM:snap ring,snap ring,MAINT_ITEM,1,1
+MAINT_ITEM:sniffle valves,sniffle valves,MAINT_ITEM,2,1
+MAINT_ITEM:spacers,spacers,MAINT_ITEM,1,1
+MAINT_ITEM:spark p,spark p,MAINT_ITEM,1,1
+MAINT_ITEM:spark plug access hole patch,spark plug access hole patch,MAINT_ITEM,1,1
+MAINT_ITEM:spark plug access plug,spark plug access plug,MAINT_ITEM,2,1
+MAINT_ITEM:spark plug baffle plugs,spark plug baffle plugs,MAINT_ITEM,1,1
+MAINT_ITEM:spark plug boss threads,spark plug boss threads,MAINT_ITEM,1,1
+MAINT_ITEM:spark plug cap,spark plug cap,MAINT_ITEM,1,1
+MAINT_ITEM:spark plug leads,spark plug leads,MAINT_ITEM,1,1
+MAINT_ITEM:spring connector,spring connector,MAINT_ITEM,1,1
+MAINT_ITEM:spring washer,spring washer,MAINT_ITEM,1,1
+MAINT_ITEM:spring washers,spring washers,MAINT_ITEM,1,1
+MAINT_ITEM:spring wire,spring wire,MAINT_ITEM,2,1
+MAINT_ITEM:springs,springs,MAINT_ITEM,1,1
+MAINT_ITEM:stack,stack,MAINT_ITEM,2,1
+MAINT_ITEM:stacks,stacks,MAINT_ITEM,1,1
+MAINT_ITEM:stainless steel,stainless steel,MAINT_ITEM,1,1
+MAINT_ITEM:standby assembly,standby assembly,MAINT_ITEM,1,1
+MAINT_ITEM:star washer,star washer,MAINT_ITEM,1,1
+MAINT_ITEM:start / generator,start / generator,MAINT_ITEM,1,1
+MAINT_ITEM:starter front cap,starter front cap,MAINT_ITEM,1,1
+MAINT_ITEM:starter generator,starter generator,MAINT_ITEM,1,1
+MAINT_ITEM:starter generator air vent,starter generator air vent,MAINT_ITEM,1,1
+MAINT_ITEM:starter ground wire,starter ground wire,MAINT_ITEM,1,1
+MAINT_ITEM:starter ring gear,starter ring gear,MAINT_ITEM,2,1
+MAINT_ITEM:starter wire,starter wire,MAINT_ITEM,1,1
+MAINT_ITEM:stiffener,stiffener,MAINT_ITEM,1,1
+MAINT_ITEM:strap end,strap end,MAINT_ITEM,1,1
+MAINT_ITEM:striker plate,striker plate,MAINT_ITEM,1,1
+MAINT_ITEM:striker plates,striker plates,MAINT_ITEM,1,1
+MAINT_ITEM:stud,stud,MAINT_ITEM,1,1
+MAINT_ITEM:stud nut,stud nut,MAINT_ITEM,1,1
+MAINT_ITEM:studder,studder,MAINT_ITEM,1,1
+MAINT_ITEM:sump connector hose,sump connector hose,MAINT_ITEM,1,1
+MAINT_ITEM:sump screen,sump screen,MAINT_ITEM,1,1
+MAINT_ITEM:surfaces,surfaces,MAINT_ITEM,1,1
+MAINT_ITEM:tape,tape,MAINT_ITEM,1,1
+MAINT_ITEM:temperature probe,temperature probe,MAINT_ITEM,1,1
+MAINT_ITEM:tension cable,tension cable,MAINT_ITEM,1,1
+MAINT_ITEM:tension wire,tension wire,MAINT_ITEM,1,1
+MAINT_ITEM:that attaches cowl flap levers,that attaches cowl flap levers,MAINT_ITEM,1,1
+MAINT_ITEM:throttle cable,throttle cable,MAINT_ITEM,1,1
+MAINT_ITEM:throttle cable attachment,throttle cable attachment,MAINT_ITEM,2,1
+MAINT_ITEM:throttle cables,throttle cables,MAINT_ITEM,1,1
+MAINT_ITEM:throttle control quadrant,throttle control quadrant,MAINT_ITEM,1,1
+MAINT_ITEM:throttle interconnect,throttle interconnect,MAINT_ITEM,1,1
+MAINT_ITEM:throttle linkage arm,throttle linkage arm,MAINT_ITEM,1,1
+MAINT_ITEM:throttle linkage dog bone,throttle linkage dog bone,MAINT_ITEM,1,1
+MAINT_ITEM:tie rod hole,tie rod hole,MAINT_ITEM,1,1
+MAINT_ITEM:tie rod nut,tie rod nut,MAINT_ITEM,1,1
+MAINT_ITEM:tie wire assembly,tie wire assembly,MAINT_ITEM,1,1
+MAINT_ITEM:tie wrap standoff,tie wrap standoff,MAINT_ITEM,1,1
+MAINT_ITEM:ties,ties,MAINT_ITEM,1,1
+MAINT_ITEM:tool,tool,MAINT_ITEM,2,1
+MAINT_ITEM:top end,top end,MAINT_ITEM,1,1
+MAINT_ITEM:tower,tower,MAINT_ITEM,1,1
+MAINT_ITEM:trailer,trailer,MAINT_ITEM,1,1
+MAINT_ITEM:transducer ground path,transducer ground path,MAINT_ITEM,1,1
+MAINT_ITEM:trunnion bolt,trunnion bolt,MAINT_ITEM,1,1
+MAINT_ITEM:tube keeper,tube keeper,MAINT_ITEM,1,1
+MAINT_ITEM:tube upper,tube upper,MAINT_ITEM,1,1
+MAINT_ITEM:turbine assembly,turbine assembly,MAINT_ITEM,1,1
+MAINT_ITEM:tyrap,tyrap,MAINT_ITEM,1,1
+MAINT_ITEM:tywrap,tywrap,MAINT_ITEM,1,1
+MAINT_ITEM:upper,upper,MAINT_ITEM,1,1
+MAINT_ITEM:upper baffle material rivet,upper baffle material rivet,MAINT_ITEM,1,1
+MAINT_ITEM:upper baffling,upper baffling,MAINT_ITEM,1,1
+MAINT_ITEM:upper ends,upper ends,MAINT_ITEM,1,1
+MAINT_ITEM:upper leads,upper leads,MAINT_ITEM,1,1
+MAINT_ITEM:upper nutplate,upper nutplate,MAINT_ITEM,1,1
+MAINT_ITEM:upper rocker cover,upper rocker cover,MAINT_ITEM,1,1
+MAINT_ITEM:upper support bracket,upper support bracket,MAINT_ITEM,1,1
+MAINT_ITEM:vacuum adapter gasket,vacuum adapter gasket,MAINT_ITEM,1,1
+MAINT_ITEM:vacuum pum,vacuum pum,MAINT_ITEM,1,1
+MAINT_ITEM:vacuum pump cooling duct,vacuum pump cooling duct,MAINT_ITEM,1,1
+MAINT_ITEM:vacuum pump line,vacuum pump line,MAINT_ITEM,1,1
+MAINT_ITEM:vacuum tube,vacuum tube,MAINT_ITEM,1,1
+MAINT_ITEM:valve contact,valve contact,MAINT_ITEM,1,1
+MAINT_ITEM:valve seat,valve seat,MAINT_ITEM,1,1
+MAINT_ITEM:valve spring,valve spring,MAINT_ITEM,1,1
+MAINT_ITEM:valve tube,valve tube,MAINT_ITEM,1,1
+MAINT_ITEM:vent hose,vent hose,MAINT_ITEM,1,1
+MAINT_ITEM:vent hoses,vent hoses,MAINT_ITEM,1,1
+MAINT_ITEM:vent tubes,vent tubes,MAINT_ITEM,1,1
+MAINT_ITEM:washers / nuts,washers / nuts,MAINT_ITEM,1,1
+MAINT_ITEM:weather stripping,weather stripping,MAINT_ITEM,2,1
+MAINT_ITEM:wide area washer,wide area washer,MAINT_ITEM,1,1
+MAINT_ITEM:wire spring,wire spring,MAINT_ITEM,1,1
+MAINT_ITEM:wire strap,wire strap,MAINT_ITEM,1,1
+MAINT_ITEM:wire tie,wire tie,MAINT_ITEM,1,1
+MAINT_ITEM:wiring clamp,wiring clamp,MAINT_ITEM,1,1
+MAINT_ITEM:wiring harness support bracket,wiring harness support bracket,MAINT_ITEM,1,1
+MAINT_ITEM:wiring holder,wiring holder,MAINT_ITEM,1,1
+MAINT_ITEM:zip,zip,MAINT_ITEM,1,1
+MAINT_ITEM:zip tied,zip tied,MAINT_ITEM,1,1
+OP_CTX:after 20 inches manifold pressure,after 20 inches manifold pressure,OP_CTX,1,1
+OP_CTX:after completion of run up,after completion of run up,OP_CTX,1,1
+OP_CTX:after engine run up,after engine run up,OP_CTX,1,1
+OP_CTX:after landing ground roll stop,after landing ground roll stop,OP_CTX,1,1
+OP_CTX:after performing simulated engine failure,after performing simulated engine failure,OP_CTX,1,1
+OP_CTX:after post run,after post run,OP_CTX,1,1
+OP_CTX:after run,after run,OP_CTX,1,1
+OP_CTX:after run up,after run up,OP_CTX,1,1
+OP_CTX:after shutdown,after shutdown,OP_CTX,1,1
+OP_CTX:at different settings,at different settings,OP_CTX,1,1
+OP_CTX:at hover,at hover,OP_CTX,1,1
+OP_CTX:at idle during taxi,at idle during taxi,OP_CTX,1,1
+OP_CTX:at limiting manifold,at limiting manifold,OP_CTX,1,1
+OP_CTX:at low altitudes,at low altitudes,OP_CTX,1,1
+OP_CTX:at stop for run up,at stop for run up,OP_CTX,1,1
+OP_CTX:climb,climb,OP_CTX,1,1
+OP_CTX:climb out,climb out,OP_CTX,1,1
+OP_CTX:climbing after takeoff,climbing after takeoff,OP_CTX,1,1
+OP_CTX:climbing out,climbing out,OP_CTX,1,1
+OP_CTX:coming off runway,coming off runway,OP_CTX,1,1
+OP_CTX:cowl off,cowl off,OP_CTX,1,1
+OP_CTX:cruise,cruise,OP_CTX,1,1
+OP_CTX:did normal start,did normal start,OP_CTX,1,1
+OP_CTX:does not run at idle,does not run at idle,OP_CTX,1,1
+OP_CTX:doing max perform takeoff at 3200,doing max perform takeoff at 3200,OP_CTX,1,1
+OP_CTX:during aircraft run up,during aircraft run up,OP_CTX,1,1
+OP_CTX:during climb and while cruising,during climb and while cruising,OP_CTX,1,1
+OP_CTX:during crui,during crui,OP_CTX,1,1
+OP_CTX:during entire flight,during entire flight,OP_CTX,1,1
+OP_CTX:during entry to 180 degree auto,during entry to 180 degree auto,OP_CTX,1,1
+OP_CTX:during fligh,during fligh,OP_CTX,1,1
+OP_CTX:during go - around from a simulated engine failure,during go - around from a simulated engine failure,OP_CTX,1,1
+OP_CTX:during high speed roll,during high speed roll,OP_CTX,1,1
+OP_CTX:during idle check on,during idle check on,OP_CTX,1,1
+OP_CTX:during idle check on run,during idle check on run,OP_CTX,1,1
+OP_CTX:during idle check on run up,during idle check on run up,OP_CTX,1,1
+OP_CTX:during initial climb,during initial climb,OP_CTX,1,1
+OP_CTX:during installation,during installation,OP_CTX,1,1
+OP_CTX:during magneto check,during magneto check,OP_CTX,1,1
+OP_CTX:during manuevers,during manuevers,OP_CTX,1,1
+OP_CTX:during override check,during override check,OP_CTX,1,1
+OP_CTX:during pad check,during pad check,OP_CTX,1,1
+OP_CTX:during post flight,during post flight,OP_CTX,1,1
+OP_CTX:during recovery,during recovery,OP_CTX,1,1
+OP_CTX:during removal,during removal,OP_CTX,1,1
+OP_CTX:during shutdown prior,during shutdown prior,OP_CTX,1,1
+OP_CTX:during start,during start,OP_CTX,1,1
+OP_CTX:during stop and go whil,during stop and go whil,OP_CTX,1,1
+OP_CTX:during takeoff roll,during takeoff roll,OP_CTX,1,1
+OP_CTX:during valve staking,during valve staking,OP_CTX,1,1
+OP_CTX:end of flight,end of flight,OP_CTX,1,1
+OP_CTX:going from idle,going from idle,OP_CTX,1,1
+OP_CTX:ground during pad check,ground during pad check,OP_CTX,1,1
+OP_CTX:holding short of runway,holding short of runway,OP_CTX,1,1
+OP_CTX:hover at limiting manifold,hover at limiting manifold,OP_CTX,1,1
+OP_CTX:in bottom corner,in bottom corner,OP_CTX,1,1
+OP_CTX:in carrier,in carrier,OP_CTX,1,1
+OP_CTX:in climb and cruise,in climb and cruise,OP_CTX,1,1
+OP_CTX:in cruise,in cruise,OP_CTX,1,1
+OP_CTX:in down draft,in down draft,OP_CTX,1,1
+OP_CTX:in heater hangar,in heater hangar,OP_CTX,1,1
+OP_CTX:in pattern,in pattern,OP_CTX,1,1
+OP_CTX:incre,incre,OP_CTX,1,1
+OP_CTX:initially after takeoff,initially after takeoff,OP_CTX,1,1
+OP_CTX:last daily shutdown,last daily shutdown,OP_CTX,1,1
+OP_CTX:last landing,last landing,OP_CTX,1,1
+OP_CTX:leaning mixt,leaning mixt,OP_CTX,1,1
+OP_CTX:leaning mixture,leaning mixture,OP_CTX,1,1
+OP_CTX:leaning mixture on ground,leaning mixture on ground,OP_CTX,1,1
+OP_CTX:leaning mixture on the groun,leaning mixture on the groun,OP_CTX,1,1
+OP_CTX:manifold psi gauge reads atmospheric pressure,manifold psi gauge reads atmospheric pressure,OP_CTX,1,1
+OP_CTX:multiple power settings,multiple power settings,OP_CTX,1,1
+OP_CTX:near idle,near idle,OP_CTX,1,1
+OP_CTX:on bottom,on bottom,OP_CTX,1,1
+OP_CTX:on climb,on climb,OP_CTX,1,1
+OP_CTX:on departure,on departure,OP_CTX,1,1
+OP_CTX:on departure climbout,on departure climbout,OP_CTX,1,1
+OP_CTX:on descent,on descent,OP_CTX,1,1
+OP_CTX:on engine start up,on engine start up,OP_CTX,1,1
+OP_CTX:on entire,on entire,OP_CTX,1,1
+OP_CTX:on final,on final,OP_CTX,1,1
+OP_CTX:on flight,on flight,OP_CTX,1,1
+OP_CTX:on ground during,on ground during,OP_CTX,1,1
+OP_CTX:on ground during pad,on ground during pad,OP_CTX,1,1
+OP_CTX:on ground during pad check,on ground during pad check,OP_CTX,1,1
+OP_CTX:on landing,on landing,OP_CTX,1,1
+OP_CTX:on last climb out crossing 1300 msl,on last climb out crossing 1300 msl,OP_CTX,1,1
+OP_CTX:on last daily shut do,on last daily shut do,OP_CTX,1,1
+OP_CTX:on mount,on mount,OP_CTX,1,1
+OP_CTX:on takeoff and climb,on takeoff and climb,OP_CTX,1,1
+OP_CTX:on taxi,on taxi,OP_CTX,1,1
+OP_CTX:power at idle,power at idle,OP_CTX,1,1
+OP_CTX:power on departure,power on departure,OP_CTX,1,1
+OP_CTX:power to idle,power to idle,OP_CTX,1,1
+OP_CTX:seasonal conditions,seasonal conditions,OP_CTX,1,1
+OP_CTX:short dipstick,short dipstick,OP_CTX,1,1
+OP_CTX:shutdown,shutdown,OP_CTX,1,1
+OP_CTX:spring connector,spring connector,OP_CTX,1,1
+OP_CTX:throughout res,throughout res,OP_CTX,1,1
+OP_CTX:to hover,to hover,OP_CTX,1,1
+OP_CTX:upon engine start,upon engine start,OP_CTX,1,1
+OP_CTX:upon engine start up,upon engine start up,OP_CTX,1,1
+OP_CTX:upon go - around,upon go - around,OP_CTX,1,1
+OP_CTX:upon post,upon post,OP_CTX,1,1
+OP_CTX:upon start up,upon start up,OP_CTX,1,1
+OP_CTX:various power settings,various power settings,OP_CTX,1,1
+OP_CTX:warm up,warm up,OP_CTX,1,1
+OP_CTX:when brought up,when brought up,OP_CTX,1,1
+OP_CTX:when climbing,when climbing,OP_CTX,1,1
+OP_CTX:when it fired,when it fired,OP_CTX,1,1
+OP_CTX:when leaning out,when leaning out,OP_CTX,1,1
+OP_CTX:when power t,when power t,OP_CTX,1,1
+OP_CTX:when pulled back throttle hard idle several seconds,when pulled back throttle hard idle several seconds,OP_CTX,1,1
+OP_CTX:when rpm set in idle range,when rpm set in idle range,OP_CTX,1,1
+OP_CTX:when under power,when under power,OP_CTX,1,1
+OP_CTX:while adjusting mixture,while adjusting mixture,OP_CTX,1,1
+OP_CTX:while doing unusual attitudes,while doing unusual attitudes,OP_CTX,1,1
+OP_CTX:while holding short,while holding short,OP_CTX,1,1
+OP_CTX:while leveling in down w,while leveling in down w,OP_CTX,1,1
+OP_CTX:while making right turn,while making right turn,OP_CTX,1,1
+OP_CTX:with increasing power,with increasing power,OP_CTX,1,1
+OUTCOME:acceptable,acceptable,OUTCOME,1,1
+OUTCOME:all check good,all check good,OUTCOME,1,1
+OUTCOME:all indication,all indication,OUTCOME,1,1
+OUTCOME:all indications norm,all indications norm,OUTCOME,1,1
+OUTCOME:all parameters within chec,all parameters within chec,OUTCOME,1,1
+OUTCOME:all systems within,all systems within,OUTCOME,1,1
+OUTCOME:all systems within parameters,all systems within parameters,OUTCOME,1,1
+OUTCOME:bore measure good,bore measure good,OUTCOME,1,1
+OUTCOME:compression came up,compression came up,OUTCOME,1,1
+OUTCOME:correct,correct,OUTCOME,1,1
+OUTCOME:correctly,correctly,OUTCOME,1,1
+OUTCOME:could not duplicate cht discrepancy,could not duplicate cht discrepancy,OUTCOME,1,1
+OUTCOME:could not duplicate di,could not duplicate di,OUTCOME,1,1
+OUTCOME:could not duplicate disc,could not duplicate disc,OUTCOME,1,1
+OUTCOME:could not duplicate fuel smell,could not duplicate fuel smell,OUTCOME,1,1
+OUTCOME:could not duplicate irregular sounds or vib,could not duplicate irregular sounds or vib,OUTCOME,1,1
+OUTCOME:could not duplicate tapping noise or fuel smel,could not duplicate tapping noise or fuel smel,OUTCOME,1,1
+OUTCOME:couldn ' t duplicate discrepancy,couldn ' t duplicate discrepancy,OUTCOME,1,1
+OUTCOME:damage,damage,OUTCOME,1,1
+OUTCOME:damage negligible,damage negligible,OUTCOME,1,1
+OUTCOME:did not notice any roughness or hestitation,did not notice any roughness or hestitation,OUTCOME,1,1
+OUTCOME:discrepancy,discrepancy,OUTCOME,1,1
+OUTCOME:dry tappet clearance good,dry tappet clearance good,OUTCOME,1,1
+OUTCOME:engage,engage,OUTCOME,1,1
+OUTCOME:factory installed,factory installed,OUTCOME,1,1
+OUTCOME:fine,fine,OUTCOME,1,1
+OUTCOME:fire damage,fire damage,OUTCOME,1,1
+OUTCOME:function normal,function normal,OUTCOME,1,1
+OUTCOME:marks negligible,marks negligible,OUTCOME,1,1
+OUTCOME:measure good,measure good,OUTCOME,1,1
+OUTCOME:no action,no action,OUTCOME,1,1
+OUTCOME:no adjustment,no adjustment,OUTCOME,1,1
+OUTCOME:no co warning,no co warning,OUTCOME,1,1
+OUTCOME:no cracking noted,no cracking noted,OUTCOME,1,1
+OUTCOME:no cracks,no cracks,OUTCOME,1,1
+OUTCOME:no dam,no dam,OUTCOME,1,1
+OUTCOME:no defe,no defe,OUTCOME,1,1
+OUTCOME:no defect noted,no defect noted,OUTCOME,1,1
+OUTCOME:no defects note,no defects note,OUTCOME,1,1
+OUTCOME:no disc,no disc,OUTCOME,1,1
+OUTCOME:no discrepa,no discrepa,OUTCOME,1,1
+OUTCOME:no discrepancies,no discrepancies,OUTCOME,1,1
+OUTCOME:no discrepancy noted,no discrepancy noted,OUTCOME,1,1
+OUTCOME:no effect,no effect,OUTCOME,1,1
+OUTCOME:no effort,no effort,OUTCOME,1,1
+OUTCOME:no engine roughness noted,no engine roughness noted,OUTCOME,1,1
+OUTCOME:no fur,no fur,OUTCOME,1,1
+OUTCOME:no further acti,no further acti,OUTCOME,1,1
+OUTCOME:no further action,no further action,OUTCOME,1,1
+OUTCOME:no further defects,no further defects,OUTCOME,1,1
+OUTCOME:no improvement,no improvement,OUTCOME,1,1
+OUTCOME:no leak,no leak,OUTCOME,1,1
+OUTCOME:no leak noted,no leak noted,OUTCOME,1,1
+OUTCOME:no leaks or seep found,no leaks or seep found,OUTCOME,1,1
+OUTCOME:no lines disturbed,no lines disturbed,OUTCOME,1,1
+OUTCOME:no loss in power or rough running,no loss in power or rough running,OUTCOME,1,1
+OUTCOME:no other defects noted,no other defects noted,OUTCOME,1,1
+OUTCOME:no other fod or defects noted,no other fod or defects noted,OUTCOME,1,1
+OUTCOME:no problems noted,no problems noted,OUTCOME,1,1
+OUTCOME:no rough,no rough,OUTCOME,1,1
+OUTCOME:no roughness noted,no roughness noted,OUTCOME,1,1
+OUTCOME:no roughness noted through ent,no roughness noted through ent,OUTCOME,1,1
+OUTCOME:no significant oil or,no significant oil or,OUTCOME,1,1
+OUTCOME:no sputtering,no sputtering,OUTCOME,1,1
+OUTCOME:no squealing noise noted,no squealing noise noted,OUTCOME,1,1
+OUTCOME:no success,no success,OUTCOME,1,1
+OUTCOME:no unusual noise noted,no unusual noise noted,OUTCOME,1,1
+OUTCOME:no vibra,no vibra,OUTCOME,1,1
+OUTCOME:normal indications,normal indications,OUTCOME,1,1
+OUTCOME:operated good,operated good,OUTCOME,1,1
+OUTCOME:passed comp,passed comp,OUTCOME,1,1
+OUTCOME:problem persisted,problem persisted,OUTCOME,1,1
+OUTCOME:problem still there,problem still there,OUTCOME,1,1
+OUTCOME:proper position,proper position,OUTCOME,1,1
+OUTCOME:ran smooth through al,ran smooth through al,OUTCOME,1,1
+OUTCOME:residual,residual,OUTCOME,1,1
+OUTCOME:run smooth,run smooth,OUTCOME,1,1
+OUTCOME:runs smooth through all operating,runs smooth through all operating,OUTCOME,1,1
+OUTCOME:serviceable,serviceable,OUTCOME,1,1
+OUTCOME:starter function normal,starter function normal,OUTCOME,1,1
+OUTCOME:stayed,stayed,OUTCOME,1,1
+OUTCOME:unable to duplicate discre,unable to duplicate discre,OUTCOME,1,1
+OUTCOME:wear within acceptable limit,wear within acceptable limit,OUTCOME,1,1
+OUTCOME:well under acceptable limits,well under acceptable limits,OUTCOME,1,1
+OUTCOME:within limits,within limits,OUTCOME,1,1
+OUTCOME:within specs,within specs,OUTCOME,1,1
+REFERENCE:18 maintenance manual tap,18 maintenance manual tap,REFERENCE,1,1
+REFERENCE:ad e 2,ad e 2,REFERENCE,1,1
+REFERENCE:ad e 2015 - 19 - 07,ad e 2015 - 19 - 07,REFERENCE,1,1
+"REFERENCE:chapter 4 , sec 5","chapter 4 , sec 5",REFERENCE,1,1
+REFERENCE:cold start checklist,cold start checklist,REFERENCE,1,1
+REFERENCE:cylinder chapter,cylinder chapter,REFERENCE,1,1
+REFERENCE:dipstick,dipstick,REFERENCE,1,1
+REFERENCE:direct drive manual,direct drive manual,REFERENCE,1,1
+REFERENCE:direct drive overhau,direct drive overhau,REFERENCE,1,1
+REFERENCE:engine start checklist,engine start checklist,REFERENCE,1,1
+REFERENCE:firewall,firewall,REFERENCE,1,1
+REFERENCE:lycoming 369 m,lycoming 369 m,REFERENCE,1,1
+REFERENCE:lycoming di,lycoming di,REFERENCE,1,1
+REFERENCE:lycoming dir,lycoming dir,REFERENCE,1,1
+REFERENCE:lycoming direct drive,lycoming direct drive,REFERENCE,1,1
+REFERENCE:lycoming direct drive manual,lycoming direct drive manual,REFERENCE,1,1
+REFERENCE:lycoming direct drive over,lycoming direct drive over,REFERENCE,1,1
+REFERENCE:lycoming insp,lycoming insp,REFERENCE,1,1
+REFERENCE:lycoming overhaul m,lycoming overhaul m,REFERENCE,1,1
+REFERENCE:lycoming service instruction 1492 d,lycoming service instruction 1492 d,REFERENCE,1,1
+REFERENCE:main,main,REFERENCE,1,1
+REFERENCE:maintenance man,maintenance man,REFERENCE,1,1
+REFERENCE:paragraph 4 - 53,paragraph 4 - 53,REFERENCE,1,1
+REFERENCE:parts manual,parts manual,REFERENCE,1,1
+REFERENCE:rolls royce maintenance manual,rolls royce maintenance manual,REFERENCE,1,1
+REFERENCE:se standard reference material,se standard reference material,REFERENCE,1,1
+REFERENCE:se standard reference material 51,se standard reference material 51,REFERENCE,1,1
+REFERENCE:se standard reference material 51 - 40 - 0,se standard reference material 51 - 40 - 0,REFERENCE,1,1
+REFERENCE:service instruction 388 c,service instruction 388 c,REFERENCE,1,1
+REFERENCE:standard reference material 51,standard reference material 51,REFERENCE,1,1
+REFERENCE:standard reference material chapter 51 - 71,standard reference material chapter 51 - 71,REFERENCE,1,1
+REFERENCE:structural r,structural r,REFERENCE,1,1
+REFERENCE:tywrap,tywrap,REFERENCE,1,1
+TECH_OBS:032,032,TECH_OBS,1,1
+TECH_OBS:1 - 3 seconds,1 - 3 seconds,TECH_OBS,1,1
+TECH_OBS:1 / 2 gone,1 / 2 gone,TECH_OBS,1,1
+TECH_OBS:1 foot,1 foot,TECH_OBS,1,1
+TECH_OBS:1 or both,1 or both,TECH_OBS,1,1
+TECH_OBS:10 hours,10 hours,TECH_OBS,1,1
+TECH_OBS:1000,1000,TECH_OBS,1,1
+TECH_OBS:1000 rpm,1000 rpm,TECH_OBS,1,1
+TECH_OBS:1200,1200,TECH_OBS,1,1
+TECH_OBS:14 / 80 psi,14 / 80 psi,TECH_OBS,1,1
+TECH_OBS:1450,1450,TECH_OBS,1,1
+TECH_OBS:150 rise,150 rise,TECH_OBS,1,1
+TECH_OBS:2 - 3 secs,2 - 3 secs,TECH_OBS,1,1
+TECH_OBS:2 different times,2 different times,TECH_OBS,1,1
+TECH_OBS:2 places,2 places,TECH_OBS,1,1
+TECH_OBS:2 t,2 t,TECH_OBS,1,1
+TECH_OBS:2 times,2 times,TECH_OBS,1,1
+TECH_OBS:20 rpm,20 rpm,TECH_OBS,1,1
+TECH_OBS:20 rpm for a few seconds,20 rpm for a few seconds,TECH_OBS,1,1
+TECH_OBS:20 seconds,20 seconds,TECH_OBS,1,1
+TECH_OBS:200 - 250 rpm,200 - 250 rpm,TECH_OBS,1,1
+TECH_OBS:200 - 300 rpm suddenly,200 - 300 rpm suddenly,TECH_OBS,1,1
+TECH_OBS:200 plus,200 plus,TECH_OBS,1,1
+TECH_OBS:200 to 1200 engine rpm,200 to 1200 engine rpm,TECH_OBS,1,1
+TECH_OBS:2000 feet msl,2000 feet msl,TECH_OBS,1,1
+TECH_OBS:204,204,TECH_OBS,1,1
+TECH_OBS:22,22,TECH_OBS,1,1
+TECH_OBS:2300 - 2330 rpm,2300 - 2330 rpm,TECH_OBS,1,1
+TECH_OBS:24,24,TECH_OBS,1,1
+TECH_OBS:2450 pounds,2450 pounds,TECH_OBS,1,1
+TECH_OBS:26 in,26 in,TECH_OBS,1,1
+TECH_OBS:2600 rpm,2600 rpm,TECH_OBS,1,1
+TECH_OBS:2630,2630,TECH_OBS,1,1
+TECH_OBS:2640 rpm,2640 rpm,TECH_OBS,1,1
+TECH_OBS:2667 . 8,2667 . 8,TECH_OBS,1,1
+TECH_OBS:2710 rpm for a few seconds,2710 rpm for a few seconds,TECH_OBS,1,1
+TECH_OBS:2720 - 2730,2720 - 2730,TECH_OBS,1,1
+TECH_OBS:2722,2722,TECH_OBS,1,1
+TECH_OBS:2733 . 2 rpm,2733 . 2 rpm,TECH_OBS,1,1
+TECH_OBS:2733 . 2 rpm highest,2733 . 2 rpm highest,TECH_OBS,1,1
+TECH_OBS:2733 . 2 rpm highest recording,2733 . 2 rpm highest recording,TECH_OBS,1,1
+TECH_OBS:2740 . 3 peak,2740 . 3 peak,TECH_OBS,1,1
+TECH_OBS:2740 peak rpm,2740 peak rpm,TECH_OBS,1,1
+TECH_OBS:2740 rpm,2740 rpm,TECH_OBS,1,1
+TECH_OBS:2750,2750,TECH_OBS,1,1
+TECH_OBS:2750 - 2760 rpm,2750 - 2760 rpm,TECH_OBS,1,1
+TECH_OBS:2760 rpm max,2760 rpm max,TECH_OBS,1,1
+TECH_OBS:2770,2770,TECH_OBS,1,1
+TECH_OBS:2778,2778,TECH_OBS,1,1
+TECH_OBS:2800,2800,TECH_OBS,1,1
+TECH_OBS:2840 rpm,2840 rpm,TECH_OBS,1,1
+TECH_OBS:3 - 4 seconds,3 - 4 seconds,TECH_OBS,1,1
+TECH_OBS:3 plus seconds,3 plus seconds,TECH_OBS,1,1
+TECH_OBS:3 secs,3 secs,TECH_OBS,1,1
+TECH_OBS:3 to 4 %,3 to 4 %,TECH_OBS,1,1
+TECH_OBS:30 rpm,30 rpm,TECH_OBS,1,1
+TECH_OBS:30 sec,30 sec,TECH_OBS,1,1
+TECH_OBS:3275 rpm,3275 rpm,TECH_OBS,1,1
+TECH_OBS:3300,3300,TECH_OBS,1,1
+TECH_OBS:3300 rpm,3300 rpm,TECH_OBS,1,1
+TECH_OBS:3350,3350,TECH_OBS,1,1
+TECH_OBS:3961 . 3 tachometer,3961 . 3 tachometer,TECH_OBS,1,1
+TECH_OBS:4 compre,4 compre,TECH_OBS,1,1
+TECH_OBS:4 places,4 places,TECH_OBS,1,1
+TECH_OBS:40 /,40 /,TECH_OBS,1,1
+TECH_OBS:40 degrees fahrenheit,40 degrees fahrenheit,TECH_OBS,1,1
+TECH_OBS:40 degrees fahrenheit cht,40 degrees fahrenheit cht,TECH_OBS,1,1
+TECH_OBS:45 / 80,45 / 80,TECH_OBS,1,1
+TECH_OBS:48 psi,48 psi,TECH_OBS,1,1
+TECH_OBS:5 minutes,5 minutes,TECH_OBS,1,1
+TECH_OBS:5 secs,5 secs,TECH_OBS,1,1
+TECH_OBS:503 degrees,503 degrees,TECH_OBS,1,1
+TECH_OBS:57 / 80 psi,57 / 80 psi,TECH_OBS,1,1
+TECH_OBS:57 / 80 psi comp,57 / 80 psi comp,TECH_OBS,1,1
+TECH_OBS:6 inches puddle,6 inches puddle,TECH_OBS,1,1
+TECH_OBS:6 seconds,6 seconds,TECH_OBS,1,1
+TECH_OBS:690 rpm,690 rpm,TECH_OBS,1,1
+TECH_OBS:7,7,TECH_OBS,1,1
+TECH_OBS:70,70,TECH_OBS,2,1
+TECH_OBS:70 / 80,70 / 80,TECH_OBS,1,1
+TECH_OBS:72,72,TECH_OBS,1,1
+TECH_OBS:72 / 80,72 / 80,TECH_OBS,1,1
+TECH_OBS:73,73,TECH_OBS,1,1
+TECH_OBS:74,74,TECH_OBS,1,1
+TECH_OBS:75 / 80,75 / 80,TECH_OBS,1,1
+TECH_OBS:76,76,TECH_OBS,1,1
+TECH_OBS:76 / 80,76 / 80,TECH_OBS,1,1
+TECH_OBS:77,77,TECH_OBS,1,1
+TECH_OBS:79 / 80,79 / 80,TECH_OBS,1,1
+TECH_OBS:8 %,8 %,TECH_OBS,1,1
+TECH_OBS:800 rpm,800 rpm,TECH_OBS,1,1
+TECH_OBS:800 to 1400 rpm,800 to 1400 rpm,TECH_OBS,1,1
+TECH_OBS:a few different times,a few different times,TECH_OBS,1,1
+TECH_OBS:about 2 seconds,about 2 seconds,TECH_OBS,1,1
+TECH_OBS:about 30 seconds,about 30 seconds,TECH_OBS,1,1
+TECH_OBS:about 8,about 8,TECH_OBS,1,1
+TECH_OBS:above 22 inches,above 22 inches,TECH_OBS,1,1
+TECH_OBS:all cht temps in,all cht temps in,TECH_OBS,1,1
+TECH_OBS:all compressions 74 plus,all compressions 74 plus,TECH_OBS,1,1
+TECH_OBS:all temps and pressure,all temps and pressure,TECH_OBS,1,1
+TECH_OBS:approximately 1 second,approximately 1 second,TECH_OBS,1,1
+TECH_OBS:approximately 2 seconds,approximately 2 seconds,TECH_OBS,1,1
+TECH_OBS:around 34 psi,around 34 psi,TECH_OBS,1,1
+TECH_OBS:at least 3 instances,at least 3 instances,TECH_OBS,1,1
+TECH_OBS:below 100,below 100,TECH_OBS,1,1
+TECH_OBS:below 1000,below 1000,TECH_OBS,1,1
+TECH_OBS:below 1000 rpm,below 1000 rpm,TECH_OBS,1,1
+TECH_OBS:between 5 and 10,between 5 and 10,TECH_OBS,1,1
+TECH_OBS:between 5 and 10 %,between 5 and 10 %,TECH_OBS,1,1
+TECH_OBS:blended,blended,TECH_OBS,1,1
+TECH_OBS:briefly,briefly,TECH_OBS,1,1
+TECH_OBS:cht and egt variati,cht and egt variati,TECH_OBS,1,1
+TECH_OBS:cht greater than 200 degrees fahrenheit warmer than other cylinders,cht greater than 200 degrees fahrenheit warmer than other cylinders,TECH_OBS,1,1
+TECH_OBS:clearance,clearance,TECH_OBS,1,1
+TECH_OBS:clearance within specs,clearance within specs,TECH_OBS,1,1
+TECH_OBS:clearances,clearances,TECH_OBS,1,1
+TECH_OBS:comperssion reading,comperssion reading,TECH_OBS,1,1
+TECH_OBS:compr,compr,TECH_OBS,1,1
+TECH_OBS:compre,compre,TECH_OBS,1,1
+TECH_OBS:compression - now 65 / 80,compression - now 65 / 80,TECH_OBS,1,1
+TECH_OBS:compression 50 / 80,compression 50 / 80,TECH_OBS,1,1
+TECH_OBS:compression 50 pounds,compression 50 pounds,TECH_OBS,1,1
+TECH_OBS:compression 54 / 80,compression 54 / 80,TECH_OBS,1,1
+TECH_OBS:compression 68 / 80,compression 68 / 80,TECH_OBS,1,1
+TECH_OBS:compression 75 / 80,compression 75 / 80,TECH_OBS,1,1
+TECH_OBS:compression : 20 / 80,compression : 20 / 80,TECH_OBS,1,1
+TECH_OBS:compression at zero psi,compression at zero psi,TECH_OBS,1,1
+TECH_OBS:compression below 40 / 80 psi,compression below 40 / 80 psi,TECH_OBS,1,1
+TECH_OBS:compression checks 70 / 80,compression checks 70 / 80,TECH_OBS,1,1
+TECH_OBS:compression is 30 / 80,compression is 30 / 80,TECH_OBS,1,1
+TECH_OBS:compression now 76 / 80,compression now 76 / 80,TECH_OBS,1,1
+TECH_OBS:compression still 35 / 80,compression still 35 / 80,TECH_OBS,1,1
+TECH_OBS:compressions 55 psi,compressions 55 psi,TECH_OBS,1,1
+TECH_OBS:compressions about 20 psi,compressions about 20 psi,TECH_OBS,1,1
+TECH_OBS:correct position,correct position,TECH_OBS,1,1
+TECH_OBS:drop in rpm,drop in rpm,TECH_OBS,1,1
+TECH_OBS:drop of 300 plus rpm,drop of 300 plus rpm,TECH_OBS,1,1
+TECH_OBS:drop of 300 rpm,drop of 300 rpm,TECH_OBS,1,1
+TECH_OBS:drops 100 rpm,drops 100 rpm,TECH_OBS,1,1
+TECH_OBS:dry clearance,dry clearance,TECH_OBS,1,1
+TECH_OBS:dry tappet clearance within specs,dry tappet clearance within specs,TECH_OBS,1,1
+TECH_OBS:egt ' s,egt ' s,TECH_OBS,1,1
+TECH_OBS:egt - cht - static rpm - idl,egt - cht - static rpm - idl,TECH_OBS,1,1
+TECH_OBS:every 4 - 5 seconds,every 4 - 5 seconds,TECH_OBS,1,1
+TECH_OBS:first 2 seconds,first 2 seconds,TECH_OBS,1,1
+TECH_OBS:fuel pressure 32 - 33,fuel pressure 32 - 33,TECH_OBS,1,1
+TECH_OBS:full throttle operati,full throttle operati,TECH_OBS,1,1
+TECH_OBS:gap facing down,gap facing down,TECH_OBS,1,1
+TECH_OBS:greater than 200 degrees fahrenheit warmer than other cylinders,greater than 200 degrees fahrenheit warmer than other cylinders,TECH_OBS,1,1
+TECH_OBS:head temperature would jump 150 degrees fahrenheit,head temperature would jump 150 degrees fahrenheit,TECH_OBS,1,1
+TECH_OBS:head temps,head temps,TECH_OBS,1,1
+TECH_OBS:highest number seen was 2740,highest number seen was 2740,TECH_OBS,1,1
+TECH_OBS:highest recording,highest recording,TECH_OBS,1,1
+TECH_OBS:highest rpm found was 28,highest rpm found was 28,TECH_OBS,1,1
+TECH_OBS:hover higher that 2 feet,hover higher that 2 feet,TECH_OBS,1,1
+TECH_OBS:idle at 1700 rpm,idle at 1700 rpm,TECH_OBS,1,1
+TECH_OBS:idle at 970 rpm,idle at 970 rpm,TECH_OBS,1,1
+TECH_OBS:idle inches up inches to specs,idle inches up inches to specs,TECH_OBS,1,1
+TECH_OBS:idle indicating 650 rpm,idle indicating 650 rpm,TECH_OBS,1,1
+TECH_OBS:idle override speed was 1300,idle override speed was 1300,TECH_OBS,1,1
+TECH_OBS:idle setting within ma,idle setting within ma,TECH_OBS,1,1
+TECH_OBS:idle speed 1650 rpm,idle speed 1650 rpm,TECH_OBS,1,1
+TECH_OBS:idle speed at 780 rpm,idle speed at 780 rpm,TECH_OBS,1,1
+TECH_OBS:idle was at 800 rpm,idle was at 800 rpm,TECH_OBS,1,1
+TECH_OBS:idled normal,idled normal,TECH_OBS,1,1
+TECH_OBS:idles at approximately 1000 rpm,idles at approximately 1000 rpm,TECH_OBS,1,1
+TECH_OBS:indicated zero psi,indicated zero psi,TECH_OBS,1,1
+TECH_OBS:lash,lash,TECH_OBS,1,1
+TECH_OBS:last 2 da,last 2 da,TECH_OBS,1,1
+TECH_OBS:less than 5 % requirements,less than 5 % requirements,TECH_OBS,1,1
+TECH_OBS:lifter clearance,lifter clearance,TECH_OBS,1,1
+TECH_OBS:lmp,lmp,TECH_OBS,1,1
+TECH_OBS:low n 2 conditions,low n 2 conditions,TECH_OBS,1,1
+TECH_OBS:m volts dropped to 26,m volts dropped to 26,TECH_OBS,1,1
+TECH_OBS:magneto timing,magneto timing,TECH_OBS,1,1
+TECH_OBS:manifold pressure,manifold pressure,TECH_OBS,1,1
+TECH_OBS:manifold psi,manifold psi,TECH_OBS,1,1
+TECH_OBS:max overspeed of 2702,max overspeed of 2702,TECH_OBS,1,1
+TECH_OBS:max overspeed was 2617 rpm,max overspeed was 2617 rpm,TECH_OBS,1,1
+TECH_OBS:max rpm,max rpm,TECH_OBS,1,1
+TECH_OBS:max rpm insp,max rpm insp,TECH_OBS,1,1
+TECH_OBS:max rpm of 2739 . 8,max rpm of 2739 . 8,TECH_OBS,1,1
+TECH_OBS:max rpm to be less than 5 % rate,max rpm to be less than 5 % rate,TECH_OBS,1,1
+TECH_OBS:mixture rise,mixture rise,TECH_OBS,1,1
+TECH_OBS:mixture settings,mixture settings,TECH_OBS,1,1
+TECH_OBS:momentary rpm of 2733 . 7,momentary rpm of 2733 . 7,TECH_OBS,1,1
+TECH_OBS:momentary rpm of 2772 . 5,momentary rpm of 2772 . 5,TECH_OBS,1,1
+TECH_OBS:n 1 rpm,n 1 rpm,TECH_OBS,1,1
+TECH_OBS:next due 7 / 31 / 17,next due 7 / 31 / 17,TECH_OBS,1,1
+TECH_OBS:no more than 10 seconds,no more than 10 seconds,TECH_OBS,1,1
+TECH_OBS:number 2 and 3 egt ' s,number 2 and 3 egt ' s,TECH_OBS,1,1
+TECH_OBS:oil pressure,oil pressure,TECH_OBS,2,1
+TECH_OBS:oil pressure 89 psi,oil pressure 89 psi,TECH_OBS,1,1
+TECH_OBS:oil pressure readings,oil pressure readings,TECH_OBS,1,1
+TECH_OBS:oil psi,oil psi,TECH_OBS,1,1
+TECH_OBS:once,once,TECH_OBS,1,1
+TECH_OBS:operating parameters,operating parameters,TECH_OBS,1,1
+TECH_OBS:operating temperatures,operating temperatures,TECH_OBS,1,1
+TECH_OBS:over 400 degrees,over 400 degrees,TECH_OBS,1,1
+TECH_OBS:over ride speed was 1225 rpm,over ride speed was 1225 rpm,TECH_OBS,1,1
+TECH_OBS:overspeed threshold,overspeed threshold,TECH_OBS,1,1
+TECH_OBS:power,power,TECH_OBS,1,1
+TECH_OBS:pressure came up to 65 / 80 psi,pressure came up to 65 / 80 psi,TECH_OBS,1,1
+TECH_OBS:pressure low,pressure low,TECH_OBS,1,1
+TECH_OBS:pressures,pressures,TECH_OBS,1,1
+TECH_OBS:proper gap,proper gap,TECH_OBS,1,1
+TECH_OBS:rated engine speed,rated engine speed,TECH_OBS,1,1
+TECH_OBS:rpm 200 rise,rpm 200 rise,TECH_OBS,1,1
+TECH_OBS:rpm 2700 for 2 sec,rpm 2700 for 2 sec,TECH_OBS,1,1
+TECH_OBS:rpm 2740,rpm 2740,TECH_OBS,1,1
+TECH_OBS:rpm found to 2703 . 4,rpm found to 2703 . 4,TECH_OBS,1,1
+TECH_OBS:rpm found was 28,rpm found was 28,TECH_OBS,1,1
+TECH_OBS:rpm got as low as 530,rpm got as low as 530,TECH_OBS,1,1
+TECH_OBS:rpm of 2720,rpm of 2720,TECH_OBS,1,1
+TECH_OBS:rpm over 1000,rpm over 1000,TECH_OBS,1,1
+TECH_OBS:rpm reached 2720,rpm reached 2720,TECH_OBS,1,1
+TECH_OBS:rpm reached 2760,rpm reached 2760,TECH_OBS,1,1
+TECH_OBS:rpm reached 2770,rpm reached 2770,TECH_OBS,1,1
+TECH_OBS:rpm to reach 2723,rpm to reach 2723,TECH_OBS,1,1
+TECH_OBS:rpm was 1700,rpm was 1700,TECH_OBS,1,1
+TECH_OBS:rpm was 2740 for 3 seconds,rpm was 2740 for 3 seconds,TECH_OBS,1,1
+TECH_OBS:rpm was constant,rpm was constant,TECH_OBS,1,1
+TECH_OBS:run out below . 001,run out below . 001,TECH_OBS,1,1
+TECH_OBS:several hours,several hours,TECH_OBS,1,1
+TECH_OBS:speed did not exceed 5 %,speed did not exceed 5 %,TECH_OBS,1,1
+TECH_OBS:speed limitations,speed limitations,TECH_OBS,1,1
+TECH_OBS:squeeze,squeeze,TECH_OBS,1,1
+TECH_OBS:started normal,started normal,TECH_OBS,1,1
+TECH_OBS:static 2340 at 12 . 1 ground pressure,static 2340 at 12 . 1 ground pressure,TECH_OBS,1,1
+TECH_OBS:static full rpm,static full rpm,TECH_OBS,1,1
+TECH_OBS:temperat,temperat,TECH_OBS,1,1
+TECH_OBS:tire pressures,tire pressures,TECH_OBS,1,1
+TECH_OBS:torque,torque,TECH_OBS,1,1
+TECH_OBS:ultrasonically,ultrasonically,TECH_OBS,1,1
+TECH_OBS:valve clearan,valve clearan,TECH_OBS,1,1
+TECH_OBS:valve guide clearance,valve guide clearance,TECH_OBS,1,1
+TECH_OBS:within normal range,within normal range,TECH_OBS,1,1
+TECH_OBS:zero co,zero co,TECH_OBS,1,1

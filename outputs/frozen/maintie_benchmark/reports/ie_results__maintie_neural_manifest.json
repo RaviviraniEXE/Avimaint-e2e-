@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "run_id": "maintie_neural",
+  "timestamp_utc": "20260828T144731Z",
+  "evaluation_gold": "original_full_spans_and_relations",
+  "bio_policy": "earliest_then_longest_nonoverlap_for_BIO_models_only",
+  "test_policy": "frozen_test_after_dev_only_selection",
+  "split": {
+    "train": 860,
+    "dev": 108,
+    "test": 108
+  },
+  "results_stable": "outputs/reports/ie_results__maintie_neural.json",
+  "results_history": "outputs/reports/result_history/ie_results__maintie_neural__20260828T144731Z.json",
+  "predictions_dir": "outputs/predictions/maintie_neural",
+  "generic_alias": "outputs/reports/ie_results.json"
+}

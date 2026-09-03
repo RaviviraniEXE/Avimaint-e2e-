@@ -1,0 +1,501 @@
+pair_id,query_id,query_problem,candidate_problem,problem_relevance_0_1_2,phase_a_notes
+MR-b09b4e6a6fff5ac6,105940,2 & 4 INTAKES LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-08067e21b5ee6d55,105029,#1 FWD BAFFLE SEAL LOOSE.,R/H ENGINE #3 AFT BAFFLE SEAL IS LOOSE.,1,"Same baffle seal defect, but the specified cylinder set conflicts (1 versus 3)."
+MR-624927620c8f9527,103824,"#3, 4 & 1 INTAKES ARE LEAKING.",INTAKES 2 & 4 LEAKING ON R/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (1,3,4 versus 2,4)."
+MR-e3f62f8678cf4e7f,106106,L/H ENGINE #4 BAFFLE CRACKED.,L/H ENGINE BAFFLE BY ROCKER COVERS CRACKED.,2,"Same core problem; cylinder/location is stated on only one side, without contradiction."
+MR-bc2e0d003316d74a,103884,BAFFLE SCREW MISSING ABOVE STARTER.,BAFFLE SCREW MISSING AT FRONT OF #2 CYL.,1,"Same missing baffle screw, but above-starter versus front-of-cylinder-2 location is materially different."
+MR-8bf9f3ff5ff9a94e,101598,CYL #2 & 3 INTAKES ARE LEAKING.,"#1, 2 & 4 CYL INTAKES LEAKING.",1,"Same intake leak, but the specified cylinder set conflicts (2,3 versus 1,2,4)."
+MR-5eae615cd05a33ab,106168,"DURING RUN UP, #2 CYL WAS COLD & ENGINE SHOCK VIOLENTLY (ENG",L/H ENGINE #2 CYL LOST CHT & EGT DURING LANDING. ALSO STARTE,1,"Related maintenance area, but core problem differs: engine rough/cold cylinder versus cylinder temperature indication."
+MR-3a6d64518fc9839d,106106,L/H ENGINE #4 BAFFLE CRACKED.,FRONT & L/H ENGINE BAFFLE CRACKED.,1,"Same cracked L/H engine baffle, but cylinder-4 versus front-baffle location is a material difference."
+MR-a84cd6d4ee5e3894,100727,REAR BAFFLE PLUGS WORN OUT.,TOP ENGINE COOLING FAN BAFFLE PLUGS WORN OUT.,1,"Same worn baffle plugs, but rear versus top cooling-baffle location differs materially."
+MR-017bd2889dfe1364,101430,ENGINE OVER RIDE SPEED WAS 1225 RPM.,LAST DAILY SHUT DOWN IDLE OVER RIDE SPEED CHECK - ENGINE RPM,2,"Same core problem with compatible recorded component, defect, and context."
+MR-3cab3bd7f0f58940,101930,#1 CYL HAS LOW COMPRESSION.,CYL #3 HAD LOW COMPRESSION (50/80).,1,"Same low cylinder compression, but the specified cylinder set conflicts (1 versus 3)."
+MR-c3e8eecdd8564e06,101898,#3 INDUCTION TUBE GASKET LEAKING.,#1 INTAKE GASKET LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (3 versus 1)."
+MR-6c7c6bd95f3f5521,101371,AFT BAFFLE BRACKET MISSING SCREW.,MISSING SCREW FRONT BAFFLE ON R/H SIDE.,1,"Same baffle missing hardware, but the specified location conflicts (aft versus front)."
+MR-1372943a8c221b77,101458,#3 CYLINDER ON R/H ENGINE HAS LOW COMPRESSION.,LOW COMPRESSION (40/80) ON #3 CYLINDER. AIR LEAKING FROM EXH,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-0376fa0e90c8e719,103074,"R/H ENGINE FOAM SEAL LOOSE ON BULKHEAD, BEHIND ENGINE INLET",LH/ TOP ENGINE BAFFLE SEAL LOOSE.,1,"Related maintenance area, but core problem differs: cowl/engine seal loose versus baffle seal defect."
+MR-b3bd94c86a71feef,105029,#1 FWD BAFFLE SEAL LOOSE.,ENGINE COOLING BAFFLE SEAL LOOSE ON TOP L/H SIDE.,1,"Same loose baffle seal, but cylinder-1 forward versus top L/H location differs materially."
+MR-7e92428b2494076e,102823,#1 & 4 INTAKES LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1,4 versus 2,3)."
+MR-1432d172bb2cfa6d,100727,REAR BAFFLE PLUGS WORN OUT.,TABS ARE WORN OFF OF BAFFLE PLUGS.,2,"Same core problem; position is stated on only one side, without contradiction."
+MR-5774ad5197c1e364,103087,#2 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-f67b3c1bb5a6c21f,105116,"R/H BAFFLE SEAL, BY #2 CYL, TORN.",L/H ENG CYL #2 FWD BAFFLE SEAL IS TORN.,1,"Same baffle seal defect, but engine side conflicts (right versus left)."
+MR-201bdc3d133f4b7f,104071,"R/H ENG, R/H REAR BAFFLE IS CRACKED.","L/H ENG, L/H AFT BAFFLE CRACKED, SEVERAL PLACES.",1,"Same baffle crack, but engine side conflicts (right versus left)."
+MR-69bca66201f77e11,105306,#2 & 4 INTAKES LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3)."
+MR-4215d64ce314ac41,101877,#3 INDUCTION TUBE GASKET LEAKING.,"CYL #1, 2, 4 INTAKE GASKETS LEAKING.",1,"Same intake leak, but the specified cylinder set conflicts (3 versus 1,2,4)."
+MR-95ead75113fedde3,105590,EVIDENCE OF CARB FIRE ON L/H CARB AIRBOX.,"#3 AFT BAFFLE HAS A BROKEN BRACKET, BEHIND OIL FILLER TUBE.",0,Different core problems: carb-airbox fire versus broken component.
+MR-914b9d0372d8562e,101410,REAR R/H ENGINE BAFFLE BRACKET CRACKED.,R/H ENGINE AFT I/B BAFFLE @ OIL COOLER CRACKED.,1,"Related maintenance area, but core problem differs: baffle bracket crack versus baffle crack."
+MR-d23039878cd50203,103274,INTAKES #2 & 4 LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3)."
+MR-2a833fcd5274c02d,101698,#4 INTAKE TUBE LOOSE.,#1 INTAKE TUBE DAMAGED.,1,"Same component area, but defect differs: loose versus damaged."
+MR-9755910102d335ba,103598,L/H ENGINE BAFFLE CRACKED.,CRACK IN R/H AFT ENGINE BAFFLE.,1,"Same baffle crack, but engine side conflicts (left versus right)."
+MR-910eedb7a965cb7d,103884,BAFFLE SCREW MISSING ABOVE STARTER.,CYL #2 BAFFLE SCREW MISSING L/H ENGINE.,1,"Same missing baffle screw, but above-starter versus L/H cylinder-2 location differs materially."
+MR-33e1d6f1194ca376,102823,#1 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (1,4 versus 2,3,4)."
+MR-6e1ca9743bd08bc7,101930,#1 CYL HAS LOW COMPRESSION.,CYL #2 COMPRESSION LOW. AIR NOTED & OBSERVED OUT OF EXHAUST.,1,"Same low cylinder compression, but the specified cylinder set conflicts (1 versus 2)."
+MR-7c63633ca29b8017,100155,#2 ROCKER BOX COVER SCREWS LOOSE.,"BAFFLE SEAL LOOSE ON LH/ ENG, #4 AFT BAFFLE.",0,Different core problems: rocker-cover loose screws versus baffle seal defect.
+MR-0fde1e6c5a4a91cf,101116,"L/H ENG, #4 INDUCTION TUBE GASKET LEAKING.",L/H ENG #3 ROCKER COVER IS LEAKING.,0,Different core problems: intake leak versus rocker-cover gasket defect.
+MR-3196521221de3dbc,100392,R/H #4 SIDE BAFFLE MISSING BOLTS.,#4 AFT BAFFLE MISSING SCREW.,1,"Same missing baffle hardware and cylinder, but side-baffle versus aft-baffle location is a material mismatch."
+MR-c83a18661b866c8b,104264,#3 & 4 INTAKES LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (3,4 versus 2,4)."
+MR-8025823a2a716444,103074,"R/H ENGINE FOAM SEAL LOOSE ON BULKHEAD, BEHIND ENGINE INLET",R/H REAR ENGINE BAFFLE MOUNT LOOSE.,1,"Related maintenance area, but core problem differs: cowl/engine seal loose versus loose hardware/component."
+MR-0a782d0c5e25aa6a,100006,ROCKER BOX COVER SCREWS LOOSE (ALL CYL).,CYL #3 ROCKER DRAIN LINE LOOSE.,0,Different core problems: rocker-cover loose screws versus loose hardware/component.
+MR-a53e2d70aa447a79,104623,INSPECTED & FOUND CRANKSHAFT TO BE GOUGED BEHIND CRANKSHAFT,ADEL CLAMP TORN BY R/H ENGINE MOUNT.,0,Different core problems: crankshaft gouge versus other.
+MR-be8f684c99204584,100308,"#2, 3 & 4 ROCKER BOX COVER SCREWS LOOSE.",SCREW BEHIND OIL DIPSTICK TUBE LOOSE.,0,Different core problems: rocker-cover loose screws versus loose hardware/component.
+MR-a1d8cc93b6e77af9,105592,SMALL RUST SPOT ON AFT TOP L/H (L/H ENGINE MOUNT).,NOTED WEAR ON ENGINE MOUNT CAUSED BY ENGINE BREATHER SUPPORT,1,"Related maintenance area, but core problem differs: engine-mount rust versus engine-mount wear."
+MR-73b5081aba0f1f1b,105480,#1 & 3 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (1,3 versus 2,3,4)."
+MR-c1ba98665c5444a8,104135,BAFFLE PLUG IS DAMAGED.,CYLINDER #4 BAFFLE PLUG TEETH ARE BROKEN.,2,"Same core problem; cylinder/location is stated on only one side, without contradiction."
+MR-92c512f95f0c34b1,103676,#4 CYL ROCKER COVER IS MISSING SCREW.,SCREW MISSING FROM L/H ENGINE #3 ROCKER COVER.,1,"Same rocker-cover missing screw, but the specified cylinder set conflicts (4 versus 3)."
+MR-9473db85fb8351b2,102221,#1 INTAKE GASKET LEAKS.,#2 INTAKE GASKET IS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1 versus 2)."
+MR-91a9fee2f343c433,101434,"R/H ENG CYL #4, 3 INTAKE GASKETS LEAKING.","R/H ENG CYL #2, 3 & 4 INTAKE GASKETS ARE LEAKING.",1,"Same intake leak, but the specified cylinder set conflicts (3,4 versus 2,3,4)."
+MR-7cce169edf76fb94,103824,"#3, 4 & 1 INTAKES ARE LEAKING.",L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1,3,4 versus 2,4)."
+MR-642cf5d0b8c76fa3,101194,ROCKER BOX COVER SCREWS LOOSE.,"RIVET LOOSE AT BAFFLE, AFT CENTER.",0,Different core problems: rocker-cover loose screws versus loose hardware/component.
+MR-b55b1acbdf0a04df,100155,#2 ROCKER BOX COVER SCREWS LOOSE.,SCREW BEHIND OIL DIPSTICK TUBE LOOSE.,0,Different core problems: rocker-cover loose screws versus loose hardware/component.
+MR-279cdf02cb39ec18,100032,RIGHT ENG #4 AIR BAFFLE IS CRACKED,R/H ENG OIL COOLER BAFFLE CRACKED.,1,"Same cracked R/H engine baffle, but cylinder-4 air baffle versus oil-cooler baffle is a material component/location difference."
+MR-8971ce683db226cf,101430,ENGINE OVER RIDE SPEED WAS 1225 RPM.,ENGINE HESITATION/ROUGHNESS 30 SEC AFTER TAKEOFF. NO FURTHER,0,Different core problems: idle override speed versus other.
+MR-b5f472c946ad114f,102952,AUTO RE-IGN DOES NOT ACTIVATE W/ LOW N2 CONDITIONS.,#4 CYL ON L/H ENG HAS LOW COMPRESSION. LEAKING FROM EXHAUST,0,Different core problems: auto re-ignition failure versus low cylinder compression.
+MR-2daf90c1c580e8b2,105592,SMALL RUST SPOT ON AFT TOP L/H (L/H ENGINE MOUNT).,R/H MAG BLAST TUBE FELL OFF.,0,Different core problems: engine-mount rust versus other.
+MR-0d8d249dff5c8ad3,105048,#2 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-77d47c8ab1f03919,103656,OIL COOLERS DIRTY.,ENGINE IS DIRTY.,0,Different core problems: oil-cooler contamination versus contamination.
+MR-84a96e3dc844c373,104219,BOTH OIL COOLERS DIRTY.,"SEAL LOOSE ON ENGINE COWL, ABOVE L/H & R/H OIL COOLERS (BLAC",0,Different core problems: oil-cooler contamination versus cowl/engine seal loose.
+MR-1f66de15f826421d,104471,"#1, 2, 4 INTAKES LEAKING.","INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (1,2,4 versus 2,3,4)."
+MR-ce6fa289ccbd4e58,100636,R/H ENGINE #3 INDUCTION TUBE GASKET LEAKING.,R/H ENGINE #3 ROCKER COVER LEAKING.,0,Different core problems: intake leak versus rocker-cover gasket defect.
+MR-75b4214964899359,100568,ENGINE BAFFLE PLUG TABS BROKEN.,R/H SIDE BAFFLE PLUG LOOSE W/ TABS BROKEN.,2,Same broken baffle-plug tabs; the candidate adds looseness without contradicting the shared defect.
+MR-c560d0e503eb9199,105590,EVIDENCE OF CARB FIRE ON L/H CARB AIRBOX.,L/H REAR ENGINE BAFFLE ACCESS HOLE WORN.,0,Different core problems: carb-airbox fire versus baffle worn hole.
+MR-3c9ee195570ab70f,104031,#4 AFT BAFFLE CRACKED.,BAFFLE ABOVE CYL #1 IS CRACKED.,1,"Same baffle crack, but the specified cylinder set conflicts (4 versus 1)."
+MR-9d2462391aaebd72,102952,AUTO RE-IGN DOES NOT ACTIVATE W/ LOW N2 CONDITIONS.,LOW COMPRESSION ON CYL #3 (55).,0,Different core problems: auto re-ignition failure versus low cylinder compression.
+MR-7bc2f460c4b9862b,100308,"#2, 3 & 4 ROCKER BOX COVER SCREWS LOOSE.","BAFFLE SEAL LOOSE ON LH/ ENG, #4 AFT BAFFLE.",0,Different core problems: rocker-cover loose screws versus baffle seal defect.
+MR-2c93ad28dc4c5c24,100112,L/H ENGINE #4 AFT BAFFLE CRACKED IN MULTIPLE PLACES.,FRONT & L/H ENGINE BAFFLE CRACKED.,1,"Same baffle crack, but the specified location conflicts (aft versus front)."
+MR-991dfc0e859ed09e,103884,BAFFLE SCREW MISSING ABOVE STARTER.,#3 CYL SIDE BAFFLE SCREW MISSING.,1,"Same missing baffle screw, but above-starter versus cylinder-3 side-baffle location differs materially."
+MR-cce0e14ef536cde5,100623,ROCKER BOX COVER SCREWS LOOSE.,INDUCTION TUBE HOSE CLAMPS LOOSE (ALL CYL).,0,Different core problems: rocker-cover loose screws versus intake tube loose/damaged.
+MR-59136df9a76135a2,106156,BAFFLE PLUG DAMAGED.,L/H BAFFLE PLUG WORN.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-47792f3ce0b61f9e,100848,OIL COOLER HOSE REQUIRES REPOSITIONING.,TOP OIL COOLER HOSE KINKED & NOT SECURED.,2,"Same core problem; position is stated on only one side, without contradiction."
+MR-c3572dece682b10c,104031,#4 AFT BAFFLE CRACKED.,TOP BAFFLE IS CRACKED.,1,"Same cracked baffle, but cylinder-4 aft versus top-baffle location differs materially."
+MR-650af413b118d5c9,104702,L/H ENG #2 CYL HAS LOW COMPRESSION.,R/H ENG #3 CYL HAS LOW COMPRESSION (16/80).,1,"Same low cylinder compression, but engine side conflicts (left versus right)."
+MR-55f85bfa22c462aa,103656,OIL COOLERS DIRTY.,"SEAL LOOSE ON ENGINE COWL, ABOVE L/H & R/H OIL COOLERS (BLAC",0,Different core problems: oil-cooler contamination versus cowl/engine seal loose.
+MR-8ec59762f378e770,100991,#2 INDUCTION TUBE GASKET LEAKING.,#1 INTAKE GASKET LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2 versus 1)."
+MR-4bda38236940815e,101548,RIVNUT STRIPPED OUT ON FIREWALL FOR A/F FUEL FILTER.,GROUNDING POINTS ON ENG & FIREWALL LOOSE.,0,Different core problems: firewall fuel-filter rivnut versus loose hardware/component.
+MR-a8a700cfcba2c4d3,102221,#1 INTAKE GASKET LEAKS.,#2 INTAKE GASKET LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1 versus 2)."
+MR-b91268b1540b6c39,105480,#1 & 3 INTAKES LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1,3 versus 2,4)."
+MR-ec78869879b21df0,104157,#2 & 3 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,3 versus 2,3,4)."
+MR-79ac5c2748a269b8,105592,SMALL RUST SPOT ON AFT TOP L/H (L/H ENGINE MOUNT).,ZIP TIES USED ON L/H & R/H ENGINE MOUNT IN PLACE OF LACING C,1,"Related maintenance area, but core problem differs: engine-mount rust versus engine-mount attachment."
+MR-3006d315a7aca97b,103824,"#3, 4 & 1 INTAKES ARE LEAKING.","INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (1,3,4 versus 2,3,4)."
+MR-a00f8c6a0bcb78f4,102316,ENGINE AFT BAFFLE CYL #3 AREA HAS SHEARED RIVETS ON SUPPORT,"ENGINE BAFFLE ON #4 CYL, RIVETS SHEARED OFF.",1,"Same baffle sheared rivets, but the specified cylinder set conflicts (3 versus 4)."
+MR-b661ed38451b463a,101898,#3 INDUCTION TUBE GASKET LEAKING.,"CYL #1, 2, 4 INTAKE GASKETS LEAKING.",1,"Same intake leak, but the specified cylinder set conflicts (3 versus 1,2,4)."
+MR-7c98589a1bffc249,100641,R/H ENG #2 & 4 INDUCTION TUBE GASKETS LEAKING.,R/H ENG #3 INTAKE IS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 3)."
+MR-c536049574d5c0d7,101980,"R/H ENG #2, 3 & 4 ROCKER BOX COVERS LEAKING.",L/H ENG #3 INTAKE IS LEAKING.,0,Different core problems: rocker-cover gasket defect versus intake leak.
+MR-fb06e5f807a1e4b7,105178,#1 ROCKER COVER GASKET LEAKS.,#1 ROCKER COVER GASKET IS LEAKING.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-8a4ec09209ef9ab5,104264,#3 & 4 INTAKES LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (3,4 versus 2,3)."
+MR-64c165a8641cff55,105306,#2 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-109d12506006005d,104582,#2 LOWER INTAKE CLAMP LOOSE.,L/H UPPER BAFFLE LOOSE ABOVE #2 CYLINDER.,0,Different core problems: intake clamp loose versus loose hardware/component.
+MR-e4bc60ada659508c,100641,R/H ENG #2 & 4 INDUCTION TUBE GASKETS LEAKING.,L/H ENG #3 INTAKE IS LEAKING.,1,"Same intake leak, but engine side conflicts (right versus left)."
+MR-8845d5fb91ba5bfe,102823,#1 & 4 INTAKES LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (1,4 versus 2,4)."
+MR-473aa1b58ddae234,101101,OIL LEAK EVIDENCE ON R/H SIDE OF ENGINE.,R/H ENGINE TOP BACK BONE SEEPING OIL.,2,"Same core problem; position is stated on only one side, without contradiction."
+MR-5860df94cc20baaa,101101,OIL LEAK EVIDENCE ON R/H SIDE OF ENGINE.,SIGNS OF OIL LEAKING FROM FWD ENGINE CASE BOLTS AT MAIN CRAN,2,"Same core problem; engine side and position are stated on only one side, without contradiction."
+MR-a4b8aecd0778784d,100772,L/H ENG #3 INDUCTION TUBE GASKET LEAKING.,L/H ENG #3 ROCKER COVER IS LEAKING.,0,Different core problems: intake leak versus rocker-cover gasket defect.
+MR-018824b391911248,100716,R/H ENG CORNER BRACKET BY PROP CABLE IS CRACKED.,"L/H ENG BACK BAFFLE, BY #4 CYL, CRACKED.",0,Different core problems: structural crack versus baffle crack.
+MR-67365c29d5acf0d5,103274,INTAKES #2 & 4 LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-f0e9787ccee54927,103796,1 BAFFLE BUTTON WORN.,R/H ENGINE #3 CYL EXHAUST ROCKER WORN ON SHAFT.,0,Different core problems: baffle plug defect versus wear.
+MR-2c66f6700d0d25be,104157,#2 & 3 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,3 versus 2,3,4)."
+MR-a81dd6e93d1f208b,101744,BAFFLE BUTTON PLUG IS WORN.,"ENG FWD LWR BLACK SEAL HAS WORN SPOTS, ABOVE AIR INTAKE.",1,"Related maintenance area, but core problem differs: baffle plug defect versus cowl/engine seal wear."
+MR-ea6ab91fd60c6fe2,100515,#3 ROCKER COVER GASKET IS TORN.,#4 ROCKER COVER GASKET LEAKING.,1,"Same component area, but defect differs: torn versus leaking."
+MR-c2f74a01be061541,103656,OIL COOLERS DIRTY.,SNIFFLER VALVE DIRTY.,0,Different core problems: oil-cooler contamination versus contamination.
+MR-efc844a1cb0edeb4,104219,BOTH OIL COOLERS DIRTY.,SNIFFLER VALVES DIRTY.,0,Different core problems: oil-cooler contamination versus contamination.
+MR-c5f96a6a8fbdf67a,101371,AFT BAFFLE BRACKET MISSING SCREW.,#3 AFT BAFFLE SUPPORT BRACKET MISSING SCREW.,2,"Same core problem; cylinder/location is stated on only one side, without contradiction."
+MR-ecc560854e0cec02,100197,#2 & 4 INTAKES ARE LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-df71aaa91266e045,103598,L/H ENGINE BAFFLE CRACKED.,L/H ENGINE BAFFLE BY ROCKER COVERS CRACKED.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-e64a114a981364d5,105590,EVIDENCE OF CARB FIRE ON L/H CARB AIRBOX.,CYL #4 INTAKE LEAKING.,0,Different core problems: carb-airbox fire versus intake leak.
+MR-4b41703aa7476d62,100772,L/H ENG #3 INDUCTION TUBE GASKET LEAKING.,L/H ENG #3 INTAKE IS LEAKING.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-753e3dc2c02ce220,103861,#4 INDUCTION TUBE GASKET LEAKING.,#1 INTAKE GASKET LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (4 versus 1)."
+MR-57d4ab844cc0a29a,103074,"R/H ENGINE FOAM SEAL LOOSE ON BULKHEAD, BEHIND ENGINE INLET",R/H ENGINE LWR FIRESEAL LOOSE.,1,"Both concern loose engine sealing, but foam bulkhead seal and lower fireseal identify materially different seals."
+MR-9a6abba506a266cb,103623,FOUND BROKEN COVER SCREW ON GROUND.,#2 & 4 SIDE BAFFLE BRACE BROKEN.,0,Only the generic broken condition overlaps; a cover screw and a side-baffle brace are different maintenance problems.
+MR-ea8744a9b8fe9403,100848,OIL COOLER HOSE REQUIRES REPOSITIONING.,ENGINE REQUIRES OVERHAUL.,0,Different core problems: oil-cooler hose position versus other.
+MR-bf9f3d940454f99f,100629,#2 INTAKE GASKET LEAKS.,#4 INTAKE GASKET IS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2 versus 4)."
+MR-6c446f068f90492f,100991,#2 INDUCTION TUBE GASKET LEAKING.,L/H ENG #3 & 4 CYL INTAKE GASKETS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2 versus 3,4)."
+MR-c649749b3e3f77d1,105048,#2 & 4 INTAKES LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-92e959ad32ad7527,102381,L/H ENG #3 INDUCTION TUBE GASKET LEAKING.,L/H ENG #3 INTAKE IS LEAKING.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-aada934c82403871,104219,BOTH OIL COOLERS DIRTY.,ENGINE IS DIRTY.,0,Different core problems: oil-cooler contamination versus contamination.
+MR-2bb8e0a05e6bf8a0,104135,BAFFLE PLUG IS DAMAGED.,BAFFLE PLUG WORN.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-93c92357f6886fcd,104621,INSPECTED & FOUND CRANKSHAFT TO BE GOUGED BEHIND CRANKSHAFT,R/H ENG FWD CYL #2 BAFFLE SEAL IS TORN.,0,Different core problems: crankshaft gouge versus baffle seal defect.
+MR-df6870da7f616c99,100308,"#2, 3 & 4 ROCKER BOX COVER SCREWS LOOSE.","RIVET LOOSE AT BAFFLE, AFT CENTER.",0,Different core problems: rocker-cover loose screws versus loose hardware/component.
+MR-0a0660ebc484c30f,105157,L/H #4 ROCKER COVER GASKET LEAKS.,R/H ENG #3 ROCKER COVER GASKET LEAKING.,1,"Same rocker-cover gasket defect, but engine side conflicts (left versus right)."
+MR-a984c0a7bbfc2eb8,100081,#2 INTAKE LEAKS.,#2 CYL INTAKE LEAKING.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-6448dddfff16567e,102624,COWL SEAL BY #2 CYL NEEDS TO BE REATTCHED TO BAFFLING.,#2 CYL BOTTOM FRONT BAFFLING HAS A CRACK.,1,"Related maintenance area, but core problem differs: baffle seal defect versus baffle crack."
+MR-077f6c83b2a85d87,100095,ROCKER BOX COVER SCREWS LOOSE.,INDUCTION TUBE HOSE CLAMPS LOOSE (ALL CYLS).,0,Different core problems: rocker-cover loose screws versus intake tube loose/damaged.
+MR-c5138f56568fabe7,101101,OIL LEAK EVIDENCE ON R/H SIDE OF ENGINE.,"OIL LEAK AT R/H ENGINE BACK BONE, AFT BOLT.",2,"Same core problem; position is stated on only one side, without contradiction."
+MR-18ad6f7f43fb94e7,103598,L/H ENGINE BAFFLE CRACKED.,#3 AFT BAFFLE CRACKED ON R/H ENGINE.,1,"Same baffle crack, but engine side conflicts (left versus right)."
+MR-2a1d7a17010b3e5c,100772,L/H ENG #3 INDUCTION TUBE GASKET LEAKING.,R/H ENG #3 INTAKE IS LEAKING.,1,"Same intake leak, but engine side conflicts (left versus right)."
+MR-d16c43bb3745bd33,101430,ENGINE OVER RIDE SPEED WAS 1225 RPM.,ENGINE IDLE OVERRIDE KILLED ENGINE.,1,"Related maintenance area, but core problem differs: idle override speed versus idle override behavior."
+MR-4c3f38d2caad0b5b,100197,#2 & 4 INTAKES ARE LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-a565bcc575d11597,105480,#1 & 3 INTAKES LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (1,3 versus 2,4)."
+MR-b99e5bd937aea47a,103145,INTAKES #1 & 2 LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1,2 versus 2,3)."
+MR-3a268d88b11f4b04,103824,"#3, 4 & 1 INTAKES ARE LEAKING.","INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (1,3,4 versus 2,3,4)."
+MR-37366b829bb64bc4,100848,OIL COOLER HOSE REQUIRES REPOSITIONING.,"L/H ENG #4 CYL IS CRACKED, FOUND ON COMPRESSION TEST.",0,Different core problems: oil-cooler hose position versus structural crack.
+MR-00e1bc9fd9045de7,104471,"#1, 2, 4 INTAKES LEAKING.",INTAKES 2 & 4 LEAKING ON R/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (1,2,4 versus 2,4)."
+MR-507c22189151de9c,102316,ENGINE AFT BAFFLE CYL #3 AREA HAS SHEARED RIVETS ON SUPPORT,"ENGINE AFT BAFFLE, NEXT TO #3 CYL, HAS SHEARED RIVETS.",2,"Same core problem with compatible recorded component, defect, and context."
+MR-184ed4ffa20d2ced,100727,REAR BAFFLE PLUGS WORN OUT.,BAFFLE PLUGS ARE WORN OUT.,2,"Same core problem; position is stated on only one side, without contradiction."
+MR-5d410d32ecc54d8f,104863,#1 CYL INTAKE LEAKS.,L/H ENG CYL #4 INTAKE IS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1 versus 4)."
+MR-66a7eec5db0a9e11,100032,RIGHT ENG #4 AIR BAFFLE IS CRACKED,"BAFFLING CRACKED, R/H ENG BY #4 CYLINDER.",2,"Same core problem with compatible recorded component, defect, and context."
+MR-a03881b03e9d915f,101410,REAR R/H ENGINE BAFFLE BRACKET CRACKED.,BAFFLE BRACKET CRACKED ON #3 CYLINDER.,1,"Same cracked baffle bracket, but rear R/H-engine versus cylinder-3 location differs materially."
+MR-f26a49bd6f9b7763,100095,ROCKER BOX COVER SCREWS LOOSE.,R/H ENGINE #3 AFT BAFFLE SEAL IS LOOSE.,0,Different core problems: rocker-cover loose screws versus baffle seal defect.
+MR-dc2f7203f727bb91,101371,AFT BAFFLE BRACKET MISSING SCREW.,R/H SIDE BAFFLE IS MISSING A SCREW.,1,"Both involve a missing baffle screw, but an aft support bracket and a R/H side baffle are materially different targets."
+MR-6a157744b114ef8c,101238,#2 & 4 INTAKES ARE LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3)."
+MR-1cbb16e95426cbfd,105590,EVIDENCE OF CARB FIRE ON L/H CARB AIRBOX.,ROCKER COVER FOR CYL #1 IS LEAKING.,0,Different core problems: carb-airbox fire versus rocker-cover gasket defect.
+MR-79da9648baee1ee7,103676,#4 CYL ROCKER COVER IS MISSING SCREW.,"MISSING SCREW ON ENG BAFFLE AFT & NEXT TO CYL #3, SCREW MOUN",0,Different core problems: rocker-cover missing screw versus baffle missing hardware.
+MR-91b5a35d978da3dd,102604,#4 INTAKE LEAKS.,"R/H ENGINE #4 INTAKE LEAKING, AND #3 INTAKE.",1,"Same intake leak, but the specified cylinder set conflicts (4 versus 3,4)."
+MR-7f3d0c2b54fb7d8a,100716,R/H ENG CORNER BRACKET BY PROP CABLE IS CRACKED.,"L/H ENG, AFT BAFFLING CRACKED BEHIND CYL #4.",0,Different core problems: structural crack versus baffle crack.
+MR-037fca7b2f2ed84d,106168,"DURING RUN UP, #2 CYL WAS COLD & ENGINE SHOCK VIOLENTLY (ENG","ENGINE BAFFLE CRACKED, AFT OF #3 CYL, L/H ENG.",0,Different core problems: engine rough/cold cylinder versus baffle crack.
+MR-006b2eca065e859b,106156,BAFFLE PLUG DAMAGED.,BAFFLE PLUG WORN.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-83cbd8ac794081e6,103623,FOUND BROKEN COVER SCREW ON GROUND.,SUPPORT FROM #4 CYL AFT BAFFLE TO CRANKCASE HALF IS BROKEN O,0,Only the generic broken condition overlaps; a cover screw and an aft-baffle support are different maintenance problems.
+MR-87ae5a8e5036c08b,101430,ENGINE OVER RIDE SPEED WAS 1225 RPM.,"RIGHT ENGINE, LEFT MAG DROPPED 200+.",0,Different core problems: idle override speed versus magneto drop.
+MR-5be7fa64105fc22a,101668,"ROCKER COVER GASKETS #2, 3 TORN.","CYL #2, 3 ROCKER COVER GASKETS LEAKING.",1,"Same component area, but defect differs: torn versus leaking."
+MR-49484a0bf3a246de,101264,CYL #3 ROCKER COVER IS MISSING A SCREW.,"MISSING SCREW ON ENG BAFFLE AFT & NEXT TO CYL #3, SCREW MOUN",0,Different core problems: rocker-cover missing screw versus baffle missing hardware.
+MR-631241144c1d3258,100112,L/H ENGINE #4 AFT BAFFLE CRACKED IN MULTIPLE PLACES.,CRACK IN R/H AFT ENGINE BAFFLE.,1,"Same baffle crack, but engine side conflicts (left versus right)."
+MR-5f976d527ce0923c,101116,"L/H ENG, #4 INDUCTION TUBE GASKET LEAKING.","#2 & 4 INTAKE GASKETS ARE LEAKING, L/H ENG.",1,"Same intake leak, but the specified cylinder set conflicts (4 versus 2,4)."
+MR-c755d2e2a23afb30,101225,"CRACK ON ENGINE BAFFLE, LEFT SIDE, BY #3 CYLINDER.",ENGINE BAFFLE CRACKED ABOVE #1 CYL.,1,"Same baffle crack, but the specified cylinder set conflicts (3 versus 1)."
+MR-2fad5c4d84cf2828,103173,#2 & 4 INTAKES LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3)."
+MR-8d85ee2285a2b4f1,103373,"R/H FWD BAFFLE, #1 CYL SIDE, HAS A CRACK.","ENGINE BAFFLE CRACKED, AFT OF #3 CYL, L/H ENG.",1,"Same baffle crack, but engine side conflicts (right versus left)."
+MR-b4f0b9277182b134,104582,#2 LOWER INTAKE CLAMP LOOSE.,R/H ENGINE #3 AFT BAFFLE SEAL IS LOOSE.,0,Different core problems: intake clamp loose versus baffle seal defect.
+MR-ec1ede12eda5b091,103943,ALL ROCKER COVER SCREWS LOOSE.,#2 & 4 CYL ROCKER COVER SCREWS ARE LOOSE.,1,"Same loose rocker-cover screws, but all cylinders versus only cylinders 2 and 4 is a material scope mismatch."
+MR-36aeb633f51bf156,103656,OIL COOLERS DIRTY.,SNIFFLER VALVES DIRTY.,0,Different core problems: oil-cooler contamination versus contamination.
+MR-19aa0b24b0a7c070,100568,ENGINE BAFFLE PLUG TABS BROKEN.,R/H ENGINE BAFFLE PLUG BROKEN.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-5f879c2821817cdb,101744,BAFFLE BUTTON PLUG IS WORN.,L/H BAFFLE BUTTON PLUG IS BROKEN.,1,"Same baffle-button plug, but the recorded condition conflicts: worn versus broken."
+MR-a2cfba38effb321f,100155,#2 ROCKER BOX COVER SCREWS LOOSE.,R/H ENGINE #3 AFT BAFFLE SEAL IS LOOSE.,0,Different core problems: rocker-cover loose screws versus baffle seal defect.
+MR-df744db05a262217,105157,L/H #4 ROCKER COVER GASKET LEAKS.,"CYL #4, 1 ROCKER COVER GASKET LEAKING.",1,"Same rocker-cover gasket defect, but the specified cylinder set conflicts (4 versus 1,4)."
+MR-ba074341495fcb1b,105742,#4 CYL HAS LOW COMPRESSION.,CYL #2 COMPRESSION LOW. AIR NOTED & OBSERVED OUT OF EXHAUST.,1,"Same low cylinder compression, but the specified cylinder set conflicts (4 versus 2)."
+MR-5f6459e58eed32f9,101101,OIL LEAK EVIDENCE ON R/H SIDE OF ENGINE.,L/H SIIDE OF ENGINE CASE PLUG LEAKING OIL.,1,"Same engine oil leak, but engine side conflicts (right versus left)."
+MR-3272cc715076445e,102316,ENGINE AFT BAFFLE CYL #3 AREA HAS SHEARED RIVETS ON SUPPORT,"AFT BAFFLE, R/H SIDE OF ENGINE, HAS SHEARED RIVET.",2,"Same core problem; engine side and cylinder/location are stated on only one side, without contradiction."
+MR-c4576ad744b918a8,100623,ROCKER BOX COVER SCREWS LOOSE.,GROUNDING POINTS ON ENG & FIREWALL LOOSE.,0,Different core problems: rocker-cover loose screws versus loose hardware/component.
+MR-4736e6f16df8b365,100392,R/H #4 SIDE BAFFLE MISSING BOLTS.,HARDWARE MISSING FROM #3 BAFFLE.,1,"Same baffle missing hardware, but the specified cylinder set conflicts (4 versus 3)."
+MR-d29f7e1112c1284c,105940,2 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-9f13b4bb2b0bc7f1,100081,#2 INTAKE LEAKS.,R/H ENG #4 INTAKE IS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2 versus 4)."
+MR-f96df1b49ed6ae27,102381,L/H ENG #3 INDUCTION TUBE GASKET LEAKING.,R/H ENG #2 & 3 ROCKER GASKETS ARE LEAKING.,0,Different core problems: intake leak versus rocker-cover gasket defect.
+MR-21c9cc28263fca4e,106106,L/H ENGINE #4 BAFFLE CRACKED.,CRACK IN R/H AFT ENGINE BAFFLE.,1,"Same baffle crack, but engine side conflicts (left versus right)."
+MR-457291e42f715a9e,103943,ALL ROCKER COVER SCREWS LOOSE.,ALL ROCKER COVER SCREWS LOOSE & 1 MISSING.,1,"Related maintenance area, but core problem differs: rocker-cover loose screws versus rocker-cover missing screw."
+MR-c3a120cf3ded5999,101898,#3 INDUCTION TUBE GASKET LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (3 versus 2,4)."
+MR-276a49cbbd6ac873,102381,L/H ENG #3 INDUCTION TUBE GASKET LEAKING.,R/H ENG #3 INTAKE IS LEAKING.,1,"Same intake leak, but engine side conflicts (left versus right)."
+MR-c3240fcb36f76fff,106156,BAFFLE PLUG DAMAGED.,LEFT BAFFLE PLUG IS WORN.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-be76fb1104bb005a,104623,INSPECTED & FOUND CRANKSHAFT TO BE GOUGED BEHIND CRANKSHAFT,"#1, 2, & 6 COWL MOUNTS ARE TORN.",0,Different core problems: crankshaft gouge versus other.
+MR-62b53d5f1d3015e9,105610,#3 & 4 INTAKES LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (3,4 versus 2,4)."
+MR-5fd2304ceec94f49,100540,#1 INTAKE GASKET LEAKS.,#4 INTAKE GASKET IS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1 versus 4)."
+MR-0916d306b175f4d3,103274,INTAKES #2 & 4 LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-ca11e5f38a081386,101698,#4 INTAKE TUBE LOOSE.,#2 CYL INTAKE TUBE BOLT BROKEN.,1,"Same component area, but defect differs: loose versus broken."
+MR-2eca0dd7dde470e6,104264,#3 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (3,4 versus 2,3,4)."
+MR-9844bd23e6130aaa,105157,L/H #4 ROCKER COVER GASKET LEAKS.,#2 ROCKER COVER GASKET LEAKING.,1,"Same rocker-cover gasket defect, but the specified cylinder set conflicts (4 versus 2)."
+MR-217ee2f8b02a34ec,103074,"R/H ENGINE FOAM SEAL LOOSE ON BULKHEAD, BEHIND ENGINE INLET",R/H REAR ENGINE BAFFLE MOUNTING SCREW LOOSE.,1,"Related maintenance area, but core problem differs: cowl/engine seal loose versus loose hardware/component."
+MR-9ae525c2e9513705,100636,R/H ENGINE #3 INDUCTION TUBE GASKET LEAKING.,R/H ENGINE CYL #3 INTAKE GASKET LEAKING.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-b656bff4ac5dd9ac,103758,"L/H ENG, L/H FWD BAFFLE SEAL IS LOOSE.",R/H ENG #2 CYL BAFFLE SEAL LOOSE.,1,"Same baffle seal defect, but engine side conflicts (left versus right)."
+MR-9c2295fbb5f65b0d,103074,"R/H ENGINE FOAM SEAL LOOSE ON BULKHEAD, BEHIND ENGINE INLET",#4 BAFFLE HAS LOOSE HARDWARE ON R/H ENGINE.,1,"Related maintenance area, but core problem differs: cowl/engine seal loose versus loose hardware/component."
+MR-d72ae8e4deb92880,104515,#2 & 1 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (1,2 versus 2,3,4)."
+MR-94a5f1da799ec387,103796,1 BAFFLE BUTTON WORN.,R/H ENGINE #1 CYL EXHAUST ROCKER WORN ON SHAFT.,0,Different core problems: baffle plug defect versus wear.
+MR-11ba17258f7383bd,100515,#3 ROCKER COVER GASKET IS TORN.,ROCKER COVER GASKET FROM #3 CYLINDER TORN.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-132a4d0f9fbae7c9,101458,#3 CYLINDER ON R/H ENGINE HAS LOW COMPRESSION.,"ENGINE RUNNING ROUGH, #2 CYL EGT LOW.",0,Different core problems: low cylinder compression versus other.
+MR-2fd8e002f177c3d8,105306,#2 & 4 INTAKES LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-7d414807e827883d,103145,INTAKES #1 & 2 LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1,2 versus 2,4)."
+MR-3c2cebfa6d6c4400,100568,ENGINE BAFFLE PLUG TABS BROKEN.,L/H SIDE BAFFLE PLUG HAS BROKEN TABS.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-580ad08f37f85dd2,104677,BLACK FWD COWL (ENG) SEAL WORN BY INTAKE FILTER.,ENG FWD SEAL (BLACK) WORN SPOTS AT AIR INLET.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-93bac668d05752d7,100629,#2 INTAKE GASKET LEAKS.,"R/H ENGINE, CYL #3 INTAKE GASKET IS LEAKING.",1,"Same intake leak, but the specified cylinder set conflicts (2 versus 3)."
+MR-af203eca0f3bc3cb,104219,BOTH OIL COOLERS DIRTY.,SNIFFLE VALVES DIRTY.,0,Different core problems: oil-cooler contamination versus contamination.
+MR-7f7a5319d10f38ad,106168,"DURING RUN UP, #2 CYL WAS COLD & ENGINE SHOCK VIOLENTLY (ENG",R/H ENGINE #1 CYL EXHAUST ROCKER WORN ON SHAFT.,0,Different core problems: engine rough/cold cylinder versus wear.
+MR-2368a23aa2f2e9bb,101238,#2 & 4 INTAKES ARE LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-d89a1addc88ba34c,103758,"L/H ENG, L/H FWD BAFFLE SEAL IS LOOSE.",BAFFLE SEAL LOOSE ON R/H ENG #1 SIDE BAFFLE.,1,"Same baffle seal defect, but engine side conflicts (left versus right)."
+MR-06e70e4e97aeaeda,105742,#4 CYL HAS LOW COMPRESSION.,CYL #3 HAD LOW COMPRESSION (50/80).,1,"Same low cylinder compression, but the specified cylinder set conflicts (4 versus 3)."
+MR-47f4c6064e70f04f,105048,#2 & 4 INTAKES LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-fe9131d77a7cb27b,104677,BLACK FWD COWL (ENG) SEAL WORN BY INTAKE FILTER.,"FWD ENG SEAL WORN ABOVE VACUUM PUMP, R/H SIDE.",1,"Same worn forward engine seal, but intake-filter versus vacuum-pump location is a material mismatch."
+MR-166b3077daedd5c0,105029,#1 FWD BAFFLE SEAL LOOSE.,"AFT BAFFLE SEAL LOOSE, R/H SIDE.",1,"Same baffle seal defect, but the specified location conflicts (front versus aft)."
+MR-303660abc56a73ca,100848,OIL COOLER HOSE REQUIRES REPOSITIONING.,L/H ENG OIL COOLER HOSE IS POSITIONED TOO CLOSE TO OIL FILTE,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-c5092d155552ab79,105048,#2 & 4 INTAKES LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3)."
+MR-cde87041a2bb28d4,100772,L/H ENG #3 INDUCTION TUBE GASKET LEAKING.,"#2 & 4 INTAKE GASKETS ARE LEAKING, L/H ENG.",1,"Same intake leak, but the specified cylinder set conflicts (3 versus 2,4)."
+MR-52c02d213a65f946,101238,#2 & 4 INTAKES ARE LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-03f229f9e4fbe797,101930,#1 CYL HAS LOW COMPRESSION.,LOW COMPRESSION ON CYL #3 (55).,1,"Same low cylinder compression, but the specified cylinder set conflicts (1 versus 3)."
+MR-c6622e0977c1ab2d,100772,L/H ENG #3 INDUCTION TUBE GASKET LEAKING.,R/H ENG #2 & 3 ROCKER GASKETS ARE LEAKING.,0,Different core problems: intake leak versus rocker-cover gasket defect.
+MR-96c0154e6a977d1d,101430,ENGINE OVER RIDE SPEED WAS 1225 RPM.,"ON START UP, ENGINE BEGAN TO RUN ROUGH. RAN ENGINE @ 1200 RP",0,Different core problems: idle override speed versus other.
+MR-0ff5426534aa9422,104621,INSPECTED & FOUND CRANKSHAFT TO BE GOUGED BEHIND CRANKSHAFT,ADEL CLAMP TORN BY R/H ENGINE MOUNT.,0,Different core problems: crankshaft gouge versus other.
+MR-2b0a6fc1611e7689,101101,OIL LEAK EVIDENCE ON R/H SIDE OF ENGINE.,R/H ENGINE LIFTING EYE BOLT LEAKING OIL.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-5dc2e0573ff3bf35,100112,L/H ENGINE #4 AFT BAFFLE CRACKED IN MULTIPLE PLACES.,"L/H ENGINE, ENGINE BAFFLE CRACKED AT OIL COOLER.",1,"Same cracked L/H engine baffle, but cylinder-4 aft versus oil-cooler location differs materially."
+MR-0833e21aca3cfb18,101598,CYL #2 & 3 INTAKES ARE LEAKING.,"CYL #1 & 3 INTAKES ARE LEAKING, L/H ENG.",1,"Same intake leak, but the specified cylinder set conflicts (2,3 versus 1,3)."
+MR-a59874cea0ba56a9,104031,#4 AFT BAFFLE CRACKED.,#2 FWD BAFFLE CRACKED BEYOND STOP DRILL.,1,"Same baffle crack, but the specified cylinder set conflicts (4 versus 2)."
+MR-5adfee247ed06144,101980,"R/H ENG #2, 3 & 4 ROCKER BOX COVERS LEAKING.",L/H ENG #3 ROCKER COVER IS LEAKING.,1,"Same rocker-cover gasket defect, but engine side conflicts (right versus left)."
+MR-337d96636391b21d,102624,COWL SEAL BY #2 CYL NEEDS TO BE REATTCHED TO BAFFLING.,#1 CYL BAFFLING HAS A CRACK.,1,"Related maintenance area, but core problem differs: baffle seal defect versus baffle crack."
+MR-48d0ee61681b3785,100264,#3 INTAKE LEAKING AT CLAMP.,"#3 INTAKE LEAKING ON L/H ENGINE, ALONG W/ #2.",1,"Same intake leak, but the specified cylinder set conflicts (3 versus 2,3)."
+MR-9eacc512ed3b06ee,104702,L/H ENG #2 CYL HAS LOW COMPRESSION.,R/H ENG #4 CYL HAS LOW COMPRESSION (20/80 PSI).,1,"Same low cylinder compression, but engine side conflicts (left versus right)."
+MR-1c90c94bf0938ae6,105590,EVIDENCE OF CARB FIRE ON L/H CARB AIRBOX.,"OIL PRESENT ON ENGINE, R/H SIDE. OIL SPRAYED BELOW & AFT.",0,Different core problems: carb-airbox fire versus engine oil leak.
+MR-d009253f83ff7223,100392,R/H #4 SIDE BAFFLE MISSING BOLTS.,"R/H ENG #3 CYL SIDE BAFFLE, BOTH BOLTS MISSING.",1,"Same baffle missing hardware, but the specified cylinder set conflicts (4 versus 3)."
+MR-f186eeeaf8724837,103796,1 BAFFLE BUTTON WORN.,L/H ENG SNIFFLER VALVE HOSE ADEL CLAMP RUBBER IS WORN OUT.,0,Different core problems: baffle plug defect versus wear.
+MR-91ad3c2761e74da1,100006,ROCKER BOX COVER SCREWS LOOSE (ALL CYL).,CYL #1 & 3 SIDE BAFFLE BOLT IS LOOSE.,0,Different core problems: rocker-cover loose screws versus loose hardware/component.
+MR-3d75ab1bce003b93,100991,#2 INDUCTION TUBE GASKET LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2 versus 2,4)."
+MR-470ad8f0245396e2,100155,#2 ROCKER BOX COVER SCREWS LOOSE.,L/H UPPER BAFFLE LOOSE ABOVE #2 CYLINDER.,0,Different core problems: rocker-cover loose screws versus loose hardware/component.
+MR-e5b897ddca3a5ee8,105610,#3 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (3,4 versus 2,3,4)."
+MR-4c5920af135286b6,101116,"L/H ENG, #4 INDUCTION TUBE GASKET LEAKING.",L/H ENG #3 INTAKE IS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (4 versus 3)."
+MR-189f92435e66943d,101698,#4 INTAKE TUBE LOOSE.,CYL #1 INTAKE TUBE IS LOOSE.,1,"Same intake tube loose/damaged, but the specified cylinder set conflicts (4 versus 1)."
+MR-2f6af32e9573f04b,105178,#1 ROCKER COVER GASKET LEAKS.,#2 ROCKER COVER GASKET LEAKING.,1,"Same rocker-cover gasket defect, but the specified cylinder set conflicts (1 versus 2)."
+MR-57d7cce45ba762e9,105116,"R/H BAFFLE SEAL, BY #2 CYL, TORN.",R/H ENGINE #1 CYL SIDE BAFFLE SEAL IS TORN.,1,"Same baffle seal defect, but the specified cylinder set conflicts (2 versus 1)."
+MR-fedffbc0cc09de69,103373,"R/H FWD BAFFLE, #1 CYL SIDE, HAS A CRACK.",SMALL CRACK NOTED BY BOLT ON #1 CYL BAFFLE OF R/H ENGINE.,2,"Same core problem; position is stated on only one side, without contradiction."
+MR-fea1675d88189585,102604,#4 INTAKE LEAKS.,#3 & 4 INTAKE LEAKING ON R/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (4 versus 3,4)."
+MR-12d683176ac182ca,101264,CYL #3 ROCKER COVER IS MISSING A SCREW.,SCREW MISSING FROM CYL #2 FWD BAFFLE.,0,Different core problems: rocker-cover missing screw versus baffle missing hardware.
+MR-5340ac178f90257c,100264,#3 INTAKE LEAKING AT CLAMP.,#3 INTAKE LEAKING ON R/H ENGINE.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-28726fe1c4593cf3,104623,INSPECTED & FOUND CRANKSHAFT TO BE GOUGED BEHIND CRANKSHAFT,CRANKSHAFT FRONT SEAL NEEDS TO BE REPLACED.,1,"Related maintenance area, but core problem differs: crankshaft gouge versus crankshaft seal."
+MR-be8492cbe7b2ce1d,103087,#2 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-92f44063a7b8a922,105286,#1 & 4 INTAKES LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (1,4 versus 2,4)."
+MR-3313d73e6515b653,100081,#2 INTAKE LEAKS.,"R/H ENGINE #4 INTAKE LEAKING, AND #3 INTAKE.",1,"Same intake leak, but the specified cylinder set conflicts (2 versus 3,4)."
+MR-d9d65fab98e36eee,100958,#4 ROCKER COVER SCREWS LOOSE.,SOME ROCKER COVER SCREWS LOOSE.,2,"Same core problem; cylinder/location is stated on only one side, without contradiction."
+MR-3e7898d4dcc81693,104677,BLACK FWD COWL (ENG) SEAL WORN BY INTAKE FILTER.,"ENG FWD LWR BLACK SEAL HAS WORN SPOTS, ABOVE AIR INTAKE.",2,"Same core problem with compatible recorded component, defect, and context."
+MR-ba7b669fbe6738a9,103758,"L/H ENG, L/H FWD BAFFLE SEAL IS LOOSE.",R/H ENG #4 AFT BAFFLE SEAL LOOSE.,1,"Same baffle seal defect, but engine side conflicts (left versus right)."
+MR-1de226c00632f0b6,103274,INTAKES #2 & 4 LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-59cbc75c193de91b,101434,"R/H ENG CYL #4, 3 INTAKE GASKETS LEAKING.","R/H ENG CYL #2, 3, 4 INTAKE GASKETS LEAKING.",1,"Same intake leak, but the specified cylinder set conflicts (3,4 versus 2,3,4)."
+MR-1ef5da946b910e6c,106132,R/H ENG #2 CYL PUSH ROD END & ROCKER SCORED.,#1 CYL ROCKER ARM & PUSH ROD GALLED ON EXHAUST SIDE.,1,"Same pushrod/rocker damage, but the specified cylinder set conflicts (2 versus 1)."
+MR-bf8660cfb80a1dfe,101980,"R/H ENG #2, 3 & 4 ROCKER BOX COVERS LEAKING.",R/H ENG #3 INTAKE IS LEAKING.,0,Different core problems: rocker-cover gasket defect versus intake leak.
+MR-d29d948efb65f05b,104863,#1 CYL INTAKE LEAKS.,CYL #2 INTAKE LEAKING ON R/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (1 versus 2)."
+MR-e4167fe57c15c87b,101980,"R/H ENG #2, 3 & 4 ROCKER BOX COVERS LEAKING.",R/H ENG #2 & 3 ROCKER GASKETS ARE LEAKING.,1,"Same rocker-cover gasket defect, but the specified cylinder set conflicts (2,3,4 versus 2,3)."
+MR-640fe52d61a4e2c8,100308,"#2, 3 & 4 ROCKER BOX COVER SCREWS LOOSE.",L/H UPPER BAFFLE LOOSE ABOVE #2 CYLINDER.,0,Different core problems: rocker-cover loose screws versus loose hardware/component.
+MR-3ff7574681fbdc38,104621,INSPECTED & FOUND CRANKSHAFT TO BE GOUGED BEHIND CRANKSHAFT,"#1, 2, & 6 COWL MOUNTS ARE TORN.",0,Different core problems: crankshaft gouge versus other.
+MR-ad4b13270ed0fea3,104702,L/H ENG #2 CYL HAS LOW COMPRESSION.,R/H ENG #1 CYL HAS LOW COMPRESSION 5/80.,1,"Same low cylinder compression, but engine side conflicts (left versus right)."
+MR-0666e15565f819e4,100541,ALL ROCKER COVER SCREWS ARE LOOSE.,ALL ROCKER COVER SCREWS ARE LOOSE ON L/H ENGINE.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-1a67f2105bb66ca4,103145,INTAKES #1 & 2 LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (1,2 versus 2,3,4)."
+MR-3215a39e31dd974e,105742,#4 CYL HAS LOW COMPRESSION.,LOW COMPRESSION ON CYL #3 (55).,1,"Same low cylinder compression, but the specified cylinder set conflicts (4 versus 3)."
+MR-a415621d3b3b6cca,104157,#2 & 3 INTAKES LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2,3 versus 2,4)."
+MR-aef2fd79902fef07,103623,FOUND BROKEN COVER SCREW ON GROUND.,L/H ENGINE OIL COOLER TO ENGINE LIFTING EYE BRACKET BROKEN.,0,Only the generic broken condition overlaps; a cover screw and an oil-cooler lifting-eye bracket are different problems.
+MR-25f3ad33fa0c69a4,103145,INTAKES #1 & 2 LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (1,2 versus 2,4)."
+MR-cda226687dc3aa89,102604,#4 INTAKE LEAKS.,CYL #2 INTAKE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (4 versus 2)."
+MR-ba36bfcec1126c7d,103598,L/H ENGINE BAFFLE CRACKED.,FRONT & L/H ENGINE BAFFLE CRACKED.,2,"Same core problem; position is stated on only one side, without contradiction."
+MR-38a61dc44ecde8ed,103373,"R/H FWD BAFFLE, #1 CYL SIDE, HAS A CRACK.",R/H #1 CYL BAFFLE HAS A CRACK.,2,"Same core problem; position is stated on only one side, without contradiction."
+MR-33175a539022938a,103796,1 BAFFLE BUTTON WORN.,"ENG FWD LWR BLACK SEAL HAS WORN SPOTS, ABOVE AIR INTAKE.",1,"Related maintenance area, but core problem differs: baffle plug defect versus cowl/engine seal wear."
+MR-4aceb63f2dba647a,105940,2 & 4 INTAKES LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-caf1fb9e05e1e787,100392,R/H #4 SIDE BAFFLE MISSING BOLTS.,"TOP FRONT R/H BAFFLE, BAFFLE SEAL RIVET PULLED THROUGH.",1,"Related maintenance area, but core problem differs: baffle missing hardware versus baffle seal defect."
+MR-d2a11a3785ed8465,100568,ENGINE BAFFLE PLUG TABS BROKEN.,BAFFLE PLUG ABOVE #4 CYL HAS BROKEN TABS.,2,"Same core problem; cylinder/location and position are stated on only one side, without contradiction."
+MR-b4d650b742244d1c,105157,L/H #4 ROCKER COVER GASKET LEAKS.,#1 ROCKER COVER GASKET IS LEAKING.,1,"Same rocker-cover gasket defect, but the specified cylinder set conflicts (4 versus 1)."
+MR-52fbf55bef5d0e7e,104621,INSPECTED & FOUND CRANKSHAFT TO BE GOUGED BEHIND CRANKSHAFT,CRANKSHAFT FRONT SEAL NEEDS TO BE REPLACED.,1,"Related maintenance area, but core problem differs: crankshaft gouge versus crankshaft seal."
+MR-4fcfc1186b9d8ebd,103598,L/H ENGINE BAFFLE CRACKED.,"L/H ENGINE, ENGINE BAFFLE CRACKED AT OIL COOLER.",2,"Same core problem with compatible recorded component, defect, and context."
+MR-b8b0af22d5975ed9,100958,#4 ROCKER COVER SCREWS LOOSE.,ALL ROCKER COVER SCREWS ARE LOOSE ON L/H ENGINE.,1,"Same loose rocker-cover screws, but cylinder 4 versus all cylinders is a material scope mismatch."
+MR-d6026c309b1b0576,101434,"R/H ENG CYL #4, 3 INTAKE GASKETS LEAKING.","CYL #2, 3 & 4 INTAKE GASKETS ARE LEAKING ON L/H ENG.",1,"Same intake leak, but engine side conflicts (right versus left)."
+MR-0e9a937d736c5d70,101116,"L/H ENG, #4 INDUCTION TUBE GASKET LEAKING.",R/H ENG #3 INTAKE IS LEAKING.,1,"Same intake leak, but engine side conflicts (left versus right)."
+MR-22c8afb911273bdb,103943,ALL ROCKER COVER SCREWS LOOSE.,ALL ROCKER COVER SCREWS ARE LOOSE ON L/H ENGINE.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-76bdd03baff72878,103861,#4 INDUCTION TUBE GASKET LEAKING.,"CYL #1, 2, 4 INTAKE GASKETS LEAKING.",1,"Same intake leak, but the specified cylinder set conflicts (4 versus 1,2,4)."
+MR-1a7e82ada6482440,100629,#2 INTAKE GASKET LEAKS.,#2 INTAKE GASKET LEAKING.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-89f502d78e9363a6,104031,#4 AFT BAFFLE CRACKED.,CRACK ON #4 CYLINDER AFT BAFFLE.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-b3c403d8989ebd52,103884,BAFFLE SCREW MISSING ABOVE STARTER.,"2 BAFFLE SCREWS MISSING, ABOVE STARTER.",1,"Same location and missing baffle screws, but one screw versus two screws is a material quantity mismatch."
+MR-b869670b7d7477af,101668,"ROCKER COVER GASKETS #2, 3 TORN.",#3 & 4 ROCKER COVER GASKETS ARE BROKEN.,1,"Same component area, but defect differs: torn versus broken."
+MR-a62e3541c2b78af7,101668,"ROCKER COVER GASKETS #2, 3 TORN.",#1 & 3 ROCKER COVER GASKETS ARE BROKEN.,1,"Same component area, but defect differs: torn versus broken."
+MR-2714bb50f2b7bdd0,103173,#2 & 4 INTAKES LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-16c711da1581cbcf,105178,#1 ROCKER COVER GASKET LEAKS.,#2 CYL ROCKER COVER GASKET LEAKING.,1,"Same rocker-cover gasket defect, but the specified cylinder set conflicts (1 versus 2)."
+MR-6b14ba7e6efac550,101744,BAFFLE BUTTON PLUG IS WORN.,R/H ENGINE #1 CYL EXHAUST ROCKER WORN ON SHAFT.,0,Different core problems: baffle plug defect versus wear.
+MR-451ec177c410799d,106132,R/H ENG #2 CYL PUSH ROD END & ROCKER SCORED.,#3 CYL ROCKER ARM & PUSH ROD GALLED ON EXHAUST SIDE.,1,"Same pushrod/rocker damage, but the specified cylinder set conflicts (2 versus 3)."
+MR-15e4a273a51f4f55,100848,OIL COOLER HOSE REQUIRES REPOSITIONING.,R/H BAFFLE PLUG NEEDS TO BE REPLACED.,0,Different core problems: oil-cooler hose position versus baffle plug defect.
+MR-3f3678354d7d0062,105029,#1 FWD BAFFLE SEAL LOOSE.,FWD LOWER BAFFLE SEAL LOOSE.,2,"Same core problem; cylinder/location is stated on only one side, without contradiction."
+MR-797cb09e7ad54e5b,102823,#1 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (1,4 versus 2,3,4)."
+MR-c69d1df243edd7cc,102221,#1 INTAKE GASKET LEAKS.,#4 INTAKE GASKET IS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1 versus 4)."
+MR-addf5c4a857c633f,104674,R/H REAR BAFFLE INSP HOLE WORN.,"BLACK BAFFLE SEAL, FWD ENG, HAS SMALL WORN SPOT ON L/H SIDE.",1,"Related maintenance area, but core problem differs: baffle worn hole versus baffle seal defect."
+MR-9158b20826b5a79e,105940,2 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-a838989bcc9dc224,105286,#1 & 4 INTAKES LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1,4 versus 2,4)."
+MR-38923729cb274813,100197,#2 & 4 INTAKES ARE LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-249d7bdbd5293f52,105029,#1 FWD BAFFLE SEAL LOOSE.,LOWER L/H FWD BAFFLE SEAL IS LOOSE.,2,"Same core problem; engine side and cylinder/location are stated on only one side, without contradiction."
+MR-c86d942c915de0e1,103943,ALL ROCKER COVER SCREWS LOOSE.,ROCKER COVER SCREWS LOOSE ON L/H ENGINE.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-eed3fac1ac95a5e3,105286,#1 & 4 INTAKES LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1,4 versus 2,3)."
+MR-930e30ff7a67e058,100641,R/H ENG #2 & 4 INDUCTION TUBE GASKETS LEAKING.,R/H ENG #2 & 3 ROCKER GASKETS ARE LEAKING.,0,Different core problems: intake leak versus rocker-cover gasket defect.
+MR-81595922065374f1,104863,#1 CYL INTAKE LEAKS.,CYL #4 INTAKE IS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1 versus 4)."
+MR-3f0d9d9b8f880af4,105480,#1 & 3 INTAKES LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1,3 versus 2,3)."
+MR-cdd19c04a0caca0e,105610,#3 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (3,4 versus 2,3,4)."
+MR-81d541c6ab6ca61e,104471,"#1, 2, 4 INTAKES LEAKING.","INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (1,2,4 versus 2,3,4)."
+MR-aa46e6df10969bce,100641,R/H ENG #2 & 4 INDUCTION TUBE GASKETS LEAKING.,L/H ENG #3 ROCKER COVER IS LEAKING.,0,Different core problems: intake leak versus rocker-cover gasket defect.
+MR-f2977fbd946c3f22,104582,#2 LOWER INTAKE CLAMP LOOSE.,SCREW BEHIND OIL DIPSTICK TUBE LOOSE.,0,Different core problems: intake clamp loose versus loose hardware/component.
+MR-9af5e747174f5778,103173,#2 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-1178dd0f22cc74ee,100095,ROCKER BOX COVER SCREWS LOOSE.,GROUNDING POINTS ON ENG & FIREWALL LOOSE.,0,Different core problems: rocker-cover loose screws versus loose hardware/component.
+MR-d2b97a583f39a290,105592,SMALL RUST SPOT ON AFT TOP L/H (L/H ENGINE MOUNT).,ADEL CLAMP TORN BY R/H ENGINE MOUNT.,0,Different core problems: engine-mount rust versus other.
+MR-a692fa20834c03eb,103676,#4 CYL ROCKER COVER IS MISSING SCREW.,R/H ENG #2 CYL FWD BAFFLE IS MISSING A SCREW.,0,Different core problems: rocker-cover missing screw versus baffle missing hardware.
+MR-f3ff4e5f88cf74c9,101877,#3 INDUCTION TUBE GASKET LEAKING.,L/H ENG #3 & 4 CYL INTAKE GASKETS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (3 versus 3,4)."
+MR-7aea116f179086b3,106168,"DURING RUN UP, #2 CYL WAS COLD & ENGINE SHOCK VIOLENTLY (ENG","ROUGH ENGINE START UNUSUAL INDICATION CYL #4, LOWER TEMPERAT",0,Different core problems: engine rough/cold cylinder versus other.
+MR-af16f09c1f59c6ec,104264,#3 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (3,4 versus 2,3,4)."
+MR-9faada01adea238c,100541,ALL ROCKER COVER SCREWS ARE LOOSE.,#2 & 4 CYL ROCKER COVER SCREWS ARE LOOSE.,1,"Same loose rocker-cover screws, but all cylinders versus only cylinders 2 and 4 is a material scope mismatch."
+MR-a7c1ec2b2ae9edcd,100515,#3 ROCKER COVER GASKET IS TORN.,#1 ROCKER COVER GASKET LEAKING.,1,"Same component area, but defect differs: torn versus leaking."
+MR-5aa85288f77d8972,101458,#3 CYLINDER ON R/H ENGINE HAS LOW COMPRESSION.,"#1 CYLINDER COMPRESSION LOW, 25LBS. COMING FROM EXHAUST",1,"Same low cylinder compression, but the specified cylinder set conflicts (3 versus 1)."
+MR-09879a987d8963b7,100727,REAR BAFFLE PLUGS WORN OUT.,WORN BAFFLE PLUGS.,2,"Same core problem; position is stated on only one side, without contradiction."
+MR-a4727dd26372bdeb,104264,#3 & 4 INTAKES LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (3,4 versus 2,4)."
+MR-edc5ccb7a21bafaf,100540,#1 INTAKE GASKET LEAKS.,L/H ENG #4 CYL INTAKE GASKET IS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1 versus 4)."
+MR-60589521f9002354,104582,#2 LOWER INTAKE CLAMP LOOSE.,"BAFFLE SEAL LOOSE ON LH/ ENG, #4 AFT BAFFLE.",0,Different core problems: intake clamp loose versus baffle seal defect.
+MR-edab39d9cf6afdd4,106156,BAFFLE PLUG DAMAGED.,CYLINDER #4 BAFFLE PLUG TEETH ARE BROKEN.,2,"Same core problem; cylinder/location is stated on only one side, without contradiction."
+MR-c1651f97c74f31e0,100515,#3 ROCKER COVER GASKET IS TORN.,CYL #2 ROCKER COVER GASKET DAMAGED.,1,"Same component area, but defect differs: torn versus damaged."
+MR-34c042f783cc8c1e,102624,COWL SEAL BY #2 CYL NEEDS TO BE REATTCHED TO BAFFLING.,#1 CYL BAFFLING CRACK EXTENDING BEYOND STOP DRILL.,1,"Related maintenance area, but core problem differs: baffle seal defect versus baffle crack."
+MR-a72878689106ceb4,100540,#1 INTAKE GASKET LEAKS.,#2 INTAKE GASKET IS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1 versus 2)."
+MR-984dbf80bdb31a0c,105116,"R/H BAFFLE SEAL, BY #2 CYL, TORN.",#4 CYL BAFFLE PIECE DAMAGED.,0,Different core problems: baffle seal defect versus other.
+MR-39005c3081e20c16,103758,"L/H ENG, L/H FWD BAFFLE SEAL IS LOOSE.","L/H ENG, L/H REAR ENGINE BAFFLE SEAL LOOSE.",1,"Same baffle seal defect, but the specified location conflicts (front versus aft)."
+MR-23046c91093b40d7,101371,AFT BAFFLE BRACKET MISSING SCREW.,SCREW MISSING ON #3 BAFFLE BRACKET.,1,"Same baffle bracket missing a screw, but aft-bracket versus cylinder-3 bracket location differs materially."
+MR-eb1f8954281cc26d,103861,#4 INDUCTION TUBE GASKET LEAKING.,L/H ENG #3 & 4 CYL INTAKE GASKETS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (4 versus 3,4)."
+MR-a3acf751af4391b5,100264,#3 INTAKE LEAKING AT CLAMP.,#4 INTAKE LEAKING ON L/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (3 versus 4)."
+MR-2e11cd11c36a7944,104621,INSPECTED & FOUND CRANKSHAFT TO BE GOUGED BEHIND CRANKSHAFT,#3 CYL LOWER SPARK PLUG BOSS THREADS DAMAGED.,0,Different core problems: crankshaft gouge versus other.
+MR-bf79fd36169e5947,105178,#1 ROCKER COVER GASKET LEAKS.,"CYL #4, 1 ROCKER COVER GASKET LEAKING.",1,"Same rocker-cover gasket defect, but the specified cylinder set conflicts (1 versus 1,4)."
+MR-238efdf6c486ae7e,101410,REAR R/H ENGINE BAFFLE BRACKET CRACKED.,"CRACK IN ENGINE COOLING BAFFLE, AROUND LANDING LIGHT WIRE SE",1,"Related maintenance area, but core problem differs: baffle bracket crack versus baffle crack."
+MR-fe187c63532d1440,104071,"R/H ENG, R/H REAR BAFFLE IS CRACKED.",R/H ENG BAFFLE CRACKED ON LEFT SIDE OF OIL COOLER.,1,"Same cracked R/H engine baffle, but rear-baffle versus oil-cooler location differs materially."
+MR-afcbd352e375e177,103943,ALL ROCKER COVER SCREWS LOOSE.,"#2, 3, 4 ROCKER COVER SCREWS LOOSE ON R/H ENG.",1,"Same loose rocker-cover screws, but all cylinders versus cylinders 2, 3, and 4 is a material scope mismatch."
+MR-9fc8aa98db7abc70,101458,#3 CYLINDER ON R/H ENGINE HAS LOW COMPRESSION.,R/H ENGINE #4 CYL LOW ON COMPRESSION (30 LBS).,1,"Same low cylinder compression, but the specified cylinder set conflicts (3 versus 4)."
+MR-e7aab03d5d3bee30,102952,AUTO RE-IGN DOES NOT ACTIVATE W/ LOW N2 CONDITIONS.,COMPRESSION IS LOW #2 CYLINDER.,0,Different core problems: auto re-ignition failure versus low cylinder compression.
+MR-b2c7f082bbc8dbb2,100095,ROCKER BOX COVER SCREWS LOOSE.,INDUCTION TUBE HOSE CLAMPS LOOSE (ALL CYL).,0,Different core problems: rocker-cover loose screws versus intake tube loose/damaged.
+MR-33f22e69a3dc4b8d,105116,"R/H BAFFLE SEAL, BY #2 CYL, TORN.",R/H ENG FWD CYL #2 BAFFLE SEAL IS TORN.,2,"Same core problem; position is stated on only one side, without contradiction."
+MR-e845aa5b73efefcc,100006,ROCKER BOX COVER SCREWS LOOSE (ALL CYL).,CYL #2 BAFFLE SEAL IS LOOSE.,0,Different core problems: rocker-cover loose screws versus baffle seal defect.
+MR-26116ec3bc84be4c,101598,CYL #2 & 3 INTAKES ARE LEAKING.,"R/H ENG, CYL #2, 3, 4 INTAKES ARE LEAKING.",1,"Same intake leak, but the specified cylinder set conflicts (2,3 versus 2,3,4)."
+MR-2af8368ba7c067b7,100032,RIGHT ENG #4 AIR BAFFLE IS CRACKED,"L/H ENG, L/H AFT BAFFLE CRACKED, SEVERAL PLACES.",1,"Same baffle crack, but engine side conflicts (right versus left)."
+MR-49cf81af144a1e46,103173,#2 & 4 INTAKES LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-3ef57f6477282be7,101898,#3 INDUCTION TUBE GASKET LEAKING.,L/H ENG #3 & 4 CYL INTAKE GASKETS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (3 versus 3,4)."
+MR-d73bb6798cc10c64,100991,#2 INDUCTION TUBE GASKET LEAKING.,"CYL #1, 2, 4 INTAKE GASKETS LEAKING.",1,"Same intake leak, but the specified cylinder set conflicts (2 versus 1,2,4)."
+MR-579096957f933c84,104702,L/H ENG #2 CYL HAS LOW COMPRESSION.,#4 CYL ON L/H ENG HAS LOW COMPRESSION. LEAKING FROM EXHAUST,1,"Same low cylinder compression, but the specified cylinder set conflicts (2 versus 4)."
+MR-de68941e5f506493,101434,"R/H ENG CYL #4, 3 INTAKE GASKETS LEAKING.",R/H ENG CYL #3 & 4 INTAKE GASKETS LEAKING.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-f13906ed7e0f325f,100991,#2 INDUCTION TUBE GASKET LEAKING.,"R/H ENGINE #4 INTAKE LEAKING, AND #3 INTAKE.",1,"Same intake leak, but the specified cylinder set conflicts (2 versus 3,4)."
+MR-c09c92a47012837c,105480,#1 & 3 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (1,3 versus 2,3,4)."
+MR-8f4d36329a466cfa,100629,#2 INTAKE GASKET LEAKS.,#2 INTAKE GASKET IS LEAKING.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-5ff9ad893468b2f6,101264,CYL #3 ROCKER COVER IS MISSING A SCREW.,#3 CYL BAFFLE IS MISSING SCREW ON BRACKET.,0,Different core problems: rocker-cover missing screw versus baffle missing hardware.
+MR-0b7456af479a745c,100716,R/H ENG CORNER BRACKET BY PROP CABLE IS CRACKED.,R/H ENG #4 BAFFLE CRACKED AT OIL COOLER.,0,Different core problems: structural crack versus baffle crack.
+MR-f788ff132d67d175,105592,SMALL RUST SPOT ON AFT TOP L/H (L/H ENGINE MOUNT).,REMOVE ZIP TIES FROM ENGINE MOUNT.,1,"Related maintenance area, but core problem differs: engine-mount rust versus engine-mount attachment."
+MR-bed1d8f7ff6b79d0,104674,R/H REAR BAFFLE INSP HOLE WORN.,#1 CYL FWD BAFFLE SEAL HAS A HOLE WORN IN IT.,1,"Related maintenance area, but core problem differs: baffle worn hole versus baffle seal defect."
+MR-def085836d3d3798,104674,R/H REAR BAFFLE INSP HOLE WORN.,FWD BLACK ENG SEAL WORN.,1,"Related maintenance area, but core problem differs: baffle worn hole versus cowl/engine seal wear."
+MR-ebb3a1b5c936bbd1,100641,R/H ENG #2 & 4 INDUCTION TUBE GASKETS LEAKING.,"#2 & 4 INTAKE GASKETS ARE LEAKING, L/H ENG.",1,"Same intake leak, but engine side conflicts (right versus left)."
+MR-ad03be8eb542d77e,100541,ALL ROCKER COVER SCREWS ARE LOOSE.,ALL ROCKER COVER SCREWS LOOSE & 1 MISSING.,1,"Related maintenance area, but core problem differs: rocker-cover loose screws versus rocker-cover missing screw."
+MR-f1a071ca69550a60,105610,#3 & 4 INTAKES LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (3,4 versus 2,3)."
+MR-021850b7d8ca4883,104157,#2 & 3 INTAKES LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-80f31396f1cd314d,100629,#2 INTAKE GASKET LEAKS.,L/H ENG #4 CYL INTAKE GASKET IS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2 versus 4)."
+MR-49dc9c23c55e5d06,101458,#3 CYLINDER ON R/H ENGINE HAS LOW COMPRESSION.,"LOW COMPRESSION ON CYLINDER #2, L/H ENGINE.",1,"Same low cylinder compression, but engine side conflicts (right versus left)."
+MR-3384dc2bf36dd790,102327,#3 INDUCTION TUBE GASKET LEAKING.,"CYL #1, 2, 4 INTAKE GASKETS LEAKING.",1,"Same intake leak, but the specified cylinder set conflicts (3 versus 1,2,4)."
+MR-9c2a06f413d94643,103623,FOUND BROKEN COVER SCREW ON GROUND.,R/H REAR ENGINE BAFFLE SUPPORT BRACKET RIVETS BROKEN.,0,Only the generic broken condition overlaps; a cover screw and broken baffle-support rivets are different problems.
+MR-532048223cc2df41,102381,L/H ENG #3 INDUCTION TUBE GASKET LEAKING.,"#2 & 4 INTAKE GASKETS ARE LEAKING, L/H ENG.",1,"Same intake leak, but the specified cylinder set conflicts (3 versus 2,4)."
+MR-b864cffeb0cacfe0,101194,ROCKER BOX COVER SCREWS LOOSE.,INDUCTION TUBE HOSE CLAMPS LOOSE (ALL CYLS).,0,Different core problems: rocker-cover loose screws versus intake tube loose/damaged.
+MR-6e9b141dad6bb91e,106156,BAFFLE PLUG DAMAGED.,"BAFFLE PLUG DAMAGED, REQUIRES REPLACEMENT.",2,"Same core problem with compatible recorded component, defect, and context."
+MR-46bd6f77d20c83b9,102316,ENGINE AFT BAFFLE CYL #3 AREA HAS SHEARED RIVETS ON SUPPORT,TAB ON #3 CYL AFT BAFFLE RIVETS SHEARED OFF.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-b8f66d1320f3475c,103373,"R/H FWD BAFFLE, #1 CYL SIDE, HAS A CRACK.",BAFFLE IS CRACKED ABOVE #1 CYL.,1,"Same cracked cylinder-1 baffle, but forward-side versus above-cylinder location differs materially."
+MR-9f947a87e1bf75e4,104219,BOTH OIL COOLERS DIRTY.,SNIFFLER VALVE DIRTY.,0,Different core problems: oil-cooler contamination versus contamination.
+MR-979c83e3ace07e3c,101194,ROCKER BOX COVER SCREWS LOOSE.,INDUCTION TUBE HOSE CLAMPS LOOSE (ALL CYL).,0,Different core problems: rocker-cover loose screws versus intake tube loose/damaged.
+MR-3d9df847afa98774,100716,R/H ENG CORNER BRACKET BY PROP CABLE IS CRACKED.,"LOWER AFT COWL, L/H ENG STARTER GEN AIR VENT HAS CRACK.",0,"Both mention a crack, but a prop-cable corner bracket and a starter-generator cowl air vent are different core components."
+MR-de14c1def79b88a0,102327,#3 INDUCTION TUBE GASKET LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (3 versus 2,4)."
+MR-8ab21fb5af198e08,103676,#4 CYL ROCKER COVER IS MISSING SCREW.,#3 CYL BAFFLE IS MISSING SCREW ON BRACKET.,0,Different core problems: rocker-cover missing screw versus baffle missing hardware.
+MR-a421f400e24de48a,103274,INTAKES #2 & 4 LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-6640cb4f1c021212,102604,#4 INTAKE LEAKS.,R/H ENG #4 INTAKE IS LEAKING.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-61f530ededd9617e,100308,"#2, 3 & 4 ROCKER BOX COVER SCREWS LOOSE.",R/H ENGINE #3 AFT BAFFLE SEAL IS LOOSE.,0,Different core problems: rocker-cover loose screws versus baffle seal defect.
+MR-e52c0ab3ac3df6da,103173,#2 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-d19925002c69ac0d,104157,#2 & 3 INTAKES LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (2,3 versus 2,4)."
+MR-db66070970d60952,106132,R/H ENG #2 CYL PUSH ROD END & ROCKER SCORED.,"#4 CYL INTAKE TUBE FLANGE WORN, L/H ENG.",0,Different core problems: pushrod/rocker damage versus intake tube loose/damaged.
+MR-3b31cba5ef9d4bf9,106106,L/H ENGINE #4 BAFFLE CRACKED.,"L/H ENGINE, ENGINE BAFFLE CRACKED AT OIL COOLER.",1,"Same cracked L/H engine baffle, but cylinder-4 versus oil-cooler location differs materially."
+MR-8f0c302a40e07e70,102624,COWL SEAL BY #2 CYL NEEDS TO BE REATTCHED TO BAFFLING.,#3 CYL TOP BAFFLING HAS A CRACK.,1,"Related maintenance area, but core problem differs: baffle seal defect versus baffle crack."
+MR-57122e659517f721,100112,L/H ENGINE #4 AFT BAFFLE CRACKED IN MULTIPLE PLACES.,#3 AFT BAFFLE CRACKED ON R/H ENGINE.,1,"Same baffle crack, but engine side conflicts (left versus right)."
+MR-2d4ea3994545bc86,101668,"ROCKER COVER GASKETS #2, 3 TORN.",ROCKER COVER GASKETS CYL #2 & 4 LEAKING.,1,"Same component area, but defect differs: torn versus leaking."
+MR-21c75c16d8b58d19,105306,#2 & 4 INTAKES LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-df5c97e94c66f8d3,101194,ROCKER BOX COVER SCREWS LOOSE.,GROUNDING POINTS ON ENG & FIREWALL LOOSE.,0,Different core problems: rocker-cover loose screws versus loose hardware/component.
+MR-e65a1804920cf255,103861,#4 INDUCTION TUBE GASKET LEAKING.,"R/H ENGINE #4 INTAKE LEAKING, AND #3 INTAKE.",1,"Same intake leak, but the specified cylinder set conflicts (4 versus 3,4)."
+MR-28a8fbc91e8b904b,100958,#4 ROCKER COVER SCREWS LOOSE.,"#2, 3, 4 ROCKER COVER SCREWS LOOSE ON R/H ENG.",1,"Same rocker-cover loose screws, but the specified cylinder set conflicts (4 versus 2,3,4)."
+MR-17e7ca250857931c,100006,ROCKER BOX COVER SCREWS LOOSE (ALL CYL).,#2 & 4 CYL ROCKER COVER SCREWS ARE LOOSE.,1,"Same loose rocker-cover screws, but all cylinders versus only cylinders 2 and 4 is a material scope mismatch."
+MR-5e3df8eeb380a107,103087,#2 & 4 INTAKES LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-1b67690e64646568,104515,#2 & 1 INTAKES LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1,2 versus 2,3)."
+MR-1cabe8fb8c34d4ed,103145,INTAKES #1 & 2 LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (1,2 versus 2,3,4)."
+MR-08c4c92f72192d6c,102604,#4 INTAKE LEAKS.,#2 CYL INTAKE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (4 versus 2)."
+MR-9b4cd31a2b92ceb0,100081,#2 INTAKE LEAKS.,CYL #2 INTAKE LEAKING.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-ae3099b6f2da9ca6,100636,R/H ENGINE #3 INDUCTION TUBE GASKET LEAKING.,L/H ENGINE #4 INTAKE LEAKING.,1,"Same intake leak, but engine side conflicts (right versus left)."
+MR-7221f3c2d4ec802c,101980,"R/H ENG #2, 3 & 4 ROCKER BOX COVERS LEAKING.","#2 & 4 INTAKE GASKETS ARE LEAKING, L/H ENG.",0,Different core problems: rocker-cover gasket defect versus intake leak.
+MR-7dade3eeefa86bce,103884,BAFFLE SCREW MISSING ABOVE STARTER.,"R/H ENGINE, L/H FWD BAFFLE SCREW MISSING.",1,"Same missing baffle screw, but above-starter versus R/H-engine L/H-forward-baffle location differs materially."
+MR-9e171192e1f6f6e5,101264,CYL #3 ROCKER COVER IS MISSING A SCREW.,SCREW MISSING FROM L/H ENGINE #3 ROCKER COVER.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-f8da7025b8d6b8ca,105116,"R/H BAFFLE SEAL, BY #2 CYL, TORN.",L/H ENGINE BAFFLE SEAL ABOVE #4 CYLINDER IS TORN.,1,"Same baffle seal defect, but engine side conflicts (right versus left)."
+MR-258d79021df58ddb,102327,#3 INDUCTION TUBE GASKET LEAKING.,#1 INTAKE GASKET LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (3 versus 1)."
+MR-59b4b879e9ac2896,104135,BAFFLE PLUG IS DAMAGED.,"BAFFLE PLUG DAMAGED, REQUIRES REPLACEMENT.",2,"Same core problem with compatible recorded component, defect, and context."
+MR-217ba083e7200f8f,100727,REAR BAFFLE PLUGS WORN OUT.,BOTH SPARK PLUG BAFFLE PLUGS ARE WORN.,2,"Same core problem; position is stated on only one side, without contradiction."
+MR-8534be37c13c0798,100716,R/H ENG CORNER BRACKET BY PROP CABLE IS CRACKED.,"ENG BAFFLING CRACKED, R/H SIDE, ABOVE #1 CYLINDER.",0,Different core problems: structural crack versus baffle crack.
+MR-282034bff37d5263,102624,COWL SEAL BY #2 CYL NEEDS TO BE REATTCHED TO BAFFLING.,#1 OUTER CYL BAFFLING CRACKED BY NUTPLATE.,1,"Related maintenance area, but core problem differs: baffle seal defect versus baffle crack."
+MR-ece193d3c6fe7abe,102952,AUTO RE-IGN DOES NOT ACTIVATE W/ LOW N2 CONDITIONS.,"#4 CYL, L/H ENG, HAS LOW COMPRESSION.",0,Different core problems: auto re-ignition failure versus low cylinder compression.
+MR-6560016ded7aefa0,100095,ROCKER BOX COVER SCREWS LOOSE.,"RIVET LOOSE AT BAFFLE, AFT CENTER.",0,Different core problems: rocker-cover loose screws versus loose hardware/component.
+MR-549e0e85cfe62175,101371,AFT BAFFLE BRACKET MISSING SCREW.,"SCREW MISSING, AFT BAFFLE BRACKET.",2,"Same core problem with compatible recorded component, defect, and context."
+MR-748037aca5f42eb1,100112,L/H ENGINE #4 AFT BAFFLE CRACKED IN MULTIPLE PLACES.,L/H ENGINE BAFFLE BY ROCKER COVERS CRACKED.,1,"Same cracked L/H engine baffle, but cylinder-4 aft versus rocker-cover-area location differs materially."
+MR-f892fae454d50b24,104071,"R/H ENG, R/H REAR BAFFLE IS CRACKED.","R/H ENG, FWD I/B BAFFLE HAS SMALL CRACK.",1,"Same baffle crack, but the specified location conflicts (aft versus front)."
+MR-9eb45a9a1765678a,105610,#3 & 4 INTAKES LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (3,4 versus 2,4)."
+MR-112d2fa9c8eb2a7a,104515,#2 & 1 INTAKES LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1,2 versus 2,4)."
+MR-d8bae1d064f8e5fb,100032,RIGHT ENG #4 AIR BAFFLE IS CRACKED,"L/H ENG BACK BAFFLE, BY #4 CYL, CRACKED.",1,"Same baffle crack, but engine side conflicts (right versus left)."
+MR-c1f3764bcf261b7b,106168,"DURING RUN UP, #2 CYL WAS COLD & ENGINE SHOCK VIOLENTLY (ENG",R/H ENGINE #3 CYL EXHAUST ROCKER WORN ON SHAFT.,0,Different core problems: engine rough/cold cylinder versus wear.
+MR-000151051d945985,106132,R/H ENG #2 CYL PUSH ROD END & ROCKER SCORED.,#4 CYL ROCKER ARM & PUSH ROD GALLED ON EXHAUST SIDE.,1,"Same pushrod/rocker damage, but the specified cylinder set conflicts (2 versus 4)."
+MR-ab9f75f33cdc42dc,101410,REAR R/H ENGINE BAFFLE BRACKET CRACKED.,"CRACK IN FRONT ENGINE BAFFLE, L/H SIDE.",1,"Related maintenance area, but core problem differs: baffle bracket crack versus baffle crack."
+MR-8eac07e7df7bfbb0,103087,#2 & 4 INTAKES LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-b54cffd9a275946e,101898,#3 INDUCTION TUBE GASKET LEAKING.,"R/H ENGINE #4 INTAKE LEAKING, AND #3 INTAKE.",1,"Same intake leak, but the specified cylinder set conflicts (3 versus 3,4)."
+MR-3d8e98b3e7eae27f,100623,ROCKER BOX COVER SCREWS LOOSE.,INDUCTION TUBE HOSE CLAMPS LOOSE (ALL CYLS).,0,Different core problems: rocker-cover loose screws versus intake tube loose/damaged.
+MR-42c875ff085891e1,100958,#4 ROCKER COVER SCREWS LOOSE.,#2 & 4 CYL ROCKER COVER SCREWS ARE LOOSE.,1,"Same rocker-cover loose screws, but the specified cylinder set conflicts (4 versus 2,4)."
+MR-04d455d97a6ae5b7,104071,"R/H ENG, R/H REAR BAFFLE IS CRACKED.","CRACK NOTED ON UNDERSIDE OF #1 ENG CYL BAFFLE, BY NUTS.",1,"Same cracked R/H engine baffle, but rear-baffle versus underside-of-cylinder-1 location differs materially."
+MR-df31ec27ad87066b,100392,R/H #4 SIDE BAFFLE MISSING BOLTS.,SCREW MISSING IN #3 SIDE BAFFLE.,1,"Same baffle missing hardware, but the specified cylinder set conflicts (4 versus 3)."
+MR-b8e145ebc4d11181,101225,"CRACK ON ENGINE BAFFLE, LEFT SIDE, BY #3 CYLINDER.",SMALL CRACK NOTED BY BOLT ON #1 CYL BAFFLE OF R/H ENGINE.,1,"Same baffle crack, but the specified cylinder set conflicts (3 versus 1)."
+MR-c6e8e2210f47eecd,103824,"#3, 4 & 1 INTAKES ARE LEAKING.",L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1,3,4 versus 2,3)."
+MR-9ffb23b904be99f2,103373,"R/H FWD BAFFLE, #1 CYL SIDE, HAS A CRACK.",BAFFLE CRACKED ABOVE #1 CYL.,1,"Same cracked cylinder-1 baffle, but forward-side versus above-cylinder location differs materially."
+MR-b9c5863c14c30827,104071,"R/H ENG, R/H REAR BAFFLE IS CRACKED.",R/H ENG OIL COOLER BAFFLE CRACKED.,1,"Same cracked R/H engine baffle, but rear-baffle versus oil-cooler location differs materially."
+MR-ac98abde7ba9f9cf,100958,#4 ROCKER COVER SCREWS LOOSE.,ROCKER COVER SCREWS LOOSE ON L/H ENGINE.,2,"Same core problem; engine side and cylinder/location are stated on only one side, without contradiction."
+MR-cc030a73ca7b0e22,101698,#4 INTAKE TUBE LOOSE.,#3 & 4 CYLINDER INTAKE TUBE INSERTS IN SUMP LOOSE.,1,"Same intake tube loose/damaged, but the specified cylinder set conflicts (4 versus 3,4)."
+MR-660c84bb35f3e01c,102327,#3 INDUCTION TUBE GASKET LEAKING.,"R/H ENGINE #4 INTAKE LEAKING, AND #3 INTAKE.",1,"Same intake leak, but the specified cylinder set conflicts (3 versus 3,4)."
+MR-b7fbc31f05cfc70a,105048,#2 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-648d9657bc00b591,100515,#3 ROCKER COVER GASKET IS TORN.,#4 ROCKER COVER GASKET IS LEAKING.,1,"Same component area, but defect differs: torn versus leaking."
+MR-ff4368a78605a92c,101744,BAFFLE BUTTON PLUG IS WORN.,R/H ENGINE #3 CYL EXHAUST ROCKER WORN ON SHAFT.,0,Different core problems: baffle plug defect versus wear.
+MR-84d1ad0bf86961f1,101548,RIVNUT STRIPPED OUT ON FIREWALL FOR A/F FUEL FILTER.,SUPPORT FROM #4 CYL AFT BAFFLE TO CRANKCASE HALF IS BROKEN O,0,Different core problems: firewall fuel-filter rivnut versus broken component.
+MR-6f5df8e3c6361c58,103796,1 BAFFLE BUTTON WORN.,L/H BAFFLE PLUG WORN.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-f780b89956ba6a7e,102381,L/H ENG #3 INDUCTION TUBE GASKET LEAKING.,L/H ENG #3 ROCKER COVER IS LEAKING.,0,Different core problems: intake leak versus rocker-cover gasket defect.
+MR-c5405834ab069c84,102221,#1 INTAKE GASKET LEAKS.,L/H ENG #4 CYL INTAKE GASKET IS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1 versus 4)."
+MR-755bd7f68734e5ef,100155,#2 ROCKER BOX COVER SCREWS LOOSE.,"RIVET LOOSE AT BAFFLE, AFT CENTER.",0,Different core problems: rocker-cover loose screws versus loose hardware/component.
+MR-96f458b0b291cd2e,100623,ROCKER BOX COVER SCREWS LOOSE.,R/H ENGINE #3 AFT BAFFLE SEAL IS LOOSE.,0,Different core problems: rocker-cover loose screws versus baffle seal defect.
+MR-78d5990ade83d96c,101548,RIVNUT STRIPPED OUT ON FIREWALL FOR A/F FUEL FILTER.,REAR BAFFLE BRACKET AT ENGINE CENTER BROKEN AT BOLT.,0,Different core problems: firewall fuel-filter rivnut versus broken component.
+MR-a96a7c8ff5c4b864,100568,ENGINE BAFFLE PLUG TABS BROKEN.,BOTH BAFFLE PLUG TABS BROKEN OFF.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-58dd13c2d49e1cfb,104863,#1 CYL INTAKE LEAKS.,#2 CYL INTAKE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1 versus 2)."
+MR-17074949c7a6a665,104135,BAFFLE PLUG IS DAMAGED.,LEFT BAFFLE PLUG IS WORN.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-54173fedac8029e9,101598,CYL #2 & 3 INTAKES ARE LEAKING.,#2 & 4 CYL INTAKES LEAKING ON L/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (2,3 versus 2,4)."
+MR-8ae7258d707db433,102327,#3 INDUCTION TUBE GASKET LEAKING.,L/H ENG #3 & 4 CYL INTAKE GASKETS LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (3 versus 3,4)."
+MR-c1d1378a62c5a702,101668,"ROCKER COVER GASKETS #2, 3 TORN.","#1, 3 & 4 ROCKER COVER GASKETS ARE TORN.",1,"Same rocker-cover gasket defect, but the specified cylinder set conflicts (2,3 versus 1,3,4)."
+MR-c26b8c8561e5962c,100540,#1 INTAKE GASKET LEAKS.,"R/H ENGINE, CYL #3 INTAKE GASKET IS LEAKING.",1,"Same intake leak, but the specified cylinder set conflicts (1 versus 3)."
+MR-14aee53de5c72181,101116,"L/H ENG, #4 INDUCTION TUBE GASKET LEAKING.",R/H ENG #2 & 3 ROCKER GASKETS ARE LEAKING.,0,Different core problems: intake leak versus rocker-cover gasket defect.
+MR-0a94e528ee38ffe6,103656,OIL COOLERS DIRTY.,SNIFFLE VALVES DIRTY.,0,Different core problems: oil-cooler contamination versus contamination.
+MR-8809cbadcf2f35da,103623,FOUND BROKEN COVER SCREW ON GROUND.,"INNER BAFFLE TIE SPRING BROKEN, L/H SIDE.",0,Only the generic broken condition overlaps; a cover screw and an inner baffle tie spring are different problems.
+MR-86516e70d82b3e09,104677,BLACK FWD COWL (ENG) SEAL WORN BY INTAKE FILTER.,BLACK FWD ENG SEAL WORN.,2,"Same core problem with compatible recorded component, defect, and context."
+MR-29aa105411b76fbd,101238,#2 & 4 INTAKES ARE LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-a46fe4dbe9f1f0a9,106106,L/H ENGINE #4 BAFFLE CRACKED.,#3 AFT BAFFLE CRACKED ON R/H ENGINE.,1,"Same baffle crack, but engine side conflicts (left versus right)."
+MR-765b566a58279314,101877,#3 INDUCTION TUBE GASKET LEAKING.,"R/H ENGINE #4 INTAKE LEAKING, AND #3 INTAKE.",1,"Same intake leak, but the specified cylinder set conflicts (3 versus 3,4)."
+MR-e5d0b9c25efa9265,102823,#1 & 4 INTAKES LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1,4 versus 2,4)."
+MR-003c4723eeea004e,101434,"R/H ENG CYL #4, 3 INTAKE GASKETS LEAKING.",L/H ENG CYL #2 & 4 INTAKE GASKETS ARE LEAKING.,1,"Same intake leak, but engine side conflicts (right versus left)."
+MR-d7de5c5d518dda3c,105940,2 & 4 INTAKES LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3)."
+MR-17ca1a03e591944b,102952,AUTO RE-IGN DOES NOT ACTIVATE W/ LOW N2 CONDITIONS.,"L/H ENG, L/H AFT BAFFLE CRACKED, SEVERAL PLACES.",0,Different core problems: auto re-ignition failure versus baffle crack.
+MR-0dd2cf2f96f0eb6e,104863,#1 CYL INTAKE LEAKS.,CYL #4 INTAKE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1 versus 4)."
+MR-90991c5539607c79,100264,#3 INTAKE LEAKING AT CLAMP.,#4 INTAKE LEAKING ON R/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (3 versus 4)."
+MR-b3216370359c06a9,104471,"#1, 2, 4 INTAKES LEAKING.",L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1,2,4 versus 2,4)."
+MR-5bb5bf6b69b56bd9,105178,#1 ROCKER COVER GASKET LEAKS.,R/H ENG #3 ROCKER COVER GASKET LEAKING.,1,"Same rocker-cover gasket defect, but the specified cylinder set conflicts (1 versus 3)."
+MR-b4e3ce6c24b05669,105742,#4 CYL HAS LOW COMPRESSION.,"#4 CYL, L/H ENG, HAS LOW COMPRESSION.",2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-d3edd6a62147dd7f,104135,BAFFLE PLUG IS DAMAGED.,L/H BAFFLE PLUG WORN.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-20ae42071f583b3f,105157,L/H #4 ROCKER COVER GASKET LEAKS.,#2 CYL ROCKER COVER GASKET LEAKING.,1,"Same rocker-cover gasket defect, but the specified cylinder set conflicts (4 versus 2)."
+MR-fe00447b461bfe2f,101698,#4 INTAKE TUBE LOOSE.,"#4 CYL INTAKE TUBE FLANGE WORN, L/H ENG.",1,"Same component area, but defect differs: loose versus worn."
+MR-4b5b349577052a45,100636,R/H ENGINE #3 INDUCTION TUBE GASKET LEAKING.,L/H ENGINE #4 ROCKER COVER LEAKING.,0,Different core problems: intake leak versus rocker-cover gasket defect.
+MR-794d87c5bb0cdc59,104674,R/H REAR BAFFLE INSP HOLE WORN.,L/H SIDE BAFFLE HOLE WORN TOO LARGE FOR BAFFLE PLUG.,1,"Related maintenance area, but core problem differs: baffle worn hole versus baffle plug defect."
+MR-625572a519cbb540,103758,"L/H ENG, L/H FWD BAFFLE SEAL IS LOOSE.",#4 CYL L/H ENG BAFFLE SEAL LOOSE.,1,"Same loose L/H-engine baffle seal, but forward-seal versus cylinder-4 location differs materially."
+MR-d24a0cd17aed3a12,104702,L/H ENG #2 CYL HAS LOW COMPRESSION.,R/H ENG #1 CYL HAS LOW COMPRESSIONS (55 PSI).,1,"Same low cylinder compression, but engine side conflicts (left versus right)."
+MR-99932b1c78f5149b,104471,"#1, 2, 4 INTAKES LEAKING.",L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1,2,4 versus 2,3)."
+MR-4233e28b9026a2dd,103087,#2 & 4 INTAKES LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3)."
+MR-7ae11c0b38f016e5,101744,BAFFLE BUTTON PLUG IS WORN.,"BAFFLE SEAL, ABOVE ENG INTAKE HAS WORN SPOTS.",1,"Related maintenance area, but core problem differs: baffle plug defect versus baffle seal defect."
+MR-d43739e2bd318459,100032,RIGHT ENG #4 AIR BAFFLE IS CRACKED,"LOWER AFT COWL, L/H ENG STARTER GEN AIR VENT HAS CRACK.",0,Different core problems: baffle crack versus structural crack.
+MR-3580cbf5ddcbb752,100264,#3 INTAKE LEAKING AT CLAMP.,"R/H ENGINE #4 INTAKE LEAKING, AND #3 INTAKE.",1,"Same intake leak, but the specified cylinder set conflicts (3 versus 3,4)."
+MR-0bc25efe76775d31,100623,ROCKER BOX COVER SCREWS LOOSE.,"RIVET LOOSE AT BAFFLE, AFT CENTER.",0,Different core problems: rocker-cover loose screws versus loose hardware/component.
+MR-b51b1654cd8d92fd,101548,RIVNUT STRIPPED OUT ON FIREWALL FOR A/F FUEL FILTER.,FIREWALL CRACKED BY BATTERY BOX.,0,Different core problems: firewall fuel-filter rivnut versus structural crack.
+MR-780a72151fcb5612,104674,R/H REAR BAFFLE INSP HOLE WORN.,BLACK FWD SEAL ON ENG WORN IN SPOTS & LOOSE ON L/H SIDE.,1,"Related maintenance area, but core problem differs: baffle worn hole versus cowl/engine seal wear."
+MR-bf1be8047a6ece7f,101194,ROCKER BOX COVER SCREWS LOOSE.,R/H ENGINE #3 AFT BAFFLE SEAL IS LOOSE.,0,Different core problems: rocker-cover loose screws versus baffle seal defect.
+MR-f7f4fec2d791d3b1,105306,#2 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-22b60b870ae68bd4,105286,#1 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (1,4 versus 2,3,4)."
+MR-5b71192dd1e30134,103676,#4 CYL ROCKER COVER IS MISSING SCREW.,SCREW MISSING FROM CYL #2 FWD BAFFLE.,0,Different core problems: rocker-cover missing screw versus baffle missing hardware.
+MR-91ba10a8c2840d4b,100636,R/H ENGINE #3 INDUCTION TUBE GASKET LEAKING.,#2 CYL ROCKER COVER GASKET LEAKING ON L/H ENGINE.,0,Different core problems: intake leak versus rocker-cover gasket defect.
+MR-e9c6a19144482592,101877,#3 INDUCTION TUBE GASKET LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (3 versus 2,4)."
+MR-3534faee30c725ec,101877,#3 INDUCTION TUBE GASKET LEAKING.,#1 INTAKE GASKET LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (3 versus 1)."
+MR-4750f09932b4493a,101225,"CRACK ON ENGINE BAFFLE, LEFT SIDE, BY #3 CYLINDER.",CRACK ON #4 CYLINDER AFT BAFFLE.,1,"Same baffle crack, but the specified cylinder set conflicts (3 versus 4)."
+MR-696abde081ffa84e,100540,#1 INTAKE GASKET LEAKS.,#2 INTAKE GASKET LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (1 versus 2)."
+MR-d12fba8046e9f4ae,100081,#2 INTAKE LEAKS.,#3 & 4 INTAKE LEAKING ON R/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (2 versus 3,4)."
+MR-6f28d0b867ef1017,105286,#1 & 4 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON L/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (1,4 versus 2,3,4)."
+MR-87d836f9aa21c3bd,100006,ROCKER BOX COVER SCREWS LOOSE (ALL CYL).,LEFT BAFFLE LOOSE (#2 CYL BAFFLE SEAL).,0,Different core problems: rocker-cover loose screws versus baffle seal defect.
+MR-0f442328333fd663,105742,#4 CYL HAS LOW COMPRESSION.,LOW COMPRESSION ON #3 CYL.,1,"Same low cylinder compression, but the specified cylinder set conflicts (4 versus 3)."
+MR-940a374f34ede0cd,101225,"CRACK ON ENGINE BAFFLE, LEFT SIDE, BY #3 CYLINDER.",CRACK IN R/H AFT ENGINE BAFFLE.,1,"Same cracked engine baffle, but left-side cylinder-3 versus R/H aft-engine context differs materially."
+MR-b4961b57defdd90b,106132,R/H ENG #2 CYL PUSH ROD END & ROCKER SCORED.,#2 CYL ROCKER ARM & PUSH ROD GALLED ON EXHAUST SIDE.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-f6fd0d2cfcd62d9e,100197,#2 & 4 INTAKES ARE LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3,4)."
+MR-08c03991f157f06d,102221,#1 INTAKE GASKET LEAKS.,"R/H ENGINE, CYL #3 INTAKE GASKET IS LEAKING.",1,"Same intake leak, but the specified cylinder set conflicts (1 versus 3)."
+MR-ef9a5d3b6082e2a5,104623,INSPECTED & FOUND CRANKSHAFT TO BE GOUGED BEHIND CRANKSHAFT,#3 CYL LOWER SPARK PLUG BOSS THREADS DAMAGED.,0,Different core problems: crankshaft gouge versus other.
+MR-36a563c1879329ba,101238,#2 & 4 INTAKES ARE LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-5030850d18df4aea,100197,#2 & 4 INTAKES ARE LEAKING.,L/H ENG #2 & 3 INTAKES ARE LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (2,4 versus 2,3)."
+MR-a80bf17faf5e3673,100541,ALL ROCKER COVER SCREWS ARE LOOSE.,ROCKER COVER SCREWS LOOSE ON L/H ENGINE.,2,"Same core problem; engine side is stated on only one side, without contradiction."
+MR-ad4c2431058fb055,100541,ALL ROCKER COVER SCREWS ARE LOOSE.,"#2, 3, 4 ROCKER COVER SCREWS LOOSE ON R/H ENG.",1,"Same loose rocker-cover screws, but all cylinders versus cylinders 2, 3, and 4 is a material scope mismatch."
+MR-dc908690c0ad75c5,101264,CYL #3 ROCKER COVER IS MISSING A SCREW.,R/H ENG #2 CYL FWD BAFFLE IS MISSING A SCREW.,0,Different core problems: rocker-cover missing screw versus baffle missing hardware.
+MR-89e8d4fb76fbeed5,104515,#2 & 1 INTAKES LEAKING.,INTAKES 2 & 4 LEAKING ON R/H ENGINE.,1,"Same intake leak, but the specified cylinder set conflicts (1,2 versus 2,4)."
+MR-f9d4589a97cdd6a7,103861,#4 INDUCTION TUBE GASKET LEAKING.,L/H ENGINE #2 & 4 INTAKES LEAKING.,1,"Same intake leak, but the specified cylinder set conflicts (4 versus 2,4)."
+MR-1d553979dec82baa,104582,#2 LOWER INTAKE CLAMP LOOSE.,"RIVET LOOSE AT BAFFLE, AFT CENTER.",0,Different core problems: intake clamp loose versus loose hardware/component.
+MR-e4872664461b38d4,101930,#1 CYL HAS LOW COMPRESSION.,"#4 CYL, L/H ENG, HAS LOW COMPRESSION.",1,"Same low cylinder compression, but the specified cylinder set conflicts (1 versus 4)."
+MR-65f1d0cfcf2db7b9,102316,ENGINE AFT BAFFLE CYL #3 AREA HAS SHEARED RIVETS ON SUPPORT,#4 CYL AFT BAFFLE HAS 2 RIVETS SHEARED.,1,"Same baffle sheared rivets, but the specified cylinder set conflicts (3 versus 2,4)."
+MR-9fd0852b0a85d99f,104677,BLACK FWD COWL (ENG) SEAL WORN BY INTAKE FILTER.,"BAFFLE SEAL, ABOVE ENG INTAKE HAS WORN SPOTS.",2,Same worn forward black engine/baffle seal near the intake; terminology differs without a material contradiction.
+MR-977f3a6c75265a5e,104623,INSPECTED & FOUND CRANKSHAFT TO BE GOUGED BEHIND CRANKSHAFT,R/H ENG FWD CYL #2 BAFFLE SEAL IS TORN.,0,Different core problems: crankshaft gouge versus baffle seal defect.
+MR-7d7a1efe618da9b3,101598,CYL #2 & 3 INTAKES ARE LEAKING.,"L/H ENG #3, 4 CYL INTAKES LEAKING.",1,"Same intake leak, but the specified cylinder set conflicts (2,3 versus 3,4)."
+MR-03f3c410586b0eac,101225,"CRACK ON ENGINE BAFFLE, LEFT SIDE, BY #3 CYLINDER.","ENGINE BAFFLE CRACKED, AFT OF #3 CYL, L/H ENG.",2,"Same core problem; engine side and position are stated on only one side, without contradiction."
+MR-1afc691011ef9509,101548,RIVNUT STRIPPED OUT ON FIREWALL FOR A/F FUEL FILTER.,"#1 CYL EXHAUST STACK IS MISSING NUT, R/H.",0,Different core problems: firewall fuel-filter rivnut versus missing hardware/component.
+MR-e5141b2504f5376c,104031,#4 AFT BAFFLE CRACKED.,L/H BACK BAFFLE HAS A CRACK.,2,"Same core problem; engine side and cylinder/location are stated on only one side, without contradiction."
+MR-424e90f08df3b8ef,104515,#2 & 1 INTAKES LEAKING.,"INTAKES 2, 3 & 4 LEAKING ON R/H ENGINE.",1,"Same intake leak, but the specified cylinder set conflicts (1,2 versus 2,3,4)."
+MR-58506cbef8f9a4a9,101930,#1 CYL HAS LOW COMPRESSION.,LOW COMPRESSION ON #3 CYL.,1,"Same low cylinder compression, but the specified cylinder set conflicts (1 versus 3)."
+MR-605297909a008797,101410,REAR R/H ENGINE BAFFLE BRACKET CRACKED.,"L/H ENGINE, LEFT AFT BAFFLE BRACKET IS CRACKED.",1,"Same baffle bracket crack, but engine side conflicts (right versus left)."

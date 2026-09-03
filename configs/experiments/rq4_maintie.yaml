@@ -1,0 +1,26 @@
+experiment:
+  id: rq4_maintie_external_validity
+  research_question: RQ4
+  question: >-
+    Do the information-extraction conclusions remain credible on the external
+    MaintIE maintenance benchmark, despite its different domain and schema?
+  dataset_config: configs/datasets/maintie.yaml
+  modes:
+    - native_schema
+    - audited_shared_coarse_schema
+  transfer_modes:
+    - no_transfer
+    - maintie_pretrain_aviation_finetune
+  never_merge_maintie_into_aviation_cases: true
+  model_families:
+    - crf_logistic_regression
+    - bilstm_crf_neural_relation
+    - transformer_ner_relation
+    - official_spert
+  metrics:
+    - strict_micro_precision
+    - strict_micro_recall
+    - strict_micro_f1
+    - macro_f1
+    - per_class_f1
+  output_root: outputs/runs/rq4_maintie_external_validity

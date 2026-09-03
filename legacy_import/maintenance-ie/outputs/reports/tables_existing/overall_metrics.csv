@@ -1,0 +1,5 @@
+﻿model,entity_micro_p,entity_micro_r,entity_micro_f1,entity_macro_f1,relation_micro_p,relation_micro_r,relation_micro_f1,relation_macro_f1,relation_gold_entity_micro_f1,source
+Tier2_BiLSTM_Neural,0.9391,0.938,0.9385,0.8935,0.4942,0.8774,0.6323,0.6165,0.6946,outputs/reports/ie_results_full_neural.json
+Tier3_Transformer,0.9383,0.9516,0.9449,0.8874,0.8305,0.8288,0.8296,0.6739,0.9064,outputs/reports/ie_results_full_neural.json
+Tier1_CRF_LogReg,0.9467,0.9338,0.9402,0.8822,0.7581,0.8548,0.8036,0.7409,0.8795,outputs/reports/metrics_full.json
+Tier3b_SpERT,0.9495,0.9545,0.952,0.9063,0.8345,0.8739,0.8537,0.7898,,outputs/reports/spert_test.json

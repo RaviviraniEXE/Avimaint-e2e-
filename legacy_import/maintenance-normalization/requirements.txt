@@ -1,0 +1,18 @@
+# Core (rule-based normalizer + evaluation) — CPU only, lightweight
+pandas>=2.0
+numpy>=1.24
+PyYAML>=6.0
+tqdm>=4.65
+jiwer>=3.0            # WER / CER / ERR
+openpyxl>=3.1        # read the Amin .xlsx resources (only if re-exporting)
+
+# Optional: transformer (System C / D). Install when training ByT5.
+# transformers>=4.40
+# datasets>=2.18
+# accelerate>=0.29
+# sentencepiece>=0.2
+# torch  (install the CUDA wheel matching your driver — see RUN_STEPS.txt)
+
+# Dev
+pytest>=7.0
+

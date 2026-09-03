@@ -1,0 +1,97 @@
+===============================================================================
+ MAINTENANCE WORK-ORDER NORMALIZATION — HOW TO RUN THE EXPERIMENTS
+ Thesis: NLP-based structured information extraction & planning support
+===============================================================================
+
+WHAT THIS IS
+------------
+Four normalization systems compared on the MaintNet aviation logbook, using
+Nadine Amin's expert-cleaned dataset as the gold:
+   A = Raw (control, no normalization)
+   B = Rule-based (Amin abbreviation + misspelling + keep lists)
+   C = Transformer (ByT5, char-level)
+   D = Hybrid (rules then ByT5)
+Unit = one combined text per record (PROBLEM + ACTION), matching Amin's gold.
+Numbers are kept as DIGITS (best for information extraction). To match Amin
+exactly (numbers as words) set  numbers: words  in config/config.yaml.
+
+-------------------------------------------------------------------------------
+0) ONE-TIME SETUP  (Windows PowerShell, inside this folder)
+-------------------------------------------------------------------------------
+   python -m venv .venv
+   .venv\Scripts\activate
+   pip install -r requirements.txt
+
+-------------------------------------------------------------------------------
+1) RUN THE RULE-BASED EXPERIMENT (Systems A + B)  — no GPU needed
+-------------------------------------------------------------------------------
+   python scripts\run_experiment.py --systems A B --run-id rulesA_B
+
+   This does everything: prepare data -> build dictionary -> split gold ->
+   normalize -> evaluate. Results are printed AND saved (see section 5).
+
+   Or run the stages one at a time:
+     python scripts\01_prepare_data.py         # combined records + gold from Amin
+     python scripts\02_build_dictionary.py     # build + audit the lexicon
+     python scripts\split_gold.py              # train/dev/test split (leak-free)
+     python scripts\03_run_normalization.py --systems A B
+     python scripts\04_evaluate.py --run-id rulesA_B
+
+-------------------------------------------------------------------------------
+2) TRAIN + RUN THE TRANSFORMER (System C) AND HYBRID (System D)
+   Needs an NVIDIA GPU. Preset for RTX 3050 / 4 GB.
+-------------------------------------------------------------------------------
+   pip install transformers datasets accelerate sentencepiece
+   pip install torch --index-url https://download.pytorch.org/whl/cu121
+        (cu121 = CUDA 12.1 wheel; if you get a CUDA error run `nvidia-smi`,
+         check the top-right CUDA version, and use the matching wheel.)
+
+   # System B must have produced silver targets first (step 1 does this)
+   python scripts\05_train_byt5.py --out outputs\models\byt5
+
+   # run all four systems and evaluate on the held-out test split
+   python scripts\03_run_normalization.py --systems A B C D --byt5-dir outputs\models\byt5
+   python scripts\04_evaluate.py --run-id all_ABCD
+
+   If you hit an out-of-memory error, lower max_source_length / max_target_length
+   to 96 in config/config.yaml (byt5 section) and retry.
+
+-------------------------------------------------------------------------------
+3) SWITCH NUMBER CONVENTION (optional)
+-------------------------------------------------------------------------------
+   Edit config/config.yaml  ->  numbers: words   (or back to  digits )
+   Then re-run from step 1. The gold and System B both follow the setting.
+
+-------------------------------------------------------------------------------
+4) RUN THE TESTS
+-------------------------------------------------------------------------------
+   python -m pytest -q          # expect: 22 passed
+
+-------------------------------------------------------------------------------
+5) WHERE THE RESULTS ARE SAVED  (everything is saved automatically)
+-------------------------------------------------------------------------------
+   outputs\reports\experiment_report.md      human-readable comparison tables
+   outputs\reports\intrinsic_metrics.csv     OOV/vocab/expansion per system
+   outputs\reports\extrinsic_metrics.csv     WER/CER/ERR/exact per system
+   outputs\reports\results_log.csv           EVERY run appended here (--run-id)
+   outputs\reports\dictionary_build_report.txt   every abbrev/misspell decision
+   outputs\normalized\normalized_<sys>.csv   raw + normalized text per system
+   outputs\normalized\alignment_<sys>.jsonl  token alignment (for the IE stage)
+
+-------------------------------------------------------------------------------
+6) METRICS — WHAT THEY MEAN
+-------------------------------------------------------------------------------
+   Intrinsic (all 6,169 records, no gold needed):
+     oov_reduction_pct  : drop in out-of-vocabulary words (higher = better)
+     vocab_reduction_pct: shrinkage of distinct-word vocabulary
+     expansion_rate     : expansions applied per token
+   Extrinsic (vs Amin gold, on the held-out test split):
+     wer / cer   : word / character error rate (lower = better)
+     exact_match : fraction normalized identically to gold
+     err_word / err_char : Error Reduction Rate = fraction of the raw error
+                   removed (MaintNorm's metric; they report 95.8%)
+
+   Note: System B cannot reconstruct words the source cut off mid-word
+   (e.g. "COWLI"->"cowling"); that ceiling is exactly what System C addresses.
+===============================================================================
+

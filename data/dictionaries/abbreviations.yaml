@@ -1,0 +1,95 @@
+# Audited conservative rule baseline derived from Amin's expert resources.
+# Ambiguous forms (comp, in, insp, sec) are intentionally excluded.
+replacements:
+  '"': inches
+  '#': number
+  '&': and
+  "'": feet
+  '*': degrees
+  '+': plus
+  '1/2': half
+  '=': equals
+  '>': greater than
+  '@': at
+  '1st': first
+  '2nd': second
+  'a/c': aircraft
+  'a/f': aft
+  acft: aircraft
+  adj: adjusted
+  alt: alternator
+  alum: aluminum
+  approx: approximately
+  assy: assembly
+  batt: battery
+  blk: black
+  'c/w': complied with
+  ch: chapter
+  ck: check
+  "ck'ed": checked
+  cklist: checklist
+  cyl: cylinder
+  discrep: discrepancy
+  eng: engine
+  ex: exhaust
+  exh: exhaust
+  ext: exhaust
+  f: fahrenheit
+  flt: flight
+  ft: feet
+  fwd: forward
+  gen: generator
+  gov: governor
+  gp: ground pressure
+  grd: ground
+  helo: helicopter
+  hrs: hours
+  'i/b': inboard
+  iaw: in accordance with
+  ign: ignition
+  'in/lbs': inch pounds
+  ind: indicated
+  info: information
+  inj: injector
+  inop: inoperable
+  "insp'ed": inspected
+  'l/h': left-hand
+  lbs: pounds
+  lh: left-hand
+  lwr: lower
+  mag: magneto
+  maint: maintenance
+  mfg: manufacturing
+  mm: maintenance manual
+  mp: manifold pressure
+  mx: maintenance
+  'n/a': not applicable
+  neg: negligible
+  nlg: nose landing gear
+  'no.': number
+  'o/b': outboard
+  'o/h': overhaul
+  "o/h'ed": overhauled
+  ops: operations
+  'p&w': pratt and whitney
+  par: paragraph
+  press: pressure
+  prop: propeller
+  pwr: power
+  qts: quarts
+  'r/h': right-hand
+  'ref man': reference maneuvers
+  're-ign': reignition
+  req: required
+  's mx': standard maintenance
+  si: service instruction
+  srm: standard reference material
+  'start/gen': starter generator
+  't/o': takeoff
+  tach: tachometer
+  temp: temperature
+  thr: throttle
+  thru: through
+  vac: vacuum
+  'w/': with
+  'w/in': within

@@ -1,0 +1,17 @@
+dataset:
+  id: maintnet_aviation
+  version: "frozen-v1"
+  expected_records: 6169
+  adapter: aviation
+  raw_path: data/aviation/raw/Aircraft_Annotation_DataFile.csv
+  processed_path: data/aviation/processed/normalized_corpus.csv
+  manifest_path: data/manifests/aviation_manifest.json
+  record_id_column: IDENT
+  problem_column: PROBLEM
+  action_column: ACTION
+  fixed_width:
+    problem: 60
+    action: 55
+  schema_id: aviation_compact_v1
+  split_path: data/splits/aviation_cluster_safe_v1.json
+  allow_recommender: true

@@ -1,0 +1,24 @@
+{
+  "version": "manual_review_v1",
+  "selected_retrieval_mode": "structure",
+  "reviewed_queries": 100,
+  "reviewed_pairs": 500,
+  "phase_a": {
+    "problem_relevance_hit_at_1": 0.77,
+    "problem_relevance_hit_at_3": 0.85,
+    "problem_relevance_hit_at_5": 0.87,
+    "mean_ndcg_problem_relevance_at_5": 0.7568414100338178,
+    "pairwise_relevant_or_partial_rate": 0.76,
+    "clearly_relevant_pair_rate": 0.176
+  },
+  "phase_b": {
+    "problem_relevant_pairs_revealed": 380,
+    "applicable_or_partial_rate_among_problem_relevant_pairs": 0.8868421052631579,
+    "clearly_applicable_rate_among_problem_relevant_pairs": 0.7,
+    "usable_historical_action_evidence_hit_at_1": 0.68,
+    "usable_historical_action_evidence_hit_at_3": 0.79,
+    "usable_historical_action_evidence_hit_at_5": 0.83
+  },
+  "interpretation": "Manual judgments concern relevance and usefulness of historical evidence. They do NOT validate technical correctness, aircraft-specific applicability, safety, or regulatory compliance.",
+  "single_reviewer_limitation": "If only one reviewer is used, inter-rater agreement cannot be estimated."
+}

@@ -1,0 +1,16 @@
+input_path: data/aviation/processed/normalization_pairs.parquet
+output_path: data/splits/normalization_cluster_safe_v1.csv
+manifest_path: data/splits/normalization_cluster_safe_v1.manifest.json
+id_column: example_id
+record_id_column: record_id
+source_column: raw_text
+seed: 42
+ratios:
+  train: 0.70
+  validation: 0.15
+  test: 0.15
+near_duplicate:
+  enabled: true
+  similarity_threshold: 0.90
+  char_ngram_range: [3, 5]
+  min_df: 1

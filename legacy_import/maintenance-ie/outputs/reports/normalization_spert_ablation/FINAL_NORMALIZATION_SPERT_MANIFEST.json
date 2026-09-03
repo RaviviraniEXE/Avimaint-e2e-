@@ -1,0 +1,258 @@
+{
+  "status": "complete",
+  "training_performed": false,
+  "generated_at_utc": "20260830T121519Z",
+  "experiment": "five_way_normalization_to_frozen_full_spert",
+  "systems": [
+    "raw",
+    "rules",
+    "byt5",
+    "selective_byt5",
+    "rules_then_byt5"
+  ],
+  "frozen_test_n": 225,
+  "common_full_projection_n": 225,
+  "raw_parity_gate": {
+    "expected": {
+      "entity_micro_f1": 0.952,
+      "entity_macro_f1": 0.9063,
+      "strict_relation_micro_f1": 0.8537,
+      "relation_macro_f1": 0.7898
+    },
+    "observed": {
+      "entity_micro_f1": 0.9519882179675994,
+      "entity_macro_f1": 0.9062791516429964,
+      "strict_relation_micro_f1": 0.8537005163511187,
+      "relation_macro_f1": 0.7898109760868629
+    },
+    "tolerance_micro": 0.001,
+    "tolerance_macro": 0.002,
+    "checks": {
+      "entity_micro_f1": {
+        "expected": 0.952,
+        "observed": 0.9519882179675994,
+        "abs_difference": 1.1782032400597942e-05,
+        "tolerance": 0.001,
+        "pass": true
+      },
+      "entity_macro_f1": {
+        "expected": 0.9063,
+        "observed": 0.9062791516429964,
+        "abs_difference": 2.0848357003555584e-05,
+        "tolerance": 0.002,
+        "pass": true
+      },
+      "strict_relation_micro_f1": {
+        "expected": 0.8537,
+        "observed": 0.8537005163511187,
+        "abs_difference": 5.163511186401237e-07,
+        "tolerance": 0.001,
+        "pass": true
+      },
+      "relation_macro_f1": {
+        "expected": 0.7898,
+        "observed": 0.7898109760868629,
+        "abs_difference": 1.0976086862957146e-05,
+        "tolerance": 0.002,
+        "pass": true
+      }
+    },
+    "pass": true
+  },
+  "model_paths_parsed_from_logs": {},
+  "same_model_path_across_variants": true,
+  "metrics": {
+    "raw": {
+      "n_records": 225,
+      "entity_precision": 0.9494712103407755,
+      "entity_recall": 0.954518606024808,
+      "entity_micro_f1": 0.9519882179675994,
+      "entity_macro_f1": 0.9062791516429964,
+      "strict_relation_precision": 0.8344549125168237,
+      "strict_relation_recall": 0.8738548273431994,
+      "strict_relation_micro_f1": 0.8537005163511187,
+      "relation_macro_f1": 0.7898109760868629,
+      "gold_entity_support": 1693,
+      "gold_relation_support": 1419,
+      "pred_entity_count": 1702,
+      "pred_relation_count": 1486,
+      "diagnostics": {
+        "invalid_relation_endpoints": 0
+      }
+    },
+    "rules": {
+      "n_records": 225,
+      "entity_precision": 0.8126984126984127,
+      "entity_recall": 0.1512108682811577,
+      "entity_micro_f1": 0.2549800796812749,
+      "entity_macro_f1": 0.1692519406715578,
+      "strict_relation_precision": 0.375,
+      "strict_relation_recall": 0.004228329809725159,
+      "strict_relation_micro_f1": 0.008362369337979096,
+      "relation_macro_f1": 0.002782931354359926,
+      "gold_entity_support": 1693,
+      "gold_relation_support": 1419,
+      "pred_entity_count": 315,
+      "pred_relation_count": 16,
+      "diagnostics": {
+        "invalid_relation_endpoints": 0
+      }
+    },
+    "byt5": {
+      "n_records": 225,
+      "entity_precision": 0.819672131147541,
+      "entity_recall": 0.11813349084465447,
+      "entity_micro_f1": 0.20650490449148168,
+      "entity_macro_f1": 0.1320510398818019,
+      "strict_relation_precision": 0.625,
+      "strict_relation_recall": 0.0035236081747709656,
+      "strict_relation_micro_f1": 0.00700770847932726,
+      "relation_macro_f1": 0.002331002331002331,
+      "gold_entity_support": 1693,
+      "gold_relation_support": 1419,
+      "pred_entity_count": 244,
+      "pred_relation_count": 8,
+      "diagnostics": {
+        "invalid_relation_endpoints": 0
+      }
+    },
+    "selective_byt5": {
+      "n_records": 225,
+      "entity_precision": 0.8192771084337349,
+      "entity_recall": 0.12049616066154754,
+      "entity_micro_f1": 0.2100926879505664,
+      "entity_macro_f1": 0.14672318753221336,
+      "strict_relation_precision": 0.625,
+      "strict_relation_recall": 0.0035236081747709656,
+      "strict_relation_micro_f1": 0.00700770847932726,
+      "relation_macro_f1": 0.002331002331002331,
+      "gold_entity_support": 1693,
+      "gold_relation_support": 1419,
+      "pred_entity_count": 249,
+      "pred_relation_count": 8,
+      "diagnostics": {
+        "invalid_relation_endpoints": 0
+      }
+    },
+    "rules_then_byt5": {
+      "n_records": 225,
+      "entity_precision": 0.8373983739837398,
+      "entity_recall": 0.12167749556999409,
+      "entity_micro_f1": 0.21248066013408973,
+      "entity_macro_f1": 0.13379410667589325,
+      "strict_relation_precision": 0.625,
+      "strict_relation_recall": 0.0035236081747709656,
+      "strict_relation_micro_f1": 0.00700770847932726,
+      "relation_macro_f1": 0.002331002331002331,
+      "gold_entity_support": 1693,
+      "gold_relation_support": 1419,
+      "pred_entity_count": 246,
+      "pred_relation_count": 8,
+      "diagnostics": {
+        "invalid_relation_endpoints": 0
+      }
+    }
+  },
+  "common_full_projection_metrics": {
+    "raw": {
+      "n_records": 225,
+      "entity_precision": 0.9494712103407755,
+      "entity_recall": 0.954518606024808,
+      "entity_micro_f1": 0.9519882179675994,
+      "entity_macro_f1": 0.9062791516429964,
+      "strict_relation_precision": 0.8344549125168237,
+      "strict_relation_recall": 0.8738548273431994,
+      "strict_relation_micro_f1": 0.8537005163511187,
+      "relation_macro_f1": 0.7898109760868629,
+      "gold_entity_support": 1693,
+      "gold_relation_support": 1419,
+      "pred_entity_count": 1702,
+      "pred_relation_count": 1486,
+      "diagnostics": {
+        "invalid_relation_endpoints": 0
+      }
+    },
+    "rules": {
+      "n_records": 225,
+      "entity_precision": 0.8126984126984127,
+      "entity_recall": 0.1512108682811577,
+      "entity_micro_f1": 0.2549800796812749,
+      "entity_macro_f1": 0.1692519406715578,
+      "strict_relation_precision": 0.375,
+      "strict_relation_recall": 0.004228329809725159,
+      "strict_relation_micro_f1": 0.008362369337979096,
+      "relation_macro_f1": 0.002782931354359926,
+      "gold_entity_support": 1693,
+      "gold_relation_support": 1419,
+      "pred_entity_count": 315,
+      "pred_relation_count": 16,
+      "diagnostics": {
+        "invalid_relation_endpoints": 0
+      }
+    },
+    "byt5": {
+      "n_records": 225,
+      "entity_precision": 0.819672131147541,
+      "entity_recall": 0.11813349084465447,
+      "entity_micro_f1": 0.20650490449148168,
+      "entity_macro_f1": 0.1320510398818019,
+      "strict_relation_precision": 0.625,
+      "strict_relation_recall": 0.0035236081747709656,
+      "strict_relation_micro_f1": 0.00700770847932726,
+      "relation_macro_f1": 0.002331002331002331,
+      "gold_entity_support": 1693,
+      "gold_relation_support": 1419,
+      "pred_entity_count": 244,
+      "pred_relation_count": 8,
+      "diagnostics": {
+        "invalid_relation_endpoints": 0
+      }
+    },
+    "selective_byt5": {
+      "n_records": 225,
+      "entity_precision": 0.8192771084337349,
+      "entity_recall": 0.12049616066154754,
+      "entity_micro_f1": 0.2100926879505664,
+      "entity_macro_f1": 0.14672318753221336,
+      "strict_relation_precision": 0.625,
+      "strict_relation_recall": 0.0035236081747709656,
+      "strict_relation_micro_f1": 0.00700770847932726,
+      "relation_macro_f1": 0.002331002331002331,
+      "gold_entity_support": 1693,
+      "gold_relation_support": 1419,
+      "pred_entity_count": 249,
+      "pred_relation_count": 8,
+      "diagnostics": {
+        "invalid_relation_endpoints": 0
+      }
+    },
+    "rules_then_byt5": {
+      "n_records": 225,
+      "entity_precision": 0.8373983739837398,
+      "entity_recall": 0.12167749556999409,
+      "entity_micro_f1": 0.21248066013408973,
+      "entity_macro_f1": 0.13379410667589325,
+      "strict_relation_precision": 0.625,
+      "strict_relation_recall": 0.0035236081747709656,
+      "strict_relation_micro_f1": 0.00700770847932726,
+      "relation_macro_f1": 0.002331002331002331,
+      "gold_entity_support": 1693,
+      "gold_relation_support": 1419,
+      "pred_entity_count": 246,
+      "pred_relation_count": 8,
+      "diagnostics": {
+        "invalid_relation_endpoints": 0
+      }
+    }
+  },
+  "methodology": {
+    "model": "same pre-existing frozen FULL 9x11 aviation SpERT",
+    "retraining": "none",
+    "retuning": "none",
+    "raw_condition": "authoritative existing outputs/spert/test.json",
+    "normalized_gold": "projected frozen annotations",
+    "strict_relation_definition": "relation type plus exact typed head and tail entity spans",
+    "primary_analysis": "all 225 frozen TEST records with projection QC reported",
+    "sensitivity_analysis": "records with complete projection in all five normalization systems"
+  }
+}

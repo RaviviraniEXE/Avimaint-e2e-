@@ -1,0 +1,2 @@
+version,timestamp,run_id,tuned,n_train,tier,entity_micro_f1,relation_micro_f1
+aviation_tier1_final__20260828-080415,20260828-080415,aviation_tier1_final,True,1275,Tier1_CRF_LogReg,0.9402,0.8036

@@ -1,0 +1,199 @@
+{
+  "entity": {
+    "micro_p": 0.8465608465608465,
+    "micro_r": 0.9221902017291066,
+    "micro_f1": 0.882758620689655,
+    "macro_f1": 0.9044650498509107,
+    "per_class": {
+      "PhysicalObject": {
+        "precision": 0.7844827586206896,
+        "recall": 0.8921568627450981,
+        "f1": 0.834862385321101,
+        "support": 204,
+        "tp": 182,
+        "fp": 50,
+        "fn": 22
+      },
+      "Activity": {
+        "precision": 0.9803921568627451,
+        "recall": 0.9803921568627451,
+        "f1": 0.9803921568627451,
+        "support": 102,
+        "tp": 100,
+        "fp": 2,
+        "fn": 2
+      },
+      "State": {
+        "precision": 0.8235294117647058,
+        "recall": 0.9655172413793104,
+        "f1": 0.888888888888889,
+        "support": 29,
+        "tp": 28,
+        "fp": 6,
+        "fn": 1
+      },
+      "Process": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1": 0.9090909090909091,
+        "support": 6,
+        "tp": 5,
+        "fp": 0,
+        "fn": 1
+      },
+      "Property": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1": 0.9090909090909091,
+        "support": 6,
+        "tp": 5,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    "support": 347,
+    "predicted": 378,
+    "tp": 320,
+    "fp": 58,
+    "fn": 27
+  },
+  "relation_strict_with_entity_classification": {
+    "micro_p": 0.6094276094276094,
+    "micro_r": 0.7735042735042735,
+    "micro_f1": 0.6817325800376649,
+    "macro_f1": 0.7023544066158647,
+    "per_class": {
+      "hasPatient": {
+        "precision": 0.7724137931034483,
+        "recall": 0.8175182481751825,
+        "f1": 0.7943262411347517,
+        "support": 137,
+        "tp": 112,
+        "fp": 33,
+        "fn": 25
+      },
+      "hasPart": {
+        "precision": 0.5733333333333334,
+        "recall": 0.7049180327868853,
+        "f1": 0.6323529411764707,
+        "support": 61,
+        "tp": 43,
+        "fp": 32,
+        "fn": 18
+      },
+      "isA": {
+        "precision": 0.22033898305084745,
+        "recall": 0.65,
+        "f1": 0.3291139240506329,
+        "support": 20,
+        "tp": 13,
+        "fp": 46,
+        "fn": 7
+      },
+      "hasAgent": {
+        "precision": 0.625,
+        "recall": 0.625,
+        "f1": 0.625,
+        "support": 8,
+        "tp": 5,
+        "fp": 3,
+        "fn": 3
+      },
+      "contains": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      },
+      "hasProperty": {
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "f1": 0.8333333333333333,
+        "support": 5,
+        "tp": 5,
+        "fp": 2,
+        "fn": 0
+      }
+    },
+    "support": 234,
+    "predicted": 297,
+    "tp": 181,
+    "fp": 116,
+    "fn": 53
+  },
+  "relation_span_only_without_entity_classification": {
+    "micro_p": 0.6161616161616161,
+    "micro_r": 0.782051282051282,
+    "micro_f1": 0.6892655367231638,
+    "macro_f1": 0.7047184728097182,
+    "per_class": {
+      "hasPatient": {
+        "precision": 0.7862068965517242,
+        "recall": 0.8321167883211679,
+        "f1": 0.8085106382978724,
+        "support": 137,
+        "tp": 114,
+        "fp": 31,
+        "fn": 23
+      },
+      "hasPart": {
+        "precision": 0.5733333333333334,
+        "recall": 0.7049180327868853,
+        "f1": 0.6323529411764707,
+        "support": 61,
+        "tp": 43,
+        "fp": 32,
+        "fn": 18
+      },
+      "isA": {
+        "precision": 0.22033898305084745,
+        "recall": 0.65,
+        "f1": 0.3291139240506329,
+        "support": 20,
+        "tp": 13,
+        "fp": 46,
+        "fn": 7
+      },
+      "hasAgent": {
+        "precision": 0.625,
+        "recall": 0.625,
+        "f1": 0.625,
+        "support": 8,
+        "tp": 5,
+        "fp": 3,
+        "fn": 3
+      },
+      "contains": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      },
+      "hasProperty": {
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "f1": 0.8333333333333333,
+        "support": 5,
+        "tp": 5,
+        "fp": 2,
+        "fn": 0
+      }
+    },
+    "support": 234,
+    "predicted": 297,
+    "tp": 183,
+    "fp": 114,
+    "fn": 51
+  },
+  "nested_entity_recall": 0.8205128205128205,
+  "nested_entity_hits": 32,
+  "nested_entity_support": 39,
+  "evaluation_gold": "original_full_spans_and_relations",
+  "test_records": 108
+}

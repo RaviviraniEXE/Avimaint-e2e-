@@ -1,0 +1,67 @@
+{
+  "raw": {
+    "normalization_system": "raw",
+    "export_dir": "legacy_import\\maintenance-ie\\outputs\\spert",
+    "final_model_path": "legacy_import\\maintenance-ie\\outputs\\spert\\save\\avimaint_spert\\2026-08-28_12-27-06_489728\\final_model",
+    "test_prediction_path": "legacy_import\\maintenance-ie\\outputs\\spert\\predictions_test.json",
+    "config_path": "legacy_import\\maintenance-ie\\outputs\\spert\\avimaint_spert.conf",
+    "metrics": {
+      "entity_micro_f1": 0.9519882179675994,
+      "entity_macro_f1": 0.9062791516429964,
+      "strict_relation_micro_f1": 0.8537005163511187,
+      "relation_macro_f1": 0.7898109760868629
+    }
+  },
+  "rules": {
+    "normalization_system": "rules",
+    "export_dir": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules",
+    "final_model_path": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules\\save\\avimaint_spert_norm_rules\\2026-08-30_14-40-29_339629\\final_model",
+    "test_prediction_path": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules\\predictions_test.json",
+    "config_path": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules\\avimaint_spert.conf",
+    "metrics": {
+      "entity_micro_f1": 0.9431952662721893,
+      "entity_macro_f1": 0.8889132463419701,
+      "strict_relation_micro_f1": 0.8150594451783356,
+      "relation_macro_f1": 0.7466122643266957
+    }
+  },
+  "byt5": {
+    "normalization_system": "byt5",
+    "export_dir": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\byt5",
+    "final_model_path": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\byt5\\save\\avimaint_spert_norm_byt5\\2026-08-30_15-07-30_657037\\final_model",
+    "test_prediction_path": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\byt5\\predictions_test.json",
+    "config_path": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\byt5\\avimaint_spert.conf",
+    "metrics": {
+      "entity_micro_f1": 0.9352855051244511,
+      "entity_macro_f1": 0.8753259543371864,
+      "strict_relation_micro_f1": 0.8033689666342727,
+      "relation_macro_f1": 0.7476388128184024
+    }
+  },
+  "selective_byt5": {
+    "normalization_system": "selective_byt5",
+    "export_dir": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\selective_byt5",
+    "final_model_path": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\selective_byt5\\save\\avimaint_spert_norm_selective_byt5\\2026-08-30_15-34-54_257127\\final_model",
+    "test_prediction_path": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\selective_byt5\\predictions_test.json",
+    "config_path": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\selective_byt5\\avimaint_spert.conf",
+    "metrics": {
+      "entity_micro_f1": 0.9424269264836138,
+      "entity_macro_f1": 0.8939646647770453,
+      "strict_relation_micro_f1": 0.816688567674113,
+      "relation_macro_f1": 0.7780761360340441
+    }
+  },
+  "rules_then_byt5": {
+    "normalization_system": "rules_then_byt5",
+    "export_dir": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules_then_byt5",
+    "final_model_path": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules_then_byt5\\save\\avimaint_spert_norm_rules_then_byt5\\2026-08-30_16-06-37_865351\\final_model",
+    "test_prediction_path": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules_then_byt5\\predictions_test.json",
+    "config_path": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules_then_byt5\\avimaint_spert.conf",
+    "metrics": {
+      "entity_micro_f1": 0.937776467118844,
+      "entity_macro_f1": 0.8714564741844648,
+      "strict_relation_micro_f1": 0.813570487483531,
+      "relation_macro_f1": 0.7622282056701342
+    }
+  }
+}

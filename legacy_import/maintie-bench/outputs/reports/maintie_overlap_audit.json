@@ -1,0 +1,146 @@
+{
+  "policy": "BIO keeps earliest-then-longest non-overlapping spans; full spans remain authoritative gold",
+  "training_performed": false,
+  "all": {
+    "documents": 1076,
+    "documents_with_overlap": 328,
+    "documents_with_overlap_pct": 0.304833,
+    "entities_total": 3397,
+    "entities_nested_or_overlapping": 701,
+    "entities_nested_or_overlapping_pct": 0.206359,
+    "bio_entities_retained": 3035,
+    "bio_entities_dropped": 362,
+    "bio_entity_recall_ceiling": 0.893435,
+    "relations_total": 2341,
+    "bio_relations_representable": 1978,
+    "bio_relations_unrepresentable": 363,
+    "bio_relation_recall_ceiling": 0.844938,
+    "nested_entities_by_type": {
+      "PhysicalObject": 579,
+      "State": 84,
+      "Activity": 38
+    },
+    "bio_dropped_entities_by_type": {
+      "PhysicalObject": 298,
+      "State": 45,
+      "Activity": 19
+    },
+    "relations_total_by_type": {
+      "hasPart": 533,
+      "hasPatient": 1206,
+      "isA": 364,
+      "hasAgent": 166,
+      "contains": 38,
+      "hasProperty": 34
+    },
+    "bio_unrepresentable_relations_by_type": {
+      "isA": 362,
+      "hasPatient": 1
+    }
+  },
+  "train": {
+    "documents": 860,
+    "documents_with_overlap": 285,
+    "documents_with_overlap_pct": 0.331395,
+    "entities_total": 2716,
+    "entities_nested_or_overlapping": 612,
+    "entities_nested_or_overlapping_pct": 0.225331,
+    "bio_entities_retained": 2399,
+    "bio_entities_dropped": 317,
+    "bio_entity_recall_ceiling": 0.883284,
+    "relations_total": 1881,
+    "bio_relations_representable": 1563,
+    "bio_relations_unrepresentable": 318,
+    "bio_relation_recall_ceiling": 0.830941,
+    "nested_entities_by_type": {
+      "PhysicalObject": 494,
+      "State": 82,
+      "Activity": 36
+    },
+    "bio_dropped_entities_by_type": {
+      "PhysicalObject": 255,
+      "State": 44,
+      "Activity": 18
+    },
+    "relations_total_by_type": {
+      "hasPart": 417,
+      "hasPatient": 949,
+      "isA": 319,
+      "hasAgent": 139,
+      "contains": 32,
+      "hasProperty": 25
+    },
+    "bio_unrepresentable_relations_by_type": {
+      "isA": 317,
+      "hasPatient": 1
+    }
+  },
+  "dev": {
+    "documents": 108,
+    "documents_with_overlap": 24,
+    "documents_with_overlap_pct": 0.222222,
+    "entities_total": 334,
+    "entities_nested_or_overlapping": 50,
+    "entities_nested_or_overlapping_pct": 0.149701,
+    "bio_entities_retained": 309,
+    "bio_entities_dropped": 25,
+    "bio_entity_recall_ceiling": 0.92515,
+    "relations_total": 226,
+    "bio_relations_representable": 201,
+    "bio_relations_unrepresentable": 25,
+    "bio_relation_recall_ceiling": 0.889381,
+    "nested_entities_by_type": {
+      "PhysicalObject": 46,
+      "State": 2,
+      "Activity": 2
+    },
+    "bio_dropped_entities_by_type": {
+      "PhysicalObject": 23,
+      "State": 1,
+      "Activity": 1
+    },
+    "relations_total_by_type": {
+      "hasPatient": 120,
+      "hasProperty": 4,
+      "hasPart": 55,
+      "isA": 25,
+      "hasAgent": 19,
+      "contains": 3
+    },
+    "bio_unrepresentable_relations_by_type": {
+      "isA": 25
+    }
+  },
+  "test": {
+    "documents": 108,
+    "documents_with_overlap": 19,
+    "documents_with_overlap_pct": 0.175926,
+    "entities_total": 347,
+    "entities_nested_or_overlapping": 39,
+    "entities_nested_or_overlapping_pct": 0.112392,
+    "bio_entities_retained": 327,
+    "bio_entities_dropped": 20,
+    "bio_entity_recall_ceiling": 0.942363,
+    "relations_total": 234,
+    "bio_relations_representable": 214,
+    "bio_relations_unrepresentable": 20,
+    "bio_relation_recall_ceiling": 0.91453,
+    "nested_entities_by_type": {
+      "PhysicalObject": 39
+    },
+    "bio_dropped_entities_by_type": {
+      "PhysicalObject": 20
+    },
+    "relations_total_by_type": {
+      "hasPatient": 137,
+      "isA": 20,
+      "hasProperty": 5,
+      "hasAgent": 8,
+      "hasPart": 61,
+      "contains": 3
+    },
+    "bio_unrepresentable_relations_by_type": {
+      "isA": 20
+    }
+  }
+}

@@ -1,0 +1,31 @@
+experiment:
+  id: rq2_schema_representation
+  research_question: RQ2
+  question: >-
+    Which entity and relation schema represents aviation maintenance work
+    orders well enough for planning support while remaining learnable from the
+    available annotations?
+  dataset_config: configs/datasets/aviation.yaml
+  authoritative_schema: aviation_compact_v1
+  views:
+    - id: full_hybrid
+      entities: 9
+      relations: 11
+    - id: core
+      schema: aviation_core_v1
+      entities: 8
+      relations: 10
+      excludes: [REFERENCE, ACTION_FOLLOWS_REFERENCE]
+  no_reannotation_for_views: true
+  analysis:
+    - label_support
+    - relation_signature_validity
+    - orphan_rate
+    - per_class_f1
+    - strict_micro_f1
+    - macro_f1
+    - planning_field_coverage
+  decision_rule: >-
+    Keep the frozen full schema for traceability. Report core and full results
+    separately; do not delete a rare class merely to raise macro-F1.
+  output_root: outputs/runs/rq2_schema_representation

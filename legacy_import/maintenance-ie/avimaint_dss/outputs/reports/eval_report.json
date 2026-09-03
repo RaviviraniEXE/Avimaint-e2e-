@@ -1,0 +1,282 @@
+{
+  "System-D": {
+    "n_evaluated": 5336,
+    "reranker": false,
+    "top1_family_acc": 78.7,
+    "top3_family_acc": 90.4,
+    "mrr": 0.78,
+    "macro_recall": 38.3,
+    "baseline_majority_acc": 79.2,
+    "baseline_majority_macro": 14.3,
+    "majority_family": "Replace",
+    "tiers": {
+      "strong": {
+        "coverage_pct": 85.0,
+        "n": 4533,
+        "top1_acc": 86.4,
+        "majority_acc": 81.1
+      },
+      "moderate": {
+        "coverage_pct": 4.0,
+        "n": 214,
+        "top1_acc": 50.0,
+        "majority_acc": 43.9
+      },
+      "exploratory": {
+        "coverage_pct": 11.0,
+        "n": 589,
+        "top1_acc": 30.1,
+        "majority_acc": 77.6
+      }
+    },
+    "per_family_recall": {
+      "Adjust": {
+        "n": 452,
+        "recall": 69.9
+      },
+      "Calibrate": {
+        "n": 10,
+        "recall": 0.0
+      },
+      "Diagnose": {
+        "n": 250,
+        "recall": 64.8
+      },
+      "Inspect": {
+        "n": 151,
+        "recall": 4.0
+      },
+      "Repair": {
+        "n": 92,
+        "recall": 27.2
+      },
+      "Replace": {
+        "n": 4227,
+        "recall": 86.8
+      },
+      "Service": {
+        "n": 154,
+        "recall": 15.6
+      }
+    },
+    "family_distribution": {
+      "Replace": 4227,
+      "Adjust": 452,
+      "Diagnose": 250,
+      "Service": 154,
+      "Inspect": 151,
+      "Repair": 92,
+      "Calibrate": 10
+    }
+  },
+  "System-D_rr": {
+    "n_evaluated": 5336,
+    "reranker": true,
+    "top1_family_acc": 78.8,
+    "top3_family_acc": 90.4,
+    "mrr": 0.784,
+    "macro_recall": 38.2,
+    "baseline_majority_acc": 79.2,
+    "baseline_majority_macro": 14.3,
+    "majority_family": "Replace",
+    "tiers": {
+      "strong": {
+        "coverage_pct": 80.7,
+        "n": 4304,
+        "top1_acc": 84.1,
+        "majority_acc": 78.1
+      },
+      "moderate": {
+        "coverage_pct": 8.3,
+        "n": 441,
+        "top1_acc": 93.0,
+        "majority_acc": 92.3
+      },
+      "exploratory": {
+        "coverage_pct": 11.1,
+        "n": 591,
+        "top1_acc": 29.9,
+        "majority_acc": 77.5
+      }
+    },
+    "per_family_recall": {
+      "Adjust": {
+        "n": 452,
+        "recall": 69.9
+      },
+      "Calibrate": {
+        "n": 10,
+        "recall": 0.0
+      },
+      "Diagnose": {
+        "n": 250,
+        "recall": 65.2
+      },
+      "Inspect": {
+        "n": 151,
+        "recall": 4.0
+      },
+      "Repair": {
+        "n": 92,
+        "recall": 26.1
+      },
+      "Replace": {
+        "n": 4227,
+        "recall": 86.9
+      },
+      "Service": {
+        "n": 154,
+        "recall": 15.6
+      }
+    },
+    "family_distribution": {
+      "Replace": 4227,
+      "Adjust": 452,
+      "Diagnose": 250,
+      "Service": 154,
+      "Inspect": 151,
+      "Repair": 92,
+      "Calibrate": 10
+    }
+  },
+  "Raw": {
+    "n_evaluated": 5336,
+    "reranker": false,
+    "top1_family_acc": 80.2,
+    "top3_family_acc": 91.3,
+    "mrr": 0.783,
+    "macro_recall": 36.7,
+    "baseline_majority_acc": 79.1,
+    "baseline_majority_macro": 14.3,
+    "majority_family": "Replace",
+    "tiers": {
+      "strong": {
+        "coverage_pct": 82.2,
+        "n": 4385,
+        "top1_acc": 87.8,
+        "majority_acc": 81.8
+      },
+      "moderate": {
+        "coverage_pct": 4.3,
+        "n": 232,
+        "top1_acc": 47.8,
+        "majority_acc": 45.3
+      },
+      "exploratory": {
+        "coverage_pct": 13.5,
+        "n": 719,
+        "top1_acc": 43.7,
+        "majority_acc": 73.7
+      }
+    },
+    "per_family_recall": {
+      "Adjust": {
+        "n": 475,
+        "recall": 65.1
+      },
+      "Calibrate": {
+        "n": 10,
+        "recall": 0.0
+      },
+      "Diagnose": {
+        "n": 259,
+        "recall": 59.1
+      },
+      "Inspect": {
+        "n": 111,
+        "recall": 1.8
+      },
+      "Repair": {
+        "n": 96,
+        "recall": 27.1
+      },
+      "Replace": {
+        "n": 4220,
+        "recall": 89.2
+      },
+      "Service": {
+        "n": 165,
+        "recall": 14.5
+      }
+    },
+    "family_distribution": {
+      "Replace": 4220,
+      "Adjust": 475,
+      "Diagnose": 259,
+      "Service": 165,
+      "Inspect": 111,
+      "Repair": 96,
+      "Calibrate": 10
+    }
+  },
+  "Raw_rr": {
+    "n_evaluated": 5336,
+    "reranker": true,
+    "top1_family_acc": 80.2,
+    "top3_family_acc": 91.2,
+    "mrr": 0.786,
+    "macro_recall": 36.6,
+    "baseline_majority_acc": 79.1,
+    "baseline_majority_macro": 14.3,
+    "majority_family": "Replace",
+    "tiers": {
+      "strong": {
+        "coverage_pct": 81.5,
+        "n": 4350,
+        "top1_acc": 86.0,
+        "majority_acc": 79.7
+      },
+      "moderate": {
+        "coverage_pct": 4.9,
+        "n": 263,
+        "top1_acc": 84.4,
+        "majority_acc": 83.7
+      },
+      "exploratory": {
+        "coverage_pct": 13.5,
+        "n": 723,
+        "top1_acc": 43.6,
+        "majority_acc": 73.6
+      }
+    },
+    "per_family_recall": {
+      "Adjust": {
+        "n": 475,
+        "recall": 65.1
+      },
+      "Calibrate": {
+        "n": 10,
+        "recall": 0.0
+      },
+      "Diagnose": {
+        "n": 259,
+        "recall": 59.8
+      },
+      "Inspect": {
+        "n": 111,
+        "recall": 1.8
+      },
+      "Repair": {
+        "n": 96,
+        "recall": 26.0
+      },
+      "Replace": {
+        "n": 4220,
+        "recall": 89.2
+      },
+      "Service": {
+        "n": 165,
+        "recall": 14.5
+      }
+    },
+    "family_distribution": {
+      "Replace": 4220,
+      "Adjust": 475,
+      "Diagnose": 259,
+      "Service": 165,
+      "Inspect": 111,
+      "Repair": 96,
+      "Calibrate": 10
+    }
+  }
+}

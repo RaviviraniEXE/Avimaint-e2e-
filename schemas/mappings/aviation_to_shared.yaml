@@ -1,0 +1,16 @@
+mapping:
+  source_schema: aviation_compact_v1
+  target_schema: shared_coarse_v1
+  entities:
+    MAINT_ITEM: {target: PHYSICAL_OBJECT, status: broader}
+    ACTION: {target: MAINTENANCE_ACTIVITY, status: exact}
+    FAULT: {target: STATE_OR_ISSUE, status: broader}
+    ABN_PROC: {target: PROCESS, status: approximate}
+    TECH_OBS: {target: PROPERTY_OR_OBSERVATION, status: broader}
+    LOC: {target: CONTEXT, status: approximate}
+    OP_CTX: {target: CONTEXT, status: broader}
+    OUTCOME: {target: STATE_OR_ISSUE, status: approximate}
+    REFERENCE: {target: REFERENCE, status: exact}
+  relations:
+    strategy: preserve_only_after_manual_signature_audit
+

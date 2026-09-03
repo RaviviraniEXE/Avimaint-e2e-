@@ -1,0 +1,50 @@
+# =============================================================================
+# MaintIE benchmark schema — coarse (level-1) entity granularity.
+# 5 entity types (top of the MaintIE hierarchy) + 6 relation types.
+# Used to run THIS pipeline on the MaintIE corpus (Bikaun et al., LREC-COLING 2024)
+# for a faithful, same-schema reproduction of their published benchmark.
+# Entity/relation names match MaintIE's coarse scheme exactly.
+# =============================================================================
+
+entities:
+  PhysicalObject: {canonical: "PhysicalObject", tier: core}
+  Activity:       {canonical: "Activity",       tier: core}
+  State:          {canonical: "State",          tier: core}
+  Process:        {canonical: "Process",        tier: core}
+  Property:       {canonical: "Property",       tier: core}
+
+# Relations: head_types -> tail_types (constraints derived from the MaintIE gold
+# corpus at coarse granularity; used to filter candidate pairs for RE).
+relations:
+  hasPart:     {head: [PhysicalObject], tail: [PhysicalObject], tier: core}
+  contains:    {head: [PhysicalObject], tail: [PhysicalObject], tier: core}
+  hasProperty: {head: [PhysicalObject], tail: [Property], tier: core}
+  hasAgent:    {head: [Activity, Process, State], tail: [PhysicalObject], tier: core}
+  hasPatient:  {head: [Activity, Process, State], tail: [Activity, PhysicalObject, Process, Property, State], tier: core}
+  isA:         {head: [Activity, PhysicalObject, State], tail: [Activity, PhysicalObject, State], tier: core}
+
+# -----------------------------------------------------------------------------
+# Model configuration (same as the aviation project, for a fair comparison).
+# For SpERT parity with the MaintIE paper, SpERT uses bert-base-cased separately.
+# -----------------------------------------------------------------------------
+models:
+  transformer:
+    encoder: distilbert-base-uncased
+    max_len: 128
+    ner: {epochs: 30, lr: 3.0e-5, batch_size: 16, patience: 3}
+    re:  {epochs: 30, lr: 3.0e-5, batch_size: 8,  patience: 3}
+  tuning:
+    crf:         {c1: [0.01, 0.05, 0.1, 0.5, 1.0], c2: [0.01, 0.1, 0.5, 1.0]}
+    logreg:      {C: [0.25, 0.5, 1.0, 2.0, 4.0]}
+    bilstm:      {lr: [1.0e-3, 5.0e-4], dropout: [0.4, 0.5]}
+    transformer: {lr: [2.0e-5, 3.0e-5, 5.0e-5]}
+
+# MaintIE uses its own frozen 80/10/10 split (860/108/108), created by the
+# converter from the official file order — NOT active learning. These fields are
+# kept for schema compatibility but are unused here.
+annotation:
+  seed: 1337
+  pilot_size: 0
+  test_size: 108
+  dev_size: 108
+

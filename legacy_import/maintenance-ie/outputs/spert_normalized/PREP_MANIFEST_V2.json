@@ -1,0 +1,42 @@
+{
+  "status": "prepared_true_raw_condition_only",
+  "correction": "Historical outputs/spert was proven to use the legacy normalized annotation representation. A new System-A raw condition is therefore prepared from outputs/gold_variants/raw.",
+  "v3_fix": "TEST support comparison now compares entities/relations against entities/relations; record count and order are checked separately.",
+  "split_counts": {
+    "train": 1275,
+    "dev": 100,
+    "test": 225
+  },
+  "schema": {
+    "entities": 9,
+    "relations": 11
+  },
+  "raw_export": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\raw",
+  "raw_support": {
+    "train": {
+      "records": 1275,
+      "entities": 10150,
+      "relations": 8764
+    },
+    "dev": {
+      "records": 100,
+      "entities": 783,
+      "relations": 651
+    },
+    "test": {
+      "records": 225,
+      "entities": 1693,
+      "relations": 1419
+    }
+  },
+  "existing_four_models_reused_without_retraining": {
+    "rules": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules\\save\\avimaint_spert_norm_rules\\2026-08-30_14-40-29_339629\\final_model",
+    "byt5": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\byt5\\save\\avimaint_spert_norm_byt5\\2026-08-30_15-07-30_657037\\final_model",
+    "selective_byt5": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\selective_byt5\\save\\avimaint_spert_norm_selective_byt5\\2026-08-30_15-34-54_257127\\final_model",
+    "rules_then_byt5": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules_then_byt5\\save\\avimaint_spert_norm_rules_then_byt5\\2026-08-30_16-06-37_865351\\final_model"
+  },
+  "configuration_source": "legacy_import\\maintenance-ie\\outputs\\spert\\avimaint_spert.conf",
+  "configuration_role": "architecture/hyperparameter reference only; not a raw-representation baseline",
+  "test_policy": "no hyperparameter changes; evaluate corrected five-way table only after raw final_model and predictions exist",
+  "post_test_retuning": "forbidden"
+}

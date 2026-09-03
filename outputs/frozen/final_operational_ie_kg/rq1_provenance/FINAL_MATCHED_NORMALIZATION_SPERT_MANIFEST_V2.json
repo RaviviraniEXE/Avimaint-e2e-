@@ -1,0 +1,202 @@
+{
+  "status": "complete_corrected_no_post_test_retuning_allowed",
+  "generated_at_utc": "20260830T181730Z",
+  "experiment": "corrected_representation_matched_normalization_to_full_spert",
+  "systems": [
+    "raw",
+    "rules",
+    "byt5",
+    "selective_byt5",
+    "rules_then_byt5"
+  ],
+  "models_in_main_comparison": 5,
+  "new_models_trained_in_correction": [
+    "raw"
+  ],
+  "models_reused_without_retraining": [
+    "rules",
+    "byt5",
+    "selective_byt5",
+    "rules_then_byt5"
+  ],
+  "frozen_split": {
+    "train": 1275,
+    "dev": 100,
+    "test": 225,
+    "membership_source": "outputs/splits.json"
+  },
+  "schema": {
+    "entities": 9,
+    "relations": 11
+  },
+  "same_fixed_hyperparameters": {
+    "raw": {
+      "same_fixed_hyperparameters": true,
+      "differences": {}
+    },
+    "rules": {
+      "same_fixed_hyperparameters": true,
+      "differences": {}
+    },
+    "byt5": {
+      "same_fixed_hyperparameters": true,
+      "differences": {}
+    },
+    "selective_byt5": {
+      "same_fixed_hyperparameters": true,
+      "differences": {}
+    },
+    "rules_then_byt5": {
+      "same_fixed_hyperparameters": true,
+      "differences": {}
+    }
+  },
+  "representation_audit": {
+    "status": "pass",
+    "gold_records": 1600,
+    "normalized_corpus_normalized_token_matches": 1600,
+    "historical_spert_export_token_matches": 1600,
+    "historical_spert_export_split_counts": {
+      "train": 1275,
+      "dev": 100,
+      "test": 225
+    },
+    "conclusion": "The historical outputs/spert baseline was trained/evaluated on the legacy normalized annotation representation, not on true source-raw text.",
+    "rq1_correction": "The five-way matched normalization ablation therefore requires a new System-A raw SpERT model trained on outputs/gold_variants/raw. The four already-trained rules/byt5/selective_byt5/rules_then_byt5 models remain valid and are reused without retraining."
+  },
+  "preparation_manifest": {
+    "status": "prepared_true_raw_condition_only",
+    "correction": "Historical outputs/spert was proven to use the legacy normalized annotation representation. A new System-A raw condition is therefore prepared from outputs/gold_variants/raw.",
+    "v3_fix": "TEST support comparison now compares entities/relations against entities/relations; record count and order are checked separately.",
+    "split_counts": {
+      "train": 1275,
+      "dev": 100,
+      "test": 225
+    },
+    "schema": {
+      "entities": 9,
+      "relations": 11
+    },
+    "raw_export": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\raw",
+    "raw_support": {
+      "train": {
+        "records": 1275,
+        "entities": 10150,
+        "relations": 8764
+      },
+      "dev": {
+        "records": 100,
+        "entities": 783,
+        "relations": 651
+      },
+      "test": {
+        "records": 225,
+        "entities": 1693,
+        "relations": 1419
+      }
+    },
+    "existing_four_models_reused_without_retraining": {
+      "rules": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules\\save\\avimaint_spert_norm_rules\\2026-08-30_14-40-29_339629\\final_model",
+      "byt5": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\byt5\\save\\avimaint_spert_norm_byt5\\2026-08-30_15-07-30_657037\\final_model",
+      "selective_byt5": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\selective_byt5\\save\\avimaint_spert_norm_selective_byt5\\2026-08-30_15-34-54_257127\\final_model",
+      "rules_then_byt5": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules_then_byt5\\save\\avimaint_spert_norm_rules_then_byt5\\2026-08-30_16-06-37_865351\\final_model"
+    },
+    "configuration_source": "legacy_import\\maintenance-ie\\outputs\\spert\\avimaint_spert.conf",
+    "configuration_role": "architecture/hyperparameter reference only; not a raw-representation baseline",
+    "test_policy": "no hyperparameter changes; evaluate corrected five-way table only after raw final_model and predictions exist",
+    "post_test_retuning": "forbidden"
+  },
+  "metrics": {
+    "raw": {
+      "entity_precision": 0.9477744807121662,
+      "entity_recall": 0.9432959243945659,
+      "entity_micro_f1": 0.945529899348727,
+      "entity_macro_f1": 0.9056323458929236,
+      "strict_relation_precision": 0.7784810126582279,
+      "strict_relation_recall": 0.8668076109936576,
+      "strict_relation_micro_f1": 0.8202734244748249,
+      "relation_macro_f1": 0.7510916139617055,
+      "gold_entities": 1693,
+      "gold_relations": 1419,
+      "pred_entities": 1685,
+      "pred_relations": 1580,
+      "invalid_relation_endpoints": 0
+    },
+    "rules": {
+      "entity_precision": 0.944872554831061,
+      "entity_recall": 0.941523922031896,
+      "entity_micro_f1": 0.9431952662721893,
+      "entity_macro_f1": 0.8889132463419701,
+      "strict_relation_precision": 0.766935985083903,
+      "strict_relation_recall": 0.8696264975334743,
+      "strict_relation_micro_f1": 0.8150594451783356,
+      "relation_macro_f1": 0.7466122643266957,
+      "gold_entities": 1693,
+      "gold_relations": 1419,
+      "pred_entities": 1687,
+      "pred_relations": 1609,
+      "invalid_relation_endpoints": 0
+    },
+    "byt5": {
+      "entity_precision": 0.9274099883855982,
+      "entity_recall": 0.9432959243945659,
+      "entity_micro_f1": 0.9352855051244511,
+      "entity_macro_f1": 0.8753259543371864,
+      "strict_relation_precision": 0.7434052757793765,
+      "strict_relation_recall": 0.8738548273431994,
+      "strict_relation_micro_f1": 0.8033689666342727,
+      "relation_macro_f1": 0.7476388128184024,
+      "gold_entities": 1693,
+      "gold_relations": 1419,
+      "pred_entities": 1722,
+      "pred_relations": 1668,
+      "invalid_relation_endpoints": 0
+    },
+    "selective_byt5": {
+      "entity_precision": 0.9421487603305785,
+      "entity_recall": 0.9427052569403426,
+      "entity_micro_f1": 0.9424269264836138,
+      "entity_macro_f1": 0.8939646647770453,
+      "strict_relation_precision": 0.7649230769230769,
+      "strict_relation_recall": 0.875968992248062,
+      "strict_relation_micro_f1": 0.816688567674113,
+      "relation_macro_f1": 0.7780761360340441,
+      "gold_entities": 1693,
+      "gold_relations": 1419,
+      "pred_entities": 1694,
+      "pred_relations": 1625,
+      "invalid_relation_endpoints": 0
+    },
+    "rules_then_byt5": {
+      "entity_precision": 0.9363957597173145,
+      "entity_recall": 0.9391612522150029,
+      "entity_micro_f1": 0.937776467118844,
+      "entity_macro_f1": 0.8714564741844648,
+      "strict_relation_precision": 0.7637600494743352,
+      "strict_relation_recall": 0.8703312191684285,
+      "strict_relation_micro_f1": 0.813570487483531,
+      "relation_macro_f1": 0.7622282056701342,
+      "gold_entities": 1693,
+      "gold_relations": 1419,
+      "pred_entities": 1698,
+      "pred_relations": 1617,
+      "invalid_relation_endpoints": 0
+    }
+  },
+  "historical_annotation_representation_reference": {
+    "role": "historical annotation-representation reference; excluded from five-way RQ1 comparison",
+    "representation": "legacy normalized annotation representation",
+    "entity_micro_f1": 0.9519882179675994,
+    "entity_macro_f1": 0.9062791516429964,
+    "strict_relation_micro_f1": 0.8537005163511187,
+    "relation_macro_f1": 0.7898109760868629
+  },
+  "model_registry": "MODEL_REGISTRY_V2.json",
+  "interpretation_policy": {
+    "primary_question": "Does each normalization representation improve or degrade the strongest IE architecture when train/dev/test representations are matched?",
+    "historical_outputs_spert_not_labeled_raw": true,
+    "post_test_hyperparameter_tuning": "forbidden",
+    "automatic_deployment_winner_selection": false,
+    "old_matched_freeze_status": "superseded for RQ1 because its row labeled raw reused the legacy normalized annotation-representation model"
+  }
+}

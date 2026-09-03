@@ -1,0 +1,1283 @@
+issue,action,kind,record_count
+leaking,replaced,addresses,2606
+loose,tightened,addresses,178
+leaking,installed,addresses,171
+missing,installed,addresses,169
+cracked,stop drilled,addresses,155
+broken,replaced,addresses,123
+leaks,replaced,addresses,93
+crack,stop drilled,addresses,75
+worn,replaced,addresses,74
+leaking,leak check,investigates,68
+missing,replaced,addresses,64
+loose,resecured,addresses,63
+cracked,replaced,addresses,52
+loose,replaced,addresses,48
+loose,secured,addresses,46
+worn,installed,addresses,45
+cracked,installed,addresses,42
+damaged,replaced,addresses,38
+torn,replaced,addresses,37
+broken,installed,addresses,36
+cracked,fabricated,addresses,33
+leaking,cleaned,addresses,32
+leak,replaced,addresses,28
+leaking,tightened,addresses,28
+loose,installed,addresses,27
+dirty,cleaned,addresses,24
+sheared,replaced,addresses,21
+low,leak check,investigates,19
+loose,reattached,addresses,17
+sheared,installed,addresses,14
+low,staked,addresses,13
+worn,applied,addresses,13
+leaks,cleaned,addresses,11
+low,ran,investigates,11
+crack,installed,addresses,10
+leaking,torqued,addresses,10
+low,replaced,addresses,10
+chafing,installed,addresses,9
+leak,leak check,investigates,9
+loose,resafetied,addresses,9
+chafing,repositioned,addresses,8
+cracked,repaired,addresses,8
+leaks,installed,addresses,8
+low,operations,investigates,8
+low,operations check,investigates,8
+missing,reinstalled,addresses,8
+bad,installed,addresses,7
+chafing,replaced,addresses,7
+failed,leak check,investigates,7
+gouged,inspected,investigates,7
+leaking,ran,investigates,7
+leaking,sealed,addresses,7
+loose,reinstalled,addresses,7
+metal found in oil,removed,addresses,7
+overspeed,reviewed,investigates,7
+pulled through,installed,addresses,7
+ran rough,ran up,investigates,7
+sheared,reinstalled,addresses,7
+broken,fabricated,addresses,6
+chafing,applied,addresses,6
+cracked,patched,addresses,6
+leaking,inspected,investigates,6
+low,compression check,investigates,6
+low,installed,addresses,6
+overspeed,complied,investigates,6
+pulled through,replaced,addresses,6
+rough,ran,investigates,6
+damaged,installed,addresses,5
+elongated,installed,addresses,5
+leak,cleaned,addresses,5
+leak,sealed,addresses,5
+leaking,reinstalled,addresses,5
+loose,inspected,investigates,5
+low,adjusted,addresses,5
+low,ran up,investigates,5
+no compression,leak check,investigates,5
+overspeed,inspected,investigates,5
+ran rough,ground run,investigates,5
+ran very rough,ran,investigates,5
+roughness,maintenance flight,investigates,5
+seeping,installed,addresses,5
+torn,installed,addresses,5
+worn,repaired,addresses,5
+would not start,started,investigates,5
+bad,replaced,addresses,4
+broken,secured,addresses,4
+chafing,inspected,investigates,4
+cracks,stop drilled,addresses,4
+dirty,washed,addresses,4
+failed,replaced,addresses,4
+leak,ran,investigates,4
+leak,torqued,addresses,4
+leaking,operations,investigates,4
+leaking,replace,addresses,4
+leaking,reswaged,addresses,4
+loose,adjusted,addresses,4
+low,fitted,addresses,4
+low,run up,investigates,4
+low,staked,investigates,4
+oil leak,leak check,investigates,4
+overspeed,determined,investigates,4
+ran rough,ran,investigates,4
+running rough,ran,investigates,4
+running very rough,ran,investigates,4
+scored,replaced,addresses,4
+shaking,ran,investigates,4
+torn,applied,addresses,4
+torn,secured,addresses,4
+vibration,ran,investigates,4
+vibration,test flight,investigates,4
+worn,secured,addresses,4
+backfired,ground run,investigates,3
+broken off,installed,addresses,3
+coming loose,resecured,addresses,3
+crack,inspected,investigates,3
+crack,replaced,addresses,3
+cracked,inspected,investigates,3
+cracked,reinstalled,addresses,3
+failed,clearance check,investigates,3
+failed,installed,addresses,3
+leak,installed,addresses,3
+leaking,applied,addresses,3
+leaking,resealed,addresses,3
+leaking,reswedged,addresses,3
+leaking,swaged,addresses,3
+leaks,leak check,investigates,3
+loose,riveted,addresses,3
+low,borescoped,investigates,3
+low,compression test,investigates,3
+low,lapped,addresses,3
+no compression,inspected,investigates,3
+oil leak,inspected,investigates,3
+overspeed,downloaded,investigates,3
+overspeed,researched,investigates,3
+quit,ran up,investigates,3
+ran rough,operations check,investigates,3
+rough running,replaced,addresses,3
+roughness,ground run,investigates,3
+roughness,ran,investigates,3
+rubbing,adjusted,addresses,3
+sheared,reattached,addresses,3
+shutdown,adjusted,addresses,3
+stripped,replaced,addresses,3
+torn,repaired,addresses,3
+vibrations,ran,investigates,3
+wearing,installed,addresses,3
+won ' t start,attempted to start,investigates,3
+worn,filled,addresses,3
+worn,sealed,addresses,3
+backfired,inspected,investigates,2
+bent,installed,addresses,2
+broken,inspected,investigates,2
+burnt,inspected,investigates,2
+burnt,replaced,addresses,2
+chafing,adjusted,addresses,2
+cracked,insp,investigates,2
+cracked,leak check,investigates,2
+cracked,patching,addresses,2
+cracked,repair,addresses,2
+damaged,repaired,addresses,2
+died,ground run,investigates,2
+died,operations checked,investigates,2
+died,ran,investigates,2
+died,started,investigates,2
+disconnected,reattached,addresses,2
+disconnected,resecured,addresses,2
+enlarged,installed,addresses,2
+exceeded,downloaded,investigates,2
+failed,ground run,investigates,2
+failed,operations,investigates,2
+fails,adjusted,addresses,2
+fails,mixture check,investigates,2
+idles very irratically,replaced,addresses,2
+inoperable,operations check,investigates,2
+inoperable,replaced,addresses,2
+leak,applied,addresses,2
+leak,reinstalled,addresses,2
+leak,resealed,addresses,2
+leaking,leak checked,investigates,2
+leaking,ran up,investigates,2
+leaking,run up,investigates,2
+leaking,swedged,addresses,2
+loose,drilled,addresses,2
+loose,drilled out,addresses,2
+loose,leak check,investigates,2
+loose,recrimped,addresses,2
+loose,rescured,addresses,2
+loose,tightened down,addresses,2
+low,finished installing,addresses,2
+low,ground,addresses,2
+low,inspected,investigates,2
+low,installed,investigates,2
+low,rechecked,investigates,2
+low,run up leak check,investigates,2
+metal found in oil,installed,addresses,2
+missing,checked,investigates,2
+missing,inspected,investigates,2
+missing,resafety,addresses,2
+missing,tightened,addresses,2
+nicked,inspected,investigates,2
+no compression,ran,investigates,2
+no compression,staked,addresses,2
+no rise,adjusted,addresses,2
+not connected,replaced,addresses,2
+not hitting,adjusted,addresses,2
+oil leak,installed,addresses,2
+oversped,downloaded,investigates,2
+overspeed,analyzed,investigates,2
+overspeed,insp,investigates,2
+overspeed,overspeed insp,investigates,2
+overspeed,verified,investigates,2
+pulled through,drilled,addresses,2
+quit,adjusted,addresses,2
+ran rough,leak check,investigates,2
+ran rough,operations checked,investigates,2
+ran very rough,compression check,investigates,2
+ran very rough,reamed,investigates,2
+red x,operations check,investigates,2
+rough,confirmed,investigates,2
+rough,inspected,investigates,2
+rough,installed,addresses,2
+rough,leak check,investigates,2
+rough running,reamed,addresses,2
+roughness,compression check,investigates,2
+roughness,ran up,investigates,2
+roughness,reamed,investigates,2
+roughness,run up,investigates,2
+rpm dropped,leak check,investigates,2
+rpm dropped,operations,investigates,2
+rpm dropped,ran up,investigates,2
+rubbing,inspected,investigates,2
+rubbing,installed,addresses,2
+rubbing,repositioned,addresses,2
+running extremely rough,ran,investigates,2
+running rough,confirmed,investigates,2
+running rough,torqued,addresses,2
+runs rough,compression check,investigates,2
+runs rough,hand spun,investigates,2
+runs rough,operations,investigates,2
+runs rough,ran,investigates,2
+runs rough,reamed,addresses,2
+runs rough,verified,investigates,2
+seeping,leak check,investigates,2
+seeping,leak checked,investigates,2
+seeping,replaced,addresses,2
+shutdown,ground run,investigates,2
+shutdown,operations,investigates,2
+shutdown,ran,investigates,2
+shutdown,ran up,investigates,2
+sputtering,ran,investigates,2
+started running rough,ran,investigates,2
+sticking,installed,addresses,2
+sticking,ran,investigates,2
+stuck,installed,addresses,2
+timed out,installed,addresses,2
+too large,installed,addresses,2
+torn,resecured,addresses,2
+unusually rough,installed,addresses,2
+very rough,ran,investigates,2
+vibrated,ran,investigates,2
+vibrating,ran,investigates,2
+vibration,cleaned,addresses,2
+vibration,installed,addresses,2
+vibration,replaced,addresses,2
+will not start,started,investigates,2
+worn,fabricated,addresses,2
+worn,repositioned,addresses,2
+worn,riveted,addresses,2
+worn through,fabricated,addresses,2
+would not increase,ran,investigates,2
+would sputter,ran up,investigates,2
+zero,replaced,addresses,2
+abnormal vib,ran up,investigates,1
+accidentally oversped,evaluated,investigates,1
+air coming out exhaus,leak check,investigates,1
+air coming out exhaus,torqued,addresses,1
+air coming out exhaus,verified,investigates,1
+air noted,compression,investigates,1
+air noted and observed out of exhaust,run up,investigates,1
+almost quit,started,investigates,1
+audible rpm drop,ground run,investigates,1
+audible rpm loss,compression check,investigates,1
+backed off,tightened,addresses,1
+backfired,adjusted,addresses,1
+backfired,checked,investigates,1
+backfired,installed,investigates,1
+backfired,operations checked,investigates,1
+backfired,ran,investigates,1
+backfired,replaced,addresses,1
+backfired,run up,investigates,1
+backfired when,inspected,investigates,1
+backfired when,installed,investigates,1
+backfired when,ran,investigates,1
+backfiring,completed,investigates,1
+backfiring,operations check,investigates,1
+backfiring,ran up,investigates,1
+bad compression,clearance check,investigates,1
+bad compression,fitted,addresses,1
+bad compression,leak check,investigates,1
+bad compression,operations,investigates,1
+bad compression,ran,investigates,1
+barely capable,inspected,investigates,1
+became incredibly rough,completed installation,addresses,1
+became incredibly rough,leak and operations checked,investigates,1
+became incredibly rough,ran,investigates,1
+became rough,disconnected,investigates,1
+became rough,dry tappet clearance check,investigates,1
+became rough,mags check,investigates,1
+became rough,power and leak check,investigates,1
+became rough,ran,investigates,1
+began to struggle,ground run,investigates,1
+began to struggle,ran,investigates,1
+began to struggle,verified,investigates,1
+bend,put,addresses,1
+bent,checked,investigates,1
+bent,reinstalled,addresses,1
+bent,straightened,addresses,1
+bounces,insp,investigates,1
+bounces,replaced,addresses,1
+briefly lose,run up,investigates,1
+broke,installed,addresses,1
+broke,replaced,addresses,1
+broke,repositioning,addresses,1
+broke off,accessed,investigates,1
+broke off,installed,addresses,1
+broken,drilled,addresses,1
+broken,found,investigates,1
+broken,painted,addresses,1
+broken,re,addresses,1
+broken,re - riveted,addresses,1
+broken,reinstalled,addresses,1
+broken,repaired,addresses,1
+broken,resafetied,addresses,1
+broken,rethreaded,addresses,1
+broken,riveted,addresses,1
+burned,borescoped,investigates,1
+burnt,fitted,addresses,1
+burnt,lapped,addresses,1
+burnt,verified,investigates,1
+but ran very rough,compression check,investigates,1
+but ran very rough,confirmed,investigates,1
+but ran very rough,ran,investigates,1
+came into cont,replacement,addresses,1
+canned,installed,addresses,1
+chafed,applied,addresses,1
+chafed,check,investigates,1
+chafed,cleaned,addresses,1
+chafed,removed,addresses,1
+chafed,replaced,addresses,1
+chafed,repositioned,addresses,1
+chafing,put,addresses,1
+chafing,reinstall,addresses,1
+chafing,resafetied,addresses,1
+chafing damage,inspected,investigates,1
+chafing through,resafetied,addresses,1
+choke,run up,investigates,1
+choked,checked,investigates,1
+choked,run up,investigates,1
+click,started,investigates,1
+clicking noise,inspected,investigates,1
+co level high warning came on,checks,investigates,1
+co level high warning came on,ran,investigates,1
+co warning came o,ran up,investigates,1
+cold,leak check,investigates,1
+collecting,began visual insp,investigates,1
+collecting,inspected,investigates,1
+collecting,ran,investigates,1
+collecting,replaced,addresses,1
+coming from exhaust,installed,addresses,1
+coming from exhaust,leak check,investigates,1
+coming loose,applied,addresses,1
+coming off,refastened,addresses,1
+coming out,ground run,investigates,1
+coming out,leak check,investigates,1
+coming out,ran up,investigates,1
+coming out,verified,investigates,1
+contact,found,investigates,1
+contacted,inspected,investigates,1
+corroded,replaced,addresses,1
+coughed,ran,investigates,1
+coughed often,checked,investigates,1
+coughed often,finished reinstallation,addresses,1
+coughed often,ground run,investigates,1
+coughed often,installed,addresses,1
+coughed often,ran,investigates,1
+coughed often,reinstalled,addresses,1
+coughed often,verified,investigates,1
+could not restart,started,investigates,1
+could not start,adju,addresses,1
+could not start,ground run,investigates,1
+could not start,ran,investigates,1
+crack,applied,addresses,1
+crack,complied,investigates,1
+crack,determined,investigates,1
+crack,dye pe insp,investigates,1
+crack,fabricated,addresses,1
+crack,insp,investigates,1
+crack,installing,addresses,1
+crack,observed,investigates,1
+crack,patched,addresses,1
+crack,repaired,addresses,1
+crack,verified,investigates,1
+cracked,assembled,addresses,1
+cracked,began fabricating,addresses,1
+cracked,began replacing,addresses,1
+cracked,change,investigates,1
+cracked,cleaned up,addresses,1
+cracked,clearance check,investigates,1
+cracked,completed installation,addresses,1
+cracked,complied,investigates,1
+cracked,compression test,investigates,1
+cracked,continued repairing,addresses,1
+cracked,determined,investigates,1
+cracked,drilled off,addresses,1
+cracked,drilled out,addresses,1
+cracked,dry tappet cl,investigates,1
+cracked,filled,addresses,1
+cracked,finished installation,addresses,1
+cracked,finished reassembly,addresses,1
+cracked,fitted,addresses,1
+cracked,further insp,investigates,1
+cracked,further inspection,investigates,1
+cracked,installing,addresses,1
+cracked,made,addresses,1
+cracked,operations,investigates,1
+cracked,painted,addresses,1
+cracked,primed,addresses,1
+cracked,procured,addresses,1
+cracked,replacement,addresses,1
+cracked,riveted,addresses,1
+cracked,started creating,addresses,1
+cracked,swapped,addresses,1
+cracked,torqued,addresses,1
+cracks,cleaned,addresses,1
+cracks,inspected,investigates,1
+cracks,installed,addresses,1
+cracks,made,addresses,1
+cracks,painted,addresses,1
+cracks,replaced,addresses,1
+cut off,started,investigates,1
+damage,insp,investigates,1
+damage,inspected,investigates,1
+damaged,canned,addresses,1
+damaged,cleaned,addresses,1
+damaged,dressed,addresses,1
+damaged,inspected,investigates,1
+damaged,replacement,addresses,1
+decreased to zero,cleared,addresses,1
+decreased to zero,idle check,investigates,1
+decreased to zero,operations checked,investigates,1
+decreased to zero,ran up,investigates,1
+deteriorated,replaced,addresses,1
+did not start,started,investigates,1
+die,checks,investigates,1
+die,ran,investigates,1
+died,ran up,investigates,1
+died,warmed up,investigates,1
+dirty,reinstalled,addresses,1
+dirty,removed,addresses,1
+dirty,replaced,addresses,1
+does not align,trimmed,addresses,1
+does not run,borescop,investigates,1
+does not run,compression test,investigates,1
+does not run,leak check,investigates,1
+does not run,operations,investigates,1
+does not run,ran,investigates,1
+drop in rpm,ground run,investigates,1
+dropped,confirmed,investigates,1
+dropped,ran,investigates,1
+drops to zero,ground ran,investigates,1
+drops to zero,operations check,investigates,1
+drops to zero,replaced,addresses,1
+eating into,inspected,investigates,1
+elongated,fabricated,addresses,1
+elongated,repositioned,addresses,1
+exceeded,complied,investigates,1
+exceeded,inspected,investigates,1
+exceeded,reviewed,investigates,1
+exceeded,verified,investigates,1
+excessive,installed,addresses,1
+excessive,lash check,investigates,1
+excessive end play,inspected,investigates,1
+excessive free play,adjusted,addresses,1
+excessive fretting,replaced,addresses,1
+excessive rpm rise,run up,investigates,1
+failed,adjusted,addresses,1
+failed,checked,investigates,1
+failed,completed reassembly,addresses,1
+failed,inspected,investigates,1
+failed,leak and operations check,investigates,1
+failed,operations check,investigates,1
+failed,override speed check,investigates,1
+failed,ran,investigates,1
+failed,ran up,investigates,1
+failed,reassembled,addresses,1
+failed,reinstalled,addresses,1
+failed,repla,addresses,1
+failed,run up,investigates,1
+failed,started,investigates,1
+failed,torqued,addresses,1
+fails,checks,investigates,1
+fails,mixture and idle checks,investigates,1
+fails,mixture override check,investigates,1
+fails,operations check,investigates,1
+fails,ran,investigates,1
+failure,idle mixture check,investigates,1
+failure,inspecte,investigates,1
+failure,ran,investigates,1
+falling apart,replaced,addresses,1
+faulty,ground run,investigates,1
+faulty,operations checked,investigates,1
+fell off,cleaned,addresses,1
+fell off,reinstalled,addresses,1
+fell off,replaced,addresses,1
+fire,inspected,investigates,1
+flame came out,ground run,investigates,1
+flame came out,inspected,investigates,1
+flame came out,operations checked,investigates,1
+flames comi,ground run,investigates,1
+flames comi,inspected,investigates,1
+flames comi,operations checked,investigates,1
+fluctuating,inspect,investigates,1
+fluctuating,operations check,investigates,1
+fluctuating,ran,investigates,1
+fluctuating,ran up,investigates,1
+fluctuating,replaced,addresses,1
+fouled,ran up,investigates,1
+fouled,run up,investigates,1
+gains and drops,ground run,investigates,1
+gains and drops,operations checked,investigates,1
+gone,installed,addresses,1
+gouge,replaced,addresses,1
+gouged,installed,addresses,1
+gouged,leak check,investigates,1
+gouged,run,investigates,1
+gouged,torqued,investigates,1
+grinding noise,cleaned,addresses,1
+hesitation,ran,investigates,1
+high,checked,investigates,1
+high,ground ran,investigates,1
+high,operations check,investigates,1
+high,ran,investigates,1
+high frequency vibration,ground run,investigates,1
+high frequency vibration,installed,addresses,1
+high frequency vibration,leak check,investigates,1
+high frequency vibration,operations,investigates,1
+high frequency vibration,ran up,investigates,1
+high pitched squealing noise,operations check,investigates,1
+high pitched squealing noise,ran up,investigates,1
+high pitched whine / squeal / wh,ran,investigates,1
+hitting,adjusted,addresses,1
+hitting,inspected,investigates,1
+hoisting loop,leak check,investigates,1
+hoisting loop,sealed,addresses,1
+hoisting loop,torqued,addresses,1
+hung up,rerouted,addresses,1
+idles extremely rough,ground run,investigates,1
+idles extremely rough,seasonal adjustment,addresses,1
+idles very irratically,began replacement,addresses,1
+idles very irratically,operations check,investigates,1
+idles very irratically,retimed,addresses,1
+idles very irratically,started,investigates,1
+idles very irratically,tried making several idle mixture adjustments,addresses,1
+idling too low,adju,addresses,1
+idling too low,ground run,investigates,1
+increases in volume,ground run,investigates,1
+increases in volume,inspected,investigates,1
+inoperable,disconnected,investigates,1
+inoperable,dry tappet clearance check,investigates,1
+inoperable,mags check,investigates,1
+inoperable,power and leak check,investigates,1
+inoperable,ran,investigates,1
+inoperable,reinstalled,addresses,1
+jumps into red,cleaned,addresses,1
+jumps into red,fuel pressure checked,investigates,1
+kept hesitating,ground run,investigates,1
+kept hesitating,operations checked,investigates,1
+killed,run up,investigates,1
+kinked,replaced,addresses,1
+kinked,secured,addresses,1
+kinked,unkinked,addresses,1
+knocking,inspected,investigates,1
+knocking noise,confirmed,investigates,1
+knocking noise,ran,investigates,1
+large pool of oil,observed,investigates,1
+large pool of oil,ran,investigates,1
+large puddle of liquid,ran,investigates,1
+leak,check,investigates,1
+leak,fitting,addresses,1
+leak,found,investigates,1
+leak,further insp,investigates,1
+leak,ground run leak check,investigates,1
+leak,inspected,investigates,1
+leak,operations,investigates,1
+leak,reswedged,addresses,1
+leak,serviced,addresses,1
+leak,tightened,addresses,1
+leakage,replaced,addresses,1
+leaki,inspected,investigates,1
+leakin,cleaned,addresses,1
+leakin,leak check,investigates,1
+leaking,chased threads,investigates,1
+leaking,confirmed,investigates,1
+leaking,corrective action,addresses,1
+leaking,determined,investigates,1
+leaking,dressed,addresses,1
+leaking,further insp,investigates,1
+leaking,ground seat,addresses,1
+leaking,honed,addresses,1
+leaking,insp,investigates,1
+leaking,install,investigates,1
+leaking,readjusted,addresses,1
+leaking,repositioned,addresses,1
+leaking,reset,addresses,1
+leaking,rotated,addresses,1
+leaking,run up leak check,investigates,1
+leaking,safetied,investigates,1
+leaking,secured,addresses,1
+leaking,serviced,addresses,1
+leaking,staked,addresses,1
+leaking,torqued,investigates,1
+leaking,tried to stake,investigates,1
+leaking,verified,investigates,1
+leaking through,finished removing,investigates,1
+leaking through,found,investigates,1
+leaking through,installed,addresses,1
+leaking through,installed,investigates,1
+leaking through,leak check,investigates,1
+leaking through,reck ' ed,investigates,1
+leaks,complied,investigates,1
+leaks,determined,investigates,1
+leaks,leak checked,investigates,1
+leaks,swedged,addresses,1
+leaks,tightening,addresses,1
+leaky,replaced,addresses,1
+little rough,started,investigates,1
+loose,applied,addresses,1
+loose,assembled,addresses,1
+loose,baffle checks,investigates,1
+loose,cleaned,addresses,1
+loose,insp,investigates,1
+loose,loosened,addresses,1
+loose,operations check,investigates,1
+loose,put,addresses,1
+loose,ran,investigates,1
+loose,reglued,addresses,1
+loose,repaired,addresses,1
+loose,repositioned,addresses,1
+loose,resealed,addresses,1
+loose,reswaged,addresses,1
+loose,retightened,addresses,1
+loose,safetied,addresses,1
+loose,sealed,addresses,1
+loose,started removing,addresses,1
+loose,tighten,addresses,1
+loose,tightening,addresses,1
+loose,torqued,addresses,1
+lost,ran,investigates,1
+lost,replaced,addresses,1
+loud bang,inspected,investigates,1
+loud knock,inspected,investigates,1
+loud sound,ran,investigates,1
+loud tap,ran,investigates,1
+loud tap,ran up,investigates,1
+low,attempted staking,investigates,1
+low,chased threads,investigates,1
+low,checked,investigates,1
+low,checks,investigates,1
+low,completed install,addresses,1
+low,completed installation,addresses,1
+low,complied,investigates,1
+low,compression,investigates,1
+low,drained,investigates,1
+low,dry tappet cl,investigates,1
+low,dry tappet clearance check,investigates,1
+low,finished grounding,addresses,1
+low,finished installation,addresses,1
+low,finished removing,investigates,1
+low,fitting,addresses,1
+low,found,investigates,1
+low,ground,investigates,1
+low,ground seat,addresses,1
+low,honed,investigates,1
+low,install,investigates,1
+low,installation,addresses,1
+low,lapped,investigates,1
+low,leak and run up check,investigates,1
+low,measured,investigates,1
+low,measured bore - check,investigates,1
+low,rechecked compressions,investigates,1
+low,reck ' ed,investigates,1
+low,reinstall,addresses,1
+low,reinstalled,investigates,1
+low,replacement,addresses,1
+low,seasonal adjustment,investigates,1
+low,serviced,investigates,1
+low,started grinding,addresses,1
+low,torqued,addresses,1
+low,tried stacking,addresses,1
+low,verified,investigates,1
+low power,inspected,investigates,1
+low power,maintenance flight,investigates,1
+lower,compression test,investigates,1
+major shaking,ground run,investigates,1
+major shaking,operations checked,investigates,1
+metal found,filter insp,investigates,1
+metal found in oil,applied,addresses,1
+metal found in oil,check,investigates,1
+metal found in oil,torqued,addresses,1
+missing,applied,addresses,1
+missing,cleaned,addresses,1
+missing,compression check,investigates,1
+missing,gapped,addresses,1
+missing,located,addresses,1
+missing,operations,investigates,1
+missing,operations check,investigates,1
+missing,patched,addresses,1
+missing,ran,investigates,1
+missing,reattached,addresses,1
+missing,reglued,addresses,1
+missing,replacement,addresses,1
+missing,resafety wired,addresses,1
+missing,sealed,addresses,1
+missing,secured,addresses,1
+missing,tested,investigates,1
+momentary loss of power,inspected,investigates,1
+momentary loss of power,maintenance history,investigates,1
+momentary loss of power,test ran,investigates,1
+momentary overspeed,analyzed,investigates,1
+momentary power hesitation,run up,investigates,1
+momentary rpm drop aroun,operations check,investigates,1
+momentary rpm drop aroun,ran up,investigates,1
+moves erratically,ground ran,investigates,1
+moves erratically,operations check,investigates,1
+moves erratically,replaced,addresses,1
+nicked,replaced,addresses,1
+nicked,researched,investigates,1
+nicked,verified,investigates,1
+no compression,completed reinstallation,addresses,1
+no compression,dry tappet clearance check,investigates,1
+no compression,found,investigates,1
+no compression,installed,addresses,1
+no compression,operations,investigates,1
+no compression,ran up,investigates,1
+no compression,reinstalled,addresses,1
+no compression,run up,investigates,1
+no compression,torqued,addresses,1
+no compression,verified,investigates,1
+no cylinder compression note,compression test,investigates,1
+no egt,checked,investigates,1
+no egt,cleaned,addresses,1
+no egt,ran,investigates,1
+no egt indictaed,installed,addresses,1
+no rise,checks,investigates,1
+no rise,mixture check,investigates,1
+no rise,operations check,investigates,1
+no rpm rise,adjusted,addresses,1
+no rpm rise,mixture check,investigates,1
+no rpm rise,operations check,investigates,1
+no smoothness,ground run,investigates,1
+no smoothness,operations checked,investigates,1
+no tem,checked,investigates,1
+no tem,ground run,investigates,1
+no tem,leak check,investigates,1
+no tem,operations,investigates,1
+no tem,ran,investigates,1
+no tem,replaced,addresses,1
+no threads showing,installed,addresses,1
+no torque seal,torque sealed,addresses,1
+not activate,operations check,investigates,1
+not attached,reattached,addresses,1
+not attached,replaced,addresses,1
+not connected,reconnected,addresses,1
+not hitting,checks,investigates,1
+not hitting,operations check,investigates,1
+not hooked up,installed,addresses,1
+not hooked up,reinstalled,addresses,1
+not hooked up,tightened,addresses,1
+not producing fu,idle mixture check,investigates,1
+not producing fu,ran,investigates,1
+not removed,installed,addresses,1
+not removed,secured,addresses,1
+not rubbing,insp,investigates,1
+not running,ran,investigates,1
+not sealing,replaced,addresses,1
+not secured,resecured,addresses,1
+not secured,secured,addresses,1
+not secured,unkinked,addresses,1
+not within tolerance,found,investigates,1
+not within tolerance,ran,investigates,1
+not within tolerance,ran fouled proc,investigates,1
+oil found,leak check,investigates,1
+oil found,operations,investigates,1
+oil found,ran,investigates,1
+oil leak,applied,addresses,1
+oil leak,checked,investigates,1
+oil leak,insp,investigates,1
+oil leak,leak checked,investigates,1
+oil leak,ran,investigates,1
+oil leak,reinstalled,addresses,1
+oil leak,replaced,addresses,1
+oil leak,sealed,addresses,1
+oil leak,tightened,addresses,1
+oil leakage,ground run,investigates,1
+oil leakage,verified,investigates,1
+on fire,further insp,investigates,1
+out,installed,addresses,1
+out of limits,found,investigates,1
+out of place,reinstalled,addresses,1
+out of place,resecured,addresses,1
+out of standards,magneto check,investigates,1
+out of standards,ran,investigates,1
+outside of standards,ran up,investigates,1
+over reved,downloaded,investigates,1
+over temperature,ground run,investigates,1
+over temperature,systems check,investigates,1
+overspe,found,investigates,1
+overspe,reviewed,investigates,1
+oversped,analyzed,investigates,1
+oversped,complied,investigates,1
+oversped,evaluated,investigates,1
+oversped,found,investigates,1
+oversped,inspected,investigates,1
+oversped,reviewed,investigates,1
+oversped,verified,investigates,1
+overspeed,began insp,investigates,1
+overspeed,checked,investigates,1
+overspeed,completed insp,investigates,1
+overspeed,compressions,investigates,1
+overspeed,download,investigates,1
+overspeed,evaluated,investigates,1
+overspeed,identified,investigates,1
+overspeed,leak check,investigates,1
+overspeed,read,investigates,1
+overspeed,reinstalled,addresses,1
+overspeed,removed,investigates,1
+overspeed,reviewed flight data,investigates,1
+overspeed 2750,reviewed flight data,investigates,1
+overspeed 2750,verified,investigates,1
+overspeed generally,maintenance fligh,investigates,1
+overspeed generally,ran,investigates,1
+overspeed generally,rpm checks,investigates,1
+partial power loss,checked,investigates,1
+partial power loss,complied,investigates,1
+partial power loss,ground run,investigates,1
+partial power loss,replaced,addresses,1
+partial power loss,serviced,investigates,1
+power reduc,completed,investigates,1
+power reduc,operations check,investigates,1
+power reduc,ran up,investigates,1
+pulled free,installed,addresses,1
+pulled through,reinstalled,addresses,1
+pulled through,resecured,addresses,1
+pulled through,secured,addresses,1
+pulling through,replaced,addresses,1
+quit,checks,investigates,1
+quit,ground run,investigates,1
+quit,idle mixture chapter,investigates,1
+quit,ran,investigates,1
+quit,tested idle,investigates,1
+ran consistently rough,confirmed,investigates,1
+ran consistently rough,leak check,investigates,1
+ran consistently rough,ran,investigates,1
+ran consistently rough,replaced,addresses,1
+ran rough,adjusted,addresses,1
+ran rough,clean,addresses,1
+ran rough,compression check,investigates,1
+ran rough,compression test,investigates,1
+ran rough,dry tappet cl,investigates,1
+ran rough,ground,addresses,1
+ran rough,idle and idle mixture rise check,investigates,1
+ran rough,installation,addresses,1
+ran rough,installed,addresses,1
+ran rough,lapped,addresses,1
+ran rough,magneto checks,investigates,1
+ran rough,mags check,investigates,1
+ran rough,operations,investigates,1
+ran rough,replaced,addresses,1
+ran rough,started,investigates,1
+ran rough,verified,investigates,1
+ran very rough,confirmed,investigates,1
+ran very rough,ground run,investigates,1
+ran very rough,inspected,investigates,1
+ran very rough,magneto check,investigates,1
+ran very rough,reamed,addresses,1
+ran very rough,replaced,addresses,1
+ran very rough,run up 2 nd time,investigates,1
+ran very rough,run up hot,investigates,1
+ran very rough,started,investigates,1
+ran very rough,verified,investigates,1
+red x,replaced,addresses,1
+reduction in power,checks,investigates,1
+reduction in power,downloaded,investigates,1
+reduction in power,ran,investigates,1
+ripped,installed,addresses,1
+rough,compression test,investigates,1
+rough,dressed,investigates,1
+rough,found,investigates,1
+rough,ground run,investigates,1
+rough,insp,investigates,1
+rough,leak checked,investigates,1
+rough,mags check,investigates,1
+rough,operations,investigates,1
+rough,operations checked,investigates,1
+rough,ran fouled proc,investigates,1
+rough,ran up to check,investigates,1
+rough chopping noise,confirmed,investigates,1
+rough chopping noise,installed,investigates,1
+rough chopping noise,measured,investigates,1
+rough chopping noise,ran,investigates,1
+rough chopping noise,torqued,investigates,1
+rough operation,ground run,investigates,1
+rough operation,operations checked,investigates,1
+rough running,complied,investigates,1
+rough running,compression check,investigates,1
+rough running,finished reaming,addresses,1
+rough running,ground run,investigates,1
+rough running,installed,addresses,1
+rough running,leak check,investigates,1
+rough running,mags check,investigates,1
+rough running,ran up to check,investigates,1
+rough running,run up,investigates,1
+rough running,serviced,investigates,1
+rough vibra,checks,investigates,1
+rough vibra,downloaded,investigates,1
+rough vibra,ran,investigates,1
+roughne,operations check,investigates,1
+roughne,ran up,investigates,1
+roughness,assembled,investigates,1
+roughness,checked,investigates,1
+roughness,checks,investigates,1
+roughness,completed reassembly,addresses,1
+roughness,idle mixture check,investigates,1
+roughness,inspected,investigates,1
+roughness,lowered,investigates,1
+roughness,operations and leak checked,investigates,1
+roughness,prepped,addresses,1
+roughness,reamed,addresses,1
+roughness,serviced,addresses,1
+roughness,started,investigates,1
+roughness,started removing,investigates,1
+roughness,systems operations checked,investigates,1
+rpm drop,mixture check,investigates,1
+rpm drop,ran up,investigates,1
+rpm dropped,adjusted,addresses,1
+rpm dropped,checks,investigates,1
+rpm dropped,maintenance flight,investigates,1
+rpm dropped,operations check,investigates,1
+rpm dropped,override speed check,investigates,1
+rpm dropped,performed,investigates,1
+rpm dropped,ran,investigates,1
+rpm dropped normally,operations check,investigates,1
+rpm dropped normally,ran,investigates,1
+rubbing,applied,addresses,1
+rubbing,moved,addresses,1
+rubbing,replaced,addresses,1
+rubbing,resecured,addresses,1
+rubbing,secure,addresses,1
+rubbing,tightened,addresses,1
+rubbing diagonal,insp,investigates,1
+rubbing together,applied,addresses,1
+rubbing together,moved,addresses,1
+run rough,checked,investigates,1
+run rough,compression check,investigates,1
+run rough,inspected,investigates,1
+run rough momentarily,insp,investigates,1
+run rough momentarily,replaced,addresses,1
+running extremely roug,cleared,addresses,1
+running extremely roug,ran up,investigates,1
+running rough,bore scoped,investigates,1
+running rough,borescoped,investigates,1
+running rough,checked,investigates,1
+running rough,ground ran,investigates,1
+running rough,ground run,investigates,1
+running rough,inspected,investigates,1
+running rough,installed,addresses,1
+running rough,leak check,investigates,1
+running rough,magneto timing checked,investigates,1
+running rough,operations,investigates,1
+running rough,operations and leak checked,investigates,1
+running rough,operations check,investigates,1
+running rough,phase 4 insp,investigates,1
+running rough,ran up,investigates,1
+running rough,replaced,addresses,1
+running very rough,complied,investigates,1
+running very rough,compression check,investigates,1
+running very rough,confirmed,investigates,1
+running very rough,failure insp,investigates,1
+running very rough,leak and operations,investigates,1
+running very rough,leak and operations check,investigates,1
+running very rough,ran up,investigates,1
+running very rough,reamed,addresses,1
+running very rough,reviewed,investigates,1
+running very rough,verified,investigates,1
+runs,adjusted,addresses,1
+runs cold,installed,addresses,1
+runs cold,started installation,addresses,1
+runs cold,tappet clearance checked,investigates,1
+runs rough,checked,investigates,1
+runs rough,cleaned,addresses,1
+runs rough,gapped,addresses,1
+runs rough,inspected,investigates,1
+runs rough,leak check,investigates,1
+runs rough,operations check,investigates,1
+runs rough,replaced,addresses,1
+runs rough,started,investigates,1
+runs rough,tested,investigates,1
+runs very rough,started,investigates,1
+runs very rough,verified,investigates,1
+scored,tappet clearance check,investigates,1
+seepage,leak check,investigates,1
+seepage,replaced,addresses,1
+seeping,ground run,investigates,1
+seeping,inspected,investigates,1
+seeping,ran,investigates,1
+seeping,resealed,addresses,1
+seeping,sealed,addresses,1
+shakes violently,installed,addresses,1
+shakes violently,started installation,addresses,1
+shakes violently,tappet clearance checked,investigates,1
+shaking,completed reassembly,addresses,1
+shaking,complied,investigates,1
+shaking,compression check,investigates,1
+shaking,failure insp,investigates,1
+shaking,leak and operations,investigates,1
+shaking,run up,investigates,1
+shaking,serviced,addresses,1
+shaking,verified,investigates,1
+sheared,completed reassembly,addresses,1
+sheared,deriveted,addresses,1
+sheared,repair,addresses,1
+sheared,resecured,addresses,1
+sheared,tightened,addresses,1
+sheared off,installed,addresses,1
+sheared off,replaced,addresses,1
+shock violently,leak check,investigates,1
+shock violently,operations,investigates,1
+shutdown,inspected,investigates,1
+shutdown,magneto checks,investigates,1
+shutdown,mixture check,investigates,1
+shutdown,mixture idle check,investigates,1
+shutdown,operations check,investigates,1
+shutdown,operations checked,investigates,1
+shutdown,started,investigates,1
+shutdown,verified,investigates,1
+shutdown when,reamed,addresses,1
+shuttered,checks,investigates,1
+shuttered,ran,investigates,1
+significant vibratio,ran,investigates,1
+sitting,ran,investigates,1
+slight drop in rpm,performed,investigates,1
+slight power loss,differential compression test,investigates,1
+slightly loose,tightened,addresses,1
+sloppy,replaced,addresses,1
+smiled,inspected,investigates,1
+smoked out,installed,addresses,1
+smoked out,leak check,investigates,1
+smoked out,magneto checks,investigates,1
+smoked out,ran,investigates,1
+smoking,checked,investigates,1
+smoking,inspected,investigates,1
+smoothed out,started,investigates,1
+some noise,inspected,investigates,1
+some noise,ran,investigates,1
+sounded like,compression check,investigates,1
+sounded like,confirmed,investigates,1
+sounded like,ran,investigates,1
+spalling,inspected,investigates,1
+split,replaced,addresses,1
+sput,checks,investigates,1
+sput,ran,investigates,1
+sputter,ground run,investigates,1
+sputter,ground run several times,investigates,1
+sputter,ran,investigates,1
+sputtered,ran,investigates,1
+sputtering,confirmed,investigates,1
+sputtering,ground run,investigates,1
+sputtering,operations and leak checked,investigates,1
+sputtering,ran up,investigates,1
+sputtering,replaced,addresses,1
+sputtering noise,checks,investigates,1
+sputtering noise,ran,investigates,1
+squeezed out,replaced,addresses,1
+staple pulled through,installed,addresses,1
+started but ran very rough,compression check,investigates,1
+started but ran very rough,confirmed,investigates,1
+started but ran very rough,ran,investigates,1
+started making abnormal sound,ran up,investigates,1
+started normally,operations,investigates,1
+started normally,ran,investigates,1
+started normally,ran up,investigates,1
+started normally,reindexed,investigates,1
+started normally,reindexed mixture linkage,investigates,1
+started running rough,completed,investigates,1
+started running rough,completed reassembly,addresses,1
+started running rough,confirmed,investigates,1
+started running rough,ground run,investigates,1
+started running rough,installed,addresses,1
+started running rough,leak check,investigates,1
+started running rough,operations,investigates,1
+started running rough,operations check,investigates,1
+started running rough,ran up,investigates,1
+started running rough,started,investigates,1
+started running rough shortly,freed,investigates,1
+started running rough shortly,inspected,investigates,1
+started running rough shortly,ran,investigates,1
+started to ru,inspect,investigates,1
+started to ru,ran,investigates,1
+started to smell heavy fumes,ran up,investigates,1
+sticking,attempted to stake,investigates,1
+sticking,installation,addresses,1
+sticking,leak check,investigates,1
+sticking,operations,investigates,1
+still showing discharge,run up,investigates,1
+still showing discharge,started,investigates,1
+strange howling noise,ground run,investigates,1
+strange howling noise,inspected,investigates,1
+stripped,repaired,addresses,1
+stripped,replaced,addresses,1
+stuck,began reaming,addresses,1
+stuck,check,investigates,1
+stuck,checked,investigates,1
+stuck,clearance check,investigates,1
+stuck,compression test,investigates,1
+stuck,confirmed,investigates,1
+stuck,finished reaming,addresses,1
+stuck,insp,investigates,1
+stuck,leak check,investigates,1
+stuck,performed,investigates,1
+stuck,ran up,investigates,1
+stuck,reamed,addresses,1
+stuck,reaming,addresses,1
+stuck,reasssembled,addresses,1
+stuck,verified,investigates,1
+surging,operations check,investigates,1
+surging,ran,investigates,1
+tapping,run up,investigates,1
+tear,applied,addresses,1
+tearing off,installed,addresses,1
+ticking,visual insp,investigates,1
+ticking / chirping noise,ran,investigates,1
+tight,began,investigates,1
+tight,inspected,investigates,1
+timed out,engine run up,investigates,1
+timed out,leak check,investigates,1
+timed out,pre - oil,investigates,1
+timed out,replaced,addresses,1
+too long,replaced,addresses,1
+too many damaged,installed,addresses,1
+too short,reassembled,addresses,1
+too short,repla,addresses,1
+too short,replaced,addresses,1
+too tight,determined,investigates,1
+too tight,inspected,investigates,1
+torn,fastened,addresses,1
+torn,made,addresses,1
+torn,reattached,addresses,1
+torn,stop drilled,addresses,1
+torn loose,replaced,addresses,1
+unable to start,installed,addresses,1
+unable to start,started,investigates,1
+uncommanded increase,inspected,investigates,1
+unseated,replaced,addresses,1
+unsecured,resecured,addresses,1
+unsecured,secured,addresses,1
+unsupported,resecured,addresses,1
+unusual indication,compression test,investigates,1
+unusual indication,confirmed,investigates,1
+unusually rough,adjusted,investigates,1
+unusually rough,began install,investigates,1
+unusually rough,compressions checked,investigates,1
+unusually rough,magneto drops check,investigates,1
+unusually rough,maintenance flight,investigates,1
+unusually rough,routed,investigates,1
+unusually rough,started,investigates,1
+very rough,borescop,investigates,1
+very rough,compression test,investigates,1
+very rough,leak check,investigates,1
+very rough,operations,investigates,1
+very rough,replaced,addresses,1
+very rough,torqued,investigates,1
+very rough,verified,investigates,1
+vibrated,checked,investigates,1
+vibrated,maintenance flight,investigates,1
+vibrated,operations check,investigates,1
+vibrating,completed reassembly,addresses,1
+vibrating,confirmed,investigates,1
+vibrating,disassembled,addresses,1
+vibrating,installed,addresses,1
+vibrating,leak check,investigates,1
+vibrating,operations,investigates,1
+vibrating,reamed,addresses,1
+vibration,began installation,addresses,1
+vibration,compression check,investigates,1
+vibration,cylinder installation,addresses,1
+vibration,finished installation,addresses,1
+vibration,finished reaming,addresses,1
+vibration,ground run,investigates,1
+vibration,inspected,investigates,1
+vibration,leak check,investigates,1
+vibration,magneto checks,investigates,1
+vibration,mixture check,investigates,1
+vibration,ran up,investigates,1
+vibration,reaming,addresses,1
+vibration,reinstalled,addresses,1
+vibration,run up,investigates,1
+vibration,taxied,investigates,1
+vibration noise,visual insp,investigates,1
+vibrations,began,investigates,1
+vibrations,engine change,addresses,1
+vibrations,ground r,investigates,1
+vibrations,idle mixture check,investigates,1
+vibrations,inspected,investigates,1
+vibrations,leak check,investigates,1
+vibrations,maintenance flight,investigates,1
+vibrations,routed,investigates,1
+vibrations,run up,investigates,1
+vibrations,secured,investigates,1
+wants to die,ground run,investigates,1
+wants to die,operations checked,investigates,1
+weak,replaced,addresses,1
+wear,applied,addresses,1
+wear,finished installation,addresses,1
+wear,leak check,investigates,1
+wear,operations,investigates,1
+wear,replaced,addresses,1
+wear marks,rtv ' ed,addresses,1
+wearing,applied,addresses,1
+wearing,repositioned,addresses,1
+wearing,sealed,addresses,1
+wearing,sealed up,investigates,1
+wearing into,installed,addresses,1
+weeping,leak check,investigates,1
+weeping,rotated,addresses,1
+whistling noise,ran,investigates,1
+will not make enough,inspected,investigates,1
+will not make enough,replaced,addresses,1
+will not make power,ran,investigates,1
+will not start,run up proced,investigates,1
+won ' t go any higher,maintenance flight,investigates,1
+won ' t tighten,cleaned,addresses,1
+won ' t tighten,tightened,addresses,1
+worn,install,addresses,1
+worn,installed riveted,addresses,1
+worn,patched,addresses,1
+worn,put,addresses,1
+worn through,installed,addresses,1
+would fluctuate,ran up,investigates,1
+would increase significantly,ground run,investigates,1
+would increase significantly,insp,investigates,1
+would increase significantly,operations checked,investigates,1
+would intermittently lose,borescoped,investigates,1
+would not increase,checked,investigates,1
+would not increase,run up checked,investigates,1
+would not latch,adjusted,addresses,1
+would not latch,operations check,investigates,1
+would not start,leaned,addresses,1
+would not start,performed normal engine start,investigates,1
+would not start,ran,investigates,1
+would not stay open,tightened,addresses,1
+would quit,checks,investigates,1
+would quit,ran,investigates,1
+would rise,operations check,investigates,1
+would rise,ran,investigates,1
+would shutdown,ground run,investigates,1
+would shutdown,verified,investigates,1
+would start to quit,run,investigates,1
+would turn twice,started,investigates,1
+wouldn ' t go to full power,compression test,investigates,1
+wouldn ' t go to full power,dry tappet cl,investigates,1
+wouldn ' t go to full power,ground,addresses,1
+wouldn ' t go to full power,installation,addresses,1
+wouldn ' t go to full power,lapped,addresses,1
+wouldn ' t start,checked,investigates,1
+wouldn ' t start,started,investigates,1
+wrong position,installed,addresses,1
+zero,ground,investigates,1
+zero,test,investigates,1
+zero,tried staking,investigates,1
+zero compression,dry tappet clearance checked,investigates,1
+zero compression,installed,addresses,1
+zero compression,leak checked,investigates,1

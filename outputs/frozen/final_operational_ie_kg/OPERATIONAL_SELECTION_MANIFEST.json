@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-08-30T20:58:05.868214+00:00",
+  "operational_representation": "selective_byt5",
+  "operational_model_system": "selective_byt5",
+  "raw_source_preserved": true,
+  "selection_type": "engineering trade-off after controlled evaluation",
+  "no_post_test_model_tuning": true,
+  "reason": "Selective ByT5 retains a normalized, human-readable representation and safety fallback while its matched SpERT performance remains close to raw on primary micro metrics and provides the strongest relation macro-F1 among the five evaluated conditions. The raw representation remains the controlled RQ1 micro-metric baseline and is preserved as source provenance.",
+  "corrected_matched_metrics": {
+    "raw": {
+      "entity_micro_f1": 0.9455,
+      "relation_micro_f1": 0.8203,
+      "relation_macro_f1": 0.7511
+    },
+    "selective_byt5": {
+      "entity_micro_f1": 0.9424,
+      "relation_micro_f1": 0.8167,
+      "relation_macro_f1": 0.7781
+    }
+  }
+}

@@ -1,0 +1,49 @@
+experiment:
+  id: rq1_normalization_downstream
+  research_question: RQ1
+  question: >-
+    To what extent can controlled text normalization improve information
+    extraction and historical-case retrieval from noisy aviation maintenance
+    work orders without changing their technical meaning?
+  dataset_config: configs/datasets/aviation.yaml
+  normalization_config: configs/normalization/byt5_gold.yaml
+  split_policy: cluster_safe
+  seeds: [42, 123, 2026]
+  primary_systems:
+    - raw
+    - rules
+    - byt5_gold
+    - rules_then_byt5
+  optional_ablations:
+    - most_frequent_replacement
+    - selective_byt5
+    - byt5_silver_then_gold
+  reference_populations:
+    - primary_lexical
+    - expert_extended_sensitivity
+  warning: >-
+    Amin's cleaned release is expert knowledge and is retained. Primary lexical
+    evaluation and expert-extended sensitivity evaluation are reported
+    separately because some targets complete or anonymize truncated source text.
+  downstream_tasks:
+    - entity_extraction
+    - relation_extraction
+    - historical_case_retrieval
+  metrics:
+    normalization:
+      - wer
+      - cer
+      - exact_match
+      - error_reduction_rate
+      - change_precision
+      - change_recall
+      - change_f1
+      - protected_token_accuracy
+      - unsupported_insertion_rate
+    extraction: [strict_micro_precision, strict_micro_recall, strict_micro_f1, macro_f1]
+    retrieval: [recall_at_1, recall_at_3, ndcg_at_3, mrr]
+  output_root: outputs/runs/rq1_normalization_downstream
+  selection_rule: >-
+    Select on development data only. Keep raw evidence immutable and reject a
+    normalizer that changes protected technical tokens or invents absent facts,
+    even when its aggregate WER is lower.

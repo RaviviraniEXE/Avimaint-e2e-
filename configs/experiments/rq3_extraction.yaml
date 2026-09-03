@@ -1,0 +1,30 @@
+experiment:
+  id: rq3_aviation_information_extraction
+  research_question: RQ3
+  question: >-
+    Which modelling approach extracts maintenance entities and their relations
+    most accurately and robustly from short, noisy aviation work orders?
+  dataset_config: configs/datasets/aviation.yaml
+  schema_id: aviation_compact_v1
+  split_policy: exact_group_safe_random_dev_test
+  seeds: [42, 123, 2026]
+  model_families:
+    - crf_logistic_regression
+    - bilstm_crf_neural_relation
+    - transformer_ner_relation
+    - official_spert
+  stress_tests:
+    - truncation
+    - missing_information
+    - spelling_noise
+    - abbreviation_expansion
+    - multi_problem
+  metrics:
+    - strict_micro_precision
+    - strict_micro_recall
+    - strict_micro_f1
+    - macro_f1
+    - per_class_f1
+    - relation_signature_error_rate
+    - multi_seed_mean_std
+  output_root: outputs/runs/rq3_aviation_information_extraction

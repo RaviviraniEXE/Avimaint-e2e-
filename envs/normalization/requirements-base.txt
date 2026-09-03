@@ -1,0 +1,16 @@
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==18.1.0
+openpyxl==3.1.5
+PyYAML==6.0.2
+transformers==4.47.1
+tokenizers==0.21.0
+datasets==3.2.0
+sentencepiece==0.2.0
+accelerate==1.2.1
+evaluate==0.4.3
+jiwer==3.1.0
+rapidfuzz==3.11.0
+scikit-learn==1.6.0
+safetensors==0.4.5
+tqdm==4.67.1

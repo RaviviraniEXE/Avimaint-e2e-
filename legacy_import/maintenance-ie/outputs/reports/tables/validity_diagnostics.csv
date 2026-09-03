@@ -1,0 +1,2 @@
+memorization_baseline_f1,test_oov_rate,tier1_train_f1,tier1_test_f1,generalization_gap,context_gain_over_memorization
+0.8211,0.1547,0.9911,0.9402,0.0509,0.1191

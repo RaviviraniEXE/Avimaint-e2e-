@@ -1,0 +1,12 @@
+# Fresh dashboard environment. Create with:
+#   conda env create -f environment.yml
+#   conda activate avimaint-dash
+name: avimaint-dash
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requirements.txt
+

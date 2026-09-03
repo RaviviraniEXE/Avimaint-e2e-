@@ -1,0 +1,15 @@
+streamlit>=1.36
+streamlit-option-menu>=0.3.6
+pandas>=2.0
+scikit-learn>=1.3
+rank-bm25>=0.2.2
+rapidfuzz>=3.0
+plotly>=5.20
+pyyaml>=6.0
+pyvis>=0.3.2
+networkx>=3.0
+pyarrow>=14.0
+# Reranker + optional dense retrieval (all-mpnet-base-v2). Pulls torch; the
+# one-click START_AVIMAINT.bat installs it. Comment out to skip (reranker stays off).
+sentence-transformers>=2.6
+

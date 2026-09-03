@@ -1,0 +1,35 @@
+{
+  "name": "AviMaint-DSS final safe RQ4/RQ5 hotfix",
+  "created_utc": "2026-08-31T21:12:29.627996+00:00",
+  "scope": [
+    "dashboard/retrieval/planning support only",
+    "does not retrain or overwrite frozen normalization/IE/KG"
+  ],
+  "thesis_numbering": {
+    "RQ4": "leakage-safe historical-case retrieval",
+    "RQ5": "auditable planning support"
+  },
+  "safety": [
+    "PROBLEM-only query features",
+    "corrected true-Raw SpERT from MODEL_REGISTRY_V2",
+    "1600-record tokenizer parity gate",
+    "near-duplicate group-safe split",
+    "distinct-cluster evidence voting",
+    "similarity separated from confidence",
+    "abstention with nearest-case visibility",
+    "one-time TEST lock",
+    "DEV-only calibration"
+  ],
+  "local_smoke_test": {
+    "records": 6169,
+    "split_counts": {
+      "train": 4319,
+      "dev": 925,
+      "test": 925
+    },
+    "evidence_clusters": 3573,
+    "leakage_groups": 2003,
+    "note": "implementation smoke test on uploaded dashboard corpus; regenerate locally before thesis reporting"
+  },
+  "python_compile": "passed for 33 Python modules"
+}

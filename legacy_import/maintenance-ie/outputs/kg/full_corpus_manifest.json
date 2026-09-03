@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-08-30T19:57:23.103358+00:00",
+  "status": "prepared",
+  "operational_selection": true,
+  "representation": "selective_byt5",
+  "normalization_system": "Selective ByT5",
+  "representation_source": "D:\\avimaint-e2e-research\\outputs\\normalization\\full_corpus\\selective_byt5.csv",
+  "representation_source_sha256": "34e6d8335db2869271b7fc735ff067fef438654ba79026bad9b1c6dc056c1c92",
+  "prepared_records": 6169,
+  "unique_identifiers": 6169,
+  "skipped_empty": 0,
+  "raw_source_retained_in_index": true,
+  "tokenizer": {
+    "name": "operational_maintenance_tokenizer_v2",
+    "pattern": "[A-Za-z0-9]+(?:[./-][A-Za-z0-9]+)+|[A-Za-z0-9]+|[^\\w\\s]",
+    "preserves_slash_compounds": true,
+    "preserves_hyphen_compounds": true,
+    "preserves_decimal_and_dot_compounds": true
+  },
+  "representation_parity": {
+    "status": "pass",
+    "projected_gold_records": 1600,
+    "trained_spert_export_records": 1600,
+    "projected_equals_trained_export": 1600,
+    "operational_tokenizer_matches": 1600,
+    "mismatches": 0,
+    "trained_split_counts": {
+      "train": 1275,
+      "dev": 100,
+      "test": 225
+    },
+    "projected_reference": "outputs/gold_variants/selective_byt5",
+    "trained_export_reference": "outputs/spert_normalized/selective_byt5"
+  },
+  "prediction_input": "outputs\\kg\\full_corpus_spert.json",
+  "prediction_input_sha256": "cab185933056cac2ff54ad9efaa576e3eee566ce47d6a252bd5fd6998de5e3da",
+  "token_index": "outputs\\kg\\full_index.jsonl",
+  "token_index_sha256": "1e8c640257afa99b3a688a4ad154db8f96acc794bd50f1fd90a8facfbad6d37b"
+}

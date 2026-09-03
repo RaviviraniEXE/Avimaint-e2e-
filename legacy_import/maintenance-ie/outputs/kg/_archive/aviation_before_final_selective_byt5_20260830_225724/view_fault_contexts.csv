@@ -1,0 +1,280 @@
+issue,context,record_count
+inspection,after propeller strike,11
+high frequency vibration,while running up,8
+failed,on run up,7
+unusually rough,on engine start,7
+magneto check,on run up,6
+runs rough,on run up,6
+partial power loss,in flight,5
+rough running,in flight,5
+running very rough,after start up,5
+shaking,after start up,5
+vibrations,in straight and level flight,5
+dropped,on run up,4
+missing,on run up,4
+ran rough,after engine start,4
+rough running,after engine start up,4
+roughness,in fl,4
+running rough,at idle,4
+smoked out,after engine start,4
+stuck,in flight,4
+vibration,after engine start,4
+vibration,after engine start up,4
+vibration,in flight,4
+became incredibly rough,during cruise,3
+became rough,in flight,3
+damaged,on aircraft run up,3
+does not run,after start,3
+does not run,at idle,3
+inoperable,in flight,3
+ran consistently rough,after start,3
+rough,start,3
+rough chopping noise,on application of fu,3
+roughness,on long final,3
+run rough,on start up,3
+running rough,on post run up,3
+running very rough,during engine start,3
+started normally,60 secs after start,3
+very rough,after start,3
+very rough,at idle,3
+would not increase,during run up,3
+applied,full power smoothly,2
+backfired,while in a hover,2
+cold,during run up,2
+coughed,anytime rpms were b,2
+coughed,while taxiing,2
+cracked,on compression test,2
+exceeded,during flight,2
+faulty,on run up,2
+lost,during landing,2
+loud tap,at full throttle,2
+loud tap,during power on stall,2
+partial power loss,during climb,2
+ran,after engine start lean procedure,2
+ran rough,during run up,2
+ran very rough,during start up,2
+ran very rough,during takeoff at ckn,2
+ran very rough,on right engine start,2
+ran very rough,on start up,2
+rough,on start,2
+rough,on takeoff,2
+rough running,on start,2
+roughness,on approach,2
+rpm dropped,run up,2
+running rough,during flight,2
+runs rough,after start,2
+runs rough,on start,2
+shock violently,during run up,2
+shutdown,during run up,2
+slight power loss,takeoff,2
+sounded like,during late takeoff roll and pattern,2
+sputtered,anytime rpms were b,2
+sputtered,while taxiing,2
+started running rough,in flight,2
+started running rough shortly,after takeoff,2
+very rough,after start - does not run at idle,2
+vibrated,throughout flight,2
+vibrations,during engine start,2
+adjusted,seasonal conditions,1
+applied,after 20 inches manifold pressure,1
+applied,after performing simulated engine failure,1
+audible rpm drop,on climb out,1
+audible rpm loss,while leveling in down w,1
+backfired,climbing after takeoff,1
+backfired,during start,1
+barely capable,at limiting manifold,1
+barely capable,hover at limiting manifold,1
+briefly lose,on departure,1
+briefly lose,power on departure,1
+broken,on ground,1
+brought,in hangar,1
+burned / sooted,on start up,1
+but ran very rough,during start up,1
+checked,full power,1
+choke,on departure,1
+choke,power on departure,1
+choked,climbing after takeoff,1
+click,on start,1
+clicking noise,during initial climb,1
+clicking noise,throughout res,1
+co level high warning came on,while taxiing,1
+co warning came o,during taxi,1
+compression,after run,1
+could not restart,while taxiing,1
+cut off,during start up,1
+damaged,during removal,1
+die,when leaning out,1
+died,after landing,1
+died,after landing ground roll stop,1
+died,after start up,1
+died,at idle,1
+died,at idle during taxi,1
+died,during idle check,1
+died,during magneto check,1
+died,during taxi,1
+exceeded,during recovery,1
+exceeded,on descent,1
+excessive rpm rise,at idle,1
+failed,after landing,1
+failed,during aircraft run up,1
+failure,while holding short,1
+flame came out,during start,1
+flames,on start up,1
+flames comi,during run up,1
+fluctuating,after takeoff,1
+found,during post flight,1
+gains and drops,after start up,1
+grinding noise,on engine start up,1
+ground ran,full power,1
+hesitation,after takeoff,1
+high,during ground run,1
+high pitched squealing noise,during flight,1
+high pitched whine / squeal / wh,immediately after engine start,1
+idle over ride speed check,last daily shutdown,1
+increases in volume,during fligh,1
+installed,short dipstick,1
+kept hesitating,after start up,1
+knocking,on start up,1
+knocking noise,in hover,1
+leaking,during preflight,1
+leaking,in middle,1
+leaks,in middle,1
+little rough,near idle,1
+lost,on climb out,1
+loud bang,during cruise,1
+loud knock,climbing out,1
+loud knock,while making right turn,1
+loud sound,on run up,1
+low,after post run,1
+low,at idle,1
+low,during taxi,1
+low,on run up,1
+major shaking,upon start up,1
+momentary rpm drop aroun,during climb out,1
+nicked,during valve staking,1
+no smoothness,upon start up,1
+not within tolerance,upon run up,1
+oil leak,after run up,1
+operations check,after post run,1
+operations check,in hangar,1
+outside of standards,during run up,1
+oversped,during cruise,1
+oversped,during manuevers,1
+oversped,while doing unusual attitudes,1
+overspeed,during autorecovery,1
+overspeed,end of flight,1
+overspeed,in down draft,1
+overspeed,in flight,1
+overspeed,on takeoff and climb,1
+placed,in heater hangar,1
+quit,at idle,1
+quit,during flare phase of landing,1
+quit,during idle check,1
+quit,during idle check on,1
+quit,during idle check on run,1
+quit,during idle check on run up,1
+quit,during shutdown prior,1
+quit,during taxi,1
+quit,leaning mixture,1
+quit,leaning mixture on ground,1
+quit,on ground,1
+quit,power at idle,1
+quit,while taxiing,1
+ran,various power settings,1
+ran faulty magneto check,on run up,1
+ran rough,after engine start up,1
+ran rough,after start,1
+ran rough,after start up,1
+ran rough,at idle,1
+ran rough,did normal start,1
+ran rough,during climb out,1
+ran rough,during go - around from a simulated engine failure,1
+ran rough,during override check,1
+ran rough,in climb and cruise,1
+ran rough,on start up,1
+ran rough,on taxi,1
+ran rough,when it fired,1
+ran very rough,climb out,1
+ran very rough,in pattern,1
+ran very rough,on engine start,1
+rechecked compressions,after post run,1
+red x,full power,1
+reduction in power,on downwind,1
+replaced,in carrier,1
+rough,during taxi,1
+rough,in flight,1
+rough,upon run up,1
+rough operation,after start up,1
+rough running,after start,1
+rough running,after takeoff,1
+rough running,on start up,1
+rough running,upon post,1
+rough vibra,on downwind,1
+roughness,after takeoff,1
+roughness,full throttle,1
+roughness,immediately after engine start,1
+roughness,on final,1
+roughness,on run up,1
+roughness,on start,1
+roughness,on start up,1
+roughness,while leveling in down w,1
+rpm drop,on downwind,1
+rpm dropped,in cruise,1
+rpm dropped normally,during run up,1
+run,after storage,1
+run up,cowl off,1
+running extremely roug,upon engine start,1
+running extremely rough,after engine start lean procedure,1
+running extremely rough,on run up,1
+running rough,after engine start,1
+running rough,climb,1
+running rough,cruise,1
+running rough,on takeoff,1
+runs very rough,after start,1
+runs very rough,when power t,1
+shaking,on start up,1
+shaking,upon run up,1
+shutdown,coming off runway,1
+shutdown,last landing,1
+shutdown,on landing,1
+shutdown,when power t,1
+shuttered,during climb out,1
+slight fluctuations,during crui,1
+smoking,after shutdown,1
+smoothed out,on engine start,1
+some noise,when climbing,1
+sput,on ground,1
+sputtering noise,upon go - around,1
+started,after 20 inches manifold pressure,1
+started,in hangar,1
+started but ran very rough,during start up,1
+started making abnormal sound,in flight,1
+started to ru,after takeoff,1
+started to smell heavy fumes,during taxi,1
+strange howling noise,during fligh,1
+stuck,on start,1
+surging,on last climb out crossing 1300 msl,1
+ticking / chirping noise,in traffic pattern,1
+ticking / chirping noise,various power settings,1
+tore,during installation,1
+unusual indication,start,1
+very rough,does not run at idle,1
+vibration,during high speed roll,1
+vibration,during stop and go whil,1
+vibration,on departure climbout,1
+vibration,on downwind,1
+vibration,upon post,1
+vibration,with increasing power,1
+vibrations,on start up,1
+wants to die,after start up,1
+whistling noise,on run up,1
+won ' t go any higher,doing max perform takeoff at 3200,1
+would fluctuate,at hover,1
+would increase significantly,during entire flight,1
+would intermittently lose,during flight,1
+would not stay open,during flight,1
+would quit,when leaning out,1
+would rise,during run up,1
+would sputter,going from idle,1
+would start to quit,while adjusting mixture,1
+would turn twice,during start up,1

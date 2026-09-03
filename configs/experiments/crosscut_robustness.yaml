@@ -1,0 +1,15 @@
+experiment:
+  id: crosscut_rq1_rq3_rq5_robustness
+  supports_research_questions: [RQ1, RQ3, RQ5]
+  dataset_config: configs/datasets/aviation.yaml
+  seed: 42
+  stressors:
+    truncation: {fractions: [0.10, 0.20, 0.30]}
+    missing_information: {fields: [maintenance_item, location, issue, observation]}
+    spelling_noise: {rates: [0.05, 0.10]}
+    wording: {variants: [raw_abbreviation, expert_expanded]}
+    multi_problem: {problem_counts: [1, 2]}
+  tasks: [normalization, entity_extraction, relation_extraction, retrieval]
+  report_absolute_scores: true
+  report_performance_drop: true
+  output_root: outputs/runs/crosscut_robustness

@@ -1,0 +1,12 @@
+# ============================================================
+# Environment: rebel   (REBEL only — separate env, add when needed)
+# Huguet Cabot & Navigli 2021   |   Python 3.11
+#   conda create -n rebel python=3.11
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+#   pip install -r requirements-rebel.txt
+# ============================================================
+transformers
+datasets
+pytorch-lightning
+omegaconf
+

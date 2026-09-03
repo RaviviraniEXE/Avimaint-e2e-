@@ -1,0 +1,113 @@
+{
+  "artifacts": {
+    "byt5": {
+      "metrics_path": "outputs\\normalization\\predictions\\byt5_gold_v1\\validation_byt5_metrics.json",
+      "metrics_sha256": "946e8af38f934a20bd5346236d68ef8852391f88cb71346493c4d32355386c65",
+      "prediction_path": "outputs\\normalization\\predictions\\byt5_gold_v1\\validation_byt5.csv",
+      "prediction_sha256": "f9dc92205a341669126b59919fdd1d729b0b1fd9f3ac60462b54bb717cd32b54"
+    },
+    "most_frequent_replacement": {
+      "metrics_path": "outputs\\normalization\\predictions\\byt5_gold_v1\\validation_most_frequent_replacement_metrics.json",
+      "metrics_sha256": "f189be33a790456e1c25682f093d3a4cc3b998f7bc9c43529d012553c76e7ce2",
+      "prediction_path": "outputs\\normalization\\predictions\\byt5_gold_v1\\validation_most_frequent_replacement.csv",
+      "prediction_sha256": "76c32d931ff3bb8966746f131cdd44a5dfd90114399e1f5246b65b142db11ccd"
+    },
+    "raw": {
+      "metrics_path": "outputs\\normalization\\predictions\\byt5_gold_v1\\validation_raw_metrics.json",
+      "metrics_sha256": "748f418557f4a0f2dab2338adac46a41e032b501bb63819a03bc3673e4732475",
+      "prediction_path": "outputs\\normalization\\predictions\\byt5_gold_v1\\validation_raw.csv",
+      "prediction_sha256": "0f193e60cb61d5c758ee8c9b81243c379624e223262ef101a9484bdaafff4b75"
+    },
+    "rules": {
+      "metrics_path": "outputs\\normalization\\predictions\\byt5_gold_v1\\validation_rules_metrics.json",
+      "metrics_sha256": "d84ba70d5b54a1131fd5f17242ab6af4723878e15b330525ac03dcbb215942c0",
+      "prediction_path": "outputs\\normalization\\predictions\\byt5_gold_v1\\validation_rules.csv",
+      "prediction_sha256": "373dd1c962a6cde1ac5e7b4a2e548a16da116076287d816aca1f2f3f7f9f23b8"
+    },
+    "rules_then_byt5": {
+      "metrics_path": "outputs\\normalization\\predictions\\byt5_gold_v1\\validation_rules_then_byt5_metrics.json",
+      "metrics_sha256": "c47b3b8ebc9d175e98cb987c66642826ee139bbf84be7b78c5752de02bdaf56a",
+      "prediction_path": "outputs\\normalization\\predictions\\byt5_gold_v1\\validation_rules_then_byt5.csv",
+      "prediction_sha256": "d964cbabda27b798c8ca3e93b60108c1bf95713a68d30ef9b1efed50b01175e0"
+    },
+    "selective_byt5": {
+      "metrics_path": "outputs\\normalization\\predictions\\byt5_gold_v1\\validation_selective_byt5_metrics.json",
+      "metrics_sha256": "05e85552f272563ba495eeebd447c06ae62b7de2f84b3a2bd8c94f022e8385ac",
+      "prediction_path": "outputs\\normalization\\predictions\\byt5_gold_v1\\validation_selective_byt5.csv",
+      "prediction_sha256": "7064e73fdb4ef4c55ccd74c280fdda61066cd88dfc2d22a08bc57536b73c1c3d"
+    }
+  },
+  "deployment_policy": "ByT5; fallback to rules, then raw, on grounding failure",
+  "fallback_counts": {
+    "none": 925,
+    "rules": 1
+  },
+  "frozen_at_utc": "2026-08-26T13:46:22.244487+00:00",
+  "selected_system": "selective_byt5",
+  "selection_population": "validation_only",
+  "selection_reason": "Best validation text-agreement metrics with deterministic fallback for unsupported identifiers or numeric additions.",
+  "test_results_consulted": false,
+  "validation_metrics": {
+    "byt5": {
+      "cer": 0.001997120431006456,
+      "change_f1": 0.9700184501845018,
+      "change_precision": 0.970466082141209,
+      "change_recall": 0.9695712309820194,
+      "error_reduction_rate": 0.9846393155745673,
+      "exact_match": 0.9352051835853131,
+      "protected_token_accuracy": 0.9989200863930886,
+      "wer": 0.006177183517084995
+    },
+    "most_frequent_replacement": {
+      "cer": 0.2050996237982444,
+      "change_f1": 0.05689277899343544,
+      "change_precision": 0.047058823529411764,
+      "change_recall": 0.07192254495159059,
+      "error_reduction_rate": -0.15613455181800506,
+      "exact_match": 0.0,
+      "protected_token_accuracy": 1.0,
+      "wer": 0.46493079990616937
+    },
+    "raw": {
+      "cer": 0.28562305512981284,
+      "change_f1": 0.0,
+      "change_precision": 1.0,
+      "change_recall": 0.0,
+      "error_reduction_rate": 0.0,
+      "exact_match": 0.0,
+      "protected_token_accuracy": 1.0,
+      "wer": 0.40214246618187505
+    },
+    "rules": {
+      "cer": 0.11012029167247225,
+      "change_f1": 0.4612932604735883,
+      "change_precision": 0.4556905083220873,
+      "change_recall": 0.467035500230521,
+      "error_reduction_rate": 0.56251215244021,
+      "exact_match": 0.00755939524838013,
+      "protected_token_accuracy": 1.0,
+      "wer": 0.17593244194229415
+    },
+    "rules_then_byt5": {
+      "cer": 0.012064000743114579,
+      "change_f1": 0.9215867158671586,
+      "change_precision": 0.9220119981541302,
+      "change_recall": 0.921161825726141,
+      "error_reduction_rate": 0.9607233132412989,
+      "exact_match": 0.8358531317494601,
+      "protected_token_accuracy": 1.0,
+      "wer": 0.015794823676597076
+    },
+    "selective_byt5": {
+      "cer": 0.001997120431006456,
+      "change_f1": 0.9700184501845018,
+      "change_precision": 0.970466082141209,
+      "change_recall": 0.9695712309820194,
+      "error_reduction_rate": 0.9846393155745673,
+      "exact_match": 0.9352051835853131,
+      "protected_token_accuracy": 1.0,
+      "wer": 0.006177183517084995
+    }
+  },
+  "validation_records": 926
+}

@@ -1,0 +1,4404 @@
+[
+ {
+  "tokens": [
+   "re-gas",
+   "and",
+   "calibrate",
+   "struts"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 2
+   },
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_0968"
+ },
+ {
+  "tokens": [
+   "remove",
+   "and",
+   "replace",
+   "expansion",
+   "tank"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 5
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "Activity",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "isA",
+    "head": 0,
+    "tail": 3
+   }
+  ],
+  "orig_id": "maintie_0969"
+ },
+ {
+  "tokens": [
+   "remove",
+   "unserviceable",
+   "air",
+   "separator"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_0970"
+ },
+ {
+  "tokens": [
+   "remove",
+   "welder"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_0971"
+ },
+ {
+  "tokens": [
+   "repair",
+   "crack",
+   "in",
+   "right",
+   "hand",
+   "side",
+   "of",
+   "rear",
+   "cross",
+   "member"
+  ],
+  "entities": [
+   {
+    "type": "Property",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 8,
+    "end": 10
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasProperty",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_0972"
+ },
+ {
+  "tokens": [
+   "repair",
+   "<num>",
+   "V",
+   "power",
+   "point"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 5
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 5
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 2
+   },
+   {
+    "type": "isA",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_0973"
+ },
+ {
+  "tokens": [
+   "repair",
+   "air",
+   "leak",
+   "at",
+   "air",
+   "tank",
+   "safety",
+   "valve"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 6
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 6,
+    "end": 8
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 6
+   },
+   {
+    "type": "Process",
+    "start": 2,
+    "end": 3
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 3
+   },
+   {
+    "type": "hasPatient",
+    "head": 5,
+    "tail": 0
+   },
+   {
+    "type": "hasAgent",
+    "head": 5,
+    "tail": 3
+   },
+   {
+    "type": "isA",
+    "head": 1,
+    "tail": 4
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 3
+   }
+  ],
+  "orig_id": "maintie_0974"
+ },
+ {
+  "tokens": [
+   "repair",
+   "and",
+   "replace",
+   "chain",
+   "guide"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "Activity",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 3
+   },
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 3
+   },
+   {
+    "type": "hasPart",
+    "head": 2,
+    "tail": 3
+   }
+  ],
+  "orig_id": "maintie_0975"
+ },
+ {
+  "tokens": [
+   "repair",
+   "cabin",
+   "flooring"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_0976"
+ },
+ {
+  "tokens": [
+   "repair",
+   "chassis",
+   "crack",
+   "at",
+   "right",
+   "hand",
+   "rear",
+   "cross",
+   "member"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "Property",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 7,
+    "end": 9
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 3,
+    "tail": 2
+   },
+   {
+    "type": "hasProperty",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_0977"
+ },
+ {
+  "tokens": [
+   "repair",
+   "crack",
+   "in",
+   "rear",
+   "cross",
+   "member"
+  ],
+  "entities": [
+   {
+    "type": "Property",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 6
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasProperty",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_0978"
+ },
+ {
+  "tokens": [
+   "repair",
+   "crack",
+   "on",
+   "left",
+   "hand",
+   "front",
+   "heat",
+   "shield"
+  ],
+  "entities": [
+   {
+    "type": "Property",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 6,
+    "end": 8
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasProperty",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_0979"
+ },
+ {
+  "tokens": [
+   "repair",
+   "cracked",
+   "baffle",
+   "in",
+   "hydraulic",
+   "tank"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 6
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 6
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 3,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "isA",
+    "head": 2,
+    "tail": 4
+   }
+  ],
+  "orig_id": "maintie_0980"
+ },
+ {
+  "tokens": [
+   "repair",
+   "cracked",
+   "roof",
+   "skin",
+   "left",
+   "hand",
+   "side",
+   "exhaust"
+  ],
+  "entities": [
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 7,
+    "end": 8
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 3
+   },
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 3
+   }
+  ],
+  "orig_id": "maintie_0981"
+ },
+ {
+  "tokens": [
+   "repair",
+   "cracks",
+   "in",
+   "mast",
+   "cross",
+   "braces"
+  ],
+  "entities": [
+   {
+    "type": "Property",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 6
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 3,
+    "tail": 1
+   },
+   {
+    "type": "hasProperty",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 2,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_0982"
+ },
+ {
+  "tokens": [
+   "repair",
+   "door",
+   "frame"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_0983"
+ },
+ {
+  "tokens": [
+   "repair",
+   "earth",
+   "terminal",
+   "on",
+   "air",
+   "conditioner",
+   "compressor"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 6
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 6,
+    "end": 7
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 3,
+    "tail": 2
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_0984"
+ },
+ {
+  "tokens": [
+   "repair",
+   "expansion",
+   "tank",
+   "and",
+   "hood"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 3
+   },
+   {
+    "type": "isA",
+    "head": 0,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_0985"
+ },
+ {
+  "tokens": [
+   "repair",
+   "faulty",
+   "safety",
+   "valve"
+  ],
+  "entities": [
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 2
+   },
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_0986"
+ },
+ {
+  "tokens": [
+   "repair",
+   "filtration",
+   "unit"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_0987"
+ },
+ {
+  "tokens": [
+   "repair",
+   "left",
+   "hand",
+   "scoreboard",
+   "base",
+   "cracked"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "State",
+    "start": 5,
+    "end": 6
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 3,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_0988"
+ },
+ {
+  "tokens": [
+   "repair",
+   "leak",
+   "in",
+   "pilot",
+   "valve",
+   "solenoid"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 5
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 6
+   },
+   {
+    "type": "Process",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasAgent",
+    "head": 3,
+    "tail": 2
+   },
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 2
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_0989"
+ },
+ {
+  "tokens": [
+   "repair",
+   "monitor"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_0990"
+ },
+ {
+  "tokens": [
+   "repair",
+   "rear",
+   "canopy"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_0991"
+ },
+ {
+  "tokens": [
+   "repair",
+   "rear",
+   "junction",
+   "box",
+   "on",
+   "tank"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 6
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 2
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_0992"
+ },
+ {
+  "tokens": [
+   "repair",
+   "smart",
+   "meter"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_0993"
+ },
+ {
+  "tokens": [
+   "repair",
+   "smart",
+   "meter",
+   "hinge"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_0994"
+ },
+ {
+  "tokens": [
+   "repair",
+   "transformer",
+   "-",
+   "quote",
+   "number",
+   "<num>"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_0995"
+ },
+ {
+  "tokens": [
+   "repair",
+   "two-way",
+   "radio",
+   "speaker"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 2
+   },
+   {
+    "type": "isA",
+    "head": 3,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 3,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_0996"
+ },
+ {
+  "tokens": [
+   "repair",
+   "water",
+   "/",
+   "oil",
+   "separator",
+   "on",
+   "hydraulic",
+   "tank"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 6,
+    "end": 8
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 7,
+    "end": 8
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 5
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 3
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 3
+   },
+   {
+    "type": "isA",
+    "head": 0,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_0997"
+ },
+ {
+  "tokens": [
+   "repair",
+   "wiring",
+   "at",
+   "fan",
+   "resistor"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 3
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 2
+   },
+   {
+    "type": "hasPart",
+    "head": 2,
+    "tail": 3
+   }
+  ],
+  "orig_id": "maintie_0998"
+ },
+ {
+  "tokens": [
+   "repair",
+   "wiring",
+   "etc",
+   "at",
+   "engine",
+   "junction",
+   "box"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 7
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 3
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 3
+   }
+  ],
+  "orig_id": "maintie_0999"
+ },
+ {
+  "tokens": [
+   "repair",
+   "worn",
+   "centrifuge",
+   "filter"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasPatient",
+    "head": 3,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1000"
+ },
+ {
+  "tokens": [
+   "replace",
+   "o-ring",
+   "on",
+   "centrifuge",
+   "filter"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 3,
+    "tail": 2
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_1001"
+ },
+ {
+  "tokens": [
+   "replace",
+   "air",
+   "conditioner",
+   "louver"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1002"
+ },
+ {
+  "tokens": [
+   "replace",
+   "all",
+   "pump",
+   "chip",
+   "indicator",
+   "cables"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 6
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 3,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1003"
+ },
+ {
+  "tokens": [
+   "replace",
+   "alternator",
+   "earth",
+   "wire"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1004"
+ },
+ {
+  "tokens": [
+   "replace",
+   "auxilliary",
+   "inverter"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1005"
+ },
+ {
+  "tokens": [
+   "replace",
+   "breakout",
+   "dies"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 2
+   },
+   {
+    "type": "isA",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1006"
+ },
+ {
+  "tokens": [
+   "replace",
+   "broken",
+   "earth",
+   "terminal"
+  ],
+  "entities": [
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1007"
+ },
+ {
+  "tokens": [
+   "replace",
+   "brushes",
+   "on",
+   "condenser",
+   "fan"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 3,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 2
+   },
+   {
+    "type": "hasPart",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1008"
+ },
+ {
+  "tokens": [
+   "replace",
+   "cabin",
+   "air",
+   "conditioner",
+   "cover",
+   "and",
+   "louver"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 6,
+    "end": 7
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 4,
+    "tail": 2
+   },
+   {
+    "type": "hasPatient",
+    "head": 4,
+    "tail": 3
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 2
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 3
+   }
+  ],
+  "orig_id": "maintie_1009"
+ },
+ {
+  "tokens": [
+   "replace",
+   "CAES",
+   "data",
+   "cable"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1010"
+ },
+ {
+  "tokens": [
+   "replace",
+   "chip",
+   "indicators",
+   "(",
+   "leaking",
+   ")"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "Process",
+    "start": 4,
+    "end": 5
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasAgent",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1011"
+ },
+ {
+  "tokens": [
+   "replace",
+   "cracked",
+   "glass",
+   "in",
+   "entry",
+   "door"
+  ],
+  "entities": [
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 6
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 6
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 4
+   },
+   {
+    "type": "hasPart",
+    "head": 3,
+    "tail": 4
+   },
+   {
+    "type": "isA",
+    "head": 3,
+    "tail": 1
+   },
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 4
+   }
+  ],
+  "orig_id": "maintie_1012"
+ },
+ {
+  "tokens": [
+   "replace",
+   "cracked",
+   "water",
+   "separator"
+  ],
+  "entities": [
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 2
+   },
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_1013"
+ },
+ {
+  "tokens": [
+   "replace",
+   "die"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1014"
+ },
+ {
+  "tokens": [
+   "replace",
+   "dies",
+   "<id>"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1015"
+ },
+ {
+  "tokens": [
+   "replace",
+   "diode",
+   "and",
+   "heat",
+   "sink"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 5
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1016"
+ },
+ {
+  "tokens": [
+   "replace",
+   "engine",
+   "oil",
+   "centrifuge",
+   "see",
+   "attachment"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 3,
+    "tail": 2
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 2
+   },
+   {
+    "type": "isA",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1017"
+ },
+ {
+  "tokens": [
+   "replace",
+   "fridge",
+   "power",
+   "supply"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1018"
+ },
+ {
+  "tokens": [
+   "replace",
+   "gel",
+   "cell",
+   "batteries"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 2
+   },
+   {
+    "type": "isA",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1019"
+ },
+ {
+  "tokens": [
+   "replace",
+   "heat",
+   "sink"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1020"
+ },
+ {
+  "tokens": [
+   "replace",
+   "inductor",
+   "in",
+   "auxilliary",
+   "blower",
+   "assembly"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1021"
+ },
+ {
+  "tokens": [
+   "replace",
+   "inverter",
+   "batteries"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1022"
+ },
+ {
+  "tokens": [
+   "replace",
+   "left",
+   "hand",
+   "front",
+   "signal",
+   "lamp"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 6
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 6
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 1
+   },
+   {
+    "type": "isA",
+    "head": 1,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_1023"
+ },
+ {
+  "tokens": [
+   "replace",
+   "left",
+   "hand",
+   "slew",
+   "pump",
+   "contamination",
+   "switch"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 7
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 3,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1024"
+ },
+ {
+  "tokens": [
+   "replace",
+   "main",
+   "electrical",
+   "isolator"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1025"
+ },
+ {
+  "tokens": [
+   "replace",
+   "microwave",
+   "oven",
+   "<id>"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1026"
+ },
+ {
+  "tokens": [
+   "replace",
+   "right",
+   "hand",
+   "swing",
+   "pump",
+   "chip",
+   "sensor"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 7
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 3,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1027"
+ },
+ {
+  "tokens": [
+   "replace",
+   "seized",
+   "air",
+   "conditioner",
+   "control",
+   "cable"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 6
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasPatient",
+    "head": 3,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1028"
+ },
+ {
+  "tokens": [
+   "replace",
+   "shorted",
+   "diode",
+   "RPC",
+   "<num>"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1029"
+ },
+ {
+  "tokens": [
+   "replace",
+   "steering",
+   "pilot",
+   "valve",
+   "covers"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 3,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1030"
+ },
+ {
+  "tokens": [
+   "replace",
+   "travel",
+   "warning",
+   "beacon"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 3
+   },
+   {
+    "type": "isA",
+    "head": 3,
+    "tail": 2
+   },
+   {
+    "type": "isA",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1031"
+ },
+ {
+  "tokens": [
+   "replace",
+   "unserviceable",
+   "grease",
+   "distributor"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 2
+   },
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_1032"
+ },
+ {
+  "tokens": [
+   "replace",
+   "unserviceable",
+   "chip",
+   "indicators"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1033"
+ },
+ {
+  "tokens": [
+   "replace",
+   "unserviceable",
+   "ignition",
+   "switch"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1034"
+ },
+ {
+  "tokens": [
+   "replace",
+   "unserviceable",
+   "transmission",
+   "screen",
+   "and",
+   "magnet"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 6
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 4
+   },
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 3,
+    "tail": 4
+   },
+   {
+    "type": "hasPatient",
+    "head": 3,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 2,
+    "tail": 4
+   },
+   {
+    "type": "hasPart",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1035"
+ },
+ {
+  "tokens": [
+   "replaced",
+   "voltage",
+   "regulator"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1036"
+ },
+ {
+  "tokens": [
+   "replace",
+   "cyclone",
+   "boot"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1037"
+ },
+ {
+  "tokens": [
+   "reseal",
+   "left",
+   "hand",
+   "cabin",
+   "door",
+   "frame"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 6
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1038"
+ },
+ {
+  "tokens": [
+   "reseal",
+   "non-return",
+   "valve"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1039"
+ },
+ {
+  "tokens": [
+   "reset",
+   "auxilliary",
+   "supply",
+   "circuit",
+   "breaker",
+   "and",
+   "booted",
+   "computer"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 7,
+    "end": 8
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "Activity",
+    "start": 6,
+    "end": 7
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 3,
+    "tail": 1
+   },
+   {
+    "type": "isA",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 4,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_1040"
+ },
+ {
+  "tokens": [
+   "reset",
+   "diode"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1041"
+ },
+ {
+  "tokens": [
+   "resistor",
+   "cabling",
+   "to",
+   "be",
+   "replaced"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 2
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_1042"
+ },
+ {
+  "tokens": [
+   "rework",
+   "starter",
+   "cables",
+   "warranty"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1043"
+ },
+ {
+  "tokens": [
+   "rock",
+   "breaker",
+   "cracked"
+  ],
+  "entities": [
+   {
+    "type": "State",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1044"
+ },
+ {
+  "tokens": [
+   "rock",
+   "breaker",
+   "in",
+   "bucket",
+   "cracked",
+   "at",
+   "base"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 6,
+    "end": 7
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "State",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 3
+   },
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 3,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1045"
+ },
+ {
+  "tokens": [
+   "run",
+   "flushing",
+   "filters",
+   "in",
+   "transmission"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 3
+   },
+   {
+    "type": "hasPart",
+    "head": 2,
+    "tail": 3
+   },
+   {
+    "type": "isA",
+    "head": 3,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1046"
+ },
+ {
+  "tokens": [
+   "run",
+   "new",
+   "aerial",
+   "and",
+   "replace",
+   "head",
+   "unit"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 7
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 3
+   }
+  ],
+  "orig_id": "maintie_1047"
+ },
+ {
+  "tokens": [
+   "run",
+   "new",
+   "commercial",
+   "radio",
+   "aerial",
+   "cable"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 6
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 4,
+    "tail": 1
+   },
+   {
+    "type": "isA",
+    "head": 2,
+    "tail": 3
+   },
+   {
+    "type": "hasPart",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1048"
+ },
+ {
+  "tokens": [
+   "safety",
+   "flag",
+   "missing"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "State",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 2
+   },
+   {
+    "type": "isA",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1049"
+ },
+ {
+  "tokens": [
+   "sample",
+   "engine",
+   "oil",
+   "and",
+   "inspect",
+   "filters"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 6
+   },
+   {
+    "type": "Activity",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 4,
+    "tail": 3
+   },
+   {
+    "type": "contains",
+    "head": 0,
+    "tail": 3
+   },
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1050"
+ },
+ {
+  "tokens": [
+   "sample",
+   "engine",
+   "oil",
+   "and",
+   "replace",
+   "oil",
+   "and",
+   "filter"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 7,
+    "end": 8
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 6
+   },
+   {
+    "type": "Activity",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 5,
+    "tail": 2
+   },
+   {
+    "type": "contains",
+    "head": 0,
+    "tail": 2
+   },
+   {
+    "type": "hasPatient",
+    "head": 4,
+    "tail": 3
+   },
+   {
+    "type": "hasPatient",
+    "head": 4,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1051"
+ },
+ {
+  "tokens": [
+   "sample",
+   "transmission",
+   "oil"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "contains",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1052"
+ },
+ {
+  "tokens": [
+   "<id>",
+   "replace",
+   "computer"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1053"
+ },
+ {
+  "tokens": [
+   "<id>",
+   "fit",
+   "variable",
+   "speed",
+   "drive"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 5
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1054"
+ },
+ {
+  "tokens": [
+   "<id>",
+   "replace",
+   "ground",
+   "fault",
+   "relay"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "Activity",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "isA",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1055"
+ },
+ {
+  "tokens": [
+   "siren",
+   "unserviceable"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1056"
+ },
+ {
+  "tokens": [
+   "slip",
+   "ring",
+   "overgreasing"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 2
+   },
+   {
+    "type": "Process",
+    "start": 2,
+    "end": 3
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1057"
+ },
+ {
+  "tokens": [
+   "start",
+   "machine"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1058"
+ },
+ {
+  "tokens": [
+   "start",
+   "motorvator",
+   "and",
+   "set",
+   "limits"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "Activity",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "Property",
+    "start": 4,
+    "end": 5
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 3
+   }
+  ],
+  "orig_id": "maintie_1059"
+ },
+ {
+  "tokens": [
+   "troubleshoot",
+   "smart",
+   "meter",
+   "not",
+   "communicating"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "State",
+    "start": 3,
+    "end": 5
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1060"
+ },
+ {
+  "tokens": [
+   "transformer",
+   "trip"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "State",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1061"
+ },
+ {
+  "tokens": [
+   "TV",
+   "monitor",
+   "doesn't",
+   "turn",
+   "on"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "State",
+    "start": 2,
+    "end": 5
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1062"
+ },
+ {
+  "tokens": [
+   "TV",
+   "monitor",
+   "has",
+   "no",
+   "signal"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "State",
+    "start": 3,
+    "end": 5
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1063"
+ },
+ {
+  "tokens": [
+   "<sensitive>",
+   "call",
+   "out",
+   "Saturday",
+   "<date>",
+   "<id>"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 1,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1064"
+ },
+ {
+  "tokens": [
+   "<sensitive>",
+   "to",
+   "repair",
+   "power",
+   "supply"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 5
+   },
+   {
+    "type": "Activity",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasAgent",
+    "head": 1,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_1065"
+ },
+ {
+  "tokens": [
+   "vacuum",
+   "out",
+   "slip",
+   "ring"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 4
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 2
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1066"
+ },
+ {
+  "tokens": [
+   "voltage",
+   "regulator",
+   "fuse",
+   "fault"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 2
+   },
+   {
+    "type": "State",
+    "start": 3,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1067"
+ },
+ {
+  "tokens": [
+   "wash",
+   "left",
+   "hand",
+   "cyclone",
+   "tube",
+   ".",
+   "<sensitive>",
+   "at",
+   "<date>"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasPart",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1068"
+ },
+ {
+  "tokens": [
+   "water",
+   "separator",
+   "filter",
+   "leaking",
+   "see",
+   "photo"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 2
+   },
+   {
+    "type": "Process",
+    "start": 3,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasAgent",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1069"
+ },
+ {
+  "tokens": [
+   "water",
+   "separator",
+   "leaking",
+   "fuel"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 2
+   },
+   {
+    "type": "Process",
+    "start": 2,
+    "end": 3
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasAgent",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1070"
+ },
+ {
+  "tokens": [
+   "weightometer",
+   "display",
+   "on",
+   "trailer",
+   "unserviceable"
+  ],
+  "entities": [
+   {
+    "type": "State",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 3,
+    "end": 4
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPart",
+    "head": 1,
+    "tail": 2
+   },
+   {
+    "type": "hasPart",
+    "head": 3,
+    "tail": 1
+   },
+   {
+    "type": "hasPatient",
+    "head": 0,
+    "tail": 2
+   }
+  ],
+  "orig_id": "maintie_1071"
+ },
+ {
+  "tokens": [
+   "weld",
+   "stiffener",
+   "plate",
+   "to",
+   "rear",
+   "breakout",
+   "fork"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 5,
+    "end": 7
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 6,
+    "end": 7
+   },
+   {
+    "type": "Activity",
+    "start": 0,
+    "end": 1
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 3
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 3
+   },
+   {
+    "type": "hasAgent",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "isA",
+    "head": 0,
+    "tail": 1
+   }
+  ],
+  "orig_id": "maintie_1072"
+ },
+ {
+  "tokens": [
+   "will",
+   "not",
+   "start",
+   "-",
+   "batteries",
+   "unserviceable"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 4,
+    "end": 5
+   },
+   {
+    "type": "State",
+    "start": 5,
+    "end": 6
+   },
+   {
+    "type": "State",
+    "start": 0,
+    "end": 3
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1073"
+ },
+ {
+  "tokens": [
+   "window",
+   "frame",
+   "needs",
+   "repair"
+  ],
+  "entities": [
+   {
+    "type": "Activity",
+    "start": 3,
+    "end": 4
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 2
+   },
+   {
+    "type": "State",
+    "start": 2,
+    "end": 3
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasAgent",
+    "head": 2,
+    "tail": 1
+   },
+   {
+    "type": "hasPatient",
+    "head": 2,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1074"
+ },
+ {
+  "tokens": [
+   "wiper",
+   "fuse",
+   "unserviceable"
+  ],
+  "entities": [
+   {
+    "type": "PhysicalObject",
+    "start": 1,
+    "end": 2
+   },
+   {
+    "type": "State",
+    "start": 2,
+    "end": 3
+   },
+   {
+    "type": "PhysicalObject",
+    "start": 0,
+    "end": 1
+   }
+  ],
+  "relations": [
+   {
+    "type": "hasPart",
+    "head": 2,
+    "tail": 0
+   },
+   {
+    "type": "hasPatient",
+    "head": 1,
+    "tail": 0
+   }
+  ],
+  "orig_id": "maintie_1075"
+ }
+]

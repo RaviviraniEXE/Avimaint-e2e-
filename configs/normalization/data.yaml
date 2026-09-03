@@ -1,0 +1,39 @@
+dataset:
+  raw_path: data/aviation/raw/Aircraft_Annotation_DataFile.csv
+  reference_path: data/aviation/reference/amin_cleaned_dataset.csv
+  reference_sheet_name: null
+  raw_id_column: IDENT
+  raw_problem_column: PROBLEM
+  raw_action_column: ACTION
+  # Published Amin cleaned MaintNet workbook columns.
+  reference_id_column: ID
+  reference_source_problem_column: PROBLEM
+  reference_source_action_column: ACTION
+  reference_target_column: CLEANED
+  reference_edit_column: EDIT
+  reference_raw_column: null
+  # These are normalized target fields only when a different reference keeps
+  # separate cleaned problem/action targets. Amin provides one combined target.
+  reference_problem_column: null
+  reference_action_column: null
+  drop_reference_rows_without_id: true
+
+pairing:
+  preserve_fields: true
+  combined_separator: " "
+  require_unique_ids: true
+  primary_valid_statuses: [approved_lexical, approved_abbreviation]
+  manual_review_required: true
+  exclude_from_primary_by_default:
+    - reference_completion
+    - anonymized_completion
+
+outputs:
+  pair_audit_csv: data/aviation/interim/normalization_pair_audit.csv
+  review_template_csv: data/aviation/interim/normalization_manual_review.csv
+  valid_pairs_parquet: data/aviation/processed/normalization_pairs.parquet
+  silver_train_parquet: data/aviation/processed/normalization_silver_train.parquet
+  frozen_split_path: data/splits/normalization_cluster_safe_v1.csv
+
+rules:
+  dictionary_path: data/dictionaries/abbreviations.yaml

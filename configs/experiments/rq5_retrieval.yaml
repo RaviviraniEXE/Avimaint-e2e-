@@ -1,0 +1,29 @@
+experiment:
+  id: rq5_leakage_safe_case_retrieval
+  research_question: RQ5
+  question: >-
+    Which representation retrieves the most useful historical maintenance cases
+    when only the problem description is used as the query and recorded actions
+    remain hidden until after retrieval?
+  dataset_config: configs/datasets/aviation.yaml
+  split_policy: cluster_safe
+  candidate_scope: training_cases_only
+  query_scope: frozen_test_queries
+  prohibit_action_text_in_query: true
+  representations:
+    - raw_bm25
+    - raw_tfidf
+    - normalized_text
+    - structured_entities
+    - structured_entities_relations
+    - dense_optional
+    - hybrid
+  metrics:
+    - recall_at_1
+    - recall_at_3
+    - ndcg_at_3
+    - mrr
+    - macro_action_family_recall
+    - candidate_diversity
+  require_expert_relevance_for_applicability_claim: true
+  output_root: outputs/runs/rq5_leakage_safe_case_retrieval

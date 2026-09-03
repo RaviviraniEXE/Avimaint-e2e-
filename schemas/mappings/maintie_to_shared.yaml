@@ -1,0 +1,14 @@
+mapping:
+  source_schema: maintie_native_v1
+  target_schema: shared_coarse_v1
+  top_level_entities:
+    PhysicalObject: {target: PHYSICAL_OBJECT, status: exact}
+    State: {target: STATE_OR_ISSUE, status: broader}
+    Process: {target: PROCESS, status: exact}
+    Activity: {target: MAINTENANCE_ACTIVITY, status: broader}
+    Property: {target: PROPERTY_OR_OBSERVATION, status: broader}
+  leaf_entities:
+    strategy: require_manual_mapping_audit
+  relations:
+    strategy: require_manual_mapping_audit
+

@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "training_performed": false,
+  "generated_at_utc": "20260829T080905Z",
+  "frozen_split": {
+    "train": 860,
+    "dev": 108,
+    "test": 108
+  },
+  "schema": {
+    "entities": 5,
+    "relations": 6
+  },
+  "evaluation_gold": "original_full_spans_and_relations",
+  "bio_policy": "earliest_then_longest_nonoverlap_for_BIO_models_only",
+  "sources": {
+    "tier1": "outputs\\reports\\ie_results__maintie_tier1.json",
+    "neural": "outputs\\reports\\ie_results__maintie_neural.json",
+    "overlap_audit": "outputs\\reports\\maintie_overlap_audit.json",
+    "span_ablation": "outputs\\reports\\tables\\span_ner_ablation.csv",
+    "spert_gold_test": "outputs\\spert\\test.json",
+    "spert_predictions": "outputs\\reports\\spert_test.json"
+  },
+  "spert_test_summary": {
+    "entity_micro_f1": 0.882758620689655,
+    "entity_macro_f1": 0.9044650498509107,
+    "strict_relation_micro_f1": 0.6817325800376649,
+    "relation_macro_f1": 0.7023544066158647,
+    "isA_f1": 0.3291139240506329,
+    "nested_entity_recall": 0.8205128205128205,
+    "nested_entity_support": 39
+  },
+  "final_dir": "outputs\\reports\\final_benchmark"
+}

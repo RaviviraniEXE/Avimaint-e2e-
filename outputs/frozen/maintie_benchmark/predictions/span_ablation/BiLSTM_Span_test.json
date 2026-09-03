@@ -1,0 +1,2800 @@
+[
+  {
+    "tokens": [
+      "re-gas",
+      "and",
+      "calibrate",
+      "struts"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "remove",
+      "and",
+      "replace",
+      "expansion",
+      "tank"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "Activity",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "remove",
+      "unserviceable",
+      "air",
+      "separator"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "State",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "remove",
+      "welder"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "crack",
+      "in",
+      "right",
+      "hand",
+      "side",
+      "of",
+      "rear",
+      "cross",
+      "member"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "<num>",
+      "V",
+      "power",
+      "point"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "air",
+      "leak",
+      "at",
+      "air",
+      "tank",
+      "safety",
+      "valve"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "Process",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 6
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 6,
+        "end": 8
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "and",
+      "replace",
+      "chain",
+      "guide"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "Activity",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "cabin",
+      "flooring"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "chassis",
+      "crack",
+      "at",
+      "right",
+      "hand",
+      "rear",
+      "cross",
+      "member"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "crack",
+      "in",
+      "rear",
+      "cross",
+      "member"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "crack",
+      "on",
+      "left",
+      "hand",
+      "front",
+      "heat",
+      "shield"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 6,
+        "end": 8
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 8
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "cracked",
+      "baffle",
+      "in",
+      "hydraulic",
+      "tank"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "State",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 6
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 6
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "cracked",
+      "roof",
+      "skin",
+      "left",
+      "hand",
+      "side",
+      "exhaust"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "State",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "cracks",
+      "in",
+      "mast",
+      "cross",
+      "braces"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 6
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 6
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "door",
+      "frame"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "earth",
+      "terminal",
+      "on",
+      "air",
+      "conditioner",
+      "compressor"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 6
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 6
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 6
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "expansion",
+      "tank",
+      "and",
+      "hood"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "faulty",
+      "safety",
+      "valve"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "State",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "filtration",
+      "unit"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "left",
+      "hand",
+      "scoreboard",
+      "base",
+      "cracked"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "State",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "leak",
+      "in",
+      "pilot",
+      "valve",
+      "solenoid"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "Process",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "monitor"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "rear",
+      "canopy"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "rear",
+      "junction",
+      "box",
+      "on",
+      "tank"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "smart",
+      "meter"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "smart",
+      "meter",
+      "hinge"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "transformer",
+      "-",
+      "quote",
+      "number",
+      "<num>"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "two-way",
+      "radio",
+      "speaker"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "water",
+      "/",
+      "oil",
+      "separator",
+      "on",
+      "hydraulic",
+      "tank"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 6,
+        "end": 8
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 8
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 8
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 8
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "wiring",
+      "at",
+      "fan",
+      "resistor"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "wiring",
+      "etc",
+      "at",
+      "engine",
+      "junction",
+      "box"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "repair",
+      "worn",
+      "centrifuge",
+      "filter"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "State",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "o-ring",
+      "on",
+      "centrifuge",
+      "filter"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 5
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "air",
+      "conditioner",
+      "louver"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "all",
+      "pump",
+      "chip",
+      "indicator",
+      "cables"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "alternator",
+      "earth",
+      "wire"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "auxilliary",
+      "inverter"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "breakout",
+      "dies"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "broken",
+      "earth",
+      "terminal"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "State",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "brushes",
+      "on",
+      "condenser",
+      "fan"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "cabin",
+      "air",
+      "conditioner",
+      "cover",
+      "and",
+      "louver"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "CAES",
+      "data",
+      "cable"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "chip",
+      "indicators",
+      "(",
+      "leaking",
+      ")"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "Process",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "cracked",
+      "glass",
+      "in",
+      "entry",
+      "door"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "State",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 6
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "cracked",
+      "water",
+      "separator"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "State",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "die"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "dies",
+      "<id>"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "diode",
+      "and",
+      "heat",
+      "sink"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "engine",
+      "oil",
+      "centrifuge",
+      "see",
+      "attachment"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "fridge",
+      "power",
+      "supply"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "Activity",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "gel",
+      "cell",
+      "batteries"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "heat",
+      "sink"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "inductor",
+      "in",
+      "auxilliary",
+      "blower",
+      "assembly"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 5
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "inverter",
+      "batteries"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "left",
+      "hand",
+      "front",
+      "signal",
+      "lamp"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 6
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "left",
+      "hand",
+      "slew",
+      "pump",
+      "contamination",
+      "switch"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 7
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 5
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "main",
+      "electrical",
+      "isolator"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "microwave",
+      "oven",
+      "<id>"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "right",
+      "hand",
+      "swing",
+      "pump",
+      "chip",
+      "sensor"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 7
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 5
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "seized",
+      "air",
+      "conditioner",
+      "control",
+      "cable"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "Process",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 6
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "shorted",
+      "diode",
+      "RPC",
+      "<num>"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "steering",
+      "pilot",
+      "valve",
+      "covers"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "travel",
+      "warning",
+      "beacon"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "unserviceable",
+      "grease",
+      "distributor"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "State",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "unserviceable",
+      "chip",
+      "indicators"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "State",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "unserviceable",
+      "ignition",
+      "switch"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "State",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "unserviceable",
+      "transmission",
+      "screen",
+      "and",
+      "magnet"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "State",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replaced",
+      "voltage",
+      "regulator"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "replace",
+      "cyclone",
+      "boot"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "reseal",
+      "left",
+      "hand",
+      "cabin",
+      "door",
+      "frame"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "reseal",
+      "non-return",
+      "valve"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "reset",
+      "auxilliary",
+      "supply",
+      "circuit",
+      "breaker",
+      "and",
+      "booted",
+      "computer"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "reset",
+      "diode"
+    ],
+    "entities": [],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "resistor",
+      "cabling",
+      "to",
+      "be",
+      "replaced"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "Activity",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "rework",
+      "starter",
+      "cables",
+      "warranty"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "rock",
+      "breaker",
+      "cracked"
+    ],
+    "entities": [
+      {
+        "type": "State",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "rock",
+      "breaker",
+      "in",
+      "bucket",
+      "cracked",
+      "at",
+      "base"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "State",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "run",
+      "flushing",
+      "filters",
+      "in",
+      "transmission"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "run",
+      "new",
+      "aerial",
+      "and",
+      "replace",
+      "head",
+      "unit"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "Activity",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 7
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "run",
+      "new",
+      "commercial",
+      "radio",
+      "aerial",
+      "cable"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 6
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "safety",
+      "flag",
+      "missing"
+    ],
+    "entities": [
+      {
+        "type": "State",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "sample",
+      "engine",
+      "oil",
+      "and",
+      "inspect",
+      "filters"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "Activity",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "sample",
+      "engine",
+      "oil",
+      "and",
+      "replace",
+      "oil",
+      "and",
+      "filter"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "Activity",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 8
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "sample",
+      "transmission",
+      "oil"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "<id>",
+      "replace",
+      "computer"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "<id>",
+      "fit",
+      "variable",
+      "speed",
+      "drive"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 5
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "<id>",
+      "replace",
+      "ground",
+      "fault",
+      "relay"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "State",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "siren",
+      "unserviceable"
+    ],
+    "entities": [
+      {
+        "type": "State",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "slip",
+      "ring",
+      "overgreasing"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 0,
+        "end": 2
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "start",
+      "machine"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "start",
+      "motorvator",
+      "and",
+      "set",
+      "limits"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "troubleshoot",
+      "smart",
+      "meter",
+      "not",
+      "communicating"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "type": "State",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "transformer",
+      "trip"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "TV",
+      "monitor",
+      "doesn't",
+      "turn",
+      "on"
+    ],
+    "entities": [],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "TV",
+      "monitor",
+      "has",
+      "no",
+      "signal"
+    ],
+    "entities": [],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "<sensitive>",
+      "call",
+      "out",
+      "Saturday",
+      "<date>",
+      "<id>"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "Activity",
+        "start": 1,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "<sensitive>",
+      "to",
+      "repair",
+      "power",
+      "supply"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "Activity",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "vacuum",
+      "out",
+      "slip",
+      "ring"
+    ],
+    "entities": [
+      {
+        "type": "Activity",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 4
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "voltage",
+      "regulator",
+      "fuse",
+      "fault"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "State",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "wash",
+      "left",
+      "hand",
+      "cyclone",
+      "tube",
+      ".",
+      "<sensitive>",
+      "at",
+      "<date>"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 5,
+        "end": 7
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "water",
+      "separator",
+      "filter",
+      "leaking",
+      "see",
+      "photo"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "Process",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "water",
+      "separator",
+      "leaking",
+      "fuel"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "type": "Process",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "weightometer",
+      "display",
+      "on",
+      "trailer",
+      "unserviceable"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "State",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "weld",
+      "stiffener",
+      "plate",
+      "to",
+      "rear",
+      "breakout",
+      "fork"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "will",
+      "not",
+      "start",
+      "-",
+      "batteries",
+      "unserviceable"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "type": "State",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 5
+      },
+      {
+        "type": "Activity",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "window",
+      "frame",
+      "needs",
+      "repair"
+    ],
+    "entities": [
+      {
+        "type": "State",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "Activity",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "relations": []
+  },
+  {
+    "tokens": [
+      "wiper",
+      "fuse",
+      "unserviceable"
+    ],
+    "entities": [
+      {
+        "type": "PhysicalObject",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "type": "State",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "type": "PhysicalObject",
+        "start": 0,
+        "end": 2
+      }
+    ],
+    "relations": []
+  }
+]

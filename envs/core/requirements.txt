@@ -1,0 +1,9 @@
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==18.1.0
+pydantic==2.10.4
+PyYAML==6.0.2
+rapidfuzz==3.11.0
+rich==13.9.4
+typer==0.15.1
+

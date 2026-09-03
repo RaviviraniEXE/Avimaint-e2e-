@@ -1,0 +1,2 @@
+"""Schema registry and mapping."""
+

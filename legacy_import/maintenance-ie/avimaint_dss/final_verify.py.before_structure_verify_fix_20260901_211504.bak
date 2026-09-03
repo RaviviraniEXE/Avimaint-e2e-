@@ -1,0 +1,12 @@
+from pathlib import Path
+import json,py_compile,yaml
+ROOT=Path(__file__).resolve().parent; REPO=ROOT.parents[2]
+def main():
+ for p in list(ROOT.glob('*.py'))+list((ROOT/'core').glob('*.py'))+list((ROOT/'services').glob('*.py')): py_compile.compile(str(p),doraise=True)
+ cfg=yaml.safe_load((ROOT/'config.yaml').read_text(encoding='utf-8')); assert cfg['data']['csv_path'].endswith('Aircraft_Annotation_DataFile.csv'); assert cfg['retrieval']['default_mode'] in ('rrf_hybrid','weighted_hybrid')
+ registry=REPO/'legacy_import/maintenance-ie/outputs/reports/normalization_spert_matched_v2/MODEL_REGISTRY_V2.json'; frozen=REPO/'outputs/frozen/final_operational_ie_kg/FREEZE_MANIFEST.json'; raw=ROOT/'data/Aircraft_Annotation_DataFile.csv'
+ missing=[str(p) for p in (registry,frozen,raw) if not p.exists()]
+ if missing: raise SystemExit('Missing prerequisite(s): '+', '.join(missing))
+ print('FINAL DSS CODE + PREREQUISITES VERIFIED')
+ print('Frozen IE/KG is read-only; RQ4/RQ5 use separate outputs/runs and outputs/frozen/final_rq4_rq5.')
+if __name__=='__main__':main()

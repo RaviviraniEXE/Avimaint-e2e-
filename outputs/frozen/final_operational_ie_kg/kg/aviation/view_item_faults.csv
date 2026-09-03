@@ -1,0 +1,1291 @@
+item,issue,issue_type,record_count
+intake gasket,leaking,ABN_PROC,558
+intake,leaking,ABN_PROC,518
+rocker cover gasket,leaking,ABN_PROC,303
+intakes,leaking,ABN_PROC,256
+intake gaskets,leaking,ABN_PROC,251
+rocker cover,leaking,ABN_PROC,251
+baffle,cracked,FAULT,227
+rocker cover gaskets,leaking,ABN_PROC,213
+rocker covers,leaking,ABN_PROC,177
+baffle,crack,FAULT,163
+cylinder,low,FAULT,145
+baffle seal,loose,FAULT,86
+screw,missing,FAULT,75
+induction tube gasket,leaking,ABN_PROC,54
+rocker gaskets,leaking,ABN_PROC,52
+intake tube gasket,leaking,ABN_PROC,45
+intake gasket,leaks,ABN_PROC,38
+baffle plugs,worn,FAULT,37
+rocker gasket,leaking,ABN_PROC,36
+baffle screw,missing,FAULT,35
+cylinder,cracked,FAULT,33
+baffle,missing,FAULT,31
+intake,leaks,ABN_PROC,29
+cylinder,failed,FAULT,28
+baffle screw,loose,FAULT,27
+engine,ran rough,ABN_PROC,27
+intake tube,leaking,ABN_PROC,26
+baffle,loose,FAULT,26
+rocker box cover screws,loose,FAULT,26
+rivets,sheared,FAULT,26
+baffle seal,torn,FAULT,24
+engine,overspeed,ABN_PROC,23
+engine,roughness,ABN_PROC,22
+baffle plug,missing,FAULT,21
+cylinder,no compression,FAULT,21
+baffling,crack,FAULT,20
+rocker cover screws,loose,FAULT,20
+screw,loose,FAULT,20
+hardware,missing,FAULT,20
+hose clamps,loose,FAULT,19
+rocker cover gasket,leaks,ABN_PROC,18
+engine,rough,ABN_PROC,18
+baffling,cracked,FAULT,17
+cylinder,leaking,ABN_PROC,17
+engine,rough running,ABN_PROC,17
+baffle tie rod,broken,FAULT,16
+exhaust valve,failed,FAULT,16
+engine,running rough,ABN_PROC,16
+baffle plug,broken,FAULT,15
+baffle spring,broken,FAULT,15
+baffle plugs,damaged,FAULT,15
+rocker box cover gasket,leaking,ABN_PROC,15
+bolt,missing,FAULT,15
+propeller,overspeed,ABN_PROC,15
+engine,vibration,ABN_PROC,15
+rivet,sheared,FAULT,14
+baffle plug,worn,FAULT,14
+seal,worn,FAULT,14
+baffle,cracks,FAULT,13
+sniffler valves,dirty,FAULT,13
+baffle seal,worn,FAULT,13
+baffle plugs,broken,FAULT,12
+cylinder,crack,FAULT,12
+baffle plug,damaged,FAULT,12
+valve,stuck,FAULT,12
+black seal,worn,FAULT,12
+baffle,chafing,ABN_PROC,11
+rivets,loose,FAULT,11
+rocker cover,missing,FAULT,11
+engine,quit,ABN_PROC,11
+rocker cover gasket,torn,FAULT,11
+exhaust valve,leaking,ABN_PROC,10
+intake tube gaskets,leaking,ABN_PROC,10
+rocker box cover gaskets,leaking,ABN_PROC,10
+screws,loose,FAULT,10
+engine,metal found in oil,FAULT,10
+engine,ran very rough,ABN_PROC,10
+engine,started running rough,ABN_PROC,10
+baffle,worn,FAULT,10
+rivets,broken,FAULT,9
+tabs,broken,FAULT,9
+oil,leak,ABN_PROC,9
+baffle plugs,missing,FAULT,9
+baffle tie,broken,FAULT,8
+oil return line,chafing,ABN_PROC,8
+baffle bracket,cracked,FAULT,8
+intake,leak,ABN_PROC,8
+exhaust,leaking,ABN_PROC,8
+rocker cover,leaks,ABN_PROC,8
+baffle mounting screw,loose,FAULT,8
+oil filler tube,loose,FAULT,8
+rocker cover screw,missing,FAULT,8
+engine,running very rough,ABN_PROC,8
+cylinder,air coming out exhaus,ABN_PROC,7
+exhaust valve,burnt,FAULT,7
+crankshaft,gouged,FAULT,7
+rocker covers,loose,FAULT,7
+rivets,missing,FAULT,7
+engine,oil leak,ABN_PROC,7
+engine,partial power loss,ABN_PROC,7
+engine,runs rough,ABN_PROC,7
+engine,shutdown,ABN_PROC,7
+exhaust valve,stuck,FAULT,7
+engine,unusually rough,ABN_PROC,7
+engine,back fired,ABN_PROC,6
+magneto,failed,FAULT,6
+rocker cover gaskets,leak,ABN_PROC,6
+bolt,leaking,ABN_PROC,6
+engine,leaking,ABN_PROC,6
+induction tube gaskets,leaking,ABN_PROC,6
+baffle bracket,loose,FAULT,6
+baffle mount,loose,FAULT,6
+baffle seals,loose,FAULT,6
+cowl seal,loose,FAULT,6
+intake tube,loose,FAULT,6
+engine,low,FAULT,6
+engine,shaking,ABN_PROC,6
+air intake,worn,FAULT,6
+baffle buttons,worn,FAULT,6
+engine,back fired when,ABN_PROC,5
+engine,began to struggle,ABN_PROC,5
+baffle,broken,FAULT,5
+tip,came into cont,ABN_PROC,5
+engine,coughed often,ABN_PROC,5
+cooling baffle,crack,FAULT,5
+baffles,cracked,FAULT,5
+oil cooler,cracked,FAULT,5
+rocker cover,damage,FAULT,5
+engine,dirty,FAULT,5
+engine,does not run,ABN_PROC,5
+magneto,dropped,ABN_PROC,5
+intake gaskets,leak,ABN_PROC,5
+intakes,leak,ABN_PROC,5
+oil return lines,leaking,ABN_PROC,5
+oil seal,leaking,ABN_PROC,5
+baffle plugs,loose,FAULT,5
+bolt,loose,FAULT,5
+clamps,loose,FAULT,5
+rivet,loose,FAULT,5
+seal,loose,FAULT,5
+baffle mounting screw,missing,FAULT,5
+cylinder,missing,FAULT,5
+fingers,missing,FAULT,5
+cylinder,no tem,FAULT,5
+engine,rpm dropped,ABN_PROC,5
+engine,sputtering,ABN_PROC,5
+engine,very rough,ABN_PROC,5
+engine,vibrating,ABN_PROC,5
+aircraft,vibrations,ABN_PROC,5
+engine,would not start,ABN_PROC,5
+baffle plugs,bad,FAULT,4
+cylinder,bad compression,FAULT,4
+tangs,broken,FAULT,4
+cylinder,burnt,FAULT,4
+engine,could not start,ABN_PROC,4
+cylinder,cracks,FAULT,4
+cylinder,dead,FAULT,4
+engine,died,ABN_PROC,4
+oil cooler,dirty,FAULT,4
+push rod,galled,FAULT,4
+engine,idles very irratically,ABN_PROC,4
+backbone,leak,ABN_PROC,4
+engine,leak,ABN_PROC,4
+rocker covers,leak,ABN_PROC,4
+crankshaft seal,leaking,ABN_PROC,4
+exhaust push rod seal,leaking,ABN_PROC,4
+rocker box covers,leaking,ABN_PROC,4
+valve covers,leaking,ABN_PROC,4
+plug,missing,FAULT,4
+rivet,missing,FAULT,4
+tabs,missing,FAULT,4
+baffle seal,pulled through,FAULT,4
+rivet,pulled through,FAULT,4
+cylinder,rough,ABN_PROC,4
+baffle,rubbing,ABN_PROC,4
+cylinder,runs rough,ABN_PROC,4
+rocker,scored,FAULT,4
+forward stage nozzle,several cracks,FAULT,4
+engine,smoked out,ABN_PROC,4
+valve,sticking,ABN_PROC,4
+engine,timed out,FAULT,4
+baffle seals,torn,FAULT,4
+valve,vibration,ABN_PROC,4
+aircraft,won ' t start,ABN_PROC,4
+intake,worn,FAULT,4
+baffle,worn through,FAULT,4
+cylinder,air noted,ABN_PROC,3
+engine,back firing,ABN_PROC,3
+engine,backfired,ABN_PROC,3
+baffle plug,bad,FAULT,3
+exhaust valve,bad,FAULT,3
+engine,became incredibly rough,ABN_PROC,3
+engine,became rough,ABN_PROC,3
+baffle rod,broken,FAULT,3
+baffling connecting rod,broken,FAULT,3
+bolt,broken,FAULT,3
+bracket,broken,FAULT,3
+cylinder,broken,FAULT,3
+standoff,broken,FAULT,3
+baffle tie rod,chafing,ABN_PROC,3
+oil cooler line,chafing,ABN_PROC,3
+cowling,coming out,ABN_PROC,3
+engine,crack,FAULT,3
+air intake,cracked,FAULT,3
+baffle patch,cracked,FAULT,3
+bracket,cracked,FAULT,3
+baffling,cracks,FAULT,3
+housing,damage,FAULT,3
+push rod,damage,FAULT,3
+baffle section,damaged,FAULT,3
+propeller tip,damaged,FAULT,3
+oil coolers,dirty,FAULT,3
+engine,failed,FAULT,3
+valve guide,failed,FAULT,3
+engine,high frequency vibration,ABN_PROC,3
+magneto,inoperable,FAULT,3
+cylinder,leak,ABN_PROC,3
+intake tube,leak,ABN_PROC,3
+cylinders,leaking,ABN_PROC,3
+intake pipe gasket,leaking,ABN_PROC,3
+rocker,leaking,ABN_PROC,3
+rocker box cover,leaking,ABN_PROC,3
+rocker drain lines,leaking,ABN_PROC,3
+seal,leaking,ABN_PROC,3
+"exhaust valve , two",leaking through,ABN_PROC,3
+rocker cover gaskets,leaks,ABN_PROC,3
+seal,leaks,ABN_PROC,3
+baffle mounting bracket,loose,FAULT,3
+baffle screws,loose,FAULT,3
+baffle support bracket,loose,FAULT,3
+baffle tab,loose,FAULT,3
+baffle tie rod,loose,FAULT,3
+clamp,loose,FAULT,3
+rocker drain line,loose,FAULT,3
+sump,loose,FAULT,3
+baffle bracket,missing,FAULT,3
+baffle seal,missing,FAULT,3
+nut,missing,FAULT,3
+rocker covers,missing,FAULT,3
+screws,missing,FAULT,3
+propeller,oversped,ABN_PROC,3
+engine,power reduc,ABN_PROC,3
+baffle seal rivet,pulled through,FAULT,3
+engine,ran consistantly rough,ABN_PROC,3
+engine,rough chopping noise,ABN_PROC,3
+baffle tie rod,rubbing,ABN_PROC,3
+oil return line,rubbing,ABN_PROC,3
+engine,run rough,ABN_PROC,3
+backbone,seeping,ABN_PROC,3
+rocker gasket,seeping,ABN_PROC,3
+baffle,sheared,FAULT,3
+rivet head,sheared,FAULT,3
+engine,started normally,ABN_PROC,3
+cylinder,sticking,ABN_PROC,3
+exhaust valve,sticking,ABN_PROC,3
+engine mount,wear,FAULT,3
+baffle plug hole,worn,FAULT,3
+baffle seals,worn,FAULT,3
+baffling,worn,FAULT,3
+black baffle seal,worn,FAULT,3
+engine,wouldn ' t go to full power,ABN_PROC,3
+cylinder,zero,FAULT,3
+baffle,bent,FAULT,2
+push rod tube,bent,FAULT,2
+intake bolt,broke off,FAULT,2
+anchor assembly,broken,FAULT,2
+anchor standby assembly,broken,FAULT,2
+baffle connecting rod,broken,FAULT,2
+baffle interconnect rod,broken,FAULT,2
+baffle support rod,broken,FAULT,2
+baffle tie rods,broken,FAULT,2
+baffle tie wire,broken,FAULT,2
+baffle wire,broken,FAULT,2
+fingers,broken,FAULT,2
+hose clamp,broken,FAULT,2
+manifold psi line,broken,FAULT,2
+rocker cover,broken,FAULT,2
+rocker cover gaskets,broken,FAULT,2
+spring,broken,FAULT,2
+support,broken,FAULT,2
+tab,broken,FAULT,2
+wire standoff,broken,FAULT,2
+cylinder,chafing,ABN_PROC,2
+cylinder fins,chafing,ABN_PROC,2
+drain line,chafing,ABN_PROC,2
+muffler shroud,chafing,ABN_PROC,2
+primer line,chafing,ABN_PROC,2
+rocker oil return line,chafing,ABN_PROC,2
+cylinder,cold,FAULT,2
+cylinder,coming from exhaust,ABN_PROC,2
+piston,contacted,ABN_PROC,2
+engine,coughed,ABN_PROC,2
+backbaffle,crack,FAULT,2
+baffle bracket,crack,FAULT,2
+baffle corner,crack,FAULT,2
+baffle patch,crack,FAULT,2
+cylinder baffling,crack,FAULT,2
+engine baffling,crack,FAULT,2
+oil cooler,crack,FAULT,2
+oil cooler flange,crack,FAULT,2
+outer baffling,crack,FAULT,2
+upper baffle,crack,FAULT,2
+alternator,cracked,FAULT,2
+baffle support,cracked,FAULT,2
+corner bracket,cracked,FAULT,2
+cowl bracket,cracked,FAULT,2
+intake,cracked,FAULT,2
+ninety out of eighty bracket,cracked,FAULT,2
+tube,cracked,FAULT,2
+air intake,cracks,FAULT,2
+baffle access hole,elongated,FAULT,2
+baffle plug hole,elongated,FAULT,2
+propeller,exceeded,ABN_PROC,2
+aircraft,failed,FAULT,2
+aircraft,fails,FAULT,2
+magneto,faulty,FAULT,2
+engine,fluctuating,ABN_PROC,2
+plug,fouled,FAULT,2
+rocker,galled,FAULT,2
+engine,hoisting loop,ABN_PROC,2
+egt,inoperable,FAULT,2
+engine,killed,ABN_PROC,2
+backbone case seam,leak,ABN_PROC,2
+exhaust,leak,ABN_PROC,2
+magneto,leak,ABN_PROC,2
+push rod tube,leakin,ABN_PROC,2
+bolts,leaking,ABN_PROC,2
+carb inlet gaskets,leaking,ABN_PROC,2
+case bolt,leaking,ABN_PROC,2
+case half seam,leaking,ABN_PROC,2
+case plug,leaking,ABN_PROC,2
+center case bolt,leaking,ABN_PROC,2
+cowling,leaking,ABN_PROC,2
+crankcase lifting eyebolt,leaking,ABN_PROC,2
+cylinder rocker covers,leaking,ABN_PROC,2
+exhaust va,leaking,ABN_PROC,2
+fuel,leaking,ABN_PROC,2
+gaskets,leaking,ABN_PROC,2
+intake cylinder,leaking,ABN_PROC,2
+intake gasket tube,leaking,ABN_PROC,2
+intake tubes,leaking,ABN_PROC,2
+lifting eye,leaking,ABN_PROC,2
+oil breather,leaking,ABN_PROC,2
+oil plug,leaking,ABN_PROC,2
+oil return line,leaking,ABN_PROC,2
+"push rod , exhaust , housing gasket",leaking,ABN_PROC,2
+push rod seal,leaking,ABN_PROC,2
+rings,leaking,ABN_PROC,2
+rocker cover drain hose clamps,leaking,ABN_PROC,2
+seal shows signs,leaking,ABN_PROC,2
+spine,leaking,ABN_PROC,2
+valve cover gasket,leaking,ABN_PROC,2
+valve cover gaskets,leaking,ABN_PROC,2
+exhaust valve,leaking through,ABN_PROC,2
+backbone bolt,leaks,ABN_PROC,2
+intake tube,leaks,ABN_PROC,2
+rocker cover seal,leaks,ABN_PROC,2
+baffle bolt,loose,FAULT,2
+baffle brackets,loose,FAULT,2
+baffle mount screw,loose,FAULT,2
+baffle plug,loose,FAULT,2
+baffle seal staples,loose,FAULT,2
+baffle support,loose,FAULT,2
+baffle tie wire,loose,FAULT,2
+bolts,loose,FAULT,2
+dipstick tube,loose,FAULT,2
+engine,loose,FAULT,2
+fire seal,loose,FAULT,2
+fitting,loose,FAULT,2
+grounding bolt,loose,FAULT,2
+grounding strap bolt,loose,FAULT,2
+hardware,loose,FAULT,2
+hose clamp,loose,FAULT,2
+intake tube inserts,loose,FAULT,2
+oil return line,loose,FAULT,2
+oil return line hose clamp,loose,FAULT,2
+propeller governor,loose,FAULT,2
+rocker drain lines,loose,FAULT,2
+cylinder,lost,ABN_PROC,2
+aircraft,loud tap,ABN_PROC,2
+baffle bolt,missing,FAULT,2
+baffle screws,missing,FAULT,2
+bolts,missing,FAULT,2
+intake,missing,FAULT,2
+spark plug,missing,FAULT,2
+engine,momentary power hesitation,ABN_PROC,2
+cylinder,no egt,FAULT,2
+mixture control,not hitting,FAULT,2
+cylinder,oil leak,ABN_PROC,2
+engine section,oil leak,ABN_PROC,2
+hoisting loop,oil leak,ABN_PROC,2
+possible,oil leak,ABN_PROC,2
+vacuum pump,oil leak,ABN_PROC,2
+engine,oversped,ABN_PROC,2
+rivets,pulled through,FAULT,2
+engine,running extremely rough,ABN_PROC,2
+cylinder,runs cold,ABN_PROC,2
+exhaust push rod,scored,FAULT,2
+push rod,scored,FAULT,2
+push rod exhaust tube,seepage,ABN_PROC,2
+case halves,seeping,ABN_PROC,2
+crankshaft seal,seeping,ABN_PROC,2
+propeller shaft seal,seeping,ABN_PROC,2
+top,seeping,ABN_PROC,2
+engine,shakes violently,ABN_PROC,2
+baffle rivet head,sheared,FAULT,2
+cylinder,shock violently,ABN_PROC,2
+engine,shock violently,ABN_PROC,2
+engine,shut down,ABN_PROC,2
+engine,sounded like,ABN_PROC,2
+engine,sputtered,ABN_PROC,2
+engine,started running rough shortly,ABN_PROC,2
+rivnut,stripped,FAULT,2
+propeller strike,sudden stoppage,ABN_PROC,2
+exhaust guide,tight,FAULT,2
+exhaust push rod,too short,FAULT,2
+cowl shock mount,torn,FAULT,2
+intake,torn,FAULT,2
+intake gasket,torn,FAULT,2
+rocker cover gaskets,torn,FAULT,2
+cylinder,unusual indication,FAULT,2
+engine,unusual indication,FAULT,2
+engine,vibrated,ABN_PROC,2
+seal,wearing,ABN_PROC,2
+intake push rod tube inner seal,weeping,ABN_PROC,2
+baffle button,worn,FAULT,2
+baffle hole,worn,FAULT,2
+baffle hole plugs,worn,FAULT,2
+baffle plug holes,worn,FAULT,2
+baffle spark plug,worn,FAULT,2
+cowl seal,worn,FAULT,2
+exhaust rocker,worn,FAULT,2
+hole,worn,FAULT,2
+intake screen,worn,FAULT,2
+spark plug,worn,FAULT,2
+tabs,worn,FAULT,2
+engine,would sputter,ABN_PROC,2
+cylinder,zero compression,FAULT,2
+engine,abnormal vib,ABN_PROC,1
+baffle,aft,LOC,1
+number 29 push rods,air coming out exhaus,ABN_PROC,1
+cylinder,air noted and observed out of exhaust,ABN_PROC,1
+engine,almost quit,ABN_PROC,1
+governor washer,applies,ABN_PROC,1
+engine,audible rpm drop,ABN_PROC,1
+engine,audible rpm loss,ABN_PROC,1
+cylinder,back,ABN_PROC,1
+lueco assembly,back,ABN_PROC,1
+baffle button plug,bad,FAULT,1
+baffle snap plugs,bad,FAULT,1
+baffle tie rods,bad,FAULT,1
+cylinder,bad,FAULT,1
+seal,baffling,MAINT_ITEM,1
+aircraft,barely capable,ABN_PROC,1
+aircraft,battery still showing discharge,ABN_PROC,1
+baffle,behind,LOC,1
+baffle bent,bent,FAULT,1
+bush rod,bent,FAULT,1
+cylinder,bent,FAULT,1
+exhaust valve,bent,FAULT,1
+flange,bent,FAULT,1
+baffle seal,black baffle seal,MAINT_ITEM,1
+cht needle,bounces,ABN_PROC,1
+engine,briefly lose power,ABN_PROC,1
+tie rod,broke,FAULT,1
+adel clamp,broken,FAULT,1
+adel clamp bracket,broken,FAULT,1
+angle,broken,FAULT,1
+baffle attach plate,broken,FAULT,1
+baffle brace,broken,FAULT,1
+baffle bracket,broken,FAULT,1
+baffle button plug,broken,FAULT,1
+baffle connection rod,broken,FAULT,1
+baffle connector rod,broken,FAULT,1
+baffle fastener,broken,FAULT,1
+baffle mounting bracket,broken,FAULT,1
+baffle outer tie,broken,FAULT,1
+baffle rivet,broken,FAULT,1
+baffle safety wire,broken,FAULT,1
+baffle seal rivet,broken,FAULT,1
+baffle snap plug tab,broken,FAULT,1
+baffle support,broken,FAULT,1
+baffle support bracket,broken,FAULT,1
+baffle tension cable,broken,FAULT,1
+baffle tension rod,broken,FAULT,1
+baffle tie rod bolt,broken,FAULT,1
+baffle tie spring,broken,FAULT,1
+baffle wire holder,broken,FAULT,1
+baffle wire spring,broken,FAULT,1
+baffle wire standoff,broken,FAULT,1
+baffles,broken,FAULT,1
+baffling conection wire,broken,FAULT,1
+baffling support bracket,broken,FAULT,1
+bracket rivets,broken,FAULT,1
+cam lock,broken,FAULT,1
+"cht , egt wire anchor",broken,FAULT,1
+clamp,broken,FAULT,1
+connecting rod,broken,FAULT,1
+cooling baffle connecting rod,broken,FAULT,1
+cover screw,broken,FAULT,1
+crosstie,broken,FAULT,1
+egt standoff,broken,FAULT,1
+egt wire probe standoffs,broken,FAULT,1
+harness anchors,broken,FAULT,1
+harness clamp,broken,FAULT,1
+inlet screen wire,broken,FAULT,1
+intake gasket,broken,FAULT,1
+inter baffle rod,broken,FAULT,1
+inter baffle rod fastener,broken,FAULT,1
+lacing core,broken,FAULT,1
+lifting eye bracket,broken,FAULT,1
+oil cooler adel clamp,broken,FAULT,1
+oil cooler hose bracket,broken,FAULT,1
+oil line,broken,FAULT,1
+phenolic spacers,broken,FAULT,1
+prongs,broken,FAULT,1
+rocker cover thrust button,broken,FAULT,1
+rocker cover thrust buttons,broken,FAULT,1
+rocker shaft plugs,broken,FAULT,1
+rocker shaft thrust plug,broken,FAULT,1
+safety wire,broken,FAULT,1
+spring wire,broken,FAULT,1
+stack,broken,FAULT,1
+standby assembly,broken,FAULT,1
+tie rod,broken,FAULT,1
+tywrap,broken,FAULT,1
+wiring harness support bracket,broken,FAULT,1
+wiring holder,broken,FAULT,1
+exhaust valve,burned,FAULT,1
+cowl,"burned , sooted",FAULT,1
+exhaust va,burnt,FAULT,1
+valve,burnt,FAULT,1
+baffle,chafed,FAULT,1
+baffle seal,chafed,FAULT,1
+exciter,chafed,FAULT,1
+oil drain tubes,chafed,FAULT,1
+overboard vent tubes,chafed,FAULT,1
+""" bat "" cable",chafing,ABN_PROC,1
+air duct,chafing,ABN_PROC,1
+air filter box,chafing,ABN_PROC,1
+air line,chafing,ABN_PROC,1
+baffle screw,chafing,ABN_PROC,1
+baffle screws,chafing,ABN_PROC,1
+baffle wire,chafing,ABN_PROC,1
+baffling seal,chafing,ABN_PROC,1
+cooling hose,chafing,ABN_PROC,1
+cowl,chafing,ABN_PROC,1
+exhaust shroud,chafing,ABN_PROC,1
+intake screen panel,chafing,ABN_PROC,1
+muffler heat shroud,chafing,ABN_PROC,1
+oil drain tube,chafing,ABN_PROC,1
+oil return,chafing,ABN_PROC,1
+oil return lines,chafing,ABN_PROC,1
+oil return tube,chafing,ABN_PROC,1
+rocker drain line,chafing,ABN_PROC,1
+rubber baffle,chafing,ABN_PROC,1
+sealant,chafing,ABN_PROC,1
+starter ground wire,chafing,ABN_PROC,1
+starter wire,chafing,ABN_PROC,1
+throttle cable,chafing,ABN_PROC,1
+vacuum pump cooling duct,chafing,ABN_PROC,1
+vacuum pump line,chafing,ABN_PROC,1
+wire bundle,chafing,ABN_PROC,1
+intake tube,chafing damage,ABN_PROC,1
+plugs,chafing through,ABN_PROC,1
+plugs safety wire,chafing through,ABN_PROC,1
+safety wire,chafing through,ABN_PROC,1
+engine,choke,ABN_PROC,1
+engine,choked,ABN_PROC,1
+red,cht red,MAINT_ITEM,1
+magnetos,click,ABN_PROC,1
+engine,clicking noise,ABN_PROC,1
+aircraft,co level high warning came on,ABN_PROC,1
+aircraft,co warning came,ABN_PROC,1
+baffle attach screw,come out,ABN_PROC,1
+governor baffle seal,coming off,ABN_PROC,1
+oil,coming out,ABN_PROC,1
+exhaust valve,contact,ABN_PROC,1
+piston,contact,ABN_PROC,1
+exhaust valve,contacted,ABN_PROC,1
+washer,corroded,FAULT,1
+engine,could not restart,ABN_PROC,1
+air intake,crack,FAULT,1
+airbox elbow,crack,FAULT,1
+alternator mount,crack,FAULT,1
+alternator mount bolt,crack,FAULT,1
+attach bolt,crack,FAULT,1
+baffle angle bracket,crack,FAULT,1
+baffle center,crack,FAULT,1
+baffle corner support bracket,crack,FAULT,1
+baffle seal,crack,FAULT,1
+baffle support,crack,FAULT,1
+baffling bracket,crack,FAULT,1
+below alternator mount,crack,FAULT,1
+bolt,crack,FAULT,1
+bulkhead,crack,FAULT,1
+corner baffle,crack,FAULT,1
+cowling baffle,crack,FAULT,1
+engine mount,crack,FAULT,1
+mount bolt hole,crack,FAULT,1
+muffler,crack,FAULT,1
+muffler heat muff,crack,FAULT,1
+ninety out of eighty bracket,crack,FAULT,1
+oil cooler bolt,crack,FAULT,1
+patch,crack,FAULT,1
+possible,crack,FAULT,1
+rivet,crack,FAULT,1
+screw,crack,FAULT,1
+screw plate,crack,FAULT,1
+side baffle,crack,FAULT,1
+spark plug hole,crack,FAULT,1
+spark plug leads,crack,FAULT,1
+starter generator air vent,crack,FAULT,1
+valve cover,crack,FAULT,1
+wire,crack,FAULT,1
+baffle wire harness,cracke,FAULT,1
+baffle wire harness tab,cracke,FAULT,1
+air baffle,cracked,FAULT,1
+alternator mount,cracked,FAULT,1
+angle bracket,cracked,FAULT,1
+back baffle,cracked,FAULT,1
+backbaffle,cracked,FAULT,1
+baffle . reinforcement angle,cracked,FAULT,1
+baffle angle bracket,cracked,FAULT,1
+baffle attach fitting,cracked,FAULT,1
+baffle corner,cracked,FAULT,1
+baffle mounting bracket,cracked,FAULT,1
+baffle stiffener,cracked,FAULT,1
+baffle tie rod,cracked,FAULT,1
+baffling support bracket,cracked,FAULT,1
+battery box bracket,cracked,FAULT,1
+below alternator mount,cracked,FAULT,1
+bolt,cracked,FAULT,1
+bracket support,cracked,FAULT,1
+cooling baffle,cracked,FAULT,1
+corner baffle,cracked,FAULT,1
+corner patch,cracked,FAULT,1
+firewall,cracked,FAULT,1
+intake tube,cracked,FAULT,1
+mount bolt hole,cracked,FAULT,1
+mounts,cracked,FAULT,1
+muffler,cracked,FAULT,1
+muffler heat muff,cracked,FAULT,1
+oil cooler baffling,cracked,FAULT,1
+oil cooler bolt,cracked,FAULT,1
+oil cooler flange,cracked,FAULT,1
+oil cooler support bracket,cracked,FAULT,1
+outer baffling,cracked,FAULT,1
+paint,cracked,FAULT,1
+part,cracked,FAULT,1
+patch,cracked,FAULT,1
+propeller cable,cracked,FAULT,1
+rocker covers,cracked,FAULT,1
+rudder covers,cracked,FAULT,1
+screw support,cracked,FAULT,1
+spark plug hole,cracked,FAULT,1
+stiffener,cracked,FAULT,1
+support baffle,cracked,FAULT,1
+upper,cracked,FAULT,1
+baffles,cracks,FAULT,1
+patch,cracks,FAULT,1
+relief hole,cracks,FAULT,1
+rivet,cracks,FAULT,1
+rudder covers,cracks,FAULT,1
+starter,cut off,ABN_PROC,1
+air valve,damage,FAULT,1
+baffle tie rod wire,damage,FAULT,1
+carb air valve,damage,FAULT,1
+carb airbox,damage,FAULT,1
+clamps,damage,FAULT,1
+compressor blade,damage,FAULT,1
+compressor first stage blade,damage,FAULT,1
+neg,damage,FAULT,1
+valve,damage,FAULT,1
+wires,damage,FAULT,1
+access holes,damaged,FAULT,1
+air inlet tube,damaged,FAULT,1
+baffle piece,damaged,FAULT,1
+baffle spark plug,damaged,FAULT,1
+baffle tie rod,damaged,FAULT,1
+bolt hole,damaged,FAULT,1
+cowl shock mount,damaged,FAULT,1
+grommet,damaged,FAULT,1
+holes,damaged,FAULT,1
+intake tube,damaged,FAULT,1
+lacing cord,damaged,FAULT,1
+magneto,damaged,FAULT,1
+nutplates,damaged,FAULT,1
+oil pressure switch wire,damaged,FAULT,1
+oil sump screen,damaged,FAULT,1
+piston pin bore,damaged,FAULT,1
+piston pins,damaged,FAULT,1
+ring gear,damaged,FAULT,1
+ring gear teeth,damaged,FAULT,1
+riv,damaged,FAULT,1
+rivet,damaged,FAULT,1
+rivets,damaged,FAULT,1
+rocker cover gasket,damaged,FAULT,1
+seals,damaged,FAULT,1
+spark plug,damaged,FAULT,1
+threads,damaged,FAULT,1
+aircraft,dead,FAULT,1
+exhaust push tube,dent,FAULT,1
+engine,did not start,ABN_PROC,1
+engine,die,ABN_PROC,1
+aircraft,died,ABN_PROC,1
+engines,died,ABN_PROC,1
+compressor first stage blade,ding,FAULT,1
+air filter,dirty,FAULT,1
+impeller,dirty,FAULT,1
+scroll,dirty,FAULT,1
+sniffle valves,dirty,FAULT,1
+sniffler valve,dirty,FAULT,1
+exhaust shroud,does not align,FAULT,1
+throttle,drop in rpm,ABN_PROC,1
+valve,drop in rpm,ABN_PROC,1
+cht gauge,drops to zero,ABN_PROC,1
+oil psi line,ducting rubbing,ABN_PROC,1
+mounting bolt,eating into,ABN_PROC,1
+scroll mount,eating into,ABN_PROC,1
+intake gasket,elaking,ABN_PROC,1
+seal,engine,MAINT_ITEM,1
+baffle plug hole,enlarged,FAULT,1
+plug hole,enlarged,FAULT,1
+upper baffle,enlarged,FAULT,1
+exhaust valve,excessive,FAULT,1
+throttle cable attachment,excessive end play,FAULT,1
+engine,failure,ABN_PROC,1
+oil cooler lines lacing cord,falling,FAULT,1
+engine,flame came out,ABN_PROC,1
+aircraft,flames,ABN_PROC,1
+engine,flames comi,ABN_PROC,1
+cht probe,fluctuating,ABN_PROC,1
+magneto,fouled,FAULT,1
+engine,gains and drops,ABN_PROC,1
+exhaust push rod tips,galled,FAULT,1
+exhaust push rod tips,galled,ACTION,1
+guide,galled,FAULT,1
+push rod tips,galled,FAULT,1
+push rod tips,galled,ACTION,1
+particle separator,grass,FAULT,1
+particle separator,grass,MAINT_ITEM,1
+engine,grinding noise,ABN_PROC,1
+engine,hesitation/roughness,ABN_PROC,1
+aircraft,high,FAULT,1
+engine,high,FAULT,1
+aircraft,high frequency vibration,ABN_PROC,1
+aircraft,high pitched squealing noise,ABN_PROC,1
+engine,"high pitched whine , squeal , wh",ABN_PROC,1
+center baffle screw,hitting mount,ABN_PROC,1
+engine,idling too low,ABN_PROC,1
+alternator,indicates zero,ABN_PROC,1
+oil temperature light,inoperable,FAULT,1
+starter,inoperable,FAULT,1
+engine,kept hesitating,ABN_PROC,1
+breather line,kinked,FAULT,1
+oil cooler hose,kinked,FAULT,1
+pass down,knocking noise,ABN_PROC,1
+intake,large gouge,MAINT_ITEM,1
+engine,large pool of oil,ABN_PROC,1
+engine,large puddle of liquid,FAULT,1
+aircraft,leak,ABN_PROC,1
+bolt,leak,ABN_PROC,1
+bolts,leak,ABN_PROC,1
+crankcase bolts,leak,ABN_PROC,1
+drain,leak,ABN_PROC,1
+exhaust valve,leak,ABN_PROC,1
+fuel,leak,ABN_PROC,1
+intake tube gaskets,leak,ABN_PROC,1
+lifting bracket case half bolt,leak,ABN_PROC,1
+oil return line,leak,ABN_PROC,1
+rocker cover gasket,leak,ABN_PROC,1
+intake gasket,leakage,ABN_PROC,1
+rocker cover gaskets,leaki,ABN_PROC,1
+backbone,leaking,ABN_PROC,1
+bolt hole,leaking,ABN_PROC,1
+case,leaking,ABN_PROC,1
+case bolts,leaking,ABN_PROC,1
+case halves,leaking,ABN_PROC,1
+clamp,leaking,ABN_PROC,1
+cover,leaking,ABN_PROC,1
+crankcase,leaking,ABN_PROC,1
+crankcase half bolt,leaking,ABN_PROC,1
+cylinder base,leaking,ABN_PROC,1
+cylinder rocker cover gaskets,leaking,ABN_PROC,1
+exhaust push rod tube seal,leaking,ABN_PROC,1
+exhaust seal,leaking,ABN_PROC,1
+flexible tube,leaking,ABN_PROC,1
+governor,leaking,ABN_PROC,1
+hose clamps,leaking,ABN_PROC,1
+inatke gasket,leaking,ABN_PROC,1
+induction,leaking,ABN_PROC,1
+induction pipes,leaking,ABN_PROC,1
+intake cylinder gasket,leaking,ABN_PROC,1
+intake lube gasket,leaking,ABN_PROC,1
+intake push rod seal,leaking,ABN_PROC,1
+lift ring bolt,leaking,ABN_PROC,1
+lifting bracket case half bolt,leaking,ABN_PROC,1
+lifting eye bolt,leaking,ABN_PROC,1
+oil cooler,leaking,ABN_PROC,1
+possible,leaking,ABN_PROC,1
+propeller,leaking,ABN_PROC,1
+push rod,leaking,ABN_PROC,1
+push rod seals,leaking,ABN_PROC,1
+push rod tube,leaking,ABN_PROC,1
+push rod tube seal,leaking,ABN_PROC,1
+rocker box,leaking,ABN_PROC,1
+rocker box gasket,leaking,ABN_PROC,1
+rocker cvoer gasket,leaking,ABN_PROC,1
+rocker drain line,leaking,ABN_PROC,1
+rocker oil return lines,leaking,ABN_PROC,1
+rockers,leaking,ABN_PROC,1
+rubber hose section,leaking,ABN_PROC,1
+shows signs,leaking,ABN_PROC,1
+signs,leaking,ABN_PROC,1
+sniffler valve,leaking,ABN_PROC,1
+vacuum adapter gasket,leaking,ABN_PROC,1
+cylinder,leaking past,ABN_PROC,1
+exhaust,leaking past,ABN_PROC,1
+bolt,leaks,ABN_PROC,1
+clamp,leaks,ABN_PROC,1
+intake flanges,leaks,ABN_PROC,1
+rocker box cover gasket,leaks,ABN_PROC,1
+rocker gasket,leaks,ABN_PROC,1
+cylinder,leaky,ABN_PROC,1
+intake valve,leaky,ABN_PROC,1
+baffle tie,listed,ABN_PROC,1
+engine,little rough,ABN_PROC,1
+adel clamp,loose,FAULT,1
+adel clamps,loose,FAULT,1
+alternator belt,loose,FAULT,1
+attach bolt,loose,FAULT,1
+b nuts,loose,FAULT,1
+baffle attach bracket,loose,FAULT,1
+baffle attachment tab,loose,FAULT,1
+baffle bolts,loose,FAULT,1
+baffle bracket screws,loose,FAULT,1
+baffle connection rod,loose,FAULT,1
+baffle material,loose,FAULT,1
+baffle rod,loose,FAULT,1
+baffle seal rivets,loose,FAULT,1
+baffle seal section,loose,FAULT,1
+baffle section,loose,FAULT,1
+baffle support screw,loose,FAULT,1
+baffle tie rod spacer,loose,FAULT,1
+baffle wire,loose,FAULT,1
+baffling mount bracket,loose,FAULT,1
+bearing,loose,FAULT,1
+bracket,loose,FAULT,1
+cable,loose,FAULT,1
+cable sheath,loose,FAULT,1
+carb airbox,loose,FAULT,1
+carb heat box,loose,FAULT,1
+carb heat bracket,loose,FAULT,1
+center baffle seal,loose,FAULT,1
+cooling baffle,loose,FAULT,1
+cooling baffle seal,loose,FAULT,1
+cotter pin,loose,FAULT,1
+cowl,loose,FAULT,1
+cowl seals,loose,FAULT,1
+cylinder,loose,FAULT,1
+cylinder drain line b nuts,loose,FAULT,1
+filter,loose,FAULT,1
+fireseal,loose,FAULT,1
+firewall,loose,FAULT,1
+foam seal,loose,FAULT,1
+fuel control,loose,FAULT,1
+fuel injector lines,loose,FAULT,1
+fuel line,loose,FAULT,1
+fuel line support bracket,loose,FAULT,1
+hoist loop bolt,loose,FAULT,1
+intake bolts,loose,FAULT,1
+intake clamp,loose,FAULT,1
+intake clamps,loose,FAULT,1
+intake feels,loose,FAULT,1
+intake hose clamps,loose,FAULT,1
+intake screen,loose,FAULT,1
+lacing cord,loose,FAULT,1
+like clamps,loose,FAULT,1
+middle mount rivets,loose,FAULT,1
+mixture linkage,loose,FAULT,1
+nuts,loose,FAULT,1
+oil cooler,loose,FAULT,1
+oil dipstick oil stick,loose,FAULT,1
+oil dipstick tube,loose,FAULT,1
+oil dipstick tubes,loose,FAULT,1
+oil fill tube,loose,FAULT,1
+oil return,loose,FAULT,1
+oil return like clamps,loose,FAULT,1
+oil return line clamp,loose,FAULT,1
+oil return lines,loose,FAULT,1
+oil stick,loose,FAULT,1
+oil tube drain lines,loose,FAULT,1
+output wire,loose,FAULT,1
+plugs,loose,FAULT,1
+plugs safety wire,loose,FAULT,1
+pop rivet,loose,FAULT,1
+pop rivets,loose,FAULT,1
+primer line clamp,loose,FAULT,1
+propeller governors,loose,FAULT,1
+propeller rivets,loose,FAULT,1
+push rod tube,loose,FAULT,1
+rocker box cover screw,loose,FAULT,1
+rocker covers screws,loose,FAULT,1
+rubber seal,loose,FAULT,1
+safety wire,loose,FAULT,1
+spark plug,loose,FAULT,1
+spark plug cap,loose,FAULT,1
+temperature probe,loose,FAULT,1
+throttle,loose,FAULT,1
+throttle linkage,loose,FAULT,1
+throttle linkage dog bone,loose,FAULT,1
+tie rod,loose,FAULT,1
+trunnion bolt,loose,FAULT,1
+upper baffle seal,loose,FAULT,1
+valve covers,loose,FAULT,1
+washer,loose,FAULT,1
+bolt,loose cracked,FAULT,1
+line,loosen,FAULT,1
+engine,lost,ABN_PROC,1
+engine,loud knock,ABN_PROC,1
+engine,loud soun,ABN_PROC,1
+aircraft,low,FAULT,1
+exhaust valve,low,FAULT,1
+"exhaust valve , two",low,FAULT,1
+helo,low power,ABN_PROC,1
+cylinder,lower,FAULT,1
+seal,lower,LOC,1
+cowling,major shaking,ABN_PROC,1
+impeller,making contact,ABN_PROC,1
+baffle plugs,many missing,FAULT,1
+fingers,many missing,FAULT,1
+lueco,markings,ABN_PROC,1
+oil filter,metal found,FAULT,1
+part,missi,FAULT,1
+back baffle bracket,missing,FAULT,1
+baffle attach fitting,missing,FAULT,1
+baffle bolt or screw,missing,FAULT,1
+baffle bracket screw,missing,FAULT,1
+baffle hardware,missing,FAULT,1
+baffle mount screw,missing,FAULT,1
+baffle rivets,missing,FAULT,1
+baffle support,missing,FAULT,1
+baffle support bracket,missing,FAULT,1
+baffle tie rod,missing,FAULT,1
+baffling,missing,FAULT,1
+bracket,missing,FAULT,1
+bracket screw,missing,FAULT,1
+brake,missing,FAULT,1
+carb heat valve,missing,FAULT,1
+cowl cam,missing,FAULT,1
+cowl seal,missing,FAULT,1
+crankcase,missing,FAULT,1
+crankcase spin bolt,missing,FAULT,1
+data plate,missing,FAULT,1
+exhaust stack,missing,FAULT,1
+felt,missing,FAULT,1
+grommet,missing,FAULT,1
+head,missing,FAULT,1
+lock washer,missing,FAULT,1
+mount bolt,missing,FAULT,1
+muffler,missing,FAULT,1
+muffler intake,missing,FAULT,1
+oil psi switch wiring grommet,missing,FAULT,1
+outer nut,missing,FAULT,1
+plug baffle plugs,missing,FAULT,1
+rivet head,missing,FAULT,1
+rocker box cover screw,missing,FAULT,1
+rocker cover screws,missing,FAULT,1
+rocker screw,missing,FAULT,1
+rod cylinder,missing,FAULT,1
+rubber plug,missing,FAULT,1
+screw each,missing,FAULT,1
+spark plug access plug,missing,FAULT,1
+spark plug baffle plugs,missing,FAULT,1
+spring washer,missing,FAULT,1
+starter ring gear,missing,FAULT,1
+tie wrap,missing,FAULT,1
+upper baffle seal,missing,FAULT,1
+fdm card data,momentary overspeed,ABN_PROC,1
+aircraft,momentary rpm drop aroun,ABN_PROC,1
+cht gauge,moves erratically,ABN_PROC,1
+compressor blade,nicked,FAULT,1
+engine,nicked,FAULT,1
+exhaust rocker,nicked,FAULT,1
+rocker,nicked,FAULT,1
+egt,no,FAULT,1
+cylinder,no compresion,FAULT,1
+engine,no egt,FAULT,1
+cylinder,no egt ind,FAULT,1
+engine,no egt ind,FAULT,1
+engine,no rise,FAULT,1
+cowling,no smoothness,FAULT,1
+magneto,no tem,FAULT,1
+outboard bolt,no threads showing,FAULT,1
+rocker drain lines,no torque seal,FAULT,1
+aircraft,normally,ABN_PROC,1
+aircraft,normally,FAULT,1
+auto reignition,not activate,FAULT,1
+exhaust shroud,not align,FAULT,1
+seal,not align,FAULT,1
+airbox gasket,not applicable,FAULT,1
+baffle rubber seal,not attached,FAULT,1
+baffle seal,not attached,FAULT,1
+wiring clamp,not attached,FAULT,1
+baffle wire,not connected,FAULT,1
+air intake hose,not hooked up,FAULT,1
+engine,not producing fu,ABN_PROC,1
+engine cover,not put,FAULT,1
+engine,not rubbing,FAULT,1
+engine,not running,FAULT,1
+baffle,not sealing,FAULT,1
+cowl seal,not sealing,FAULT,1
+baffle tie wires,not secured,FAULT,1
+oil cooler hose,not secured,FAULT,1
+magneto,not within tolerance,FAULT,1
+oil,numerous specks of non-ferrous metal,FAULT,1
+intake tubes,oil found,ABN_PROC,1
+bolt,oil leak,ABN_PROC,1
+filter housing,oil leak,ABN_PROC,1
+intake,oil leak,ABN_PROC,1
+lift bolt,oil leak,ABN_PROC,1
+engine,operated good,OUTCOME,1
+cylinder,out of limits,FAULT,1
+number 29 push rods,out of limits,FAULT,1
+baffle inner tie,out of place,FAULT,1
+baffle seal,out of place,FAULT,1
+spring,out of place,FAULT,1
+aircraft,out of standards,FAULT,1
+engine,over reved,ABN_PROC,1
+engine,over temperature,FAULT,1
+tube seals,overhaul kit,MAINT_ITEM,1
+propeller,overspe,ABN_PROC,1
+governor washer,overspeed,ABN_PROC,1
+possible engine,overspeed,ABN_PROC,1
+engine,overspeed 2750,ABN_PROC,1
+engine,overspeed generally,ABN_PROC,1
+propeller,ovespeed,ABN_PROC,1
+baffle seal,pulled,FAULT,1
+baffle spring,pulled through,FAULT,1
+baffle tie rod,pulled through,FAULT,1
+spring,pulled through,FAULT,1
+rivets,pulling through,ABN_PROC,1
+throttle,ran rough,ABN_PROC,1
+engines,ran very rough,ABN_PROC,1
+baffle seal,reattached,FAULT,1
+egt,red x,FAULT,1
+aircraft,reduction in power,ABN_PROC,1
+magneto,rough,ABN_PROC,1
+propeller could use,rough,ABN_PROC,1
+engine,rough operation,ABN_PROC,1
+cylinder,rough running,ABN_PROC,1
+aircraft,rough vibra,ABN_PROC,1
+engine,roughne,ABN_PROC,1
+aircraft,roughness,ABN_PROC,1
+control cable,routing,ABN_PROC,1
+engine,rpm drop,ABN_PROC,1
+aircraft,rpm dropped,ABN_PROC,1
+rotor,rpm dropped,ABN_PROC,1
+aircraft,rpm dropped normally,ABN_PROC,1
+oil drain line,rub mark,ABN_PROC,1
+adel clamp,rubbing,ABN_PROC,1
+baffle tie wire,rubbing,ABN_PROC,1
+drain tube,rubbing,ABN_PROC,1
+ducting rubbing,rubbing,ABN_PROC,1
+intake tube,rubbing,ABN_PROC,1
+muffler,rubbing,ABN_PROC,1
+oil psi line,rubbing,ABN_PROC,1
+oil return line clamp,rubbing,ABN_PROC,1
+push rod tube,rubbing,ABN_PROC,1
+lowest part,rubbing diagonal,ABN_PROC,1
+oil cooler line,rubbing together,ABN_PROC,1
+vacuum tube,rubbing together,ABN_PROC,1
+engine,run rough anytim,ABN_PROC,1
+engine,run rough momentarily,ABN_PROC,1
+engine,running . extremely roug,ABN_PROC,1
+cylinder,running rough,ABN_PROC,1
+cylinder,running very clean,ABN_PROC,1
+engine,runs very rough,ABN_PROC,1
+plugs,safety wire,MAINT_ITEM,1
+push rod end,scored,FAULT,1
+push rods,scored,FAULT,1
+baffle,scratch,FAULT,1
+backbone bolts,seeping,ABN_PROC,1
+rocker box covers,seeping,ABN_PROC,1
+rocker cover gasket,seeping,ABN_PROC,1
+rocker cover gaskets,seeping,ABN_PROC,1
+cylinder,shakes violently,ABN_PROC,1
+magneto,shaking,ABN_PROC,1
+baffle mount,sheared,FAULT,1
+baffle rivets,sheared,FAULT,1
+baffle support bracket,sheared,FAULT,1
+baffling bracket,sheared,FAULT,1
+mount bracket,sheared,FAULT,1
+baffle,shroud opening,ABN_PROC,1
+muffler,shroud opening,ABN_PROC,1
+engine,shutdown when,ABN_PROC,1
+engine,shuttered,ABN_PROC,1
+egt,significant vibratio,ABN_PROC,1
+engine,significant vibratio,ABN_PROC,1
+aircraft,sitting,ABN_PROC,1
+valve,slight drop in rpm,ABN_PROC,1
+engine,slight fluctuations,ABN_PROC,1
+purposes only,slight power loss,ABN_PROC,1
+servo,sloppy,ABN_PROC,1
+throttle linkage,sloppy,ABN_PROC,1
+exhaust push rod tube,small dent,FAULT,1
+exhaust valve,smiled,FAULT,1
+piston,smiled,FAULT,1
+engine,smoking,ABN_PROC,1
+engine,smoothed out,ABN_PROC,1
+engine,some noise,ABN_PROC,1
+rocker cover gasket,split,FAULT,1
+engine,sput,ABN_PROC,1
+engine,sputter,ABN_PROC,1
+throttle,sputter,ABN_PROC,1
+engine,sputtering noise,ABN_PROC,1
+rocker cover gasket,squeezed out,ABN_PROC,1
+aircraft,started,ACTION,1
+engine,started but ran very rough,ABN_PROC,1
+engine,started making abnormal sound,ABN_PROC,1
+engine,started to ru,ABN_PROC,1
+aircraft,started to smell heavy fumes,ABN_PROC,1
+baffle,starter,MAINT_ITEM,1
+intake,step,FAULT,1
+cylinder valve,sticking,ABN_PROC,1
+engine,sticking,ABN_PROC,1
+access panel screw,stripped,FAULT,1
+intake,stripped,FAULT,1
+intake bolt hole,stripped,FAULT,1
+cylinder,stuck,FAULT,1
+housing,stuck,FAULT,1
+screws,stuck,FAULT,1
+engine,surging,ABN_PROC,1
+engine,tapping,ABN_PROC,1
+baffle seal,tearing off,OP_CTX,1
+engine,ticking,ABN_PROC,1
+aircraft,"ticking , chirping noise",ABN_PROC,1
+accessory case fitting,tigh,FAULT,1
+oil return line,tigh,FAULT,1
+baffle screw,tight,FAULT,1
+exhaust valve,tight,FAULT,1
+rocker cover screws,tightening,ACTION,1
+oil cooler,timed out,FAULT,1
+adel clamp,too large,FAULT,1
+baffle plug hole,too large,FAULT,1
+intake push rod,too long,ABN_PROC,1
+baffle plugs,too many,FAULT,1
+ring gear,too many,FAULT,1
+tabs,too many,FAULT,1
+ring gear,too many damaged,FAULT,1
+adel clamp,torn,FAULT,1
+air intake,torn,FAULT,1
+air intake tubing,torn,FAULT,1
+baffle grommet,torn,FAULT,1
+baffle material,torn,FAULT,1
+cowl mounts,torn,FAULT,1
+cowl shock mounts,torn,FAULT,1
+cylinder,torn,FAULT,1
+primer line sleeve,torn,FAULT,1
+rubber baffle seal,torn,FAULT,1
+seal,torn,FAULT,1
+vacuum pump,torn,FAULT,1
+baffle seal,torn loose,FAULT,1
+engine,uncommanded increase,ABN_PROC,1
+intake o-ring,unseated,FAULT,1
+baffling seal,unsecured,FAULT,1
+wiring,unsupported,FAULT,1
+engine,verify condition,ABN_PROC,1
+intake gasket,very difficult,ABN_PROC,1
+aircraft,vibration,ABN_PROC,1
+magneto,vibration,ABN_PROC,1
+engine,vibration noise,ABN_PROC,1
+engine,vibrations,ABN_PROC,1
+engine,waiting,ABN_PROC,1
+o-rings,waiting,ABN_PROC,1
+push rods,waiting,ABN_PROC,1
+rocker arms,waiting,ABN_PROC,1
+baffle plug hole,wallard out,ABN_PROC,1
+engine,wants to die,ABN_PROC,1
+air door spring,weak,ABN_PROC,1
+seal,wear,FAULT,1
+baffle seals,wear marks,FAULT,1
+air intake camlocks,wearing,ABN_PROC,1
+baffle,wearing,ABN_PROC,1
+baffle seal,wearing,FAULT,1
+baffle tie rod,wearing,ABN_PROC,1
+black cowling seal,wearing,ABN_PROC,1
+black seal,wearing,FAULT,1
+cowl seal,wearing,ABN_PROC,1
+inlet,wearing,FAULT,1
+intake,wearing,ABN_PROC,1
+intake filter,wearing,FAULT,1
+baffle seal,wearing into,ABN_PROC,1
+intake,wearing into,ABN_PROC,1
+air induction elbow,weeping fuel,ABN_PROC,1
+plugs,wet with oil,FAULT,1
+aircraft,whistling noise,ABN_PROC,1
+engine,will not make enough,ABN_PROC,1
+aircraft,will not make power,ABN_PROC,1
+aircraft,will not start,ABN_PROC,1
+engine,will not start,ABN_PROC,1
+left engine,will not start hot,ABN_PROC,1
+cylinders,within limi,OUTCOME,1
+engine,won ' t start,ABN_PROC,1
+rocker cover screw,won ' t tighten,FAULT,1
+access button,worn,FAULT,1
+access plug,worn,FAULT,1
+air door,worn,FAULT,1
+air inlet,worn,FAULT,1
+airbox,worn,FAULT,1
+alteranate air door,worn,FAULT,1
+baffle access hole,worn,FAULT,1
+baffle black seal,worn,FAULT,1
+baffle button plug,worn,FAULT,1
+baffle center section,worn,FAULT,1
+"baffle hole , plug",worn,FAULT,1
+baffle inspection hole,worn,FAULT,1
+baffle snap plug hole,worn,FAULT,1
+baffle spark plug access,worn,FAULT,1
+baffle spark plug access button,worn,FAULT,1
+baffle spark plug caps,worn,FAULT,1
+baffle spark plug hole covers,worn,FAULT,1
+baffling plug,worn,FAULT,1
+black cowling seal,worn,FAULT,1
+brake linings,worn,FAULT,1
+button plug,worn,FAULT,1
+button plug hole,worn,FAULT,1
+clip,worn,FAULT,1
+cowl,worn,FAULT,1
+cylinder,worn,FAULT,1
+engine,worn,FAULT,1
+exhaust valve,worn,FAULT,1
+filter,worn,FAULT,1
+grommet,worn,FAULT,1
+guide,worn,FAULT,1
+induction,worn,FAULT,1
+inlet,worn,FAULT,1
+intake filter bracket,worn,FAULT,1
+intake filter housing,worn,FAULT,1
+intake tube,worn,FAULT,1
+muffler shroud,worn,FAULT,1
+oil baffle cooler bracket,worn,FAULT,1
+oil return line,worn,FAULT,1
+plug access,worn,FAULT,1
+plug access button,worn,FAULT,1
+plug baffle,worn,FAULT,1
+plug baffle hole plugs,worn,FAULT,1
+plugs,worn,FAULT,1
+rocker shaft,worn,FAULT,1
+rocker shaft plug,worn,FAULT,1
+rubber,worn,FAULT,1
+seal support,worn,FAULT,1
+seals,worn,FAULT,1
+spark plug access,worn,FAULT,1
+spark plug access button,worn,FAULT,1
+spark plug access plug,worn,FAULT,1
+spark plug baffle,worn,FAULT,1
+spark plug baffle hole,worn,FAULT,1
+spark plug baffle hole plugs,worn,FAULT,1
+spark plug baffle plug,worn,FAULT,1
+spark plug baffle plugs,worn,FAULT,1
+spark plugs,worn,FAULT,1
+staple,worn,FAULT,1
+thrust button,worn,FAULT,1
+thrust buttons,worn,FAULT,1
+upper baffling,worn,FAULT,1
+baffle tie,worn through,FAULT,1
+rivets,worn through,FAULT,1
+engine,would fluctuate,ABN_PROC,1
+engine,would increase significantly,ABN_PROC,1
+aircraft,would intermittently lose,ABN_PROC,1
+aircraft,would not increase,ABN_PROC,1
+engine,would not increase,ABN_PROC,1
+left door,would not latch,ABN_PROC,1
+engine,would not stabilize,ABN_PROC,1
+aircraft,would not start,ABN_PROC,1
+cowl flap,would not stay open,ABN_PROC,1
+engine,would quit,ABN_PROC,1
+aircraft,would rise,ABN_PROC,1
+engine,would shutdown,ABN_PROC,1
+engine,would sputter when,ABN_PROC,1
+aircraft,would start to quit,ABN_PROC,1
+starter,would turn twice,ABN_PROC,1
+engine,wouldn ' t adjust,FAULT,1
+aircraft,wouldn ' t start,ABN_PROC,1
+cylinder,wrench,FAULT,1
+tyrap,wrench,FAULT,1
+baffle tie wire,wrong,FAULT,1
+washer,wrong position,FAULT,1

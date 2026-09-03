@@ -1,0 +1,575 @@
+{
+  "run_id": "aviation_neural",
+  "created_utc": "2026-08-28T07:13:04.907949+00:00",
+  "status": "complete",
+  "schema_path": "config/schema.yaml",
+  "schema": "FULL (9 entities / 11 relations)",
+  "gold_glob": "outputs/gold/*.jsonl",
+  "split": "FROZEN",
+  "seed": 42,
+  "n_gold": 1600,
+  "n_train": 1275,
+  "n_dev": 100,
+  "n_test": 225,
+  "test_policy": "DEV-only model selection; frozen TEST evaluated after selection",
+  "tiers": [
+    "2",
+    "3"
+  ],
+  "tuned": false,
+  "selections": {
+    "bilstm": {
+      "params": {
+        "word_dim": 100,
+        "hidden_dim": 192,
+        "char_dim": 32,
+        "dropout": 0.4,
+        "lr": 0.001,
+        "seed": 42
+      },
+      "training_summary": {
+        "model": "BiLSTM-CRF NER",
+        "device": "cuda",
+        "max_epochs": 60,
+        "stopped_epoch": 28,
+        "best_epoch": 20,
+        "best_dev_loss": 2.51716614,
+        "patience": 8,
+        "early_stopped": true,
+        "early_stopping_metric": "dev_loss",
+        "batch_size": 16,
+        "params": {
+          "word_dim": 100,
+          "hidden_dim": 192,
+          "char_dim": 32,
+          "dropout": 0.4,
+          "lr": 0.001,
+          "seed": 42
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "train_loss": 35.13482337,
+            "dev_loss": 13.05472851,
+            "dev_f1": 0.728,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 2,
+            "train_loss": 16.45491927,
+            "dev_loss": 6.43589687,
+            "dev_f1": 0.8448,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 3,
+            "train_loss": 10.85337803,
+            "dev_loss": 4.4781065,
+            "dev_f1": 0.8904,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 4,
+            "train_loss": 8.36901566,
+            "dev_loss": 3.82035136,
+            "dev_f1": 0.9012,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 5,
+            "train_loss": 6.65221224,
+            "dev_loss": 3.42644954,
+            "dev_f1": 0.9146,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 6,
+            "train_loss": 5.69208155,
+            "dev_loss": 3.19843006,
+            "dev_f1": 0.9198,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 7,
+            "train_loss": 4.87559303,
+            "dev_loss": 3.01879334,
+            "dev_f1": 0.9276,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 8,
+            "train_loss": 4.30759209,
+            "dev_loss": 3.02013516,
+            "dev_f1": 0.927,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 9,
+            "train_loss": 3.89457863,
+            "dev_loss": 2.97318912,
+            "dev_f1": 0.9246,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 10,
+            "train_loss": 3.41747055,
+            "dev_loss": 2.71056461,
+            "dev_f1": 0.9356,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 11,
+            "train_loss": 3.14433497,
+            "dev_loss": 2.79005551,
+            "dev_f1": 0.9342,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 12,
+            "train_loss": 2.90638465,
+            "dev_loss": 2.60452533,
+            "dev_f1": 0.9307,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 13,
+            "train_loss": 2.63419522,
+            "dev_loss": 2.59628725,
+            "dev_f1": 0.9388,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 14,
+            "train_loss": 2.43474501,
+            "dev_loss": 2.60413027,
+            "dev_f1": 0.9377,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 15,
+            "train_loss": 2.19341361,
+            "dev_loss": 2.64678764,
+            "dev_f1": 0.937,
+            "stale": 2,
+            "improved": false
+          },
+          {
+            "epoch": 16,
+            "train_loss": 2.05548732,
+            "dev_loss": 2.62001419,
+            "dev_f1": 0.9376,
+            "stale": 3,
+            "improved": false
+          },
+          {
+            "epoch": 17,
+            "train_loss": 1.94226149,
+            "dev_loss": 2.58447075,
+            "dev_f1": 0.9377,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 18,
+            "train_loss": 1.79616843,
+            "dev_loss": 2.74314141,
+            "dev_f1": 0.9413,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 19,
+            "train_loss": 1.66301872,
+            "dev_loss": 2.55463958,
+            "dev_f1": 0.9452,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 20,
+            "train_loss": 1.51044792,
+            "dev_loss": 2.51716614,
+            "dev_f1": 0.944,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 21,
+            "train_loss": 1.4733679,
+            "dev_loss": 2.59214687,
+            "dev_f1": 0.9433,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 22,
+            "train_loss": 1.39953082,
+            "dev_loss": 2.71661973,
+            "dev_f1": 0.9444,
+            "stale": 2,
+            "improved": false
+          },
+          {
+            "epoch": 23,
+            "train_loss": 1.28291743,
+            "dev_loss": 2.64670897,
+            "dev_f1": 0.9458,
+            "stale": 3,
+            "improved": false
+          },
+          {
+            "epoch": 24,
+            "train_loss": 1.26880707,
+            "dev_loss": 2.60781217,
+            "dev_f1": 0.9433,
+            "stale": 4,
+            "improved": false
+          },
+          {
+            "epoch": 25,
+            "train_loss": 1.14709082,
+            "dev_loss": 2.69564939,
+            "dev_f1": 0.9432,
+            "stale": 5,
+            "improved": false
+          },
+          {
+            "epoch": 26,
+            "train_loss": 1.04894705,
+            "dev_loss": 2.59859014,
+            "dev_f1": 0.9458,
+            "stale": 6,
+            "improved": false
+          },
+          {
+            "epoch": 27,
+            "train_loss": 1.04254517,
+            "dev_loss": 2.62399101,
+            "dev_f1": 0.9452,
+            "stale": 7,
+            "improved": false
+          },
+          {
+            "epoch": 28,
+            "train_loss": 1.01562708,
+            "dev_loss": 2.60001755,
+            "dev_f1": 0.9445,
+            "stale": 8,
+            "improved": false
+          }
+        ]
+      },
+      "selection": "fixed predeclared configuration; early stopping on DEV loss"
+    },
+    "bilstm_re": {
+      "params": {
+        "seed": 42,
+        "embedding_dim": 100,
+        "hidden_dim": 160,
+        "dropout": 0.4,
+        "lr": 0.001
+      },
+      "training_summary": {
+        "model": "BiLSTM Neural RE",
+        "device": "cuda",
+        "max_epochs": 40,
+        "stopped_epoch": 12,
+        "best_epoch": 6,
+        "best_dev_loss": 0.18413446,
+        "patience": 6,
+        "early_stopped": true,
+        "early_stopping_metric": "dev_loss",
+        "batch_size": 64,
+        "train_pairs": 30284,
+        "params": {
+          "seed": 42,
+          "embedding_dim": 100,
+          "hidden_dim": 160,
+          "dropout": 0.4,
+          "lr": 0.001
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "train_loss": 0.58242569,
+            "dev_loss": 0.29850619,
+            "dev_f1": 0.4863,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 2,
+            "train_loss": 0.26707449,
+            "dev_loss": 0.22538321,
+            "dev_f1": 0.5331,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 3,
+            "train_loss": 0.21561323,
+            "dev_loss": 0.22347663,
+            "dev_f1": 0.5994,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 4,
+            "train_loss": 0.18550017,
+            "dev_loss": 0.20870734,
+            "dev_f1": 0.6585,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 5,
+            "train_loss": 0.16561496,
+            "dev_loss": 0.22200351,
+            "dev_f1": 0.6883,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 6,
+            "train_loss": 0.15523555,
+            "dev_loss": 0.18413446,
+            "dev_f1": 0.6897,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 7,
+            "train_loss": 0.14169099,
+            "dev_loss": 0.27024746,
+            "dev_f1": 0.7241,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 8,
+            "train_loss": 0.13400967,
+            "dev_loss": 0.2391398,
+            "dev_f1": 0.7182,
+            "stale": 2,
+            "improved": false
+          },
+          {
+            "epoch": 9,
+            "train_loss": 0.13106337,
+            "dev_loss": 0.19788673,
+            "dev_f1": 0.7029,
+            "stale": 3,
+            "improved": false
+          },
+          {
+            "epoch": 10,
+            "train_loss": 0.11783415,
+            "dev_loss": 0.24170269,
+            "dev_f1": 0.7274,
+            "stale": 4,
+            "improved": false
+          },
+          {
+            "epoch": 11,
+            "train_loss": 0.11010088,
+            "dev_loss": 0.29638376,
+            "dev_f1": 0.7412,
+            "stale": 5,
+            "improved": false
+          },
+          {
+            "epoch": 12,
+            "train_loss": 0.10395191,
+            "dev_loss": 0.20926748,
+            "dev_f1": 0.7509,
+            "stale": 6,
+            "improved": false
+          }
+        ]
+      }
+    },
+    "transformer_ner": {
+      "lr": 3e-05,
+      "training_summary": {
+        "model": "Transformer NER",
+        "encoder": "distilbert-base-uncased",
+        "device": "cuda",
+        "max_epochs": 30,
+        "stopped_epoch": 7,
+        "best_epoch": 4,
+        "best_dev_loss": 0.15102146,
+        "patience": 3,
+        "early_stopped": true,
+        "early_stopping_metric": "dev_loss",
+        "batch_size": 8,
+        "lr": 3e-05,
+        "max_len": 96,
+        "history": [
+          {
+            "epoch": 1,
+            "train_loss": 0.89189427,
+            "dev_loss": 0.22515763,
+            "dev_f1": 0.9102,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 2,
+            "train_loss": 0.28364479,
+            "dev_loss": 0.16557836,
+            "dev_f1": 0.9357,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 3,
+            "train_loss": 0.17289459,
+            "dev_loss": 0.15313409,
+            "dev_f1": 0.9343,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 4,
+            "train_loss": 0.11142833,
+            "dev_loss": 0.15102146,
+            "dev_f1": 0.9406,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 5,
+            "train_loss": 0.07489252,
+            "dev_loss": 0.17540711,
+            "dev_f1": 0.9347,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 6,
+            "train_loss": 0.05597122,
+            "dev_loss": 0.19748265,
+            "dev_f1": 0.9283,
+            "stale": 2,
+            "improved": false
+          },
+          {
+            "epoch": 7,
+            "train_loss": 0.0437326,
+            "dev_loss": 0.2056272,
+            "dev_f1": 0.94,
+            "stale": 3,
+            "improved": false
+          }
+        ]
+      },
+      "selection": "fixed predeclared configuration; early stopping on DEV loss"
+    },
+    "transformer_re": {
+      "lr": 3e-05,
+      "training_summary": {
+        "model": "Transformer RE",
+        "encoder": "distilbert-base-uncased",
+        "device": "cuda",
+        "max_epochs": 30,
+        "stopped_epoch": 8,
+        "best_epoch": 5,
+        "best_dev_loss": 0.17873678,
+        "patience": 3,
+        "early_stopped": true,
+        "early_stopping_metric": "dev_loss",
+        "batch_size": 4,
+        "lr": 3e-05,
+        "max_len": 96,
+        "train_pairs": 30284,
+        "history": [
+          {
+            "epoch": 1,
+            "train_loss": 0.47848856,
+            "dev_loss": 0.27960785,
+            "dev_f1": 0.8627,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 2,
+            "train_loss": 0.34294948,
+            "dev_loss": 0.26679641,
+            "dev_f1": 0.8807,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 3,
+            "train_loss": 0.28968285,
+            "dev_loss": 0.23148739,
+            "dev_f1": 0.9048,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 4,
+            "train_loss": 0.25648535,
+            "dev_loss": 0.23856628,
+            "dev_f1": 0.9087,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 5,
+            "train_loss": 0.23505282,
+            "dev_loss": 0.17873678,
+            "dev_f1": 0.9153,
+            "stale": 0,
+            "improved": true
+          },
+          {
+            "epoch": 6,
+            "train_loss": 0.21791153,
+            "dev_loss": 0.22906729,
+            "dev_f1": 0.9071,
+            "stale": 1,
+            "improved": false
+          },
+          {
+            "epoch": 7,
+            "train_loss": 0.194198,
+            "dev_loss": 0.22909436,
+            "dev_f1": 0.9182,
+            "stale": 2,
+            "improved": false
+          },
+          {
+            "epoch": 8,
+            "train_loss": 0.1800477,
+            "dev_loss": 0.2126622,
+            "dev_f1": 0.9125,
+            "stale": 3,
+            "improved": false
+          }
+        ]
+      }
+    }
+  },
+  "results_file": "outputs/reports/ie_results.json",
+  "log_file": "outputs/reports/ie_results_log.csv",
+  "trace_file": "outputs\\reports\\training_logs\\ie_results__aviation_neural__20260828T061120Z.jsonl",
+  "elapsed_seconds": 3704.861,
+  "python": "3.11.16",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "conda_env": "avimaint-ie-neural"
+}

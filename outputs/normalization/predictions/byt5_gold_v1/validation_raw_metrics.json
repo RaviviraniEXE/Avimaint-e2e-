@@ -1,0 +1,51 @@
+{
+  "bootstrap_95_ci": {
+    "cer": [
+      0.28115155924906815,
+      0.290606219044242
+    ],
+    "change_f1": [
+      0.0,
+      0.0
+    ],
+    "change_precision": [
+      1.0,
+      1.0
+    ],
+    "change_recall": [
+      0.0,
+      0.0
+    ],
+    "error_reduction_rate": [
+      0.0,
+      0.0
+    ],
+    "exact_match": [
+      0.0,
+      0.0
+    ],
+    "protected_token_accuracy": [
+      1.0,
+      1.0
+    ],
+    "wer": [
+      0.3962530751443519,
+      0.40882517305744787
+    ]
+  },
+  "metrics": {
+    "cer": 0.28562305512981284,
+    "change_f1": 0.0,
+    "change_precision": 1.0,
+    "change_recall": 0.0,
+    "error_reduction_rate": 0.0,
+    "exact_match": 0.0,
+    "protected_token_accuracy": 1.0,
+    "wer": 0.40214246618187505
+  },
+  "prediction_path": "outputs\\normalization\\predictions\\byt5_gold_v1\\validation_raw.csv",
+  "records": 926,
+  "run_id": "byt5_gold_v1",
+  "split": "validation",
+  "system": "raw"
+}

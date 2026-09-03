@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-08-30T20:58:05.870463+00:00",
+  "status": "complete",
+  "records": 6169,
+  "representation": "selective_byt5",
+  "raw_source_retained": true,
+  "model_weights_duplicated": false,
+  "model_identity_source": "extraction/FINAL_FULL_CORPUS_SPERT_MANIFEST.json"
+}

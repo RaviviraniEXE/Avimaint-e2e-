@@ -1,0 +1,11 @@
+{
+  "dataset_id": "maintnet_aviation",
+  "version": "frozen-v1",
+  "expected_records": 6169,
+  "source_file": "REPLACE_ME",
+  "sha256": "REPLACE_ME",
+  "license": "REPLACE_ME",
+  "record_id_policy": "REPLACE_ME",
+  "created_at_utc": "REPLACE_ME"
+}
+

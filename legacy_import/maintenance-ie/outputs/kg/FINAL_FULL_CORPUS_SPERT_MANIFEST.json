@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-08-30T20:00:45.549064+00:00",
+  "status": "complete",
+  "artifact_role": "final operational normalized silver structured extraction",
+  "training_performed": false,
+  "representation": "selective_byt5",
+  "normalization_system": "Selective ByT5",
+  "records": 6169,
+  "unique_identifiers": 6169,
+  "raw_source_retained": true,
+  "schema": {
+    "entity_type_count": 9,
+    "relation_type_count": 11,
+    "entity_types": [
+      "ABN_PROC",
+      "ACTION",
+      "FAULT",
+      "LOC",
+      "MAINT_ITEM",
+      "OP_CTX",
+      "OUTCOME",
+      "REFERENCE",
+      "TECH_OBS"
+    ],
+    "relation_types": [
+      "ACTION_ADDRESSES_ISSUE",
+      "ACTION_FOLLOWS_REFERENCE",
+      "ACTION_INVESTIGATES_ISSUE",
+      "ACTION_ON_ITEM",
+      "ACTION_RESULTS_IN_OUTCOME",
+      "ACTION_USES_ITEM",
+      "HAS_LOCATION",
+      "HAS_PART",
+      "ISSUE_ON_ITEM",
+      "OBSERVATION_OF_ITEM",
+      "OCCURS_UNDER_CONTEXT"
+    ]
+  },
+  "prediction_counts": {
+    "entity_mentions": 45771,
+    "relation_mentions": 43149
+  },
+  "model": {
+    "registry_system": "selective_byt5",
+    "path": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\spert_normalized\\selective_byt5\\save\\avimaint_spert_norm_selective_byt5\\2026-08-30_15-34-54_257127\\final_model",
+    "registry_final_model_path": "legacy_import\\maintenance-ie\\outputs\\spert_normalized\\selective_byt5\\save\\avimaint_spert_norm_selective_byt5\\2026-08-30_15-34-54_257127\\final_model",
+    "weights": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\spert_normalized\\selective_byt5\\save\\avimaint_spert_norm_selective_byt5\\2026-08-30_15-34-54_257127\\final_model\\model.safetensors",
+    "weights_sha256": "1f9c094789f591991ad26ca65ca1c36689b57ff0dd248cd30b4fc81b853b4ad9"
+  },
+  "provenance": {
+    "preparation_manifest_sha256": "63c0ea82cc2ced902a1e03d7806916a94ec60000b75a2bce5f0db6f03f987e6f",
+    "model_registry_sha256": "be7be631f9cd66cb3b68f98674d310cc5e125fe4c53b75b229217ec0f1f2a149"
+  },
+  "artifacts": {
+    "dataset_sha256": "cab185933056cac2ff54ad9efaa576e3eee566ce47d6a252bd5fd6998de5e3da",
+    "predictions_sha256": "0dd804b6ec8a7d51be6a261b77724c559a8849da0c73e2546e6625e0f0a8b80e",
+    "index_sha256": "1e8c640257afa99b3a688a4ad154db8f96acc794bd50f1fd90a8facfbad6d37b",
+    "types_sha256": "3c4c68e2a6d38aa00061cdc9874e1fae4c078779d77f7daf5a7f22533cd0a9de"
+  },
+  "checks": {
+    "records_6169": true,
+    "unique_identifiers_6169": true,
+    "projected_equals_trained_1600_of_1600": true,
+    "tokenizer_matches_trained_1600_of_1600": true,
+    "raw_source_provenance_retained": true,
+    "dataset_index_tokens_match": true,
+    "prediction_tokens_match_when_present": true,
+    "entity_spans_valid": true,
+    "relation_endpoints_valid": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "bootstrap_95_ci": {
+    "cer": [
+      0.10831191675030159,
+      0.12411026083150117
+    ],
+    "change_f1": [
+      0.6138669648158681,
+      0.6448599684553982
+    ],
+    "change_precision": [
+      0.6851057466273377,
+      0.7186993710812333
+    ],
+    "change_recall": [
+      0.5547483465425553,
+      0.5864588410944671
+    ],
+    "error_reduction_rate": [
+      0.5510643736549082,
+      0.5974813549827346
+    ],
+    "exact_match": [
+      0.06124401913875598,
+      0.0937799043062201
+    ],
+    "protected_token_accuracy": [
+      1.0,
+      1.0
+    ],
+    "wer": [
+      0.1549008426083406,
+      0.17523099664063352
+    ]
+  },
+  "metrics": {
+    "cer": 0.11596728363082623,
+    "change_f1": 0.6306950707510496,
+    "change_precision": 0.7034339229968782,
+    "change_recall": 0.5715896279594137,
+    "error_reduction_rate": 0.5740917131582528,
+    "exact_match": 0.07655502392344497,
+    "protected_token_accuracy": 1.0,
+    "wer": 0.16474551292173273
+  },
+  "prediction_path": "outputs\\normalization\\predictions\\byt5_gold_v1_expert_sensitivity\\sensitivity_selective_byt5.csv",
+  "records": 1045,
+  "run_id": "byt5_gold_v1_expert_sensitivity",
+  "split": "sensitivity",
+  "system": "selective_byt5"
+}

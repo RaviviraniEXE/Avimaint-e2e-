@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-08-30T20:57:24.703543+00:00",
+  "name": "aviation",
+  "schema": {
+    "entity_types": [
+      "ABN_PROC",
+      "ACTION",
+      "FAULT",
+      "LOC",
+      "MAINT_ITEM",
+      "OP_CTX",
+      "OUTCOME",
+      "REFERENCE",
+      "TECH_OBS"
+    ],
+    "relation_types": [
+      "ACTION_ADDRESSES_ISSUE",
+      "ACTION_FOLLOWS_REFERENCE",
+      "ACTION_INVESTIGATES_ISSUE",
+      "ACTION_ON_ITEM",
+      "ACTION_RESULTS_IN_OUTCOME",
+      "ACTION_USES_ITEM",
+      "HAS_LOCATION",
+      "HAS_PART",
+      "ISSUE_ON_ITEM",
+      "OBSERVATION_OF_ITEM",
+      "OCCURS_UNDER_CONTEXT"
+    ]
+  },
+  "input": {
+    "predictions": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\kg\\predictions_full.json",
+    "prediction_sha256": "0dd804b6ec8a7d51be6a261b77724c559a8849da0c73e2546e6625e0f0a8b80e",
+    "token_index": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\kg\\full_index.jsonl",
+    "token_index_sha256": "1e8c640257afa99b3a688a4ad154db8f96acc794bd50f1fd90a8facfbad6d37b"
+  },
+  "counts": {
+    "records": 6169,
+    "nodes": 3197,
+    "edges": 9331,
+    "entity_mentions": 45771,
+    "relation_record_support": 41469,
+    "invalid_entities_skipped": 0,
+    "invalid_relations_skipped": 0
+  },
+  "edge_weight_semantics": "number of distinct supporting work orders",
+  "min_weight_for_views": 1,
+  "graph_files_exported": false
+}

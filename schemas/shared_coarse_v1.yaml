@@ -1,0 +1,19 @@
+schema:
+  id: shared_coarse_v1
+  version: "1.0.0"
+  description: Common comparison space. It is not a replacement for either native schema.
+  entity_types:
+    - PHYSICAL_OBJECT
+    - STATE_OR_ISSUE
+    - PROCESS
+    - MAINTENANCE_ACTIVITY
+    - PROPERTY_OR_OBSERVATION
+    - CONTEXT
+    - REFERENCE
+  mapping_statuses:
+    - exact
+    - broader
+    - approximate
+    - unmapped
+  relation_types: {}
+

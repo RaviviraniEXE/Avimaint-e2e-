@@ -1,0 +1,79 @@
+# =============================================================================
+# AviMaint-DSS-IE schema (v1.0) — machine-readable form of the thesis schema guide.
+# 8 core trainable entities + 1 hybrid reference extension; 10 core relations
+# + 1 hybrid extension. Short tag names are used for the BIO layer (CRF / BiLSTM-CRF);
+# `canonical` maps each back to the full hierarchical name from the guide.
+# =============================================================================
+
+entities:
+  MAINT_ITEM:  {canonical: "PHYSICAL_OBJECT/MAINTAINABLE_ITEM",   tier: core}
+  ACTION:      {canonical: "ACTIVITY/MAINTENANCE_ACTION",         tier: core}
+  FAULT:       {canonical: "STATE/FAULT_STATE",                   tier: core}
+  ABN_PROC:    {canonical: "PROCESS/ABNORMAL_PROCESS",            tier: core}
+  OUTCOME:     {canonical: "STATE/MAINTENANCE_OUTCOME",           tier: core}
+  LOC:         {canonical: "PROPERTY/LOCATION_POSITION",          tier: core}
+  TECH_OBS:    {canonical: "PROPERTY/TECHNICAL_OBSERVATION",      tier: core}
+  OP_CTX:      {canonical: "CONTEXT/OPERATING_CONTEXT",           tier: core}
+  REFERENCE:   {canonical: "REFERENCE/MAINTENANCE_REFERENCE",     tier: hybrid}
+
+# Relations: head_types -> tail_types (used to filter candidate pairs for RE).
+relations:
+  HAS_PART:                  {head: [MAINT_ITEM], tail: [MAINT_ITEM], tier: core}
+  ISSUE_ON_ITEM:             {head: [FAULT, ABN_PROC], tail: [MAINT_ITEM], tier: core}
+  ACTION_ON_ITEM:            {head: [ACTION], tail: [MAINT_ITEM], tier: core}
+  OBSERVATION_OF_ITEM:       {head: [TECH_OBS], tail: [MAINT_ITEM], tier: core}
+  HAS_LOCATION:              {head: [MAINT_ITEM, FAULT, ABN_PROC], tail: [LOC], tier: core}
+  OCCURS_UNDER_CONTEXT:      {head: [FAULT, ABN_PROC, ACTION], tail: [OP_CTX], tier: core}
+  ACTION_ADDRESSES_ISSUE:    {head: [ACTION], tail: [FAULT, ABN_PROC], tier: core}
+  ACTION_INVESTIGATES_ISSUE: {head: [ACTION], tail: [FAULT, ABN_PROC], tier: core}
+  ACTION_USES_ITEM:          {head: [ACTION], tail: [MAINT_ITEM], tier: core}
+  ACTION_RESULTS_IN_OUTCOME: {head: [ACTION], tail: [OUTCOME], tier: core}
+  ACTION_FOLLOWS_REFERENCE:  {head: [ACTION], tail: [REFERENCE], tier: hybrid}
+
+# Attribute vocabularies (populated by normalization/post-processing, not NER).
+attributes:
+  action_family: [REPLACE, REPAIR, ADJUST, SERVICE, INSPECT_DIAGNOSE, CALIBRATE, OTHER]
+  outcome_polarity: [positive, negative, inconclusive]
+  certainty: [asserted, suspected, attempted, unknown]
+
+# -----------------------------------------------------------------------------
+# Model configuration (dynamic). Tier 3 = transformer encoder; swap `encoder`
+# for a larger or domain model (or for the MaintIE benchmark) with no code change.
+# -----------------------------------------------------------------------------
+models:
+  transformer:
+    encoder: distilbert-base-uncased 
+    #encoder: outputs/dapt/encoder  #for dapt 
+    max_len: 96
+    ner: {epochs: 30, lr: 3.0e-5, batch_size: 8, patience: 3}
+    re:  {epochs: 30, lr: 3.0e-5, batch_size: 4,  patience: 3}
+  # Hyperparameter grids searched on DEV when scripts are run with --tune
+  # (each model picks the best config by dev F1). Edit freely — fully dynamic.
+  tuning:
+    crf:         {c1: [0.01, 0.05, 0.1, 0.5, 1.0], c2: [0.01, 0.1, 0.5, 1.0]}
+    logreg:      {C: [0.25, 0.5, 1.0, 2.0, 4.0]}
+    bilstm:      {lr: [1.0e-3, 5.0e-4], dropout: [0.4, 0.5]}
+    transformer: {lr: [2.0e-5, 3.0e-5, 5.0e-5]}
+
+# -----------------------------------------------------------------------------
+# Annotation plan (dynamic — edit sizes freely). Progressive bootstrap + active
+# learning. The PILOT is a pure RANDOM sample (unbiased). A random TEST/DEV set
+# is frozen early and NEVER receives active-learning-mined records, so F1 stays
+# honest; rare enrichment grows the TRAIN pool only.
+# -----------------------------------------------------------------------------
+annotation:
+  pilot_size: 300             # round 0: random pilot
+  round_plan: [500, 300]      # correction-batch sizes for rounds 1, 2 (random pool order)
+  rare_round_size: 300        # round 3+: active-learning rare/uncertain batch size
+  freeze_after: 800           # once this many RANDOM gold records exist, freeze test/dev
+  split:
+    test: 225                 # frozen random held-out test
+    dev: 100                  # frozen random dev
+    # everything else = train (grows via active learning)
+  active_learning:
+    rare_entities: [TECH_OBS, OP_CTX, OUTCOME, REFERENCE]
+    rare_weight: 2.0          # weight for predicted rare-class presence
+    uncertainty_weight: 1.0   # weight for model uncertainty (1 - mean max-marginal)
+  batch_size: 50              # records per human-readable REVIEW file (not the import;
+                              # the Label Studio import (pilot_tasks.json) holds all records)
+  seed: 42

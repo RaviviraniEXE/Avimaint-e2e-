@@ -1,0 +1,195 @@
+{
+  "schema": "aviation_compact_v1",
+  "source_batches_are_immutable": true,
+  "records": 1600,
+  "unique_identifiers": 1600,
+  "random_records": 800,
+  "rare_enriched_records": 800,
+  "exact_duplicate_groups": 3,
+  "largest_exact_duplicate_group": 2,
+  "unresolved_exact_duplicate_groups": [],
+  "structural_errors": 0,
+  "duplicate_relation_instances_removed": 1,
+  "duplicate_records_harmonized": 1,
+  "entity_support": {
+    "ABN_PROC": 993,
+    "ACTION": 2840,
+    "FAULT": 683,
+    "LOC": 1902,
+    "MAINT_ITEM": 4460,
+    "OP_CTX": 420,
+    "OUTCOME": 497,
+    "REFERENCE": 67,
+    "TECH_OBS": 764
+  },
+  "relation_support": {
+    "ACTION_ADDRESSES_ISSUE": 865,
+    "ACTION_FOLLOWS_REFERENCE": 70,
+    "ACTION_INVESTIGATES_ISSUE": 898,
+    "ACTION_ON_ITEM": 2852,
+    "ACTION_RESULTS_IN_OUTCOME": 533,
+    "ACTION_USES_ITEM": 62,
+    "HAS_LOCATION": 1912,
+    "HAS_PART": 939,
+    "ISSUE_ON_ITEM": 1645,
+    "OBSERVATION_OF_ITEM": 667,
+    "OCCURS_UNDER_CONTEXT": 391
+  },
+  "batches": {
+    "pilot": {
+      "records": 300,
+      "sampling_population": "random",
+      "entities": {
+        "ABN_PROC": 173,
+        "ACTION": 504,
+        "FAULT": 127,
+        "LOC": 430,
+        "MAINT_ITEM": 871,
+        "OP_CTX": 27,
+        "OUTCOME": 29,
+        "REFERENCE": 4,
+        "TECH_OBS": 57
+      },
+      "relations": {
+        "ACTION_ADDRESSES_ISSUE": 244,
+        "ACTION_FOLLOWS_REFERENCE": 4,
+        "ACTION_INVESTIGATES_ISSUE": 56,
+        "ACTION_ON_ITEM": 500,
+        "ACTION_RESULTS_IN_OUTCOME": 31,
+        "ACTION_USES_ITEM": 19,
+        "HAS_LOCATION": 422,
+        "HAS_PART": 198,
+        "ISSUE_ON_ITEM": 302,
+        "OBSERVATION_OF_ITEM": 43,
+        "OCCURS_UNDER_CONTEXT": 25
+      }
+    },
+    "round1": {
+      "records": 500,
+      "sampling_population": "random",
+      "entities": {
+        "ABN_PROC": 302,
+        "ACTION": 860,
+        "FAULT": 215,
+        "LOC": 744,
+        "MAINT_ITEM": 1478,
+        "OP_CTX": 47,
+        "OUTCOME": 52,
+        "REFERENCE": 6,
+        "TECH_OBS": 66
+      },
+      "relations": {
+        "ACTION_ADDRESSES_ISSUE": 398,
+        "ACTION_FOLLOWS_REFERENCE": 6,
+        "ACTION_INVESTIGATES_ISSUE": 91,
+        "ACTION_ON_ITEM": 889,
+        "ACTION_RESULTS_IN_OUTCOME": 53,
+        "ACTION_USES_ITEM": 16,
+        "HAS_LOCATION": 739,
+        "HAS_PART": 380,
+        "ISSUE_ON_ITEM": 523,
+        "OBSERVATION_OF_ITEM": 58,
+        "OCCURS_UNDER_CONTEXT": 38
+      }
+    },
+    "rare1": {
+      "records": 300,
+      "sampling_population": "rare_enriched",
+      "entities": {
+        "ABN_PROC": 233,
+        "ACTION": 555,
+        "FAULT": 99,
+        "LOC": 176,
+        "MAINT_ITEM": 624,
+        "OP_CTX": 208,
+        "OUTCOME": 221,
+        "REFERENCE": 30,
+        "TECH_OBS": 380
+      },
+      "relations": {
+        "ACTION_ADDRESSES_ISSUE": 55,
+        "ACTION_FOLLOWS_REFERENCE": 31,
+        "ACTION_INVESTIGATES_ISSUE": 374,
+        "ACTION_ON_ITEM": 529,
+        "ACTION_RESULTS_IN_OUTCOME": 234,
+        "ACTION_USES_ITEM": 3,
+        "HAS_LOCATION": 166,
+        "HAS_PART": 45,
+        "ISSUE_ON_ITEM": 302,
+        "OBSERVATION_OF_ITEM": 319,
+        "OCCURS_UNDER_CONTEXT": 195
+      }
+    },
+    "rare2": {
+      "records": 300,
+      "sampling_population": "rare_enriched",
+      "entities": {
+        "ABN_PROC": 192,
+        "ACTION": 554,
+        "FAULT": 119,
+        "LOC": 270,
+        "MAINT_ITEM": 824,
+        "OP_CTX": 114,
+        "OUTCOME": 107,
+        "REFERENCE": 19,
+        "TECH_OBS": 172
+      },
+      "relations": {
+        "ACTION_ADDRESSES_ISSUE": 83,
+        "ACTION_FOLLOWS_REFERENCE": 21,
+        "ACTION_INVESTIGATES_ISSUE": 276,
+        "ACTION_ON_ITEM": 528,
+        "ACTION_RESULTS_IN_OUTCOME": 122,
+        "ACTION_USES_ITEM": 17,
+        "HAS_LOCATION": 261,
+        "HAS_PART": 162,
+        "ISSUE_ON_ITEM": 305,
+        "OBSERVATION_OF_ITEM": 158,
+        "OCCURS_UNDER_CONTEXT": 107
+      }
+    },
+    "rare3": {
+      "records": 200,
+      "sampling_population": "rare_enriched",
+      "entities": {
+        "ABN_PROC": 93,
+        "ACTION": 367,
+        "FAULT": 123,
+        "LOC": 282,
+        "MAINT_ITEM": 663,
+        "OP_CTX": 24,
+        "OUTCOME": 88,
+        "REFERENCE": 8,
+        "TECH_OBS": 89
+      },
+      "relations": {
+        "ACTION_ADDRESSES_ISSUE": 85,
+        "ACTION_FOLLOWS_REFERENCE": 8,
+        "ACTION_INVESTIGATES_ISSUE": 101,
+        "ACTION_ON_ITEM": 406,
+        "ACTION_RESULTS_IN_OUTCOME": 93,
+        "ACTION_USES_ITEM": 7,
+        "HAS_LOCATION": 324,
+        "HAS_PART": 154,
+        "ISSUE_ON_ITEM": 213,
+        "OBSERVATION_OF_ITEM": 89,
+        "OCCURS_UNDER_CONTEXT": 26
+      }
+    }
+  },
+  "split_policy": {
+    "development_and_test_source": [
+      "pilot",
+      "round1"
+    ],
+    "rare_batches_train_only": [
+      "rare1",
+      "rare2",
+      "rare3"
+    ],
+    "group_key": "exact_group_id",
+    "seed": 42,
+    "test_records": 225,
+    "development_records": 100
+  }
+}

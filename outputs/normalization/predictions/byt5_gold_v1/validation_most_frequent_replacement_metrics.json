@@ -1,0 +1,51 @@
+{
+  "bootstrap_95_ci": {
+    "cer": [
+      0.20131022874685905,
+      0.20905115213331849
+    ],
+    "change_f1": [
+      0.04779260420634489,
+      0.0654720697037621
+    ],
+    "change_precision": [
+      0.039560481657297794,
+      0.054322220618903204
+    ],
+    "change_recall": [
+      0.06029643420664783,
+      0.08268363845135843
+    ],
+    "error_reduction_rate": [
+      -0.17838228520271673,
+      -0.13420721422599083
+    ],
+    "exact_match": [
+      0.0,
+      0.0
+    ],
+    "protected_token_accuracy": [
+      1.0,
+      1.0
+    ],
+    "wer": [
+      0.4599313114221596,
+      0.4700223095488649
+    ]
+  },
+  "metrics": {
+    "cer": 0.2050996237982444,
+    "change_f1": 0.05689277899343544,
+    "change_precision": 0.047058823529411764,
+    "change_recall": 0.07192254495159059,
+    "error_reduction_rate": -0.15613455181800506,
+    "exact_match": 0.0,
+    "protected_token_accuracy": 1.0,
+    "wer": 0.46493079990616937
+  },
+  "prediction_path": "outputs\\normalization\\predictions\\byt5_gold_v1\\validation_most_frequent_replacement.csv",
+  "records": 926,
+  "run_id": "byt5_gold_v1",
+  "split": "validation",
+  "system": "most_frequent_replacement"
+}

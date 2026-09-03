@@ -1,0 +1,20 @@
+# ============================================================
+# Environment: maintie   (Tiers 1-3 + all scoring/reporting)
+# Python 3.11  |  conda create -n maintie python=3.11
+# Install torch FIRST, with CUDA for your GPU:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# then:  pip install -r requirements-maintie.txt
+# ============================================================
+numpy==2.2.6
+transformers==4.36.2
+scikit-learn
+sklearn-crfsuite
+pytorch-crf
+gensim
+pandas
+matplotlib
+pyyaml
+tqdm
+spacy
+tensorboardX
+

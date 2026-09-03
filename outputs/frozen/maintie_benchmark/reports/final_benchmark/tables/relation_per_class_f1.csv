@@ -1,0 +1,7 @@
+relation_type,support,CRF+LogReg,BiLSTM+Neural,DistilBERT,SpERT
+hasPatient,137,0.556,0.377,0.6915,0.794326
+hasPart,61,0.4286,0.1791,0.5077,0.632353
+isA,20,0.0,0.0,0.0,0.329114
+hasAgent,8,0.5556,0.4444,0.2857,0.625
+contains,3,0.75,0.2609,0.0,1.0
+hasProperty,5,0.8333,0.0,0.2,0.833333

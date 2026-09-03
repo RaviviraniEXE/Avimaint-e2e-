@@ -1,0 +1,340 @@
+{
+  "Tier2_BiLSTM_Neural": {
+    "entity": {
+      "micro_p": 0.9425,
+      "micro_r": 0.9403,
+      "micro_f1": 0.9414,
+      "macro_f1": 0.8754,
+      "per_class": {
+        "LOC": [
+          0.9639,
+          0.9786,
+          0.9712
+        ],
+        "MAINT_ITEM": [
+          0.9516,
+          0.9502,
+          0.9509
+        ],
+        "ACTION": [
+          0.9524,
+          0.9449,
+          0.9486
+        ],
+        "ABN_PROC": [
+          0.9552,
+          0.9552,
+          0.9552
+        ],
+        "FAULT": [
+          0.9184,
+          0.8911,
+          0.9045
+        ],
+        "TECH_OBS": [
+          0.6579,
+          0.6579,
+          0.6579
+        ],
+        "OUTCOME": [
+          0.8462,
+          0.7857,
+          0.8148
+        ],
+        "OP_CTX": [
+          0.8,
+          0.8,
+          0.8
+        ]
+      },
+      "support": 1691
+    },
+    "relation": {
+      "micro_p": 0.4927,
+      "micro_r": 0.8814,
+      "micro_f1": 0.6321,
+      "macro_f1": 0.5723,
+      "per_class": {
+        "HAS_LOCATION": [
+          0.5268,
+          0.9472,
+          0.677
+        ],
+        "ISSUE_ON_ITEM": [
+          0.5702,
+          0.8809,
+          0.6923
+        ],
+        "ACTION_ADDRESSES_ISSUE": [
+          0.8009,
+          0.9235,
+          0.8579
+        ],
+        "ACTION_ON_ITEM": [
+          0.5578,
+          0.8848,
+          0.6842
+        ],
+        "HAS_PART": [
+          0.2687,
+          0.8802,
+          0.4118
+        ],
+        "ACTION_INVESTIGATES_ISSUE": [
+          0.3676,
+          0.625,
+          0.463
+        ],
+        "ACTION_RESULTS_IN_OUTCOME": [
+          0.3962,
+          0.7241,
+          0.5122
+        ],
+        "OBSERVATION_OF_ITEM": [
+          0.3065,
+          0.6333,
+          0.413
+        ],
+        "ACTION_USES_ITEM": [
+          0.4737,
+          0.9,
+          0.6207
+        ],
+        "OCCURS_UNDER_CONTEXT": [
+          0.3333,
+          0.4737,
+          0.3913
+        ]
+      },
+      "support": 1417
+    },
+    "relation_gold_entities": {
+      "micro_p": 0.5411,
+      "micro_r": 0.9718,
+      "micro_f1": 0.6951,
+      "macro_f1": 0.713,
+      "per_class": {
+        "HAS_LOCATION": [
+          0.5569,
+          0.9876,
+          0.7122
+        ],
+        "ISSUE_ON_ITEM": [
+          0.6371,
+          0.9787,
+          0.7718
+        ],
+        "ACTION_ADDRESSES_ISSUE": [
+          0.8018,
+          0.9727,
+          0.879
+        ],
+        "ACTION_ON_ITEM": [
+          0.6043,
+          0.9634,
+          0.7427
+        ],
+        "HAS_PART": [
+          0.2832,
+          0.9581,
+          0.4372
+        ],
+        "ACTION_INVESTIGATES_ISSUE": [
+          0.5821,
+          0.975,
+          0.729
+        ],
+        "ACTION_RESULTS_IN_OUTCOME": [
+          0.5179,
+          1.0,
+          0.6824
+        ],
+        "OBSERVATION_OF_ITEM": [
+          0.5273,
+          0.9667,
+          0.6824
+        ],
+        "ACTION_USES_ITEM": [
+          0.5,
+          0.9,
+          0.6429
+        ],
+        "OCCURS_UNDER_CONTEXT": [
+          0.8095,
+          0.8947,
+          0.85
+        ]
+      },
+      "support": 1417
+    }
+  },
+  "Tier3_Transformer": {
+    "entity": {
+      "micro_p": 0.9362,
+      "micro_r": 0.9539,
+      "micro_f1": 0.9449,
+      "macro_f1": 0.8915,
+      "per_class": {
+        "LOC": [
+          0.9727,
+          0.9817,
+          0.9772
+        ],
+        "MAINT_ITEM": [
+          0.9362,
+          0.9532,
+          0.9446
+        ],
+        "ACTION": [
+          0.949,
+          0.9764,
+          0.9625
+        ],
+        "ABN_PROC": [
+          0.9209,
+          0.9552,
+          0.9377
+        ],
+        "FAULT": [
+          0.902,
+          0.9109,
+          0.9064
+        ],
+        "OP_CTX": [
+          0.7083,
+          0.85,
+          0.7727
+        ],
+        "TECH_OBS": [
+          0.8286,
+          0.7632,
+          0.7945
+        ],
+        "OUTCOME": [
+          0.8519,
+          0.8214,
+          0.8364
+        ]
+      },
+      "support": 1691
+    },
+    "relation": {
+      "micro_p": 0.7948,
+      "micro_r": 0.8419,
+      "micro_f1": 0.8177,
+      "macro_f1": 0.6456,
+      "per_class": {
+        "HAS_LOCATION": [
+          0.8132,
+          0.9193,
+          0.863
+        ],
+        "ISSUE_ON_ITEM": [
+          0.8382,
+          0.8596,
+          0.8487
+        ],
+        "ACTION_ADDRESSES_ISSUE": [
+          0.9218,
+          0.9016,
+          0.9116
+        ],
+        "ACTION_ON_ITEM": [
+          0.8304,
+          0.8586,
+          0.8443
+        ],
+        "HAS_PART": [
+          0.7862,
+          0.7485,
+          0.7669
+        ],
+        "OCCURS_UNDER_CONTEXT": [
+          0.3448,
+          0.5263,
+          0.4167
+        ],
+        "ACTION_INVESTIGATES_ISSUE": [
+          0.3766,
+          0.725,
+          0.4957
+        ],
+        "ACTION_RESULTS_IN_OUTCOME": [
+          0.6452,
+          0.6897,
+          0.6667
+        ],
+        "OBSERVATION_OF_ITEM": [
+          0.6923,
+          0.6,
+          0.6429
+        ],
+        "ACTION_USES_ITEM": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "support": 1417
+    },
+    "relation_gold_entities": {
+      "micro_p": 0.9002,
+      "micro_r": 0.904,
+      "micro_f1": 0.9021,
+      "macro_f1": 0.7992,
+      "per_class": {
+        "HAS_LOCATION": [
+          0.8676,
+          0.9565,
+          0.9099
+        ],
+        "ISSUE_ON_ITEM": [
+          0.9615,
+          0.9574,
+          0.9595
+        ],
+        "ACTION_ADDRESSES_ISSUE": [
+          0.9382,
+          0.9126,
+          0.9252
+        ],
+        "ACTION_ON_ITEM": [
+          0.912,
+          0.8953,
+          0.9036
+        ],
+        "HAS_PART": [
+          0.8718,
+          0.8144,
+          0.8421
+        ],
+        "ACTION_INVESTIGATES_ISSUE": [
+          0.6981,
+          0.925,
+          0.7957
+        ],
+        "ACTION_RESULTS_IN_OUTCOME": [
+          0.9032,
+          0.9655,
+          0.9333
+        ],
+        "OBSERVATION_OF_ITEM": [
+          0.875,
+          0.7,
+          0.7778
+        ],
+        "ACTION_USES_ITEM": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "OCCURS_UNDER_CONTEXT": [
+          1.0,
+          0.8947,
+          0.9444
+        ]
+      },
+      "support": 1417
+    }
+  }
+}

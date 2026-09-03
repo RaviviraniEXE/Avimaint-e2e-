@@ -1,0 +1,8 @@
+replacements:
+  assy: assembly
+  insp: inspected
+  repl: replaced
+  svc: serviced
+
+# Copy this file to abbreviations.yaml and review every entry before use.
+# Ambiguous abbreviations must not be expanded without sufficient evidence.

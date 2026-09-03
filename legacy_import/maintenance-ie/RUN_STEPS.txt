@@ -1,0 +1,79 @@
+===============================================================================
+ AviMaint-DSS-IE — FULL RUNBOOK (start to end)
+ README.md = detail · PIPELINE.md = map · this file = the exact commands
+===============================================================================
+
+SETUP (once)
+  pip install -r requirements.txt
+  # GPU torch (recommended): pip install torch --index-url https://download.pytorch.org/whl/cu121
+  python scripts/08_make_embeddings.py          # domain FastText for Tier 2 (once)
+
+Key idea: pilot (300) and round1 (500) are ALREADY corrected gold — you do NOT
+re-label or re-predict them. You only PREDICT for the rare batches (so you can
+correct them). Everything reads config/schema.yaml (dynamic).
+
+-------------------------------------------------------------------------------
+STAGE A — you are already here: 800 gold, split frozen.  STAGED RESULTS for the
+          thesis learning curve.  Every stage is scored on the SAME frozen test
+          (225) so the numbers are directly comparable.  --train-batches picks
+          which gold batches TRAIN the models; test/dev never change.
+-------------------------------------------------------------------------------
+  # A1  pilot only, BASELINE tier   (data point ~192 train records)
+  python scripts/09_report.py --tiers 1 --train-batches pilot --tune --run-id pilot300
+
+  # A2  pilot + 500, BASELINE + MID-TIER   (data point 475 train records)
+  python scripts/09_report.py --tiers 1 2 --tune --run-id gold800
+
+  #   (A2 uses all current gold to train — same as --train-batches pilot round1.)
+  #   The two runs together give the first learning-curve points; the figure
+  #   outputs/reports/figures/learning_curve.png appears once >=2 points exist.
+  #
+  # NOTE: "pilot" trains on the 192 pilot records that are NOT in the frozen
+  # test/dev (you cannot train on held-out data) — that is the correct,
+  # comparable learning-curve point, x-axis = actual training size.
+
+-------------------------------------------------------------------------------
+STAGE B — rare round 1 (active learning: PREDICT -> correct -> import)
+-------------------------------------------------------------------------------
+  python scripts/04_active_round.py --name rare1 --n 300 --mode active
+      -> outputs/rounds/rare1_tasks.json   (model-predicted; mines rare classes)
+  #   ... import rare1_tasks.json into Label Studio, CORRECT, export ...
+  python scripts/audit_gold.py <rare1_export>.json                 # QA
+  python scripts/02_import_gold.py --export <rare1_export>.json --name rare1
+  #   (corpus is now 1100; test/dev stay frozen — rare data goes to TRAIN only)
+  python scripts/09_report.py --tiers 1 2 3 --tune --run-id rare1   # updates curve
+
+-------------------------------------------------------------------------------
+STAGE C — rare round 2 (retrains on the bigger corpus -> smarter selection)
+-------------------------------------------------------------------------------
+  python scripts/04_active_round.py --name rare2 --n 300 --mode active
+  #   ... correct rare2 in Label Studio, export ...
+  python scripts/audit_gold.py <rare2_export>.json
+  python scripts/02_import_gold.py --export <rare2_export>.json --name rare2
+  #   (corpus is now 1400)
+
+-------------------------------------------------------------------------------
+STAGE D — FINAL benchmark: ALL tiers (baseline + mid-tier + transformer)
+-------------------------------------------------------------------------------
+  python scripts/00_gold_status.py                                 # confirm 1400 + support
+  python scripts/09_report.py --tiers 1 2 3 --tune --save-models --run-id gold1400
+      -> final figures + tables (with 95% CI error bars + validity_diagnostics.csv);
+         learning curve spans pilot300 (192) -> gold800 (475) -> rare1 -> gold1400;
+         --save-models writes every trained tier model to outputs/models/
+
+Thesis learning-curve summary (staged model set, one frozen test):
+  pilot300 : Tier 1              (baseline only)
+  gold800  : Tier 1 + Tier 2     (baseline + mid-tier)
+  gold1400 : Tier 1 + 2 + 3      (+ transformer)
+
+Optional Tier-3b (SpERT, external, matches MaintIE):
+  python scripts/06_export_spert.py     # then train SpERT in its own repo,
+  # dump test predictions to outputs/reports/spert_test.json, and:
+  python scripts/09_report.py --tiers 1 2 3 --tune --spert outputs/reports/spert_test.json --run-id gold1400
+
+Notes
+  * --tune  = each model grid-searches its dev hyperparameters (best for final runs)
+  * drop --tune for fast iteration with defaults
+  * to retarget to the MaintIE schema later: edit config/schema.yaml only
+    (entities, relations, models.transformer.encoder) — no code changes.
+

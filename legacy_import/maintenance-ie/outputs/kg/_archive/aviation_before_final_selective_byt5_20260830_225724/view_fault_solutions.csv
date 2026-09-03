@@ -1,0 +1,2538 @@
+issue,action,item,kind,record_count
+leaking,replaced,gasket,addresses,727
+leaking,replaced,intake gasket,addresses,500
+leaking,replaced,gaskets,addresses,390
+leaking,replaced,rocker cover gasket,addresses,327
+leaking,replaced,rocker cover gaskets,addresses,278
+leaking,replaced,intake gaskets,addresses,260
+cracked,stop drilled,baffle,addresses,126
+missing,installed,screw,addresses,86
+leaks,replaced,gasket,addresses,63
+loose,tightened,screws,addresses,50
+crack,stop drilled,baffle,addresses,44
+loose,tightened,screw,addresses,37
+loose,resecured,baffle seal,addresses,35
+missing,replaced,screw,addresses,29
+leaking,installed,gasket,addresses,27
+leaking,installed,induction tube gasket,addresses,27
+leaking,installed,intake gasket,addresses,25
+worn,replaced,baffle plugs,addresses,25
+cracked,fabricated,patch,addresses,24
+leaking,replaced,rocker gaskets,addresses,23
+cracked,replaced,baffle,addresses,21
+cracked,fabricated,like material,addresses,20
+loose,secured,baffle seal,addresses,19
+loose,tightened,hose clamps,addresses,18
+cracked,installed,patch,addresses,17
+leaking,installed,gaskets,addresses,15
+leaking,installed,rocker box cover gasket,addresses,15
+leaking,replaced,rocker gasket,addresses,15
+leaks,replaced,intake gasket,addresses,15
+worn,replaced,plugs,addresses,15
+missing,installed,hardware,addresses,14
+damaged,replaced,baffle plugs,addresses,13
+leaking,installed,intake gaskets,addresses,13
+leaking,installed,rocker box cover gaskets,addresses,13
+leaking,replaced,rocker cover,addresses,12
+dirty,cleaned,sniffler valves,addresses,11
+leaking,replaced,cylinder,addresses,11
+worn,installed,rtv,addresses,11
+cracked,installed,baffle,addresses,10
+leaking,leak check,,investigates,10
+low,ran,aircraft,investigates,10
+missing,installed,plug,addresses,10
+sheared,replaced,rivets,addresses,10
+leaking,leak check,gasket,investigates,9
+leaking,replaced,silicone gasket,addresses,9
+leaking,tightened,clamps,addresses,9
+broken,replaced,baffle plugs,addresses,8
+broken,replaced,baffle spring,addresses,8
+broken,replaced,baffle tie rod,addresses,8
+cracked,replaced,bracket,addresses,8
+cracked,stop drilled,baffling,addresses,8
+damaged,replaced,baffle plug,addresses,8
+leak,replaced,gaskets,addresses,8
+leaking,installed,intake tube gasket,addresses,8
+leaks,replaced,rocker cover gasket,addresses,8
+low,leak check,,investigates,8
+missing,installed,bolt,addresses,8
+sheared,installed,rivets,addresses,8
+torn,replaced,baffle seal,addresses,8
+torn,replaced,rocker cover gasket,addresses,8
+broken,replaced,baffle plug,addresses,7
+broken,replaced,baffle tie,addresses,7
+broken,replaced,standoff,addresses,7
+broken,replaced,tie rod,addresses,7
+crack,stop drilled,,addresses,7
+gouged,inspected,crankshaft,investigates,7
+leaking,leak check,gaskets,investigates,7
+leaking,replaced,rocker covers,addresses,7
+loose,reattached,baffle seal,addresses,7
+loose,replaced,rivets,addresses,7
+loose,tightened,bolt,addresses,7
+loose,tightened,clamps,addresses,7
+metal found in oil,removed,engine,addresses,7
+worn,installed,seal,addresses,7
+worn,replaced,baffle plug,addresses,7
+broken,replaced,spring,addresses,6
+crack,stop drilled,baffling,addresses,6
+cracked,installed,like material,addresses,6
+cracked,repaired,baffle,addresses,6
+cracked,stop drilled,cylinder,addresses,6
+leaking,cleaned,gasket,addresses,6
+leaking,leak check,intake gaskets,investigates,6
+leaking,replaced,induction tube gasket,addresses,6
+loose,replaced,baffle seal,addresses,6
+loose,resecured,seal,addresses,6
+loose,secured,pop rivets,addresses,6
+loose,secured,seal,addresses,6
+missing,installed,baffle screw,addresses,6
+missing,installed,washers,addresses,6
+missing,replaced,plug,addresses,6
+overspeed,complied,,investigates,6
+rough,ran,aircraft,investigates,6
+worn,replaced,plug,addresses,6
+broken,installed,baffle plug,addresses,5
+broken,replaced,rod,addresses,5
+cracked,installed,,addresses,5
+cracked,patched,baffle,addresses,5
+failed,leak check,exhaust valve,investigates,5
+leaking,replaced,intake tube gasket,addresses,5
+leaking,replaced,intakes,addresses,5
+loose,installed,screws,addresses,5
+loose,replaced,rivet,addresses,5
+loose,replaced,screws,addresses,5
+loose,tightened,bolts,addresses,5
+low,compression check,cylinder,investigates,5
+low,leak check,aircraft,investigates,5
+low,leak check,cylinder,investigates,5
+low,operations,,investigates,5
+missing,installed,baffle,addresses,5
+missing,installed,baffle plug,addresses,5
+missing,installed,nut,addresses,5
+missing,installed,rivets,addresses,5
+missing,installed,screws,addresses,5
+ran rough,ran up,aircraft,investigates,5
+roughness,maintenance flight,,investigates,5
+sheared,replaced,rivet,addresses,5
+worn,applied,baffle seal,addresses,5
+worn,applied,rtv,addresses,5
+broken,installed,baffle plugs,addresses,4
+broken,replaced,bracket,addresses,4
+chafing,repositioned,baffle,addresses,4
+crack,installed,patch,addresses,4
+crack,stop drilled,cylinder baffling,addresses,4
+cracked,patched,like material,addresses,4
+cracked,replaced,cylinder,addresses,4
+cracked,stop drilled,cylinder baffling,addresses,4
+dirty,washed,engine,addresses,4
+failed,replaced,cylinder,addresses,4
+leak,replaced,gasket,addresses,4
+leak,replaced,intake gasket,addresses,4
+leak,replaced,intake gaskets,addresses,4
+leak,replaced,rocker cover gaskets,addresses,4
+leaking,installed,,addresses,4
+leaking,leak check,rocker cover gasket,investigates,4
+leaking,ran,aircraft,investigates,4
+leaking,replaced,,addresses,4
+leaking,replaced,intake,addresses,4
+leaking,replaced,valve cover gaskets,addresses,4
+leaking,torqued,bolts,addresses,4
+loose,reinstalled,,addresses,4
+loose,replaced,baffle screw,addresses,4
+loose,replaced,screw,addresses,4
+loose,secured,rivet,addresses,4
+loose,tightened,,addresses,4
+loose,tightened,oil filler tube,addresses,4
+low,operations check,cylinder,investigates,4
+low,ran up,aircraft,investigates,4
+low,replaced,cylinder,addresses,4
+low,staked,exhaust valve,addresses,4
+missing,reinstalled,screw,addresses,4
+missing,replaced,bolt,addresses,4
+overspeed,reviewed,fdm data,investigates,4
+ran rough,ran,aircraft,investigates,4
+running rough,ran,aircraft,investigates,4
+torn,secured,baffle seal,addresses,4
+vibration,test flight,,investigates,4
+worn,applied,seal,addresses,4
+worn,installed,baffle seal,addresses,4
+worn,installed,black rtv,addresses,4
+worn,installed,patch,addresses,4
+worn,installed,plugs,addresses,4
+backfired,ground run,engine,investigates,3
+bad,installed,baffle plugs,addresses,3
+broken,fabricated,bracket,addresses,3
+broken,installed,baffle tie,addresses,3
+broken,installed,engine,addresses,3
+broken,replaced,anchor standby assembly,addresses,3
+broken,replaced,baffle,addresses,3
+broken,replaced,clamp,addresses,3
+broken,replaced,connecting rod,addresses,3
+broken,replaced,plug,addresses,3
+chafing,installed,,addresses,3
+crack,installed,baffle,addresses,3
+crack,stop drilled,cylinder,addresses,3
+cracked,fabricated,bracket,addresses,3
+cracked,inspected,baffle,investigates,3
+cracks,stop drilled,baffle,addresses,3
+dirty,cleaned,valves,addresses,3
+leak,leak check,,investigates,3
+leak,ran,aircraft,investigates,3
+leak,sealed,bolt,addresses,3
+leaking,cleaned,,addresses,3
+leaking,installed,induction tube gaskets,addresses,3
+leaking,leak check,intake,investigates,3
+leaking,leak check,intake gasket,investigates,3
+leaking,leak check,intake tube,investigates,3
+leaking,leak check,rocker gaskets,investigates,3
+leaking,replaced,push rod seals,addresses,3
+leaking,replaced,push rod tube seals,addresses,3
+leaking,replaced,silicone gaskets,addresses,3
+leaking,tightened,screws,addresses,3
+leaks,cleaned,,addresses,3
+leaks,cleaned,rocker cover gaskets,addresses,3
+leaks,installed,gasket,addresses,3
+loose,installed,rivet,addresses,3
+loose,reattached,baffle,addresses,3
+loose,replaced,baffle plugs,addresses,3
+loose,riveted,baffle seal,addresses,3
+loose,tightened,b nuts,addresses,3
+loose,tightened,baffle screw,addresses,3
+loose,tightened,clamp,addresses,3
+loose,tightened,covers,addresses,3
+loose,tightened,oil return line,addresses,3
+loose,tightened,rocker cover screws,addresses,3
+low,adjusted,,addresses,3
+low,compression test,cylinder,investigates,3
+low,installed,cylinder assembly,addresses,3
+low,installed,piston,addresses,3
+low,operations check,engine,investigates,3
+low,replaced,exhaust valve,addresses,3
+low,staked,valves,addresses,3
+missing,installed,,addresses,3
+missing,installed,new hardware,addresses,3
+missing,installed,washer,addresses,3
+missing,replaced,baffle plugs,addresses,3
+missing,replaced,plugs,addresses,3
+missing,replaced,rivets,addresses,3
+no compression,leak check,cylinder,investigates,3
+pulled through,installed,pop rivet,addresses,3
+quit,ran up,aircraft,investigates,3
+ran rough,ground run,engine,investigates,3
+ran very rough,ran,aircraft,investigates,3
+roughness,ground run,engine,investigates,3
+roughness,ran,aircraft,investigates,3
+scored,replaced,push rod,addresses,3
+seeping,installed,gasket,addresses,3
+sheared,installed,,addresses,3
+sheared,installed,screws,addresses,3
+sheared,replaced,screws,addresses,3
+shutdown,adjusted,engine,addresses,3
+torn,replaced,seal,addresses,3
+vibration,ran,aircraft,investigates,3
+won ' t start,attempted to start,aircraft,investigates,3
+worn,applied,black seal,addresses,3
+worn,installed,baffle plug,addresses,3
+worn,installed,black seal,addresses,3
+worn,installed,plug,addresses,3
+would not start,started,engine,investigates,3
+bad,installed,baffle plug,addresses,2
+bad,replaced,baffle plugs,addresses,2
+broken,fabricated,like material,addresses,2
+broken,replaced,anchor assembly,addresses,2
+broken,replaced,fasteners,addresses,2
+broken,replaced,plugs,addresses,2
+broken,replaced,rivets,addresses,2
+broken,replaced,rocker cover gaskets,addresses,2
+chafing,applied,silicone,addresses,2
+chafing,inspected,oil cooler line,investigates,2
+chafing,installed,baffle,addresses,2
+chafing,installed,chafe wrap,addresses,2
+chafing,repositioned,line,addresses,2
+crack,inspected,baffle,investigates,2
+crack,installed,doubler plate,addresses,2
+crack,stop drilled,engine baffling,addresses,2
+crack,stop drilled,oil cooler,addresses,2
+crack,stop drilled,upper baffle,addresses,2
+cracked,fabricated,like materi,addresses,2
+cracked,installed,baffling,addresses,2
+cracked,installed,patches,addresses,2
+cracked,repair,baffle,addresses,2
+cracked,replaced,,addresses,2
+cracked,replaced,assembly,addresses,2
+cracked,replaced,baffle assembly,addresses,2
+cracked,stop drilled,baffle patch,addresses,2
+cracked,stop drilled,intercylinder baffle,addresses,2
+damaged,installed,baffle plugs,addresses,2
+damaged,installed,plug,addresses,2
+died,ran,aircraft,investigates,2
+died,started,aircraft,investigates,2
+dirty,cleaned,oil cooler,addresses,2
+dirty,cleaned,oil coolers,addresses,2
+enlarged,installed,patch,addresses,2
+failed,clearance check,cylinder,investigates,2
+failed,installed,cylinder,addresses,2
+failed,leak check,cylinder,investigates,2
+fails,mixture check,,investigates,2
+leak,applied,bolt,addresses,2
+leak,cleaned,,addresses,2
+leak,leak check,engine,investigates,2
+leak,torqued,bolt,addresses,2
+leaking,applied,bolt,addresses,2
+leaking,applied,sealant,addresses,2
+leaking,cleaned,covers,addresses,2
+leaking,cleaned,rocker cover gaskets,addresses,2
+leaking,cleaned,silicone gaskets,addresses,2
+leaking,installed,bolt,addresses,2
+leaking,installed,cylinder,addresses,2
+leaking,installed,cylinder assembly,addresses,2
+leaking,installed,rocker cover gaskets,addresses,2
+leaking,leak check,engine,investigates,2
+leaking,leak check,rocker cover,investigates,2
+leaking,leak check,rocker cover gaskets,investigates,2
+leaking,operations,engine,investigates,2
+leaking,ran,,investigates,2
+leaking,ran up,engine,investigates,2
+leaking,replace,,addresses,2
+leaking,replaced,cylinder assembly,addresses,2
+leaking,replaced,exhaust push rod,addresses,2
+leaking,replaced,rocker cover gask,addresses,2
+leaking,replaced,seal,addresses,2
+leaking,replaced,seals,addresses,2
+leaking,resealed,bolt,addresses,2
+leaking,reswaged,tube,addresses,2
+leaking,reswedged,intake tube,addresses,2
+leaking,run up,engine,investigates,2
+leaking,sealed,bolt,addresses,2
+leaking,tightened,bolts,addresses,2
+leaking,tightened,hose clamps,addresses,2
+leaking,tightened,oil return line,addresses,2
+leaks,cleaned,gasket,addresses,2
+leaks,cleaned,rocker cover gasket,addresses,2
+leaks,replaced,rocker cover gaskets,addresses,2
+leaks,replaced,seal,addresses,2
+loose,inspected,intake tube,investigates,2
+loose,installed,hardware,addresses,2
+loose,installed,nuts,addresses,2
+loose,installed,screw,addresses,2
+loose,installed,tie wire,addresses,2
+loose,recrimped,staples,addresses,2
+loose,reinstalled,baffle,addresses,2
+loose,replaced,nuts,addresses,2
+loose,replaced,seal,addresses,2
+loose,replaced,washer,addresses,2
+loose,resafetied,oil filler tube,addresses,2
+loose,rescured,baffle seal,addresses,2
+loose,resecured,,addresses,2
+loose,resecured,baffle,addresses,2
+loose,resecured,baffle material,addresses,2
+loose,resecured,baffle seals,addresses,2
+loose,resecured,screw,addresses,2
+loose,secured,baffle,addresses,2
+loose,secured,baffle seals,addresses,2
+loose,tightened,baffle,addresses,2
+loose,tightened,cap,addresses,2
+loose,tightened,drain line,addresses,2
+loose,tightened,fitting,addresses,2
+loose,tightened,hardware,addresses,2
+loose,tightened,tie rod,addresses,2
+loose,tightened down,screws,addresses,2
+low,borescoped,cylinder,investigates,2
+low,borescoped,exhaust valve,investigates,2
+low,finished installing,cylinder,addresses,2
+low,leak check,engine,investigates,2
+low,operations,aircraft,investigates,2
+low,operations check,,investigates,2
+low,rechecked,cylinder,investigates,2
+low,run up,cylinder,investigates,2
+low,run up,engine,investigates,2
+low,run up leak check,,investigates,2
+low,staked,exhaust valve,investigates,2
+low,staked,intake valve,addresses,2
+low,staked,valve,addresses,2
+metal found in oil,installed,engine,addresses,2
+missing,installed,baffle plug doubler,addresses,2
+missing,installed,baffle plugs,addresses,2
+missing,installed,bolts,addresses,2
+missing,installed,grommet,addresses,2
+missing,installed,lock washer,addresses,2
+missing,installed,plugs,addresses,2
+missing,reinstalled,baffle screw,addresses,2
+missing,replaced,,addresses,2
+missing,replaced,baffle screw,addresses,2
+missing,replaced,hardware,addresses,2
+missing,replaced,nut,addresses,2
+missing,replaced,rivet,addresses,2
+missing,replaced,screws,addresses,2
+oil leak,leak check,,investigates,2
+overspeed,determined,,investigates,2
+overspeed,downloaded,data,investigates,2
+overspeed,inspected,engine,investigates,2
+overspeed,overspeed insp,valve train,investigates,2
+overspeed,researched,fdm card data,investigates,2
+pulled through,drilled,hole,addresses,2
+pulled through,installed,rivet,addresses,2
+pulled through,replaced,baffle,addresses,2
+pulled through,replaced,rivet,addresses,2
+ran rough,leak check,aircraft,investigates,2
+ran rough,operations check,engine,investigates,2
+ran rough,operations checked,engine,investigates,2
+ran rough,ran up,engine,investigates,2
+rough running,reamed,exhaust,addresses,2
+rough running,replaced,cylinder,addresses,2
+roughness,run up,engine,investigates,2
+rpm dropped,leak check,engine,investigates,2
+rpm dropped,operations,engine,investigates,2
+running extremely rough,ran,aircraft,investigates,2
+running very rough,ran,aircraft,investigates,2
+running very rough,ran,engine,investigates,2
+runs rough,hand spun,propeller,investigates,2
+runs rough,operations,,investigates,2
+runs rough,verified,engine,investigates,2
+scored,replaced,rocker,addresses,2
+seeping,leak check,,investigates,2
+shaking,ran,aircraft,investigates,2
+shaking,ran,engine,investigates,2
+sheared,reinstalled,,addresses,2
+sheared,reinstalled,baffle,addresses,2
+sheared,replaced,,addresses,2
+shutdown,operations,,investigates,2
+shutdown,ran,aircraft,investigates,2
+started running rough,ran,aircraft,investigates,2
+sticking,ran,aircraft,investigates,2
+stripped,replaced,rivnut,addresses,2
+torn,applied,baffle seal,addresses,2
+torn,applied,silicone,addresses,2
+torn,repaired,baffle seal,addresses,2
+torn,replaced,boot,addresses,2
+torn,replaced,cowl shock mount,addresses,2
+torn,replaced,gasket,addresses,2
+torn,replaced,rocker cover gaskets,addresses,2
+very rough,ran,aircraft,investigates,2
+vibrating,ran,aircraft,investigates,2
+vibration,cleaned,fuel injector nozzles,addresses,2
+vibrations,ran,engine,investigates,2
+wearing,installed,rtv,addresses,2
+worn,applied,black silicone,addresses,2
+worn,applied,silicone,addresses,2
+worn,filled,rtv,addresses,2
+worn,installed,,addresses,2
+worn,installed,baffle patch,addresses,2
+worn,installed,baffle plugs,addresses,2
+worn,replaced,adel clamp,addresses,2
+worn,replaced,baffle button,addresses,2
+worn,replaced,baffle buttons,addresses,2
+worn,replaced,buttons,addresses,2
+worn,replaced,rocker,addresses,2
+worn,replaced,rocker shaft,addresses,2
+worn,secured,seal,addresses,2
+would not increase,ran,aircraft,investigates,2
+would not start,started,aircraft,investigates,2
+abnormal vib,ran up,aircraft,investigates,1
+accidentally oversped,evaluated,data,investigates,1
+accidentally oversped,evaluated,fdm card,investigates,1
+air coming out exhaus,leak check,aircraft,investigates,1
+air coming out exhaus,torqued,cylinder base nut,addresses,1
+air coming out exhaus,verified,29 push rod,investigates,1
+air noted,compression,cylinder,investigates,1
+air noted and observed out of exhaust,run up,engine,investigates,1
+almost quit,started,engine,investigates,1
+audible rpm drop,ground run,engine,investigates,1
+audible rpm loss,compression check,cylinder,investigates,1
+backed off,tightened,bolt,addresses,1
+backfired,adjusted,engine,addresses,1
+backfired,checked,engine,investigates,1
+backfired,inspected,inlet,investigates,1
+backfired,inspected,rocker box,investigates,1
+backfired,installed,cylinder assembly,investigates,1
+backfired,operations checked,engine,investigates,1
+backfired,ran,egt,investigates,1
+backfired,ran,engine,investigates,1
+backfired,replaced,gaskets,addresses,1
+backfired,replaced,induction tube,addresses,1
+backfired,run up,engine,investigates,1
+backfired when,inspected,rocker box,investigates,1
+backfired when,installed,cylinder assembly,investigates,1
+backfired when,ran,egt,investigates,1
+backfired when,ran,engine,investigates,1
+backfiring,completed,exhaust guides,investigates,1
+backfiring,operations check,aircraft,investigates,1
+backfiring,ran up,aircraft,investigates,1
+bad,installed,baffle tie rods,addresses,1
+bad,installed,button plug,addresses,1
+bad,replaced,baffle plug,addresses,1
+bad,replaced,valve,addresses,1
+bad compression,clearance check,cylinder,investigates,1
+bad compression,fitted,piston,addresses,1
+bad compression,fitted,rings,addresses,1
+bad compression,leak check,cylinder,investigates,1
+bad compression,operations,engine,investigates,1
+bad compression,ran,engine,investigates,1
+barely capable,inspected,gaskets,investigates,1
+barely capable,inspected,intake tubes,investigates,1
+barely capable,inspected,o - rings,investigates,1
+became incredibly rough,completed installation,cylinder,addresses,1
+became incredibly rough,leak and operations checked,aircraft,investigates,1
+became incredibly rough,leak and operations checked,cylinder,investigates,1
+became incredibly rough,ran,aircraft,investigates,1
+became incredibly rough,ran,cylinder,investigates,1
+became rough,disconnected,fuel distributor line,investigates,1
+became rough,dry tappet clearance check,cylinder,investigates,1
+became rough,mags check,aircraft,investigates,1
+became rough,mags check,magneto,investigates,1
+became rough,power and leak check,magneto,investigates,1
+became rough,ran,aircraft,investigates,1
+began to struggle,ground run,,investigates,1
+began to struggle,ran,engine,investigates,1
+began to struggle,verified,engine,investigates,1
+bend,put,baffle tensioner wire,addresses,1
+bent,checked,,investigates,1
+bent,installed,,addresses,1
+bent,installed,push rod tube,addresses,1
+bent,reinstalled,,addresses,1
+bent,straightened,baffle,addresses,1
+bounces,insp,engine,investigates,1
+bounces,replaced,cht probe,addresses,1
+briefly lose,run up,cylinder,investigates,1
+briefly lose,run up,engine,investigates,1
+briefly lose,run up,plug,investigates,1
+broke,installed,baffle tie rod,addresses,1
+broke,replaced,,addresses,1
+broke,repositioning,,addresses,1
+broke off,accessed,cylinder,investigates,1
+broke off,installed,accessories,addresses,1
+broke off,installed,cylinder,addresses,1
+broken,drilled,baffle,addresses,1
+broken,drilled,tie rod hole,addresses,1
+broken,fabricated,baffle,addresses,1
+broken,fabricated,baffle support bracket,addresses,1
+broken,fabricated,brace,addresses,1
+broken,found,ferrule,investigates,1
+broken,found,manifold psi line,investigates,1
+broken,inspected,baffle spring,investigates,1
+broken,inspected,ferrule,investigates,1
+broken,inspected,manifold psi line,investigates,1
+broken,installed,,addresses,1
+broken,installed,baffle,addresses,1
+broken,installed,baffle crosstie,addresses,1
+broken,installed,baffle spring,addresses,1
+broken,installed,baffle support,addresses,1
+broken,installed,baffle tie rod,addresses,1
+broken,installed,baffle tie wire,addresses,1
+broken,installed,bracket,addresses,1
+broken,installed,clamp,addresses,1
+broken,installed,connecting rod,addresses,1
+broken,installed,connection wire,addresses,1
+broken,installed,engine baffling,addresses,1
+broken,installed,hose clamp,addresses,1
+broken,installed,like material,addresses,1
+broken,installed,outer baffle tie,addresses,1
+broken,installed,plug,addresses,1
+broken,installed,plugs,addresses,1
+broken,installed,rivets,addresses,1
+broken,installed,rocker shaft thrust button,addresses,1
+broken,installed,serviceable bracket,addresses,1
+broken,installed,spring,addresses,1
+broken,installed,standoff,addresses,1
+broken,installed,standoffs,addresses,1
+broken,installed,tension cable,addresses,1
+broken,installed,tie rod hole,addresses,1
+broken,installed,tie rods,addresses,1
+broken,painted,like material,addresses,1
+broken,re,baff,addresses,1
+broken,re - riveted,baff,addresses,1
+broken,reinstalled,baffle,addresses,1
+broken,repaired,rod,addresses,1
+broken,replaced,,addresses,1
+broken,replaced,anchor stand assembly,addresses,1
+broken,replaced,anchors,addresses,1
+broken,replaced,baffle connecting rod,addresses,1
+broken,replaced,baffle connecting spring,addresses,1
+broken,replaced,baffle interconnect rod,addresses,1
+broken,replaced,baffle mounting bracket,addresses,1
+broken,replaced,baffle rod,addresses,1
+broken,replaced,baffle support fastener,addresses,1
+broken,replaced,baffle support rod,addresses,1
+broken,replaced,bolt,addresses,1
+broken,replaced,button plugs,addresses,1
+broken,replaced,cam lock,addresses,1
+broken,replaced,carb heat shroud,addresses,1
+broken,replaced,cowl,addresses,1
+broken,replaced,cylinder anchor assembly,addresses,1
+broken,replaced,fastener,addresses,1
+broken,replaced,interbaffle rod fastener,addresses,1
+broken,replaced,interconnect rod,addresses,1
+broken,replaced,intercylinder baffle rod,addresses,1
+broken,replaced,like material,addresses,1
+broken,replaced,manifold psi line,addresses,1
+broken,replaced,part,addresses,1
+broken,replaced,plastic holder,addresses,1
+broken,replaced,rivet,addresses,1
+broken,replaced,rocker shaft plugs,addresses,1
+broken,replaced,screen,addresses,1
+broken,replaced,screw,addresses,1
+broken,replaced,spacers,addresses,1
+broken,replaced,spring connector,addresses,1
+broken,replaced,spring wire,addresses,1
+broken,replaced,stack,addresses,1
+broken,replaced,standoffs,addresses,1
+broken,replaced,thrust button,addresses,1
+broken,replaced,thrust buttons,addresses,1
+broken,replaced,tie rods,addresses,1
+broken,replaced,wire spring,addresses,1
+broken,replaced,zip ties,addresses,1
+broken,resafetied,intercylinder baffle,addresses,1
+broken,rethreaded,,addresses,1
+broken,riveted,baff,addresses,1
+broken,secured,,addresses,1
+broken,secured,safety wire,addresses,1
+broken,secured,spiral wrap,addresses,1
+broken,secured,tie rod,addresses,1
+broken,secured,wires,addresses,1
+broken off,installed,baffle plug,addresses,1
+broken off,installed,baffle plugs,addresses,1
+broken off,installed,engine,addresses,1
+broken off,installed,plugs,addresses,1
+burned,borescoped,engine,investigates,1
+burned,borescoped,exhaust valve,investigates,1
+burnt,fitted,exhaust,addresses,1
+burnt,inspected,engine,investigates,1
+burnt,inspected,exhaust valve,investigates,1
+burnt,lapped,exhaust,addresses,1
+burnt,replaced,cylinder,addresses,1
+burnt,replaced,valve,addresses,1
+burnt,verified,exhaust valve,investigates,1
+but ran very rough,compression check,,investigates,1
+but ran very rough,confirmed,aircraft,investigates,1
+but ran very rough,ran,aircraft,investigates,1
+came into cont,replacement,cylinder,addresses,1
+came into cont,replacement,piston,addresses,1
+canned,installed,gasket,addresses,1
+canned,installed,intake tube,addresses,1
+canned,installed,o - ring,addresses,1
+chafed,applied,baffle seal,addresses,1
+chafed,applied,silicone,addresses,1
+chafed,check,oil drain tubes,investigates,1
+chafed,cleaned,pressure tube,addresses,1
+chafed,removed,hardened chafe wrap,addresses,1
+chafed,replaced,baffle,addresses,1
+chafed,repositioned,,addresses,1
+chafing,adjusted,oil return line,addresses,1
+chafing,adjusted,tie rod,addresses,1
+chafing,applied,chafe tape,addresses,1
+chafing,applied,high temperature silicone,addresses,1
+chafing,applied,oil cooler line,addresses,1
+chafing,applied,oil return line,addresses,1
+chafing,applied,panel,addresses,1
+chafing,applied,sealant,addresses,1
+chafing,applied,spiral wrap,addresses,1
+chafing,applied,starter wire,addresses,1
+chafing,applied,throttle cable,addresses,1
+chafing,applied,vacuum pump cooling duct,addresses,1
+chafing,inspected,baffle spring,investigates,1
+chafing,inspected,fuel pump,investigates,1
+chafing,inspected,line,investigates,1
+chafing,inspected,lines,investigates,1
+chafing,inspected,return line,investigates,1
+chafing,installed,baffling seal,addresses,1
+chafing,installed,oil cooler line,addresses,1
+chafing,installed,oil return line,addresses,1
+chafing,installed,rocker drain line,addresses,1
+chafing,installed,rtv,addresses,1
+chafing,installed,rtv silicone,addresses,1
+chafing,put,baffle tensioner wire,addresses,1
+chafing,reinstall,rubber baffle,addresses,1
+chafing,replaced,line,addresses,1
+chafing,replaced,oil drain line,addresses,1
+chafing,replaced,oil line,addresses,1
+chafing,replaced,oil return line,addresses,1
+chafing,replaced,primer line sleeve,addresses,1
+chafing,replaced,tension wire,addresses,1
+chafing,replaced,tube,addresses,1
+chafing,repositioned,alternator,addresses,1
+chafing,repositioned,cooling hose,addresses,1
+chafing,repositioned,tie rod,addresses,1
+chafing,resafetied,line,addresses,1
+chafing damage,inspected,intake tube,investigates,1
+chafing damage,inspected,primer line,investigates,1
+chafing through,resafetied,plugs,addresses,1
+choke,run up,cylinder,investigates,1
+choke,run up,engine,investigates,1
+choke,run up,plug,investigates,1
+choked,checked,engine,investigates,1
+choked,run up,engine,investigates,1
+click,started,aircraft,investigates,1
+clicking noise,inspected,cabin area,investigates,1
+clicking noise,inspected,engine,investigates,1
+co level high warning came on,checks,aircraft,investigates,1
+co level high warning came on,ran,aircraft,investigates,1
+co warning came o,ran up,aircraft,investigates,1
+cold,leak check,engine,investigates,1
+collecting,began visual insp,,investigates,1
+collecting,inspected,,investigates,1
+collecting,ran,,investigates,1
+collecting,replaced,engine breather fitting,addresses,1
+collecting,replaced,o - ring,addresses,1
+coming from exhaust,installed,,addresses,1
+coming from exhaust,leak check,aircraft,investigates,1
+coming loose,applied,sealant,addresses,1
+coming loose,resecured,baffle seal,addresses,1
+coming loose,resecured,cowl seal,addresses,1
+coming loose,resecured,seal,addresses,1
+coming off,refastened,baffle seal,addresses,1
+coming out,ground run,cowling,investigates,1
+coming out,leak check,cowling,investigates,1
+coming out,ran up,aircraft,investigates,1
+coming out,verified,,investigates,1
+contact,found,exhaust valve,investigates,1
+contact,found,piston,investigates,1
+contacted,inspected,exhaust valve,investigates,1
+contacted,inspected,piston,investigates,1
+corroded,replaced,washer,addresses,1
+coughed,ran,engine,investigates,1
+coughed often,checked,push rod,investigates,1
+coughed often,finished reinstallation,plugs,addresses,1
+coughed often,finished reinstallation,rocker cov,addresses,1
+coughed often,ground run,,investigates,1
+coughed often,installed,exhaust valve,addresses,1
+coughed often,installed,push rod,addresses,1
+coughed often,ran,engine,investigates,1
+coughed often,reinstalled,push rod seals,addresses,1
+coughed often,verified,engine,investigates,1
+could not restart,started,aircraft,investigates,1
+could not start,adju,engine,addresses,1
+could not start,ground run,engine,investigates,1
+could not start,ran,aircraft,investigates,1
+crack,applied,sealant,addresses,1
+crack,complied,baffle,investigates,1
+crack,determined,,investigates,1
+crack,dye pe insp,cylinder,investigates,1
+crack,dye pe insp,intake port,investigates,1
+crack,fabricated,2024 t 3 . 040 aluminum,addresses,1
+crack,fabricated,doubler,addresses,1
+crack,insp,paint,investigates,1
+crack,inspected,cylinder,investigates,1
+crack,installed,like material,addresses,1
+crack,installed,patch same material,addresses,1
+crack,installed,wide area washer,addresses,1
+crack,installing,,addresses,1
+crack,observed,cowl,investigates,1
+crack,observed,spark plug leads,investigates,1
+crack,patched,baffle,addresses,1
+crack,repaired,baffle,addresses,1
+crack,replaced,baffle seal,addresses,1
+crack,replaced,bracket,addresses,1
+crack,replaced,elbow,addresses,1
+crack,stop drilled,90 degrees bracket,addresses,1
+crack,stop drilled,attach bolt,addresses,1
+crack,stop drilled,baffle bracket,addresses,1
+crack,stop drilled,baffle center,addresses,1
+crack,stop drilled,baffle corner,addresses,1
+crack,stop drilled,baffle seal,addresses,1
+crack,stop drilled,baffling bracket,addresses,1
+crack,stop drilled,bolt,addresses,1
+crack,stop drilled,brace,addresses,1
+crack,stop drilled,cowling baffle,addresses,1
+crack,stop drilled,cylinder outer baffling,addresses,1
+crack,stop drilled,doubler plate,addresses,1
+crack,stop drilled,nutplate,addresses,1
+crack,stop drilled,patch,addresses,1
+crack,verified,cylinder,investigates,1
+cracked,assembled,bracket,addresses,1
+cracked,began fabricating,patches,addresses,1
+cracked,began replacing,cylinder,addresses,1
+cracked,change,cylinder,investigates,1
+cracked,cleaned up,edges,addresses,1
+cracked,clearance check,push rods,investigates,1
+cracked,clearance check,rockers,investigates,1
+cracked,completed installation,cylinder,addresses,1
+cracked,complied,baffle,investigates,1
+cracked,compression test,cylinder,investigates,1
+cracked,continued repairing,baffles,addresses,1
+cracked,determined,,investigates,1
+cracked,drilled off,baffle,addresses,1
+cracked,drilled out,rivets,addresses,1
+cracked,dry tappet cl,cylinder,investigates,1
+cracked,dry tappet cl,cylinders,investigates,1
+cracked,fabricated,baffle,addresses,1
+cracked,fabricated,baffle bracket,addresses,1
+cracked,fabricated,baffle connector plate,addresses,1
+cracked,fabricated,baffle patch,addresses,1
+cracked,fabricated,baffle support,addresses,1
+cracked,fabricated,like material referencing,addresses,1
+cracked,fabricated,like materials,addresses,1
+cracked,fabricated,patches,addresses,1
+cracked,filled,2 part epoxy,addresses,1
+cracked,filled,rudder covers,addresses,1
+cracked,finished installation,,addresses,1
+cracked,finished reassembly,cylinder,addresses,1
+cracked,finished reassembly,cylinders,addresses,1
+cracked,fitted,bracket,addresses,1
+cracked,further insp,baffle,investigates,1
+cracked,further inspection,baffle,investigates,1
+cracked,insp,bolt,investigates,1
+cracked,insp,paint,investigates,1
+cracked,installed,baff,addresses,1
+cracked,installed,baffle spr,addresses,1
+cracked,installed,bracket,addresses,1
+cracked,installed,cylinder,addresses,1
+cracked,installed,cylinder assembly,addresses,1
+cracked,installed,doubler,addresses,1
+cracked,installed,edges,addresses,1
+cracked,installed,patch same material,addresses,1
+cracked,installed,push rods,addresses,1
+cracked,installed,rockers,addresses,1
+cracked,installed,sheet metal doubler,addresses,1
+cracked,installed,wide area washer,addresses,1
+cracked,installing,,addresses,1
+cracked,leak check,cylinder,investigates,1
+cracked,leak check,propeller oil line,investigates,1
+cracked,made,like materi,addresses,1
+cracked,made,patch,addresses,1
+cracked,operations,cylinder,investigates,1
+cracked,painted,bracket,addresses,1
+cracked,patched,deflectors,addresses,1
+cracked,patching,,addresses,1
+cracked,patching,baffle,addresses,1
+cracked,primed,bracket,addresses,1
+cracked,procured,baffle,addresses,1
+cracked,reinstalled,baffle,addresses,1
+cracked,reinstalled,cylinders,addresses,1
+cracked,reinstalled,muffler heat muff,addresses,1
+cracked,repair,baffle patch,addresses,1
+cracked,repair,baffles,addresses,1
+cracked,repair,like material,addresses,1
+cracked,repair,patch,addresses,1
+cracked,repaired,,addresses,1
+cracked,repaired,baffling,addresses,1
+cracked,repaired,doubler,addresses,1
+cracked,replaced,air baffle,addresses,1
+cracked,replaced,angle bracket,addresses,1
+cracked,replaced,angle brackets,addresses,1
+cracked,replaced,attach fitting,addresses,1
+cracked,replaced,baffle bracket,addresses,1
+cracked,replaced,baffle reinforcement angle,addresses,1
+cracked,replaced,baffle section,addresses,1
+cracked,replaced,baffle tie rod,addresses,1
+cracked,replaced,baffling section,addresses,1
+cracked,replaced,brace,addresses,1
+cracked,replaced,cylinder assembly,addresses,1
+cracked,replaced,cylinders,addresses,1
+cracked,replaced,deflector,addresses,1
+cracked,replaced,intake tube,addresses,1
+cracked,replaced,mounting grommets,addresses,1
+cracked,replaced,stiffener,addresses,1
+cracked,replaced,support bracket,addresses,1
+cracked,replacement,engine,addresses,1
+cracked,riveted,baffle,addresses,1
+cracked,riveted,patch,addresses,1
+cracked,started creating,patch,addresses,1
+cracked,stop drilled,,addresses,1
+cracked,stop drilled,90 degrees bracket,addresses,1
+cracked,stop drilled,alternator,addresses,1
+cracked,stop drilled,baffle bracket,addresses,1
+cracked,stop drilled,baffle corner,addresses,1
+cracked,stop drilled,baffle support,addresses,1
+cracked,stop drilled,brace,addresses,1
+cracked,stop drilled,corner baffle,addresses,1
+cracked,stop drilled,cylinder outer baffling,addresses,1
+cracked,stop drilled,mounting baffle,addresses,1
+cracked,stop drilled,muffler heat muff,addresses,1
+cracked,stop drilled,oil cooler,addresses,1
+cracked,stop drilled,oil cooler bolt,addresses,1
+cracked,stop drilled,oil cooler flange,addresses,1
+cracked,stop drilled,rudder covers,addresses,1
+cracked,stop drilled,sheet metal doubler,addresses,1
+cracked,stop drilled,upper baffle,addresses,1
+cracked,swapped,accessories,addresses,1
+cracked,torqued,,addresses,1
+cracks,cleaned,scat tube,addresses,1
+cracks,inspected,baffle,investigates,1
+cracks,installed,baffle section,addresses,1
+cracks,made,like materi,addresses,1
+cracks,made,patch,addresses,1
+cracks,painted,patch,addresses,1
+cracks,replaced,angle brackets,addresses,1
+cracks,stop drilled,baffles,addresses,1
+cracks,stop drilled,relief hole,addresses,1
+cut off,started,aircraft,investigates,1
+damage,insp,core engine,investigates,1
+damage,insp,cover,investigates,1
+damage,inspected,compressor blade,investigates,1
+damaged,canned,intake pipe,addresses,1
+damaged,cleaned,threads,addresses,1
+damaged,dressed,ring gear teeth,addresses,1
+damaged,inspected,threads,investigates,1
+damaged,installed,doubler plates,addresses,1
+damaged,repaired,baffle,addresses,1
+damaged,repaired,threads,addresses,1
+damaged,replaced,,addresses,1
+damaged,replaced,air inlet,addresses,1
+damaged,replaced,baff,addresses,1
+damaged,replaced,baffle,addresses,1
+damaged,replaced,baffle section,addresses,1
+damaged,replaced,cowl shock mount,addresses,1
+damaged,replaced,fasteners,addresses,1
+damaged,replaced,grommet,addresses,1
+damaged,replaced,oil sump screen,addresses,1
+damaged,replaced,parts,addresses,1
+damaged,replaced,pins,addresses,1
+damaged,replaced,plug,addresses,1
+damaged,replaced,plugs,addresses,1
+damaged,replaced,riv,addresses,1
+damaged,replaced,rivet,addresses,1
+damaged,replaced,rivets,addresses,1
+damaged,replaced,rocker cover gasket,addresses,1
+damaged,replaced,tie rod,addresses,1
+damaged,replaced,upper nutplate,addresses,1
+damaged,replacement,baffle plug,addresses,1
+decreased to zero,cleared,plugs,addresses,1
+decreased to zero,idle check,,investigates,1
+decreased to zero,operations checked,,investigates,1
+decreased to zero,ran up,,investigates,1
+deteriorated,replaced,buttons,addresses,1
+did not start,started,aircraft,investigates,1
+die,checks,engine,investigates,1
+die,ran,aircraft,investigates,1
+died,ground run,engine,investigates,1
+died,ground run,engines,investigates,1
+died,operations checked,engine,investigates,1
+died,operations checked,engines,investigates,1
+died,ran up,engine,investigates,1
+died,warmed up,engine,investigates,1
+dirty,cleaned,cooler,addresses,1
+dirty,cleaned,cooling fins,addresses,1
+dirty,cleaned,engine,addresses,1
+dirty,cleaned,engine scroll,addresses,1
+dirty,cleaned,impeller,addresses,1
+dirty,cleaned,sniffle valves,addresses,1
+dirty,reinstalled,sniffler valves,addresses,1
+dirty,removed,oil cooler,addresses,1
+dirty,replaced,air filter,addresses,1
+disconnected,reattached,,addresses,1
+disconnected,reattached,baffle tie,addresses,1
+disconnected,resecured,baffle,addresses,1
+disconnected,resecured,baffle seal,addresses,1
+does not align,trimmed,baffle,addresses,1
+does not align,trimmed,seal,addresses,1
+does not run,borescop,cylinder,investigates,1
+does not run,compression test,cylinder,investigates,1
+does not run,leak check,aircraft,investigates,1
+does not run,operations,aircraft,investigates,1
+does not run,ran,aircraft,investigates,1
+drop in rpm,ground run,engine,investigates,1
+dropped,confirmed,aircraft,investigates,1
+dropped,ran,aircraft,investigates,1
+drops to zero,ground ran,aircraft,investigates,1
+drops to zero,operations check,aircraft,investigates,1
+drops to zero,replaced,cht probe,addresses,1
+eating into,inspected,mounting bolt,investigates,1
+eating into,inspected,scroll mount,investigates,1
+elongated,fabricated,access hole,addresses,1
+elongated,fabricated,patch,addresses,1
+elongated,installed,baffle patch,addresses,1
+elongated,installed,baffle plug doubler,addresses,1
+elongated,installed,doubler patch,addresses,1
+elongated,installed,patch,addresses,1
+elongated,installed,plug,addresses,1
+elongated,installed,wire tie,addresses,1
+elongated,repositioned,hole,addresses,1
+exceeded,complied,,investigates,1
+exceeded,downloaded,flight data,investigates,1
+exceeded,downloaded,information,investigates,1
+exceeded,inspected,propeller,investigates,1
+exceeded,reviewed,flight data monitoring card,investigates,1
+exceeded,verified,,investigates,1
+excessive,installed,number 31 push rod,addresses,1
+excessive,lash check,exhaust valve,investigates,1
+excessive end play,inspected,throttle cable attachment,investigates,1
+excessive free play,adjusted,,addresses,1
+excessive free play,adjusted,center turnbuckle,addresses,1
+excessive fretting,replaced,line,addresses,1
+excessive rpm rise,run up,engine,investigates,1
+failed,adjusted,aircraft,addresses,1
+failed,checked,cylinder assembly,investigates,1
+failed,checked,magneto,investigates,1
+failed,clearance check,exhaust valve,investigates,1
+failed,completed reassembly,cylinder,addresses,1
+failed,ground run,aircraft,investigates,1
+failed,ground run,engine,investigates,1
+failed,inspected,engine,investigates,1
+failed,installed,injector line,addresses,1
+failed,leak and operations check,exhaust valve,investigates,1
+failed,leak check,aircraft,investigates,1
+failed,leak check,magneto,investigates,1
+failed,operations,aircraft,investigates,1
+failed,operations,cylinder,investigates,1
+failed,operations check,aircraft,investigates,1
+failed,override speed check,aircraft,investigates,1
+failed,ran,aircraft,investigates,1
+failed,ran up,aircraft,investigates,1
+failed,reassembled,cylinder,addresses,1
+failed,reinstalled,cylinder,addresses,1
+failed,repla,exhaust push rod,addresses,1
+failed,run up,engine,investigates,1
+failed,started,engine,investigates,1
+failed,torqued,injector line,addresses,1
+fails,adjusted,,addresses,1
+fails,adjusted,aircraft,addresses,1
+fails,checks,aircraft,investigates,1
+fails,mixture and idle checks,aircraft,investigates,1
+fails,mixture override check,aircraft,investigates,1
+fails,operations check,,investigates,1
+fails,ran,aircraft,investigates,1
+failure,idle mixture check,engine,investigates,1
+failure,idle mixture check,magneto,investigates,1
+failure,inspecte,engine,investigates,1
+failure,ran,aircraft,investigates,1
+falling apart,replaced,lacing cord,addresses,1
+faulty,ground run,magneto,investigates,1
+faulty,operations checked,magneto,investigates,1
+fell off,cleaned,baffle,addresses,1
+fell off,reinstalled,anti - chafe strip,addresses,1
+fell off,replaced,rivet,addresses,1
+fire,inspected,carb airbox,investigates,1
+flame came out,ground run,engine,investigates,1
+flame came out,inspected,inlet,investigates,1
+flame came out,operations checked,engine,investigates,1
+flames comi,ground run,engine,investigates,1
+flames comi,inspected,engine,investigates,1
+flames comi,operations checked,engine,investigates,1
+fluctuating,inspect,cowling,investigates,1
+fluctuating,operations check,engine,investigates,1
+fluctuating,ran,aircraft,investigates,1
+fluctuating,ran up,aircraft,investigates,1
+fluctuating,replaced,cht probe,addresses,1
+fouled,ran up,aircraft,investigates,1
+fouled,run up,cylinder,investigates,1
+fouled,run up,engine,investigates,1
+fouled,run up,plug,investigates,1
+gains and drops,ground run,engine,investigates,1
+gains and drops,operations checked,engine,investigates,1
+gone,installed,baffle seal,addresses,1
+gouge,replaced,intake pipe,addresses,1
+gouged,installed,crankshaft,addresses,1
+gouged,installed,oil seal,addresses,1
+gouged,leak check,engine,investigates,1
+gouged,run,engine,investigates,1
+gouged,torqued,lock plate,investigates,1
+grinding noise,cleaned,fod,addresses,1
+hesitation,ran,aircraft,investigates,1
+high,checked,engine,investigates,1
+high,ground ran,aircraft,investigates,1
+high,operations check,aircraft,investigates,1
+high,ran,aircraft,investigates,1
+high frequency vibration,ground run,,investigates,1
+high frequency vibration,installed,engine,addresses,1
+high frequency vibration,leak check,aircraft,investigates,1
+high frequency vibration,operations,aircraft,investigates,1
+high frequency vibration,ran up,aircraft,investigates,1
+high pitched squealing noise,operations check,,investigates,1
+high pitched squealing noise,ran up,aircraft,investigates,1
+high pitched whine / squeal / wh,ran,aircraft,investigates,1
+hitting,adjusted,,addresses,1
+hitting,adjusted,clamps,addresses,1
+hitting,inspected,center baffle screw,investigates,1
+hoisting loop,leak check,,investigates,1
+hoisting loop,sealed,bolt,addresses,1
+hoisting loop,torqued,bolt,addresses,1
+hung up,rerouted,baffle,addresses,1
+idles extremely rough,ground run,,investigates,1
+idles extremely rough,seasonal adjustment,,addresses,1
+idles very irratically,began replacement,fuel injectors,addresses,1
+idles very irratically,operations check,engine,investigates,1
+idles very irratically,replaced,,addresses,1
+idles very irratically,replaced,fuel pump,addresses,1
+idles very irratically,retimed,mags,addresses,1
+idles very irratically,started,engine,investigates,1
+idles very irratically,tried making several idle mixture adjustments,,addresses,1
+idling too low,adju,engine,addresses,1
+idling too low,ground run,engine,investigates,1
+increases in volume,ground run,,investigates,1
+increases in volume,inspected,,investigates,1
+inoperable,disconnected,fuel distributor line,investigates,1
+inoperable,dry tappet clearance check,cylinder,investigates,1
+inoperable,mags check,aircraft,investigates,1
+inoperable,mags check,magneto,investigates,1
+inoperable,operations check,egt,investigates,1
+inoperable,operations check,oil temperature light,investigates,1
+inoperable,power and leak check,magneto,investigates,1
+inoperable,ran,aircraft,investigates,1
+inoperable,reinstalled,lamp,addresses,1
+inoperable,replaced,egt probe,addresses,1
+inoperable,replaced,starter,addresses,1
+jumps into red,cleaned,transducer ground path,addresses,1
+jumps into red,fuel pressure checked,,investigates,1
+kept hesitating,ground run,engine,investigates,1
+kept hesitating,operations checked,engine,investigates,1
+killed,run up,aircraft,investigates,1
+kinked,replaced,tube,addresses,1
+kinked,secured,hose,addresses,1
+kinked,unkinked,hose,addresses,1
+knocking,inspected,,investigates,1
+knocking noise,confirmed,pass down,investigates,1
+knocking noise,ran,aircraft,investigates,1
+large pool of oil,observed,aircraft,investigates,1
+large pool of oil,ran,aircraft,investigates,1
+large puddle of liquid,ran,aircraft,investigates,1
+leak,applied,sealant,addresses,1
+leak,check,cylinder,investigates,1
+leak,cleaned,backbone bolt,addresses,1
+leak,cleaned,bolt holes,addresses,1
+leak,cleaned,intake gaskets,addresses,1
+leak,fitting,accessory case,addresses,1
+leak,found,exhaust valve,investigates,1
+leak,found,piston,investigates,1
+leak,further insp,intake tube,investigates,1
+leak,ground run leak check,intake tube,investigates,1
+leak,ground run leak check,sump,investigates,1
+leak,inspected,intake,investigates,1
+leak,installed,,addresses,1
+leak,installed,gaskets,addresses,1
+leak,installed,intake gasket,addresses,1
+leak,leak check,backbone,investigates,1
+leak,leak check,backbone case seam,investigates,1
+leak,leak check,bolt,investigates,1
+leak,leak check,rocker covers,investigates,1
+leak,operations,aircraft,investigates,1
+leak,ran,engine,investigates,1
+leak,ran,push rod tube,investigates,1
+leak,reinstalled,,addresses,1
+leak,reinstalled,cylinder,addresses,1
+leak,replaced,crankshaft,addresses,1
+leak,replaced,oil seal,addresses,1
+leak,replaced,push rod tube seals,addresses,1
+leak,replaced,rocker cover gasket,addresses,1
+leak,replaced,rocker covers gaskets,addresses,1
+leak,resealed,bolts,addresses,1
+leak,resealed,hoisting ring bolt,addresses,1
+leak,reswedged,intake connector,addresses,1
+leak,reswedged,sump,addresses,1
+leak,sealed,backbone bolt,addresses,1
+leak,sealed,retorquing nut,addresses,1
+leak,serviced,engine,addresses,1
+leak,serviced,mineral oil,addresses,1
+leak,tightened,bolts,addresses,1
+leak,torqued,cylinder,addresses,1
+leak,torqued,hoisting ring bolt,addresses,1
+leakage,replaced,gasket,addresses,1
+leaki,inspected,rocker cover gaskets,investigates,1
+leakin,cleaned,,addresses,1
+leakin,leak check,,investigates,1
+leaking,applied,high temperature rtv,addresses,1
+leaking,chased threads,intake port,investigates,1
+leaking,chased threads,threads,investigates,1
+leaking,cleaned,backbone bolts,addresses,1
+leaking,cleaned,bolt,addresses,1
+leaking,cleaned,bolts,addresses,1
+leaking,cleaned,cas,addresses,1
+leaking,cleaned,collar,addresses,1
+leaking,cleaned,crankshaft seal,addresses,1
+leaking,cleaned,cylinder flange,addresses,1
+leaking,cleaned,engine,addresses,1
+leaking,cleaned,fuel stains,addresses,1
+leaking,cleaned,gasket material,addresses,1
+leaking,cleaned,gaskets,addresses,1
+leaking,cleaned,intake gasket,addresses,1
+leaking,cleaned,mating surfaces,addresses,1
+leaking,cleaned,seal,addresses,1
+leaking,cleaned,silicone gask,addresses,1
+leaking,cleaned,silicone gasket,addresses,1
+leaking,cleaned,surfaces,addresses,1
+leaking,cleaned,thread,addresses,1
+leaking,cleaned,tube upper,addresses,1
+leaking,cleaned,tubes,addresses,1
+leaking,confirmed,engine,investigates,1
+leaking,confirmed,intake tube,investigates,1
+leaking,corrective action,rocker cover,addresses,1
+leaking,determined,intake flanges,investigates,1
+leaking,dressed,propeller,addresses,1
+leaking,further insp,intake tube,investigates,1
+leaking,ground seat,exhaust valve,addresses,1
+leaking,honed,cylinder,addresses,1
+leaking,insp,3 bolts,investigates,1
+leaking,insp,backbone,investigates,1
+leaking,insp,bolts,investigates,1
+leaking,inspected,,investigates,1
+leaking,inspected,aircraft,investigates,1
+leaking,inspected,intake,investigates,1
+leaking,inspected,intake tube,investigates,1
+leaking,inspected,rocker gasket,investigates,1
+leaking,inspected,sniffler valves,investigates,1
+leaking,install,,investigates,1
+leaking,installed,baffle,addresses,1
+leaking,installed,case,addresses,1
+leaking,installed,crankcase seal,addresses,1
+leaking,installed,engine,addresses,1
+leaking,installed,high temperature silicone,addresses,1
+leaking,installed,indication tube gaskets,addresses,1
+leaking,installed,induction gasket,addresses,1
+leaking,installed,intake flange,addresses,1
+leaking,installed,intake pipes,addresses,1
+leaking,installed,intake tube gaskets,addresses,1
+leaking,installed,piston,addresses,1
+leaking,installed,propeller,addresses,1
+leaking,installed,ring gear,addresses,1
+leaking,installed,rocker cover gasket,addresses,1
+leaking,installed,rocker covers,addresses,1
+leaking,installed,rockers,addresses,1
+leaking,installed,seals,addresses,1
+leaking,installed,silicone gasket,addresses,1
+leaking,installed,silicone gaskets,addresses,1
+leaking,installed,spring,addresses,1
+leaking,installed,valve cover gaskets,addresses,1
+leaking,installed,valve covers,addresses,1
+leaking,leak check,aircraft,investigates,1
+leaking,leak check,case bolt,investigates,1
+leaking,leak check,case plug,investigates,1
+leaking,leak check,center case bolt,investigates,1
+leaking,leak check,clamps,investigates,1
+leaking,leak check,cowl,investigates,1
+leaking,leak check,crankcase lifting eyebolt,investigates,1
+leaking,leak check,cylinder,investigates,1
+leaking,leak check,cylinder base,investigates,1
+leaking,leak check,exhaust valve,investigates,1
+leaking,leak check,lifting eye,investigates,1
+leaking,leak check,oil plug,investigates,1
+leaking,leak check,oil return line,investigates,1
+leaking,leak check,oil return lines,investigates,1
+leaking,leak check,push rod exhaust housing gasket,investigates,1
+leaking,leak check,push rod seals,investigates,1
+leaking,leak check,rocker covers,investigates,1
+leaking,leak check,rocker gasket,investigates,1
+leaking,leak check,seal,investigates,1
+leaking,leak check,seals,investigates,1
+leaking,leak check,spine,investigates,1
+leaking,leak checked,,investigates,1
+leaking,leak checked,valves,investigates,1
+leaking,operations,,investigates,1
+leaking,operations,aircraft,investigates,1
+leaking,operations,case plug,investigates,1
+leaking,ran,engine,investigates,1
+leaking,readjusted,clamp,addresses,1
+leaking,reinstalled,bolt,addresses,1
+leaking,reinstalled,flywheel,addresses,1
+leaking,reinstalled,gasket,addresses,1
+leaking,reinstalled,oil sump,addresses,1
+leaking,reinstalled,rocker cover,addresses,1
+leaking,replace,gasket,addresses,1
+leaking,replace,gaskets,addresses,1
+leaking,replaced,29 push rod,addresses,1
+leaking,replaced,3 gaskets,addresses,1
+leaking,replaced,clinders,addresses,1
+leaking,replaced,cover gasket,addresses,1
+leaking,replaced,cover gaskets,addresses,1
+leaking,replaced,covers,addresses,1
+leaking,replaced,cyls,addresses,1
+leaking,replaced,exhaust push rod seals,addresses,1
+leaking,replaced,exhaust valve,addresses,1
+leaking,replaced,flanges,addresses,1
+leaking,replaced,gakset,addresses,1
+leaking,replaced,instake gasket,addresses,1
+leaking,replaced,intake gasket tube,addresses,1
+leaking,replaced,intake pipe gaskets,addresses,1
+leaking,replaced,intake tube,addresses,1
+leaking,replaced,intake tube gaskets,addresses,1
+leaking,replaced,intake tubes,addresses,1
+leaking,replaced,intakes gaskets,addresses,1
+leaking,replaced,lock washer,addresses,1
+leaking,replaced,lock washers,addresses,1
+leaking,replaced,piston,addresses,1
+leaking,replaced,primer sleev,addresses,1
+leaking,replaced,push rod seal,addresses,1
+leaking,replaced,retainer,addresses,1
+leaking,replaced,rocker box gasket,addresses,1
+leaking,replaced,rocker cov,addresses,1
+leaking,replaced,rocker cover bracket,addresses,1
+leaking,replaced,rocker covers gaskets,addresses,1
+leaking,replaced,rocker seal,addresses,1
+leaking,replaced,silicone gask,addresses,1
+leaking,replaced,valve cover gasket,addresses,1
+leaking,repositioned,seal,addresses,1
+leaking,resealed,backbone bolts,addresses,1
+leaking,resealed,hi - temperature silicone,addresses,1
+leaking,reset,gasket,addresses,1
+leaking,reswaged,gasket,addresses,1
+leaking,reswaged,intake pipe,addresses,1
+leaking,reswaged,intake tube,addresses,1
+leaking,reswedged,intake connector,addresses,1
+leaking,reswedged,sump,addresses,1
+leaking,rotated,push rod tube,addresses,1
+leaking,run up leak check,engine,investigates,1
+leaking,safetied,propeller,investigates,1
+leaking,sealed,bolt hole,addresses,1
+leaking,sealed,bolts,addresses,1
+leaking,sealed,case,addresses,1
+leaking,sealed,lifting eye bolt,addresses,1
+leaking,sealed,retorquing nut,addresses,1
+leaking,secured,primer line,addresses,1
+leaking,serviced,engine,addresses,1
+leaking,serviced,mineral oil,addresses,1
+leaking,staked,valves,addresses,1
+leaking,swaged,intake tube,addresses,1
+leaking,swaged,intake tube attachment,addresses,1
+leaking,swaged,intake tube attachment groove,addresses,1
+leaking,swaged,oil sump,addresses,1
+leaking,swaged,tube,addresses,1
+leaking,swedged,intake,addresses,1
+leaking,swedged,intake tube,addresses,1
+leaking,tightened,,addresses,1
+leaking,tightened,clamp,addresses,1
+leaking,tightened,fitting,addresses,1
+leaking,tightened,oil drain line,addresses,1
+leaking,tightened,return lines,addresses,1
+leaking,tightened,rocker box covers,addresses,1
+leaking,tightened,rocker cover screws,addresses,1
+leaking,tightened,rocker covers,addresses,1
+leaking,tightened,rocker drain clamps,addresses,1
+leaking,tightened,rocker drain hose clamps,addresses,1
+leaking,tightened,rocker screws,addresses,1
+leaking,tightened,screw,addresses,1
+leaking,tightened,sump,addresses,1
+leaking,torqued,,addresses,1
+leaking,torqued,backbone bolts,addresses,1
+leaking,torqued,bolt,addresses,1
+leaking,torqued,case,addresses,1
+leaking,torqued,propeller,investigates,1
+leaking,torqued,spark plugs,addresses,1
+leaking,torqued,stud nut,addresses,1
+leaking,tried to stake,valve,investigates,1
+leaking,verified,exhaust valve,investigates,1
+leaking through,finished removing,cylinder assembly,investigates,1
+leaking through,found,exhaust valve 2,investigates,1
+leaking through,installed,cylinder assembly,addresses,1
+leaking through,installed,cylinder assembly,investigates,1
+leaking through,leak check,,investigates,1
+leaking through,reck ' ed,exhaust valve 2,investigates,1
+leaks,cleaned,intake gasket,addresses,1
+leaks,complied,,investigates,1
+leaks,determined,intake flanges,investigates,1
+leaks,installed,,addresses,1
+leaks,installed,bolt,addresses,1
+leaks,installed,gask,addresses,1
+leaks,installed,high temperature sealant,addresses,1
+leaks,installed,intake tube,addresses,1
+leaks,installed,rocker cover gasket,addresses,1
+leaks,installed,sealant,addresses,1
+leaks,leak check,backbone bolt,investigates,1
+leaks,leak check,rocker cover gasket,investigates,1
+leaks,leak check,rocker cover seal,investigates,1
+leaks,leak checked,,investigates,1
+leaks,replaced,cover gasket,addresses,1
+leaks,replaced,engine gasket,addresses,1
+leaks,replaced,intake tube gasket,addresses,1
+leaks,replaced,primer line,addresses,1
+leaks,replaced,primer line clamp,addresses,1
+leaks,replaced,rocker cover,addresses,1
+leaks,replaced,silicone gasket,addresses,1
+leaks,swedged,intake tube,addresses,1
+leaks,tightening,drain clamp,addresses,1
+leaky,replaced,intake gasket,addresses,1
+little rough,started,engine,investigates,1
+loose,adjusted,baffle,addresses,1
+loose,adjusted,baffle support rod,addresses,1
+loose,adjusted,clamps,addresses,1
+loose,adjusted,intercylinder baffle tie rod,addresses,1
+loose,applied,rtv,addresses,1
+loose,assembled,bolt,addresses,1
+loose,baffle checks,,investigates,1
+loose,cleaned,threads,addresses,1
+loose,drilled,baffle,addresses,1
+loose,drilled,baffle seal,addresses,1
+loose,drilled,rivet,addresses,1
+loose,drilled out,rivet,addresses,1
+loose,drilled out,rivets,addresses,1
+loose,insp,bolt,investigates,1
+loose,inspected,cylinder,investigates,1
+loose,inspected,intercylinder baffle tie rod,investigates,1
+loose,inspected,nuts,investigates,1
+loose,inspected,oil drain tube,investigates,1
+loose,installed,,addresses,1
+loose,installed,baffle patches,addresses,1
+loose,installed,baffle plug,addresses,1
+loose,installed,baffle plug patches,addresses,1
+loose,installed,baffle seal,addresses,1
+loose,installed,baffle tab,addresses,1
+loose,installed,bolt,addresses,1
+loose,installed,bracket hardware,addresses,1
+loose,installed,bracket screws,addresses,1
+loose,installed,gaskets,addresses,1
+loose,installed,intake tubes,addresses,1
+loose,installed,locktite,addresses,1
+loose,installed,nut,addresses,1
+loose,installed,plugs,addresses,1
+loose,installed,pop rivet,addresses,1
+loose,installed,rive ts,addresses,1
+loose,installed,rivets,addresses,1
+loose,installed,seal,addresses,1
+loose,installed,washer,addresses,1
+loose,leak check,baffle screws,investigates,1
+loose,leak check,screw,investigates,1
+loose,loosened,oil cooler,addresses,1
+loose,loosened,oil filler tube,addresses,1
+loose,operations check,cable sheath,investigates,1
+loose,put,rtv,addresses,1
+loose,ran,aircraft,investigates,1
+loose,reattached,attach bracket,addresses,1
+loose,reattached,baffle mount,addresses,1
+loose,reattached,baffle strips,addresses,1
+loose,reattached,cowl seal,addresses,1
+loose,reattached,fireseal,addresses,1
+loose,reattached,mounting bracket,addresses,1
+loose,reattached,weather stripping,addresses,1
+loose,reglued,cowl seal,addresses,1
+loose,reinstalled,bracket,addresses,1
+loose,repaired,baffle seal,addresses,1
+loose,replaced,,addresses,1
+loose,replaced,adel clamp,addresses,1
+loose,replaced,adel clamps,addresses,1
+loose,replaced,baffle plug,addresses,1
+loose,replaced,baffle seal fastener,addresses,1
+loose,replaced,baffle seal material,addresses,1
+loose,replaced,cht probe,addresses,1
+loose,replaced,cotter pin,addresses,1
+loose,replaced,dipstick,addresses,1
+loose,replaced,intake,addresses,1
+loose,replaced,intake gasket,addresses,1
+loose,replaced,intake gaskets,addresses,1
+loose,replaced,intake screen,addresses,1
+loose,replaced,lacings,addresses,1
+loose,replaced,linkage,addresses,1
+loose,replaced,lock nut,addresses,1
+loose,replaced,lock nuts,addresses,1
+loose,replaced,pop rivet,addresses,1
+loose,replaced,push rod adel clamp,addresses,1
+loose,replaced,spring washers,addresses,1
+loose,repositioned,clamps,addresses,1
+loose,repositioned,oil return line,addresses,1
+loose,resafetied,alternator,addresses,1
+loose,resafetied,bolt,addresses,1
+loose,resafetied,dipstick tube,addresses,1
+loose,resafetied,filler tube,addresses,1
+loose,resafetied,plugs,addresses,1
+loose,resafetied,screws,addresses,1
+loose,resafetied,tube,addresses,1
+loose,resealed,baffle,addresses,1
+loose,resealed,rtv,addresses,1
+loose,resecured,baffle mount,addresses,1
+loose,resecured,baffle screw,addresses,1
+loose,resecured,baffle tie rod,addresses,1
+loose,resecured,bracket,addresses,1
+loose,resecured,cam lock,addresses,1
+loose,resecured,carb heat box arm,addresses,1
+loose,resecured,clamp,addresses,1
+loose,resecured,clamps,addresses,1
+loose,resecured,cowl seal,addresses,1
+loose,resecured,cowl seals,addresses,1
+loose,resecured,cowls,addresses,1
+loose,resecured,foam seal,addresses,1
+loose,resecured,pop rivets,addresses,1
+loose,resecured,tie wire,addresses,1
+loose,reswaged,intake tube inserts,addresses,1
+loose,retightened,screw,addresses,1
+loose,safetied,alternator,addresses,1
+loose,safetied,bracket bolts,addresses,1
+loose,sealed,bolt,addresses,1
+loose,secured,,addresses,1
+loose,secured,alternator,addresses,1
+loose,secured,baffle seal material,addresses,1
+loose,secured,baffle section,addresses,1
+loose,secured,bolt,addresses,1
+loose,secured,bracket,addresses,1
+loose,secured,cable sheath,addresses,1
+loose,secured,cap,addresses,1
+loose,secured,clamp,addresses,1
+loose,secured,clamps,addresses,1
+loose,secured,dipstick tubes,addresses,1
+loose,secured,drain clamp,addresses,1
+loose,secured,hardware,addresses,1
+loose,secured,lacing cord,addresses,1
+loose,secured,output wire,addresses,1
+loose,secured,pop rivet,addresses,1
+loose,secured,safety wire,addresses,1
+loose,secured,seals,addresses,1
+loose,secured,section,addresses,1
+loose,secured,starter front cap,addresses,1
+loose,started removing,baffle,addresses,1
+loose,tighten,screw,addresses,1
+loose,tightened,alternator,addresses,1
+loose,tightened,backing nut,addresses,1
+loose,tightened,baffle connecting rod,addresses,1
+loose,tightened,baffle mounting screw,addresses,1
+loose,tightened,baffle seal,addresses,1
+loose,tightened,baffle support,addresses,1
+loose,tightened,baffle support rod,addresses,1
+loose,tightened,bracket bolts,addresses,1
+loose,tightened,cover screws,addresses,1
+loose,tightened,dipstick tube,addresses,1
+loose,tightened,engine ground cable,addresses,1
+loose,tightened,filler tube,addresses,1
+loose,tightened,fuel line support bracket,addresses,1
+loose,tightened,ground cable,addresses,1
+loose,tightened,hose clamp,addresses,1
+loose,tightened,lines inches b inches nut,addresses,1
+loose,tightened,lock nuts,addresses,1
+loose,tightened,pop rivets,addresses,1
+loose,tightened,rivet,addresses,1
+loose,tightened,rivets,addresses,1
+loose,tightened,rocker box cover screws,addresses,1
+loose,tightened,staples,addresses,1
+loose,tightened,starter front cap,addresses,1
+loose,tightened,tie rod nut,addresses,1
+loose,tightened,tube,addresses,1
+loose,tightening,drain clamp,addresses,1
+loose,torqued,bolt,addresses,1
+lost,ran,aircraft,investigates,1
+lost,replaced,cylinder assembly,addresses,1
+loud bang,inspected,cylinder,investigates,1
+loud bang,inspected,intake tube,investigates,1
+loud knock,inspected,cabin,investigates,1
+loud knock,inspected,engine,investigates,1
+loud knock,inspected,m / r system,investigates,1
+loud sound,ran,aircraft,investigates,1
+loud tap,ran,aircraft,investigates,1
+loud tap,ran up,aircraft,investigates,1
+low,adjusted,aircraft,addresses,1
+low,adjusted,engine,addresses,1
+low,attempted staking,valves,investigates,1
+low,borescoped,engine,investigates,1
+low,chased threads,intake port,investigates,1
+low,chased threads,threads,investigates,1
+low,checked,valve,investigates,1
+low,checks,aircraft,investigates,1
+low,completed install,baffles,addresses,1
+low,completed install,cylinder,addresses,1
+low,completed install,lines,addresses,1
+low,completed installation,baffling,addresses,1
+low,completed installation,exhaust valve,addresses,1
+low,complied,,investigates,1
+low,compression,cylinder,investigates,1
+low,compression check,engine,investigates,1
+low,drained,oil,investigates,1
+low,dry tappet cl,cylinder,investigates,1
+low,dry tappet clearance check,push rod,investigates,1
+low,finished grounding,valve seats,addresses,1
+low,finished installation,cylinder,addresses,1
+low,finished removing,cylinder assembly,investigates,1
+low,fitted,exhaust,addresses,1
+low,fitted,intake valve,addresses,1
+low,fitted,rings,addresses,1
+low,fitted,valve,addresses,1
+low,fitting,valves,addresses,1
+low,found,exhaust valve 2,investigates,1
+low,ground,intake valve,addresses,1
+low,ground,intake valve,investigates,1
+low,ground,seat,addresses,1
+low,ground,valves,addresses,1
+low,ground seat,exhaust valve,addresses,1
+low,honed,cylinder,investigates,1
+low,inspected,cylinder,investigates,1
+low,inspected,engine,investigates,1
+low,install,,investigates,1
+low,installation,cylinder,addresses,1
+low,installed,,addresses,1
+low,installed,cylinder,addresses,1
+low,installed,cylinder assembly,investigates,1
+low,installed,inches mineral oil only inches stickers,investigates,1
+low,lapped,exhaust,addresses,1
+low,lapped,intake valve,addresses,1
+low,lapped,intake valve,investigates,1
+low,lapped,seat,addresses,1
+low,lapped,valve,addresses,1
+low,leak and run up check,cylinder,investigates,1
+low,measured,,investigates,1
+low,measured bore - check,,investigates,1
+low,operations,engine,investigates,1
+low,ran,engine,investigates,1
+low,ran up,engine,investigates,1
+low,rechecked compressions,cylinder,investigates,1
+low,reck ' ed,exhaust valve 2,investigates,1
+low,reinstall,cover,addresses,1
+low,reinstall,gasket,addresses,1
+low,reinstalled,baffling,investigates,1
+low,reinstalled,exhaust,investigates,1
+low,reinstalled,int,investigates,1
+low,reinstalled,intake elbow,investigates,1
+low,replaced,exhaust,addresses,1
+low,replaced,exhaust va,addresses,1
+low,replaced,piston,addresses,1
+low,replaced,push rod,addresses,1
+low,replacement,cylinder,addresses,1
+low,seasonal adjustment,,investigates,1
+low,serviced,cylinder,investigates,1
+low,serviced,mineral oil,investigates,1
+low,staked,exhaust,addresses,1
+low,staked,exhaust va,addresses,1
+low,staked,valve,investigates,1
+low,staked,valves,investigates,1
+low,started grinding,valve seats,addresses,1
+low,torqued,base nuts,addresses,1
+low,tried stacking,exhaust valve,addresses,1
+low,verified,exhaust valve,investigates,1
+low power,inspected,helicopter,investigates,1
+low power,maintenance flight,,investigates,1
+lower,compression test,cylinder,investigates,1
+major shaking,ground run,cowling,investigates,1
+major shaking,operations checked,cowling,investigates,1
+metal found,filter insp,engine,investigates,1
+metal found,filter insp,oil filter,investigates,1
+metal found in oil,applied,baffle,addresses,1
+metal found in oil,applied,sealant,addresses,1
+metal found in oil,check,engine,investigates,1
+metal found in oil,installed,starter,addresses,1
+metal found in oil,torqued,hanger nuts,addresses,1
+missing,applied,baffle seal,addresses,1
+missing,applied,high temperature silicone,addresses,1
+missing,checked,rocker box,investigates,1
+missing,checked,screw,investigates,1
+missing,checked,screws,investigates,1
+missing,cleaned,cylinder spark plugs,addresses,1
+missing,compression check,cylinder,investigates,1
+missing,gapped,cylinder spark plugs,addresses,1
+missing,inspected,bolt,investigates,1
+missing,inspected,exhaust valve,investigates,1
+missing,installed,baffle fastener,addresses,1
+missing,installed,baffle plug hole doubler,addresses,1
+missing,installed,baffle rod,addresses,1
+missing,installed,baffle seal,addresses,1
+missing,installed,barrel nut,addresses,1
+missing,installed,bracket,addresses,1
+missing,installed,bracket screw,addresses,1
+missing,installed,fastener,addresses,1
+missing,installed,gasket,addresses,1
+missing,installed,mount bolt,addresses,1
+missing,installed,patch,addresses,1
+missing,installed,rivet,addresses,1
+missing,installed,rocker cover screw,addresses,1
+missing,installed,sling point bolt,addresses,1
+missing,installed,spark plug access plug,addresses,1
+missing,installed,star washer,addresses,1
+missing,installed,tie wrap,addresses,1
+missing,located,screw,addresses,1
+missing,operations,,investigates,1
+missing,operations check,cylinder,investigates,1
+missing,patched,baffle,addresses,1
+missing,ran,,investigates,1
+missing,reattached,bracket,addresses,1
+missing,reglued,cowl seal,addresses,1
+missing,reinstalled,baffle,addresses,1
+missing,reinstalled,baffle s,addresses,1
+missing,replaced,baffle screws,addresses,1
+missing,replaced,baffle seal,addresses,1
+missing,replaced,barrel nut,addresses,1
+missing,replaced,carb heat valve,addresses,1
+missing,replaced,engine,addresses,1
+missing,replaced,nuts,addresses,1
+missing,replaced,rocker cover screw,addresses,1
+missing,replaced,spring washers,addresses,1
+missing,replaced,starter ring gear,addresses,1
+missing,replaced,washers,addresses,1
+missing,replacement,baffle plug,addresses,1
+missing,resafety,,addresses,1
+missing,resafety,dipstick tub,addresses,1
+missing,resafety,screw,addresses,1
+missing,resafety wired,,addresses,1
+missing,sealed,,addresses,1
+missing,secured,,addresses,1
+missing,tested,cylinder spark plugs,investigates,1
+missing,tightened,rocker box,addresses,1
+missing,tightened,screw,addresses,1
+missing,tightened,screws,addresses,1
+momentary loss of power,inspected,fuel servo,investigates,1
+momentary loss of power,maintenance history,,investigates,1
+momentary loss of power,test ran,,investigates,1
+momentary overspeed,analyzed,fdm card data,investigates,1
+momentary power hesitation,run up,engine,investigates,1
+momentary rpm drop aroun,operations check,,investigates,1
+momentary rpm drop aroun,ran up,aircraft,investigates,1
+moves erratically,ground ran,aircraft,investigates,1
+moves erratically,operations check,aircraft,investigates,1
+moves erratically,replaced,cht probe,addresses,1
+nicked,inspected,,investigates,1
+nicked,inspected,compressor blade,investigates,1
+nicked,replaced,gasket,addresses,1
+nicked,replaced,rocker arm,addresses,1
+nicked,replaced,shaft,addresses,1
+nicked,researched,,investigates,1
+nicked,verified,,investigates,1
+no compression,completed reinstallation,baffling,addresses,1
+no compression,completed reinstallation,cylinder,addresses,1
+no compression,dry tappet clearance check,cylinder,investigates,1
+no compression,found,exhaust valve,investigates,1
+no compression,found,piston,investigates,1
+no compression,inspected,cylinder,investigates,1
+no compression,inspected,exhaust valve,investigates,1
+no compression,inspected,valves,investigates,1
+no compression,installed,longer push rod,addresses,1
+no compression,leak check,aircraft,investigates,1
+no compression,leak check,exhaust valve,investigates,1
+no compression,operations,engine,investigates,1
+no compression,ran,aircraft,investigates,1
+no compression,ran,engine,investigates,1
+no compression,ran up,aircraft,investigates,1
+no compression,reinstalled,baffling,addresses,1
+no compression,reinstalled,cylinder accessories,addresses,1
+no compression,run up,cylinder,investigates,1
+no compression,staked,valve,addresses,1
+no compression,staked,valves,addresses,1
+no compression,torqued,cylinder base nut,addresses,1
+no compression,verified,29 push rod,investigates,1
+no cylinder compression note,compression test,cylinder,investigates,1
+no egt,checked,engine,investigates,1
+no egt,cleaned,cylinder,addresses,1
+no egt,cleaned,engine,addresses,1
+no egt,cleaned,plugs,addresses,1
+no egt,ran,engine,investigates,1
+no egt indictaed,installed,cylinder assembly,addresses,1
+no rise,adjusted,,addresses,1
+no rise,adjusted,engine,addresses,1
+no rise,checks,,investigates,1
+no rise,mixture check,,investigates,1
+no rise,operations check,engine,investigates,1
+no rpm rise,adjusted,,addresses,1
+no rpm rise,mixture check,,investigates,1
+no rpm rise,operations check,,investigates,1
+no smoothness,ground run,cowling,investigates,1
+no smoothness,operations checked,cowling,investigates,1
+no tem,checked,cylinder assembly,investigates,1
+no tem,checked,magneto,investigates,1
+no tem,ground run,engine,investigates,1
+no tem,leak check,aircraft,investigates,1
+no tem,leak check,magneto,investigates,1
+no tem,operations,aircraft,investigates,1
+no tem,ran,aircraft,investigates,1
+no tem,replaced,cylinder assembly,addresses,1
+no threads showing,installed,bolt,addresses,1
+no torque seal,torque sealed,nut,addresses,1
+not activate,operations check,auto re - ignition,investigates,1
+not attached,reattached,rubber baffle seal,addresses,1
+not attached,replaced,baffle seal,addresses,1
+not connected,reconnected,oil psi sender ground strap,addresses,1
+not connected,replaced,,addresses,1
+not connected,replaced,tie wire assembly,addresses,1
+not hitting,adjusted,mixture cable rigging,addresses,1
+not hitting,adjusted,mixture control,addresses,1
+not hitting,checks,mixture control,investigates,1
+not hitting,operations check,mixture control,investigates,1
+not hooked up,installed,baffle rod,addresses,1
+not hooked up,reinstalled,clamp,addresses,1
+not hooked up,reinstalled,scat tubing,addresses,1
+not hooked up,tightened,clamp,addresses,1
+not producing fu,idle mixture check,engine,investigates,1
+not producing fu,ran,aircraft,investigates,1
+not removed,installed,ground wire,addresses,1
+not removed,secured,bolt,addresses,1
+not rubbing,insp,,investigates,1
+not running,ran,engine,investigates,1
+not sealing,replaced,baffle seal,addresses,1
+not secured,resecured,baffle ties,addresses,1
+not secured,secured,hose,addresses,1
+not secured,unkinked,hose,addresses,1
+not within tolerance,found,magneto,investigates,1
+not within tolerance,ran,aircraft,investigates,1
+not within tolerance,ran fouled proc,,investigates,1
+oil found,leak check,engine,investigates,1
+oil found,operations,engine,investigates,1
+oil found,operations,intake tubes,investigates,1
+oil found,ran,aircraft,investigates,1
+oil leak,applied,bolt,addresses,1
+oil leak,applied,high temperature silicone,addresses,1
+oil leak,checked,crankcase b,investigates,1
+oil leak,checked,main bearing nuts,investigates,1
+oil leak,insp,,investigates,1
+oil leak,inspected,engine,investigates,1
+oil leak,inspected,intake,investigates,1
+oil leak,inspected,nuts,investigates,1
+oil leak,installed,factory,addresses,1
+oil leak,installed,rocker box cover gasket,addresses,1
+oil leak,leak check,cylinder,investigates,1
+oil leak,leak check,engine,investigates,1
+oil leak,leak checked,engine,investigates,1
+oil leak,ran,engine,investigates,1
+oil leak,reinstalled,bolt,addresses,1
+oil leak,replaced,cover o - ring,addresses,1
+oil leak,sealed,bolt,addresses,1
+oil leak,tightened,,addresses,1
+oil leakage,ground run,cowling,investigates,1
+oil leakage,verified,,investigates,1
+on fire,further insp,carb air valve,investigates,1
+out,installed,plug,addresses,1
+out of limits,found,number 29 push rods,investigates,1
+out of place,reinstalled,baffle tie,addresses,1
+out of place,resecured,baffle seal,addresses,1
+out of standards,magneto check,,investigates,1
+out of standards,ran,aircraft,investigates,1
+outside of standards,ran up,aircraft,investigates,1
+over reved,downloaded,data,investigates,1
+over reved,downloaded,fdm card,investigates,1
+over temperature,ground run,engine,investigates,1
+over temperature,systems check,engine,investigates,1
+overspe,found,,investigates,1
+overspe,reviewed,,investigates,1
+oversped,analyzed,fdm card data,investigates,1
+oversped,complied,,investigates,1
+oversped,downloaded,card data,investigates,1
+oversped,downloaded,data,investigates,1
+oversped,evaluated,data,investigates,1
+oversped,evaluated,fdm card,investigates,1
+oversped,found,,investigates,1
+oversped,inspected,flight data,investigates,1
+oversped,reviewed,,investigates,1
+oversped,verified,engine,investigates,1
+overspeed,analyzed,fdm card data,investigates,1
+overspeed,analyzed,sd card,investigates,1
+overspeed,began insp,propeller,investigates,1
+overspeed,began insp,propeller cont,investigates,1
+overspeed,checked,sump screen,investigates,1
+overspeed,completed insp,propeller,investigates,1
+overspeed,compressions,engine,investigates,1
+overspeed,determined,engine,investigates,1
+overspeed,determined,fdm data,investigates,1
+overspeed,download,data,investigates,1
+overspeed,downloaded,fdm card,investigates,1
+overspeed,downloaded,flight data,investigates,1
+overspeed,evaluated,data,investigates,1
+overspeed,evaluated,fdm card,investigates,1
+overspeed,identified,,investigates,1
+overspeed,insp,,investigates,1
+overspeed,insp,engine,investigates,1
+overspeed,inspected,card,investigates,1
+overspeed,inspected,data,investigates,1
+overspeed,inspected,engines,investigates,1
+overspeed,inspected,fdm card,investigates,1
+overspeed,inspected,washers,investigates,1
+overspeed,leak check,,investigates,1
+overspeed,read,,investigates,1
+overspeed,reinstalled,overhauled propeller governor,addresses,1
+overspeed,removed,sd card,investigates,1
+overspeed,researched,data,investigates,1
+overspeed,reviewed,,investigates,1
+overspeed,reviewed,engine,investigates,1
+overspeed,reviewed,flight data,investigates,1
+overspeed,reviewed flight data,,investigates,1
+overspeed,verified,,investigates,1
+overspeed,verified,engine,investigates,1
+overspeed 2750,reviewed flight data,,investigates,1
+overspeed 2750,verified,,investigates,1
+overspeed generally,maintenance fligh,engine,investigates,1
+overspeed generally,ran,aircraft,investigates,1
+overspeed generally,ran,engine,investigates,1
+overspeed generally,rpm checks,engine,investigates,1
+partial power loss,checked,,investigates,1
+partial power loss,complied,,investigates,1
+partial power loss,ground run,,investigates,1
+partial power loss,replaced,cylinder,addresses,1
+partial power loss,serviced,mineral oil,investigates,1
+power reduc,completed,exhaust guides,investigates,1
+power reduc,operations check,aircraft,investigates,1
+power reduc,ran up,aircraft,investigates,1
+pulled free,installed,rivet,addresses,1
+pulled free,installed,washer,addresses,1
+pulled through,drilled,baffling,addresses,1
+pulled through,installed,nut,addresses,1
+pulled through,installed,screw,addresses,1
+pulled through,installed,seal,addresses,1
+pulled through,installed,spring,addresses,1
+pulled through,reinstalled,spring,addresses,1
+pulled through,replaced,lock nuts,addresses,1
+pulled through,replaced,pop rivet,addresses,1
+pulled through,replaced,screws,addresses,1
+pulled through,replaced,staple,addresses,1
+pulled through,resecured,baffle seal,addresses,1
+pulled through,secured,baffle,addresses,1
+pulling through,replaced,rivet,addresses,1
+quit,adjusted,,addresses,1
+quit,adjusted,engine,addresses,1
+quit,checks,engine,investigates,1
+quit,ground run,engine,investigates,1
+quit,idle mixture chapter,engine,investigates,1
+quit,ran,aircraft,investigates,1
+quit,ran up,engine,investigates,1
+quit,tested idle,engine,investigates,1
+ran consistently rough,confirmed,aircraft,investigates,1
+ran consistently rough,leak check,fuel pump,investigates,1
+ran consistently rough,leak check,magneto,investigates,1
+ran consistently rough,ran,aircraft,investigates,1
+ran consistently rough,replaced,engine,addresses,1
+ran consistently rough,replaced,fuel pump,addresses,1
+ran rough,adjusted,engine,addresses,1
+ran rough,clean,plugs,addresses,1
+ran rough,compression check,cylinders,investigates,1
+ran rough,compression test,cylinder,investigates,1
+ran rough,dry tappet cl,cylinder,investigates,1
+ran rough,ground,intake valve,addresses,1
+ran rough,ground,seat,addresses,1
+ran rough,ground run,,investigates,1
+ran rough,ground run,aircraft,investigates,1
+ran rough,idle and idle mixture rise check,aircraft,investigates,1
+ran rough,installation,cylinder,addresses,1
+ran rough,installed,magnetos,addresses,1
+ran rough,lapped,intake valve,addresses,1
+ran rough,lapped,seat,addresses,1
+ran rough,leak check,engine,investigates,1
+ran rough,magneto checks,engine,investigates,1
+ran rough,mags check,engine,investigates,1
+ran rough,operations,aircraft,investigates,1
+ran rough,operations check,aircraft,investigates,1
+ran rough,replaced,cylinder assembly,addresses,1
+ran rough,replaced,piston,addresses,1
+ran rough,started,engine,investigates,1
+ran rough,verified,,investigates,1
+ran very rough,compression check,,investigates,1
+ran very rough,compression check,cylinder,investigates,1
+ran very rough,confirmed,aircraft,investigates,1
+ran very rough,ground run,,investigates,1
+ran very rough,inspected,engines,investigates,1
+ran very rough,magneto check,aircraft,investigates,1
+ran very rough,ran,engine,investigates,1
+ran very rough,ran,engines,investigates,1
+ran very rough,reamed,,investigates,1
+ran very rough,reamed,exhaust,investigates,1
+ran very rough,reamed,exhaust g,addresses,1
+ran very rough,replaced,cylinder assembly,addresses,1
+ran very rough,run up 2 nd time,engine,investigates,1
+ran very rough,run up hot,engine,investigates,1
+ran very rough,started,aircraft,investigates,1
+ran very rough,started,engine,investigates,1
+ran very rough,verified,,investigates,1
+red x,operations check,,investigates,1
+red x,operations check,egt,investigates,1
+red x,replaced,egt,addresses,1
+reduction in power,checks,aircraft,investigates,1
+reduction in power,downloaded,card data,investigates,1
+reduction in power,ran,aircraft,investigates,1
+ripped,installed,rivet,addresses,1
+rough,compression test,cylinder,investigates,1
+rough,confirmed,,investigates,1
+rough,confirmed,aircraft,investigates,1
+rough,dressed,propeller,investigates,1
+rough,found,magneto,investigates,1
+rough,ground run,engine,investigates,1
+rough,insp,cylinder,investigates,1
+rough,insp,exhaust valve,investigates,1
+rough,inspected,cylinder,investigates,1
+rough,inspected,engine,investigates,1
+rough,installed,factory,addresses,1
+rough,installed,oil cooler,addresses,1
+rough,leak check,,investigates,1
+rough,leak check,engine,investigates,1
+rough,leak checked,aircraft,investigates,1
+rough,mags check,,investigates,1
+rough,operations,,investigates,1
+rough,operations checked,engine,investigates,1
+rough,ran fouled proc,,investigates,1
+rough,ran up to check,,investigates,1
+rough chopping noise,confirmed,aircraft,investigates,1
+rough chopping noise,installed,cylinder,investigates,1
+rough chopping noise,installed,hold downs,investigates,1
+rough chopping noise,measured,ring gaps,investigates,1
+rough chopping noise,ran,aircraft,investigates,1
+rough chopping noise,torqued,cylinder,investigates,1
+rough chopping noise,torqued,hold downs,investigates,1
+rough operation,ground run,engine,investigates,1
+rough operation,operations checked,engine,investigates,1
+rough running,complied,,investigates,1
+rough running,compression check,cylinder,investigates,1
+rough running,finished reaming,exhaust valve guides,addresses,1
+rough running,ground run,engine,investigates,1
+rough running,installed,,addresses,1
+rough running,leak check,,investigates,1
+rough running,mags check,,investigates,1
+rough running,ran up to check,,investigates,1
+rough running,replaced,cylinder assembly,addresses,1
+rough running,run up,,investigates,1
+rough running,serviced,mineral oil,investigates,1
+rough vibra,checks,aircraft,investigates,1
+rough vibra,downloaded,card data,investigates,1
+rough vibra,ran,aircraft,investigates,1
+roughne,operations check,engine,investigates,1
+roughne,ran up,aircraft,investigates,1
+roughness,assembled,baffle,investigates,1
+roughness,assembled,rocker covers,investigates,1
+roughness,checked,aircraft,investigates,1
+roughness,checks,engine,investigates,1
+roughness,completed reassembly,engine,addresses,1
+roughness,compression check,cylinder,investigates,1
+roughness,compression check,cylinders,investigates,1
+roughness,idle mixture check,engine,investigates,1
+roughness,inspected,cylinder,investigates,1
+roughness,inspected,engine,investigates,1
+roughness,inspected,intake,investigates,1
+roughness,lowered,exhaust,investigates,1
+roughness,operations and leak checked,engine,investigates,1
+roughness,prepped,cylinder,addresses,1
+roughness,prepped,piston,addresses,1
+roughness,ran up,aircraft,investigates,1
+roughness,ran up,engine,investigates,1
+roughness,reamed,cyls,investigates,1
+roughness,reamed,exhaust valve,investigates,1
+roughness,reamed,exhaust valve guides,addresses,1
+roughness,reamed,exhaust valve guides,investigates,1
+roughness,serviced,engine,addresses,1
+roughness,started,engine,investigates,1
+roughness,started removing,baffles,investigates,1
+roughness,started removing,rocker cove,investigates,1
+roughness,started removing,spark plugs,investigates,1
+roughness,systems operations checked,engine,investigates,1
+rpm drop,mixture check,,investigates,1
+rpm drop,ran up,engine,investigates,1
+rpm dropped,adjusted,aircraft,addresses,1
+rpm dropped,checks,engine,investigates,1
+rpm dropped,maintenance flight,engine,investigates,1
+rpm dropped,operations check,aircraft,investigates,1
+rpm dropped,override speed check,aircraft,investigates,1
+rpm dropped,performed,exhaust valve,investigates,1
+rpm dropped,ran,aircraft,investigates,1
+rpm dropped,ran up,aircraft,investigates,1
+rpm dropped,ran up,engine,investigates,1
+rpm dropped normally,operations check,aircraft,investigates,1
+rpm dropped normally,ran,aircraft,investigates,1
+rubbing,adjusted,baffle,addresses,1
+rubbing,adjusted,baffle support rod,addresses,1
+rubbing,adjusted,oil,addresses,1
+rubbing,applied,baffle,addresses,1
+rubbing,applied,high temperature sealant,addresses,1
+rubbing,inspected,oil drain tube,investigates,1
+rubbing,inspected,oil return line,investigates,1
+rubbing,inspected,tie rod,investigates,1
+rubbing,installed,oil line,addresses,1
+rubbing,installed,spiral wrap,addresses,1
+rubbing,installed,tie wire,addresses,1
+rubbing,moved,baffle tie rod,addresses,1
+rubbing,replaced,adel clamp,addresses,1
+rubbing,repositioned,baffle,addresses,1
+rubbing,repositioned,clamp,addresses,1
+rubbing,resecured,baffle,addresses,1
+rubbing,resecured,muffler,addresses,1
+rubbing,resecured,rtv,addresses,1
+rubbing,secure,baffle,addresses,1
+rubbing,tightened,lock nuts,addresses,1
+rubbing diagonal,insp,,investigates,1
+rubbing together,applied,2 zip ties,addresses,1
+rubbing together,moved,adel clamp,addresses,1
+run rough,checked,cylinder,investigates,1
+run rough,compression check,cylinder,investigates,1
+run rough,inspected,cylinder,investigates,1
+run rough momentarily,insp,engine,investigates,1
+run rough momentarily,replaced,cht probe,addresses,1
+running extremely roug,cleared,spark plugs,addresses,1
+running extremely roug,ran up,aircraft,investigates,1
+running extremely rough,ran,engine,investigates,1
+running extremely rough,ran,ver,investigates,1
+running rough,bore scoped,cylinder,investigates,1
+running rough,borescoped,cylinder,investigates,1
+running rough,checked,engine,investigates,1
+running rough,confirmed,aircraft,investigates,1
+running rough,confirmed,engine,investigates,1
+running rough,ground ran,aircraft,investigates,1
+running rough,ground run,engine,investigates,1
+running rough,inspected,engine,investigates,1
+running rough,installed,spark plugs,addresses,1
+running rough,leak check,engine,investigates,1
+running rough,magneto timing checked,engine,investigates,1
+running rough,operations,engine,investigates,1
+running rough,operations and leak checked,engine,investigates,1
+running rough,operations check,engine,investigates,1
+running rough,phase 4 insp,engine,investigates,1
+running rough,ran up,aircraft,investigates,1
+running rough,replaced,cylinder,addresses,1
+running rough,replaced,cylinder assembly,addresses,1
+running rough,torqued,hold down nuts,addresses,1
+running rough,torqued,spark plugs,addresses,1
+running very rough,complied,fuel injector line,investigates,1
+running very rough,compression check,cylinders,investigates,1
+running very rough,confirmed,engine,investigates,1
+running very rough,failure insp,fuel injector line,investigates,1
+running very rough,leak and operations,aircraft,investigates,1
+running very rough,leak and operations check,engine,investigates,1
+running very rough,ran up,aircraft,investigates,1
+running very rough,reamed,cylinder,addresses,1
+running very rough,reamed,exhaust guides,addresses,1
+running very rough,reviewed,fdm data,investigates,1
+running very rough,verified,engine,investigates,1
+runs,adjusted,adjustment screw,addresses,1
+runs,adjusted,governor 4 turns coun,addresses,1
+runs cold,installed,push rods,addresses,1
+runs cold,installed,rockers,addresses,1
+runs cold,started installation,cylinder,addresses,1
+runs cold,tappet clearance checked,cylinder,investigates,1
+runs cold,tappet clearance checked,engine,investigates,1
+runs cold,tappet clearance checked,push rods,investigates,1
+runs rough,checked,cylinder,investigates,1
+runs rough,cleaned,cylinder spark plugs,addresses,1
+runs rough,compression check,cylinder,investigates,1
+runs rough,compression check,exhaust valve,investigates,1
+runs rough,gapped,cylinder spark plugs,addresses,1
+runs rough,inspected,exhaust valve,investigates,1
+runs rough,leak check,,investigates,1
+runs rough,operations check,cylinder,investigates,1
+runs rough,ran,,investigates,1
+runs rough,ran,aircraft,investigates,1
+runs rough,reamed,exhaust va,addresses,1
+runs rough,reamed,exhaust valves,addresses,1
+runs rough,replaced,cylinder,addresses,1
+runs rough,started,aircraft,investigates,1
+runs rough,tested,cylinder spark plugs,investigates,1
+runs very rough,started,aircraft,investigates,1
+runs very rough,verified,engine,investigates,1
+scored,replaced,push rods,addresses,1
+scored,replaced,rocker arm,addresses,1
+scored,replaced,rockers,addresses,1
+scored,tappet clearance check,,investigates,1
+seepage,leak check,,investigates,1
+seepage,replaced,exhaust push rod tube seals,addresses,1
+seeping,ground run,,investigates,1
+seeping,inspected,rocker gasket,investigates,1
+seeping,installed,rocker box cover gaskets,addresses,1
+seeping,installed,rocker cover gasket,addresses,1
+seeping,installed,seal,addresses,1
+seeping,leak checked,,investigates,1
+seeping,leak checked,propeller shaft seal,investigates,1
+seeping,ran,,investigates,1
+seeping,replaced,crankshaft,addresses,1
+seeping,replaced,gaskets,addresses,1
+seeping,replaced,oil seal,addresses,1
+seeping,resealed,bolts,addresses,1
+seeping,sealed,bolt hole,addresses,1
+shakes violently,installed,push rods,addresses,1
+shakes violently,installed,rockers,addresses,1
+shakes violently,started installation,cylinder,addresses,1
+shakes violently,tappet clearance checked,cylinder,investigates,1
+shakes violently,tappet clearance checked,engine,investigates,1
+shakes violently,tappet clearance checked,push rods,investigates,1
+shaking,completed reassembly,engine,addresses,1
+shaking,complied,fuel injector line,investigates,1
+shaking,compression check,cylinders,investigates,1
+shaking,failure insp,fuel injector line,investigates,1
+shaking,leak and operations,aircraft,investigates,1
+shaking,run up,engine,investigates,1
+shaking,serviced,engine,addresses,1
+shaking,verified,engine,investigates,1
+sheared,completed reassembly,baffle rivet head,addresses,1
+sheared,deriveted,shear rivets,addresses,1
+sheared,installed,bracket,addresses,1
+sheared,installed,nuts,addresses,1
+sheared,installed,rivet,addresses,1
+sheared,reattached,,addresses,1
+sheared,reattached,baffle support,addresses,1
+sheared,reattached,bracket,addresses,1
+sheared,reinstalled,baff,addresses,1
+sheared,reinstalled,bafflin,addresses,1
+sheared,reinstalled,oil filler tube,addresses,1
+sheared,repair,rivet,addresses,1
+sheared,replaced,2 mount rivets,addresses,1
+sheared,replaced,fasteners,addresses,1
+sheared,replaced,nut,addresses,1
+sheared,replaced,riv,addresses,1
+sheared,replaced,screw,addresses,1
+sheared,replaced,upper baffle material rivet,addresses,1
+sheared,replaced,washers,addresses,1
+sheared,replaced,washers / nuts,addresses,1
+sheared,resecured,baffle bracket,addresses,1
+sheared,tightened,,addresses,1
+sheared off,installed,rivets,addresses,1
+sheared off,replaced,,addresses,1
+shock violently,leak check,engine,investigates,1
+shock violently,operations,engine,investigates,1
+shutdown,ground run,,investigates,1
+shutdown,ground run,engine,investigates,1
+shutdown,inspected,engine,investigates,1
+shutdown,magneto checks,engine,investigates,1
+shutdown,mixture check,aircraft,investigates,1
+shutdown,mixture check,engine,investigates,1
+shutdown,mixture idle check,engine,investigates,1
+shutdown,operations check,engine,investigates,1
+shutdown,operations checked,engine,investigates,1
+shutdown,ran up,aircraft,investigates,1
+shutdown,ran up,engine,investigates,1
+shutdown,started,aircraft,investigates,1
+shutdown,verified,engine,investigates,1
+shutdown when,reamed,exhaust va,addresses,1
+shuttered,checks,engine,investigates,1
+shuttered,ran,aircraft,investigates,1
+significant vibratio,ran,egt,investigates,1
+significant vibratio,ran,engine,investigates,1
+sitting,ran,aircraft,investigates,1
+slight drop in rpm,performed,cylinder,investigates,1
+slight power loss,differential compression test,,investigates,1
+slightly loose,tightened,lines inches b inches nut,addresses,1
+sloppy,replaced,throttle linkage arm,addresses,1
+smiled,inspected,piston,investigates,1
+smoked out,installed,magnetos,addresses,1
+smoked out,leak check,aircraft,investigates,1
+smoked out,leak check,engine,investigates,1
+smoked out,magneto checks,engine,investigates,1
+smoked out,ran,aircraft,investigates,1
+smoking,checked,purge system,investigates,1
+smoking,inspected,purge system,investigates,1
+smoothed out,started,aircraft,investigates,1
+smoothed out,started,engine,investigates,1
+some noise,inspected,engine,investigates,1
+some noise,ran,aircraft,investigates,1
+sounded like,compression check,,investigates,1
+sounded like,confirmed,aircraft,investigates,1
+sounded like,ran,aircraft,investigates,1
+spalling,inspected,fuel pump cam,investigates,1
+split,replaced,gasket,addresses,1
+sput,checks,engine,investigates,1
+sput,ran,aircraft,investigates,1
+sputter,ground run,engine,investigates,1
+sputter,ground run several times,aircraft,investigates,1
+sputter,ran,aircraft,investigates,1
+sputtered,ran,engine,investigates,1
+sputtering,confirmed,engine,investigates,1
+sputtering,ground run,aircraft,investigates,1
+sputtering,operations and leak checked,engine,investigates,1
+sputtering,ran,aircraft,investigates,1
+sputtering,ran,engine,investigates,1
+sputtering,ran up,engine,investigates,1
+sputtering,replaced,magneto,addresses,1
+sputtering noise,checks,engine,investigates,1
+sputtering noise,ran,aircraft,investigates,1
+squeezed out,replaced,gasket,addresses,1
+staple pulled through,installed,pop rivet,addresses,1
+started but ran very rough,compression check,,investigates,1
+started but ran very rough,confirmed,aircraft,investigates,1
+started but ran very rough,ran,aircraft,investigates,1
+started making abnormal sound,ran up,aircraft,investigates,1
+started normally,operations,aircraft,investigates,1
+started normally,ran,aircraft,investigates,1
+started normally,ran up,aircraft,investigates,1
+started normally,ran up,idle mixture linkage,investigates,1
+started normally,reindexed,idle mixture linkage,investigates,1
+started normally,reindexed mixture linkage,,investigates,1
+started running rough,completed,exhaust guides,investigates,1
+started running rough,completed reassembly,cylinder assembly,addresses,1
+started running rough,confirmed,,investigates,1
+started running rough,ground run,engine,investigates,1
+started running rough,installed,cylinder assembly,addresses,1
+started running rough,leak check,engine,investigates,1
+started running rough,operations,engine,investigates,1
+started running rough,operations check,aircraft,investigates,1
+started running rough,ran up,aircraft,investigates,1
+started running rough,started,engines,investigates,1
+started running rough shortly,freed,exhaust valve,investigates,1
+started running rough shortly,inspected,exhaust valve,investigates,1
+started running rough shortly,ran,engine,investigates,1
+started to ru,inspect,cowling,investigates,1
+started to ru,ran,aircraft,investigates,1
+started to smell heavy fumes,ran up,aircraft,investigates,1
+sticking,attempted to stake,valve,investigates,1
+sticking,installation,cylinder,addresses,1
+sticking,installed,28 push rods,addresses,1
+sticking,installed,cylinder,addresses,1
+sticking,installed,remaining items,addresses,1
+sticking,leak check,,investigates,1
+sticking,operations,aircraft,investigates,1
+still showing discharge,run up,engine,investigates,1
+still showing discharge,started,aircraft,investigates,1
+still showing discharge,started,engine,investigates,1
+strange howling noise,ground run,,investigates,1
+strange howling noise,inspected,,investigates,1
+stripped,repaired,bolt hole,addresses,1
+stripped,replaced,screw,addresses,1
+stripped,replaced,tie rod,addresses,1
+stuck,began reaming,exhaust valves,addresses,1
+stuck,check,valve,investigates,1
+stuck,checked,valve,investigates,1
+stuck,clearance check,,investigates,1
+stuck,compression test,exhaust valve,investigates,1
+stuck,confirmed,,investigates,1
+stuck,finished reaming,exhaust valve guides,addresses,1
+stuck,insp,cylinder,investigates,1
+stuck,insp,exhaust valve,investigates,1
+stuck,installed,cowl,addresses,1
+stuck,installed,cylinder assembly,addresses,1
+stuck,leak check,,investigates,1
+stuck,performed,cylinder,investigates,1
+stuck,ran up,aircraft,investigates,1
+stuck,reamed,cylinder,addresses,1
+stuck,reamed,exhaust guide,addresses,1
+stuck,reaming,valve,addresses,1
+stuck,reasssembled,cylinder,addresses,1
+stuck,verified,cylinder,investigates,1
+surging,operations check,engine,investigates,1
+surging,ran,aircraft,investigates,1
+tapping,run up,engine,investigates,1
+tear,applied,baffle seal,addresses,1
+tear,applied,high temperature silicone,addresses,1
+tearing off,installed,baffle seal,addresses,1
+ticking,visual insp,engine,investigates,1
+ticking / chirping noise,ran,aircraft,investigates,1
+tight,began,exhaust guide,investigates,1
+tight,inspected,exhaust valve,investigates,1
+timed out,engine run up,,investigates,1
+timed out,installed,,addresses,1
+timed out,installed,engine,addresses,1
+timed out,installed,spark p,addresses,1
+timed out,leak check,,investigates,1
+timed out,pre - oil,,investigates,1
+timed out,replaced,oil cooler,addresses,1
+too large,installed,adel clamp,addresses,1
+too large,installed,baffle patch,addresses,1
+too long,replaced,push rods,addresses,1
+too many damaged,installed,ring gear assembly,addresses,1
+too short,reassembled,cylinder,addresses,1
+too short,repla,exhaust push rod,addresses,1
+too short,replaced,exhaust push rod,addresses,1
+too tight,determined,,investigates,1
+too tight,inspected,,investigates,1
+torn,applied,baffle seals,addresses,1
+torn,applied,high temperature silicone,addresses,1
+torn,applied,rubber silicone,addresses,1
+torn,applied,zip,addresses,1
+torn,fastened,propeller rivet,addresses,1
+torn,installed,baffle seal,addresses,1
+torn,installed,grommet,addresses,1
+torn,installed,rocker box cover gasket,addresses,1
+torn,installed,seal,addresses,1
+torn,installed,seals,addresses,1
+torn,made,seals,addresses,1
+torn,reattached,rubber baffle seal,addresses,1
+torn,repaired,baffle seals,addresses,1
+torn,repaired,hole,addresses,1
+torn,replaced,air intake tube,addresses,1
+torn,replaced,baffle material,addresses,1
+torn,replaced,baffle seal fastener,addresses,1
+torn,replaced,baffles seals,addresses,1
+torn,replaced,clamp,addresses,1
+torn,replaced,cowl shock mounts,addresses,1
+torn,replaced,grommet,addresses,1
+torn,replaced,intake gasket,addresses,1
+torn,replaced,mounts,addresses,1
+torn,replaced,primer line sleeve,addresses,1
+torn,resecured,,addresses,1
+torn,resecured,baffle seal,addresses,1
+torn,stop drilled,baffle seal,addresses,1
+torn loose,replaced,baffle seal fastener,addresses,1
+unable to start,installed,engine blanket,addresses,1
+unable to start,started,crew,investigates,1
+unable to start,started,engine,investigates,1
+uncommanded increase,inspected,external linkage,investigates,1
+unseated,replaced,gasket,addresses,1
+unseated,replaced,o - ring,addresses,1
+unsecured,resecured,baffle seal,addresses,1
+unsecured,resecured,pop rivets,addresses,1
+unsecured,secured,cowl seal,addresses,1
+unsupported,resecured,wiring,addresses,1
+unusual indication,compression test,cylinder,investigates,1
+unusual indication,confirmed,,investigates,1
+unusually rough,adjusted,throttle,investigates,1
+unusually rough,began install,engine,investigates,1
+unusually rough,compressions checked,engine,investigates,1
+unusually rough,installed,fuel,addresses,1
+unusually rough,installed,fuel flow transducer,addresses,1
+unusually rough,installed,fuel lines,addresses,1
+unusually rough,installed,oil,addresses,1
+unusually rough,magneto drops check,engine,investigates,1
+unusually rough,maintenance flight,,investigates,1
+unusually rough,routed,ignition leads,investigates,1
+unusually rough,started,aircraft,investigates,1
+unusually rough,started,engine,investigates,1
+very rough,borescop,cylinder,investigates,1
+very rough,compression test,cylinder,investigates,1
+very rough,leak check,aircraft,investigates,1
+very rough,operations,aircraft,investigates,1
+very rough,replaced,assembly,addresses,1
+very rough,replaced,cylinder,addresses,1
+very rough,torqued,assembly,investigates,1
+very rough,verified,engine,investigates,1
+vibrated,checked,engine,investigates,1
+vibrated,maintenance flight,,investigates,1
+vibrated,operations check,engine,investigates,1
+vibrated,ran,aircraft,investigates,1
+vibrated,ran,engine,investigates,1
+vibrating,completed reassembly,cylinder assembly,addresses,1
+vibrating,confirmed,,investigates,1
+vibrating,disassembled,exhaust valves,addresses,1
+vibrating,installed,cylinder assembly,addresses,1
+vibrating,leak check,engine,investigates,1
+vibrating,operations,engine,investigates,1
+vibrating,reamed,,addresses,1
+vibration,began installation,cylinder,addresses,1
+vibration,compression check,aircraft,investigates,1
+vibration,cylinder installation,engine,addresses,1
+vibration,finished installation,cylinder,addresses,1
+vibration,finished reaming,exhaust valve guides,addresses,1
+vibration,ground run,engine,investigates,1
+vibration,inspected,piston,investigates,1
+vibration,installed,cylinder assembly,addresses,1
+vibration,installed,fuel injector nozzles,addresses,1
+vibration,leak check,,investigates,1
+vibration,magneto checks,aircraft,investigates,1
+vibration,magneto checks,engine,investigates,1
+vibration,mixture check,,investigates,1
+vibration,ran,engine,investigates,1
+vibration,ran up,engine,investigates,1
+vibration,reaming,valve,addresses,1
+vibration,reinstalled,fuel injector nozzles,addresses,1
+vibration,replaced,cylinder,addresses,1
+vibration,replaced,cylinder assembly,addresses,1
+vibration,run up,,investigates,1
+vibration,taxied,aircraft,investigates,1
+vibration noise,visual insp,engine,investigates,1
+vibrations,began,exhaust guide,investigates,1
+vibrations,engine change,engine,addresses,1
+vibrations,ground r,engine,investigates,1
+vibrations,idle mixture check,engine,investigates,1
+vibrations,inspected,,investigates,1
+vibrations,leak check,aircraft,investigates,1
+vibrations,maintenance flight,,investigates,1
+vibrations,ran,aircraft,investigates,1
+vibrations,routed,oil lines,investigates,1
+vibrations,run up,aircraft,investigates,1
+vibrations,secured,oil lines,investigates,1
+wants to die,ground run,engine,investigates,1
+wants to die,operations checked,engine,investigates,1
+weak,replaced,air intake assembly,addresses,1
+wear,applied,red rtv,addresses,1
+wear,applied,seal,addresses,1
+wear,finished installation,engine,addresses,1
+wear,leak check,,investigates,1
+wear,operations,,investigates,1
+wear,replaced,engine mount,addresses,1
+wear marks,rtv ' ed,baffle seals,addresses,1
+wearing,applied,black rtv,addresses,1
+wearing,applied,black seal,addresses,1
+wearing,installed,baffle,addresses,1
+wearing,installed,black cowling seal,addresses,1
+wearing,installed,black rtv,addresses,1
+wearing,installed,cowl seal,addresses,1
+wearing,installed,intake,addresses,1
+wearing,repositioned,tie rod,addresses,1
+wearing,sealed,seal,addresses,1
+wearing,sealed up,,investigates,1
+wearing into,installed,intake air filter frame,addresses,1
+wearing into,installed,rtv,addresses,1
+wearing into,installed,seal,addresses,1
+weeping,leak check,intake push rod tube inner seal,investigates,1
+weeping,rotated,push rod tube,addresses,1
+whistling noise,ran,aircraft,investigates,1
+will not make enough,inspected,intake tube,investigates,1
+will not make enough,replaced,,addresses,1
+will not make power,ran,aircraft,investigates,1
+will not start,run up proced,engine,investigates,1
+will not start,started,aircraft,investigates,1
+will not start,started,engine,investigates,1
+won ' t go any higher,maintenance flight,,investigates,1
+won ' t tighten,cleaned,threads,addresses,1
+won ' t tighten,tightened,screw,addresses,1
+worn,applied,2 part epoxy,addresses,1
+worn,applied,baffle,addresses,1
+worn,applied,baffle seals,addresses,1
+worn,applied,cowl seal,addresses,1
+worn,applied,high temperature rtv,addresses,1
+worn,applied,intake,addresses,1
+worn,applied,sealant,addresses,1
+worn,applied,silicone sealant,addresses,1
+worn,fabricated,clip,addresses,1
+worn,fabricated,like materials,addresses,1
+worn,fabricated,patch,addresses,1
+worn,filled,baffle seal,addresses,1
+worn,filled,black rtv,addresses,1
+worn,filled,seal,addresses,1
+worn,install,access hole doubler,addresses,1
+worn,installed,2 buttons,addresses,1
+worn,installed,air intake,addresses,1
+worn,installed,baffle,addresses,1
+worn,installed,baffle black seal,addresses,1
+worn,installed,baffle caps,addresses,1
+worn,installed,baffle doubler,addresses,1
+worn,installed,baffling,addresses,1
+worn,installed,black baffle seal,addresses,1
+worn,installed,buttons,addresses,1
+worn,installed,clip,addresses,1
+worn,installed,grommet,addresses,1
+worn,installed,holes,addresses,1
+worn,installed,intake filter housing,addresses,1
+worn,installed,patches,addresses,1
+worn,installed,rivet,addresses,1
+worn,installed,rtv silicone,addresses,1
+worn,installed,screen,addresses,1
+worn,installed,striker plates,addresses,1
+worn,installed riveted,,addresses,1
+worn,patched,black seal,addresses,1
+worn,put,rtv,addresses,1
+worn,repaired,,addresses,1
+worn,repaired,baffle,addresses,1
+worn,repaired,baffle plug holes,addresses,1
+worn,repaired,high temperature silicone,addresses,1
+worn,repaired,patches,addresses,1
+worn,repaired,seal,addresses,1
+worn,replaced,1 plug,addresses,1
+worn,replaced,2 buttons,addresses,1
+worn,replaced,air filter box,addresses,1
+worn,replaced,airbox,addresses,1
+worn,replaced,baffle seal,addresses,1
+worn,replaced,baffle seals,addresses,1
+worn,replaced,brake linings,addresses,1
+worn,replaced,button,addresses,1
+worn,replaced,button plug,addresses,1
+worn,replaced,covers,addresses,1
+worn,replaced,grommet,addresses,1
+worn,replaced,intake tube flange,addresses,1
+worn,replaced,ones,addresses,1
+worn,replaced,spark plug,addresses,1
+worn,replaced,spark plug baffle plugs,addresses,1
+worn,replaced,thrust buttons,addresses,1
+worn,repositioned,baffle,addresses,1
+worn,repositioned,baffle tie,addresses,1
+worn,riveted,baffle,addresses,1
+worn,riveted,doubler,addresses,1
+worn,riveted,patch,addresses,1
+worn,sealed,black rtv,addresses,1
+worn,sealed,black seal,addresses,1
+worn,sealed,seal,addresses,1
+worn,secured,seals,addresses,1
+worn,secured,section,addresses,1
+worn through,fabricated,baffle piece,addresses,1
+worn through,fabricated,like material,addresses,1
+worn through,fabricated,section,addresses,1
+worn through,installed,hardware,addresses,1
+would fluctuate,ran up,aircraft,investigates,1
+would increase significantly,ground run,engine,investigates,1
+would increase significantly,insp,engine,investigates,1
+would increase significantly,operations checked,engine,investigates,1
+would intermittently lose,borescoped,cylinder,investigates,1
+would intermittently lose,borescoped,piston,investigates,1
+would intermittently lose,borescoped,valve contact,investigates,1
+would not increase,checked,exhaust valves,investigates,1
+would not increase,run up checked,aircraft,investigates,1
+would not latch,adjusted,striker plate,addresses,1
+would not latch,operations check,,investigates,1
+would not start,leaned,,addresses,1
+would not start,performed normal engine start,engine,investigates,1
+would not start,ran,engine,investigates,1
+would not stay open,tightened,bolt that attaches cowl flap levers,addresses,1
+would not stay open,tightened,that attaches cowl flap levers,addresses,1
+would quit,checks,engine,investigates,1
+would quit,ran,aircraft,investigates,1
+would rise,operations check,aircraft,investigates,1
+would rise,ran,aircraft,investigates,1
+would shutdown,ground run,engine,investigates,1
+would shutdown,verified,engine,investigates,1
+would sputter,ran up,aircraft,investigates,1
+would sputter,ran up,engine,investigates,1
+would start to quit,run,engine,investigates,1
+would turn twice,started,aircraft,investigates,1
+wouldn ' t go to full power,compression test,cylinder,investigates,1
+wouldn ' t go to full power,dry tappet cl,cylinder,investigates,1
+wouldn ' t go to full power,ground,intake valve,addresses,1
+wouldn ' t go to full power,ground,seat,addresses,1
+wouldn ' t go to full power,installation,cylinder,addresses,1
+wouldn ' t go to full power,lapped,intake valve,addresses,1
+wouldn ' t go to full power,lapped,seat,addresses,1
+wouldn ' t start,checked,aircraft,investigates,1
+wouldn ' t start,started,aircraft,investigates,1
+wrong position,installed,lock washer,addresses,1
+zero,ground,exhaust valve,investigates,1
+zero,replaced,cylinder,addresses,1
+zero,replaced,cylinder assembly,addresses,1
+zero,replaced,exhaust valve,addresses,1
+zero,replaced,piston,addresses,1
+zero,test,,investigates,1
+zero,tried staking,exhaust valve,investigates,1
+zero compression,dry tappet clearance checked,cylinder,investigates,1
+zero compression,installed,valve train,addresses,1
+zero compression,leak checked,aircraft,investigates,1

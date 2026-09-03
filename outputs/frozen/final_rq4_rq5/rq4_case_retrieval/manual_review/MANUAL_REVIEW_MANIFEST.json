@@ -1,0 +1,49 @@
+{
+  "version": "manual_review_v1",
+  "status": "complete",
+  "selected_retrieval_mode": "structure",
+  "source_partition": "locked TEST",
+  "query_count": 100,
+  "candidate_depth": 5,
+  "visible_pair_count": 500,
+  "sampling": "deterministic proportional stratification by recorded action family",
+  "seed": 20260901,
+  "query_family_counts": {
+    "Adjust": 15,
+    "Diagnose": 6,
+    "Inspect": 3,
+    "Repair": 3,
+    "Replace": 69,
+    "Service": 4
+  },
+  "blinding": {
+    "phase_a_hides_actions": true,
+    "phase_a_hides_rank": true,
+    "phase_a_hides_scores": true,
+    "phase_a_hides_candidate_action_family": true
+  },
+  "rating_scale_phase_a": {
+    "0": "not relevant",
+    "1": "partially relevant / plausibly comparable",
+    "2": "clearly relevant / strongly comparable"
+  },
+  "interpretation": "Manual review evaluates relevance of retrieved historical evidence. It does not establish technical correctness, safety, or regulatory applicability.",
+  "phase_a_file": "D:\\avimaint-e2e-research\\outputs\\runs\\rq4_case_retrieval\\manual_review\\PHASE_A_problem_relevance_BLINDED.csv",
+  "private_mapping_file": "D:\\avimaint-e2e-research\\outputs\\runs\\rq4_case_retrieval\\manual_review\\PRIVATE_DO_NOT_OPEN_UNTIL_PHASE_A_COMPLETE.jsonl",
+  "phase_a_sha256": "92deb27f8ea65cc6963110062e7f91eecce46f789170f73c3d9fde04cc600ced",
+  "private_mapping_sha256": "47598f79e24bc9997285e4aefe197ddfcb7d3e8cb36a65e0628fcdb6714709de",
+  "phase_a_completed_sha256": "7cf7c8d0fa20979b13b8acbedb158488e4130aa8f8d1e2afb2a86c1a4f7ea365",
+  "phase_b_rows": 380,
+  "phase_b_file": "D:\\avimaint-e2e-research\\outputs\\runs\\rq4_case_retrieval\\manual_review\\PHASE_B_action_applicability_BLINDED.csv",
+  "phase_b_sha256_at_creation": "b3fb486117664e8f021e6eb91cff8550a9fb1c62d3138128ca57a3567c77b814",
+  "rating_scale_phase_b": {
+    "0": "not useful historical action evidence for this query",
+    "1": "partially useful / conditionally applicable historical evidence",
+    "2": "clearly useful historical action evidence"
+  },
+  "phase_b_interpretation": "Applicability means usefulness as historical planning evidence only; it is not a technical approval or safety judgment.",
+  "phase_a_final_sha256": "7cf7c8d0fa20979b13b8acbedb158488e4130aa8f8d1e2afb2a86c1a4f7ea365",
+  "phase_b_final_sha256": "ae79379037ddefc1aae3887efdb6673559dd0036f3db54e267a791f6d24867cb",
+  "results_file": "D:\\avimaint-e2e-research\\outputs\\runs\\rq4_case_retrieval\\manual_review\\MANUAL_REVIEW_RESULTS.json",
+  "results_sha256": "d6c59361b30cd6cafa76a3101c35a58364246af57ef7d9ba4a966afbb667d34b"
+}

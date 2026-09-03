@@ -1,0 +1,2 @@
+run_id,n_train,tier,ent_micro_f1,ent_micro_f1_ci_lo,ent_micro_f1_ci_hi,rel_micro_f1,rel_micro_f1_ci_lo,rel_micro_f1_ci_hi
+aviation_tier1_final,1275,Tier1_CRF_LogReg,0.9402,0.9248,0.9547,0.8036,0.7766,0.8315

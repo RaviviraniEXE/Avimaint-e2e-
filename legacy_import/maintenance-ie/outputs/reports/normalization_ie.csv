@@ -1,0 +1,6 @@
+variant,ent_micro_f1,ent_macro_f1,n_test
+byt5,0.9282,0.8609,225
+raw,0.939,0.8755,225
+rules,0.9396,0.8937,225
+rules_then_byt5,0.9347,0.8677,225
+selective_byt5,0.9339,0.8882,225

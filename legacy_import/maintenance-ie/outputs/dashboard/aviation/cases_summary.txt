@@ -1,0 +1,13 @@
+AviMaint-DSS dashboard case-library build
+records=6169
+recommendation_ready=6169
+excluded_from_recommendation=0
+unique_problem_clusters=3486
+invalid_relations_quarantined=105
+blocking_findings=0
+warnings=7579
+action_roles={'unresolved': 1024, 'enabling': 3036, 'verification': 310, 'diagnostic': 402, 'corrective': 5005}
+cluster_methods={'exact_normalized_problem_hash': 6169}
+boundary_methods={'project_tokenizer_prefix': 822, 'unresolved': 5290, 'alphanumeric_prefix': 57}
+validation_issue_counts={'generated_cluster_id': 6169, 'no_explicit_corrective_step': 1212, 'solution_without_extracted_steps': 198}
+

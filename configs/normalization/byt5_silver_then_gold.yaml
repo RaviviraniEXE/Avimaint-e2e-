@@ -1,0 +1,35 @@
+run:
+  id: byt5_silver_then_gold_v1
+  stage: silver_then_gold
+  seed: 42
+  gold_input_path: data/splits/normalization_cluster_safe_v1.csv
+  silver_input_path: data/aviation/processed/normalization_silver_train.parquet
+  output_dir: outputs/normalization/models/byt5_silver_then_gold_v1
+  prediction_dir: outputs/normalization/predictions/byt5_silver_then_gold_v1
+
+model:
+  name_or_path: google/byt5-small
+  max_source_length: 256
+  max_target_length: 256
+  num_beams: 4
+
+training:
+  silver_epochs: 5
+  gold_max_epochs: 20
+  learning_rate: 0.0001
+  weight_decay: 0.01
+  warmup_ratio: 0.05
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 16
+  gradient_checkpointing: true
+  fp16: true
+  bf16: false
+  early_stopping_patience: 3
+  save_total_limit: 2
+  metric_for_best_model: eval_wer
+  greater_is_better: false
+
+safety:
+  fallback_order: [rules, raw]
+  forbid_unsupported_completion: true
