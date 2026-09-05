@@ -95,8 +95,9 @@ export function AppShell({
                 <span>API {health?.api_version || "…"}</span>
               </div>
               <HealthRow label="Validated raw SpERT" ready={health?.raw_spert.ready} />
-              <HealthRow label="Guarded ByT5" ready={health?.normalization.ready} optional />
-              <HealthRow label="Semantic SpERT" ready={health?.semantic_spert.ready} optional />
+              <HealthRow label="Rules → ByT5" ready={health?.normalization.ready} optional />
+              <HealthRow label="Hybrid semantic SpERT" ready={health?.semantic_spert.ready} optional />
+              <HealthRow label="Presentation reranker" ready={health?.reranker.ready} optional />
               <HealthRow label="RQ5 calibrator" ready={health?.rq5_calibrator.ready} />
               <HealthRow label="Phase 5 frontend" ready={health?.frontend.ready} />
               <p>Optional semantic services may fall back safely to the validated raw branch.</p>
@@ -109,7 +110,7 @@ export function AppShell({
 
       <footer className="footer">
         <div>
-          <strong>AviMaint-DSS v7.2 · Phase 5</strong>
+          <strong>AviMaint-DSS v7.2.1 · Phase 5</strong>
           <span>Decision support only · Historical evidence is not approved maintenance data.</span>
         </div>
         <span>Verify all actions with qualified personnel and current authorised documentation.</span>

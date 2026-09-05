@@ -42,19 +42,18 @@ research:
   expected_train_rows: 4319
 normalization:
   enabled: true
-  mode: byt5_guarded_deployment
+  mode: rules_then_byt5_guarded
   service_url: http://127.0.0.1:8766
   timeout_seconds: 45
   use_for_rq4: false
   use_for_rq5: false
-  note: Operational guarded ByT5 deployment. It must not be described as identical
-    to the frozen Selective-ByT5 policy unless the original selector is explicitly
-    reused.
+  note: Operational System-D representation (expert rules, then guarded ByT5).
+    It is separate from frozen RQ4/RQ5 and is not the Selective-ByT5 policy.
 semantic_extraction:
   enabled: true
-  mode: verified_normalized_semantic_spert_optional
+  mode: verified_rules_then_byt5_semantic_spert_optional
   spert_url: http://127.0.0.1:8767
-  representation: verified_normalized_operational_optional
+  representation: rules_then_byt5_guarded_operational
   use_as_primary_diagnose_interpretation: true
   use_for_rq4: false
   use_for_rq5: false

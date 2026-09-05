@@ -15,7 +15,7 @@ Write-Host "=== RAW RQ4 SPERT ==="
 Invoke-RestMethod "$RawSpERT/health" | ConvertTo-Json -Depth 10
 
 Write-Host ""
-Write-Host "=== BYT5 NORMALIZER ==="
+Write-Host "=== EXPERT RULES -> GUARDED BYT5 ==="
 if ($lock -and -not $lock.byt5.enabled) {
     Write-Host ("DISABLED BY MODEL LOCK: " + $lock.byt5.reason)
 } else {
@@ -24,7 +24,7 @@ if ($lock -and -not $lock.byt5.enabled) {
 }
 
 Write-Host ""
-Write-Host "=== NORMALIZED SEMANTIC SPERT ==="
+Write-Host "=== MATCHED RULES-THEN-BYT5 SEMANTIC SPERT ==="
 if ($lock -and (-not $lock.normalized_spert.enabled -or -not $lock.normalized_spert.verified_representation)) {
     Write-Host ("DISABLED BY MODEL LOCK: " + $lock.normalized_spert.reason)
 } else {
@@ -49,9 +49,11 @@ foreach ($q in $queries) {
         try {
             $b = @{text=$q} | ConvertTo-Json -Compress
             $n = Invoke-RestMethod -Method Post -Uri "$Normalizer/normalize" -ContentType "application/json" -Body $b
-            Write-Host "BYT5 MODEL INPUT: $($n.model_input)"
-            Write-Host "NORMALIZED CANDIDATE: $($n.normalized)"
-            $normText = [string]$n.normalized
+            Write-Host "RULE NORMALIZED: $($n.rule_normalized)"
+            Write-Host "BYT5 CANDIDATE: $($n.candidate_normalized)"
+            Write-Host "ACCEPTED FOR SEMANTIC SPERT: $($n.accepted_for_semantic_spert)"
+            if ($n.warnings) { Write-Host "GUARD: $($n.warnings -join '; ')" }
+            if ($n.accepted_for_semantic_spert) { $normText = [string]$n.normalized }
         } catch {
             Write-Host "NORMALIZATION UNAVAILABLE"
         }
@@ -71,9 +73,9 @@ foreach ($q in $queries) {
             $bSem = @{text=$normText} | ConvertTo-Json -Compress
             $sem = Invoke-RestMethod -Method Post -Uri "$SemanticSpERT/predict" -ContentType "application/json" -Body $bSem
             Write-Host ""
-            Write-Host "NORMALIZED SEMANTIC ENTITIES:"
+            Write-Host "HYBRID SEMANTIC ENTITIES:"
             $sem.entities | Format-Table type,text,score -AutoSize
-            Write-Host "NORMALIZED SEMANTIC RELATIONS:"
+            Write-Host "HYBRID SEMANTIC RELATIONS:"
             $sem.relations | Format-Table type,head,tail,score -AutoSize
         } catch {
             Write-Host "NORMALIZED SEMANTIC SPERT UNAVAILABLE"

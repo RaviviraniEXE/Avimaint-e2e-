@@ -9,7 +9,7 @@ export function GuidePage() {
         <Section title="Diagnose workflow">
           <ol className="flow-steps">
             <li><span>1</span><div><Search size={19} /><b>Problem text only</b><p>The query action is never used to retrieve supporting cases.</p></div></li>
-            <li><span>2</span><div><GitBranch size={19} /><b>Dual, fail-closed structure</b><p>Verified normalized semantics can improve interpretation; the frozen RQ4/RQ5 decision remains on validated TRUE-RAW SpERT.</p></div></li>
+            <li><span>2</span><div><GitBranch size={19} /><b>Dual, fail-closed structure</b><p>Verified rules → ByT5 → matched SpERT semantics can improve interpretation; frozen RQ4/RQ5 remains on validated TRUE-RAW SpERT.</p></div></li>
             <li><span>3</span><div><BookOpenCheck size={19} /><b>Cluster-distinct history</b><p>TRAIN cases are retrieved by problem evidence, then actions are grouped from independent clusters.</p></div></li>
             <li><span>4</span><div><ShieldCheck size={19} /><b>Evidence gate or abstention</b><p>Weak evidence remains exploratory or nearest-case-only, with alternatives and negative outcomes visible.</p></div></li>
           </ol>

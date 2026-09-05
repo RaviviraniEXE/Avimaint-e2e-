@@ -15,6 +15,12 @@ export type HealthResponse = {
   raw_spert: ServiceHealth;
   normalization: ServiceHealth;
   semantic_spert: ServiceHealth;
+  reranker: ServiceHealth & {
+    configured: boolean;
+    role: string;
+    model: string;
+    backend: string;
+  };
   rq5_calibrator: ServiceHealth & { status?: string };
   frontend: {
     ready: boolean;

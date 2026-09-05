@@ -30,7 +30,7 @@ from dataclasses import dataclass, field
 from . import normalize as N
 from . import compose as X
 from .extraction_indexed import extract_structure_indexed as extract_structure
-from .retrieval import Retriever
+from .retrieval import Hit, Retriever
 from .strategies import build_strategies
 from .subproblems import decompose_structure
 from .evidence_policy import classify_evidence
@@ -206,6 +206,14 @@ class Recommender:
         self.retrieval_mode = str(retrieval_mode)
         self.candidate_split = str(candidate_split)
 
+        # Retrieval ranks one representative per exact problem cluster so that
+        # repeated work orders cannot dominate the problem-side ranking.  Action
+        # analysis is different: every TRAIN record inside a retrieved cluster
+        # must be reopened or legitimate alternative actions can disappear.
+        self._cluster_members = {}
+        for idx, cluster in enumerate(self.df["cluster_id"].astype(str).tolist()):
+            self._cluster_members.setdefault(cluster, []).append(int(idx))
+
     def _case(self, hit, display_score: float | None = None) -> CaseEvidence:
         row = self.df.iloc[hit.idx]
         score = float(hit.score if display_score is None else display_score)
@@ -222,8 +230,14 @@ class Recommender:
             channels=dict(hit.channels or {}),
         )
 
-    def _family_evidence(self, hits):
-        """Match the final RQ4 family aggregation: one score per evidence cluster."""
+    def _family_evidence(self, hits, *, preserve_frozen_ties=False):
+        """Aggregate actions with at most one vote per cluster and family.
+
+        ``hits`` may contain every record from the retrieved clusters.  A cluster
+        can therefore support several genuinely different action families, but
+        repeated rows from that cluster never increase a family's independent
+        support count or its retrieval-score sum.
+        """
         fam = {}
         for hit in hits:
             row = self.df.iloc[hit.idx]
@@ -232,9 +246,18 @@ class Recommender:
                 continue
             meta = fam.setdefault(
                 family,
-                {"clusters": {}, "example_idx": int(hit.idx), "example_score": float(hit.score)},
+                {
+                    "clusters": {},
+                    "case_indices": [],
+                    "positive_clusters": set(),
+                    "example_idx": int(hit.idx),
+                    "example_score": float(hit.score),
+                },
             )
+            meta["case_indices"].append(int(hit.idx))
             cluster = str(row.cluster_id)
+            if str(row.outcome) == "positive":
+                meta["positive_clusters"].add(cluster)
             meta["clusters"][cluster] = max(
                 meta["clusters"].get(cluster, 0.0),
                 float(hit.score),
@@ -243,15 +266,47 @@ class Recommender:
                 meta["example_idx"] = int(hit.idx)
                 meta["example_score"] = float(hit.score)
 
-        ranked = sorted(
-            fam.items(),
-            key=lambda kv: (
+        if preserve_frozen_ties:
+            # This is the exact key used in final_rq4_evaluate.py. Python's
+            # stable sort preserves the old representative order on equality.
+            key = lambda kv: (
                 len(kv[1]["clusters"]),
                 sum(kv[1]["clusters"].values()),
-            ),
-            reverse=True,
-        )
+            )
+        else:
+            key = lambda kv: (
+                len(kv[1]["clusters"]),
+                sum(kv[1]["clusters"].values()),
+                len(kv[1]["positive_clusters"]),
+            )
+        ranked = sorted(fam.items(), key=key, reverse=True)
         return ranked
+
+    def _expand_retrieved_clusters(self, base_hits):
+        """Reopen all TRAIN cases in each ranked problem cluster.
+
+        The representative cluster score is copied to its sibling records.  It
+        is a problem-cluster relevance score, not a newly calculated action
+        score.  Expansion happens only after problem-only retrieval and cannot
+        introduce TEST/DEV rows because ``self.df`` is already the validated
+        candidate split.
+        """
+        expanded = []
+        seen = set()
+        for base in base_hits:
+            cluster = str(self.df.iloc[base.idx].cluster_id)
+            for idx in self._cluster_members.get(cluster, [int(base.idx)]):
+                if idx in seen:
+                    continue
+                seen.add(idx)
+                expanded.append(Hit(
+                    idx=int(idx),
+                    score=float(base.score),
+                    text_sim=float(base.text_sim),
+                    struct=float(base.struct),
+                    channels=dict(base.channels or {}),
+                ))
+        return expanded
 
     def _anchor_coverage(self, hits, q_components, q_faults) -> float:
         anchors = [
@@ -303,15 +358,15 @@ class Recommender:
     @classmethod
     def _semantic_consistency(cls, raw_st, semantic_st) -> tuple[bool, str]:
         if semantic_st is None or semantic_st.source != "spert":
-            return False, "Verified normalized semantic SpERT is unavailable."
+            return False, "Verified rules-then-ByT5 semantic SpERT is unavailable."
         if not semantic_st.entities:
-            return False, "Verified normalized semantic SpERT returned no entities."
+            return False, "Verified rules-then-ByT5 semantic SpERT returned no entities."
         raw_components=list(raw_st.components)
         semantic_components=list(semantic_st.components)
         if raw_components:
             missing=[c for c in raw_components if not cls._component_covered(c, semantic_components)]
             if missing:
-                return False, ("Normalized semantic SpERT did not preserve validated raw component anchor(s): " + ", ".join(missing) + ". Diagnose used the validated raw representation.")
+                return False, ("Hybrid semantic SpERT did not preserve validated raw component anchor(s): " + ", ".join(missing) + ". Diagnose used the validated raw representation.")
         return True, ""
 
     def _model_input(self, raw: str) -> tuple[str, str]:
@@ -461,7 +516,7 @@ class Recommender:
         q_components = list(raw_model_components or rule_components)
         q_faults = list(raw_model_faults or rule_faults)
 
-        # OPERATIONAL SEMANTIC BRANCH: guarded ByT5 -> verified normalized semantic SpERT.
+        # OPERATIONAL SEMANTIC BRANCH: expert rules -> guarded ByT5 -> matched SpERT.
         norm_result = None
         semantic_st = None
         semantic_warning = ""
@@ -532,11 +587,42 @@ class Recommender:
             diversify=True,
         )
 
-        ranked = self._family_evidence(base_hits)
+        # Preserve the old representative-only family calculation for the
+        # already-fitted RQ5 calibrator.  Operational action presentation uses
+        # the expanded cluster records below.
+        frozen_ranked = self._family_evidence(base_hits, preserve_frozen_ties=True)
+        frozen_evidence_family = frozen_ranked[0][0] if frozen_ranked else ""
+        frozen_support = len(frozen_ranked[0][1]["clusters"]) if frozen_ranked else 0
+
+        action_hits = self._expand_retrieved_clusters(base_hits)
+        ranked = self._family_evidence(action_hits)
+        # When expanded families are tied on every independent criterion, keep
+        # the frozen representative-only leader rather than letting row order or
+        # duplicate counts decide the headline. All tied families remain visible.
+        if ranked and frozen_evidence_family:
+            frozen_pos = next(
+                (i for i, (family, _) in enumerate(ranked) if family == frozen_evidence_family),
+                None,
+            )
+            if frozen_pos not in (None, 0):
+                top_meta = ranked[0][1]
+                frozen_meta = ranked[frozen_pos][1]
+                top_key = (
+                    len(top_meta["clusters"]),
+                    sum(top_meta["clusters"].values()),
+                    len(top_meta["positive_clusters"]),
+                )
+                frozen_key = (
+                    len(frozen_meta["clusters"]),
+                    sum(frozen_meta["clusters"].values()),
+                    len(frozen_meta["positive_clusters"]),
+                )
+                if frozen_key == top_key:
+                    ranked.insert(0, ranked.pop(frozen_pos))
         evidence_family = ranked[0][0] if ranked else ""
         support = len(ranked[0][1]["clusters"]) if ranked else 0
 
-        # RQ5 calibration features exactly match final_rq4_evaluate.py.
+        # Query-side retrieval features still match final_rq4_evaluate.py.
         base_top_score = float(base_hits[0].score) if base_hits else 0.0
         second_score = float(base_hits[1].score) if len(base_hits) > 1 else 0.0
         retrieval_margin = base_top_score - second_score
@@ -553,7 +639,7 @@ class Recommender:
         evidence_hits = []
         if evidence_family:
             evidence_hits = [
-                h for h in base_hits
+                h for h in action_hits
                 if str(self.df.iloc[h.idx].action_family) == evidence_family
                 and str(self.df.iloc[h.idx].outcome) not in ("negative", "mixed")
             ]
@@ -563,11 +649,17 @@ class Recommender:
 
         agreement_probability = None
         calibration_source = ""
-        if rq4_live_validated and evidence_family and self.calibrator and self.calibrator.available():
+        if (
+            rq4_live_validated
+            and evidence_family
+            and evidence_family == frozen_evidence_family
+            and self.calibrator
+            and self.calibrator.available()
+        ):
             agreement_probability = self.calibrator.predict(
                 base_top_score,
                 retrieval_margin,
-                support,
+                frozen_support,
             )
             calibration_source = self.calibrator.status()
 
@@ -607,13 +699,15 @@ class Recommender:
             for hit, display_score in display_hits
         ]
 
+        # Include negative/mixed sibling records that used to disappear when a
+        # different representative from the same problem cluster was retained.
         negative = [
-            c for c in nearest_cases
-            if c.outcome in ("negative", "mixed")
-        ][:3]
+            self._case(hit) for hit in action_hits
+            if str(self.df.iloc[hit.idx].outcome) in ("negative", "mixed")
+        ][:5]
 
         strategy_pool = self._strategy_pool(
-            base_hits,
+            action_hits,
             q_components,
             q_faults,
             min_fault_clusters=(1 if decision.tier == "limited" else 2),
@@ -643,7 +737,7 @@ class Recommender:
             else:
                 supporting_actions = [
                     str(self.df.iloc[h.idx].action)
-                    for h in base_hits
+                    for h in action_hits
                     if str(self.df.iloc[h.idx].action_family) == evidence_family
                     and str(self.df.iloc[h.idx].outcome)
                     not in ("negative", "mixed")
@@ -673,7 +767,7 @@ class Recommender:
         recommended_cases = []
         if evidence_family:
             seen_support = set()
-            for hit in base_hits:
+            for hit in action_hits:
                 row = self.df.iloc[hit.idx]
                 if (
                     str(row.action_family) != evidence_family
@@ -699,8 +793,16 @@ class Recommender:
                 f"'{evidence_family}'. Selected-family anchor coverage={gate_coverage:.0%}."
                 f"{prob_text} base retrieval={self.retrieval_mode}; "
                 f"live SpERT adapter={input_adapter}. "
-                f"Evidence tier={decision.tier}."
+                f"Evidence tier={decision.tier}. "
+                f"Action review expanded {len(base_hits)} ranked cluster representatives "
+                f"to {len(action_hits)} TRAIN work order(s); each cluster counted once per family."
             )
+            if evidence_family != frozen_evidence_family and frozen_evidence_family:
+                reason += (
+                    " RQ5 historical-agreement probability is hidden because cluster "
+                    "expansion changed the primary action family relative to the frozen "
+                    "calibration pipeline."
+                )
         else:
             reason = "No corroborated historical action family was found."
 
@@ -719,7 +821,7 @@ class Recommender:
             alternatives=alternatives,
             nearest_cases=nearest_cases[:8],
             negative_evidence=negative,
-            structure_source=("normalized_spert" if semantic_ok else raw_st.source),
+            structure_source=("rules_then_byt5_semantic_spert" if semantic_ok else raw_st.source),
             entities=list(primary_st.entities),
             relations=list(primary_st.relations),
             family_evidence_margin=float(family_margin),
@@ -749,7 +851,7 @@ class Recommender:
             normalization_warning=(norm_result.warning if norm_result is not None else ""),
             normalization_model=(norm_result.model if norm_result is not None else ""),
             semantic_branch_used=bool(semantic_ok),
-            semantic_status=("verified_normalized_semantic_spert" if semantic_ok else "raw_rq4_fallback"),
+            semantic_status=("verified_rules_then_byt5_semantic_spert" if semantic_ok else "raw_rq4_fallback"),
             semantic_warning=semantic_warning,
             semantic_entities=(list(semantic_st.entities) if semantic_st is not None else []),
             semantic_relations=(list(semantic_st.relations) if semantic_st is not None else []),

@@ -139,7 +139,7 @@ function DiagnoseResult({ response }: { response: DiagnoseResponse }) {
           <Definition term="User input"><code>{result.query}</code></Definition>
           <Definition term="Guarded normalized interpretation"><code>{result.normalized_interpretation || result.query}</code></Definition>
           <Definition term="Validated RQ4 input"><code>{result.model_input || "Not reported"}</code></Definition>
-          <Definition term="Primary semantic branch">{result.semantic_branch_used ? "Verified normalized semantic SpERT" : "Validated raw-SpERT fallback"}</Definition>
+          <Definition term="Primary semantic branch">{result.semantic_branch_used ? "Verified rules → ByT5 → matched SpERT" : "Validated raw-SpERT fallback"}</Definition>
           <Definition term="Normalization method">{result.normalization_method || "none"}</Definition>
           <Definition term="Evidence library">{response.meta.candidate_split.toUpperCase()} only</Definition>
           <Definition term="Retrieval base">{response.meta.rq4_base}</Definition>

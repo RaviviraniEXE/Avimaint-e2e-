@@ -1,0 +1,28 @@
+{
+  "schema": "avimaint-runtime-model-lock-v4",
+  "project_root": "D:\\avimaint-e2e-research",
+  "semantic_representation": "normalized_operational",
+  "normalized_spert": {
+    "enabled": false,
+    "verified_representation": false,
+    "reason": "One local SpERT final_model exists, but no frozen/representation provenance proves that it is the normalized-matched checkpoint. The operational semantic branch is therefore disabled.",
+    "model_path": "",
+    "weights_path": "",
+    "weight_sha256": "",
+    "types_path": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\spert\\avimaint_types.json",
+    "selection": "safe_raw_fallback",
+    "unverified_candidate_path": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\spert\\save\\avimaint_spert\\2026-08-28_12-27-06_489728\\final_model",
+    "unverified_candidate_weight_sha256": "bff97073373b81a456e84f89c1414ea082a535df7b76eccef5797efa3e851a18",
+    "frozen_operational_model_id": "1f9c094789f591991ad26ca65ca1c36689b57ff0dd248cd30b4fc81b853b4ad9"
+  },
+  "byt5": {
+    "enabled": false,
+    "reason": "No unambiguous trained ByT5 checkpoint was resolved from trainer_state.json. Set AVIMAINT_BYT5_MODEL to enable the optional live normalization branch.",
+    "model_path": "",
+    "source": "not_resolved"
+  },
+  "research_branch": {
+    "rq4": "true_raw_structure",
+    "rq5_recalibrated": false
+  }
+}

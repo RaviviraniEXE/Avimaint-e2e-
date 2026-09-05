@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import math
+import urllib.request
 from dataclasses import asdict, is_dataclass
 from functools import lru_cache
 from pathlib import Path
@@ -37,6 +38,15 @@ def load_runtime_lock() -> dict:
                 "verified_representation": False,
             },
         }
+
+
+def service_metadata(url: str, timeout: float = 3.0) -> dict | None:
+    try:
+        with urllib.request.urlopen(str(url).rstrip("/") + "/health", timeout=timeout) as response:
+            data = json.loads(response.read().decode("utf-8"))
+        return data if response.status == 200 and isinstance(data, dict) else None
+    except Exception:
+        return None
 
 
 @lru_cache(maxsize=1)
@@ -75,8 +85,17 @@ def get_runtime():
 
     raw_client = None
     if cfg["extraction"]["mode"] == "spert":
-        c = SpERTClient(cfg["extraction"]["spert_url"])
-        raw_client = c if c.health() else None
+        raw_url = cfg["extraction"]["spert_url"]
+        raw_meta = service_metadata(raw_url)
+        raw_identity_ok = bool(
+            raw_meta
+            and raw_meta.get("status") == "ready"
+            and int(raw_meta.get("entity_types", 0)) == 9
+            and int(raw_meta.get("relation_types", 0)) == 11
+            and raw_meta.get("query_case_normalization") == "none_true_raw"
+        )
+        c = SpERTClient(raw_url)
+        raw_client = c if raw_identity_ok and c.health() else None
 
     runtime_lock = load_runtime_lock()
 
@@ -88,8 +107,17 @@ def get_runtime():
         and sem_lock.get("enabled", False)
         and sem_lock.get("verified_representation", False)
     ):
-        c = SpERTClient(scfg.get("spert_url", "http://127.0.0.1:8767"))
-        semantic_client = c if c.health() else None
+        semantic_url = scfg.get("spert_url", "http://127.0.0.1:8767")
+        semantic_meta = service_metadata(semantic_url)
+        semantic_identity_ok = bool(
+            semantic_meta
+            and semantic_meta.get("status") == "ready"
+            and semantic_meta.get("role") == "rules_then_byt5_semantic_spert"
+            and semantic_meta.get("representation") == "rules_then_byt5_guarded_operational"
+            and semantic_meta.get("weights_sha256") == sem_lock.get("weight_sha256")
+        )
+        c = SpERTClient(semantic_url)
+        semantic_client = c if semantic_identity_ok and c.health() else None
 
     ncfg = cfg.get("normalization", {})
     byt5_lock = runtime_lock.get("byt5", {})

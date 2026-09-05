@@ -1,28 +1,69 @@
 {
-  "schema": "avimaint-runtime-model-lock-v4",
+  "schema": "avimaint-runtime-model-lock-v5",
+  "runtime_revision": "v7.2.1-r4",
   "project_root": "D:\\avimaint-e2e-research",
-  "semantic_representation": "normalized_operational",
-  "normalized_spert": {
-    "enabled": false,
-    "verified_representation": false,
-    "reason": "One local SpERT final_model exists, but no frozen/representation provenance proves that it is the normalized-matched checkpoint. The operational semantic branch is therefore disabled.",
-    "model_path": "",
-    "weights_path": "",
-    "weight_sha256": "",
-    "types_path": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\spert\\avimaint_types.json",
-    "selection": "safe_raw_fallback",
-    "unverified_candidate_path": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\spert\\save\\avimaint_spert\\2026-08-28_12-27-06_489728\\final_model",
-    "unverified_candidate_weight_sha256": "bff97073373b81a456e84f89c1414ea082a535df7b76eccef5797efa3e851a18",
-    "frozen_operational_model_id": "1f9c094789f591991ad26ca65ca1c36689b57ff0dd248cd30b4fc81b853b4ad9"
+  "semantic_representation": "rules_then_byt5_guarded_operational",
+  "normalization_rules": {
+    "enabled": true,
+    "reason": "Bundled authoritative expert rule resources verified by SHA-256.",
+    "source": "System-B expert resources",
+    "resource_dir": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\avimaint_dss\\data\\normalization_rules",
+    "sha256": {
+      "abbreviations": "f01689467afc32ec1c3074f3f56d83a6d92b7e51aac7269fa512d70f4914d0cf",
+      "misspellings": "801f4416e319f5c820be627c5aed5ceedd8174d587fb54b526a57f66fcaab9c5",
+      "unexpanded": "87be2ecff4d90dc0256d6040092e27ee0212630abf2e7d10d1e844fd7c7546d7"
+    },
+    "numbers": "digits",
+    "lowercase": true
   },
   "byt5": {
-    "enabled": false,
-    "reason": "No unambiguous trained ByT5 checkpoint was resolved from trainer_state.json. Set AVIMAINT_BYT5_MODEL to enable the optional live normalization branch.",
-    "model_path": "",
-    "source": "not_resolved"
+    "enabled": true,
+    "reason": "Exact gold ByT5 checkpoint selected and hashed.",
+    "model_path": "D:\\avimaint-e2e-research\\outputs\\normalization\\models\\byt5_gold_v1\\checkpoint-1953",
+    "weights_path": "D:\\avimaint-e2e-research\\outputs\\normalization\\models\\byt5_gold_v1\\checkpoint-1953\\model.safetensors",
+    "weight_sha256": "c2d43fcb06a5865db4f0c8a8e5025bdea51bebec576287619b3a398e487d5191",
+    "config_sha256": "af2711e17ead33faad650e499962e3ff79e3d7e1003e519c6c5281f03e7e42cf",
+    "source": "unanimous_trainer_state_best",
+    "trainer_states": [
+      "D:\\avimaint-e2e-research\\outputs\\normalization\\models\\byt5_gold_v1\\checkpoint-1953\\trainer_state.json",
+      "D:\\avimaint-e2e-research\\outputs\\normalization\\models\\byt5_gold_v1\\checkpoint-2604\\trainer_state.json"
+    ],
+    "task_prefix": "",
+    "task_prefix_source": "",
+    "task_prefix_source_sha256": "",
+    "max_source_length": 128,
+    "max_target_length": 128,
+    "num_beams": 1,
+    "decoding_strategy": "greedy_deterministic",
+    "input_stage": "expert_rules_lowercase"
+  },
+  "normalized_spert": {
+    "enabled": true,
+    "verified_representation": true,
+    "reason": "Exact rules_then_byt5 model selected from MODEL_REGISTRY_V2.json with matched upstream chain.",
+    "model_path": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules_then_byt5\\save\\avimaint_spert_norm_rules_then_byt5\\2026-08-30_16-06-37_865351\\final_model",
+    "weights_path": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules_then_byt5\\save\\avimaint_spert_norm_rules_then_byt5\\2026-08-30_16-06-37_865351\\final_model\\model.safetensors",
+    "weight_sha256": "98a714e531d757e426812717eceb574226a92fe6f2b196e4158a9e8af1cc4753",
+    "types_path": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\spert_normalized\\rules_then_byt5\\avimaint_types.json",
+    "types_sha256": "3c4c68e2a6d38aa00061cdc9874e1fae4c078779d77f7daf5a7f22533cd0a9de",
+    "entity_types": 9,
+    "relation_types": 11,
+    "selection": "model_registry_v2_exact_key",
+    "registry_path": "D:\\avimaint-e2e-research\\legacy_import\\maintenance-ie\\outputs\\reports\\normalization_spert_matched_v2\\MODEL_REGISTRY_V2.json",
+    "registry_sha256": "be7be631f9cd66cb3b68f98674d310cc5e125fe4c53b75b229217ec0f1f2a149",
+    "registry_key": "rules_then_byt5",
+    "representation": "rules_then_byt5_guarded_operational",
+    "metrics": {
+      "entity_micro_f1": 0.937776467118844,
+      "entity_macro_f1": 0.8714564741844648,
+      "strict_relation_micro_f1": 0.813570487483531,
+      "relation_macro_f1": 0.7622282056701342
+    },
+    "frozen_operational_model_id": "1f9c094789f591991ad26ca65ca1c36689b57ff0dd248cd30b4fc81b853b4ad9"
   },
   "research_branch": {
     "rq4": "true_raw_structure",
-    "rq5_recalibrated": false
+    "rq5_recalibrated": false,
+    "modified_by_this_lock": false
   }
 }

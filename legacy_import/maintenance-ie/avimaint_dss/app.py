@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import os
 import json
+import urllib.request
 from pathlib import Path
 
 import pandas as pd
@@ -47,6 +48,14 @@ def get_runtime_lock() -> dict:
                 "reason": "runtime model lock unavailable",
             },
         }
+
+
+def service_metadata(url: str) -> dict | None:
+    try:
+        with urllib.request.urlopen(str(url).rstrip("/") + "/health", timeout=3) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except Exception:
+        return None
 
 
 # --------------------------------------------------------------------------- #
@@ -101,8 +110,16 @@ def get_engine(cfg_key: str):
 
     client = None
     if cfg["extraction"]["mode"] == "spert":
-        c = SpERTClient(cfg["extraction"]["spert_url"])
-        client = c if c.health() else None
+        raw_url = cfg["extraction"]["spert_url"]
+        raw_meta = service_metadata(raw_url)
+        raw_ok = bool(
+            raw_meta and raw_meta.get("status") == "ready"
+            and int(raw_meta.get("entity_types", 0)) == 9
+            and int(raw_meta.get("relation_types", 0)) == 11
+            and raw_meta.get("query_case_normalization") == "none_true_raw"
+        )
+        c = SpERTClient(raw_url)
+        client = c if raw_ok and c.health() else None
 
     runtime_lock = get_runtime_lock()
 
@@ -114,8 +131,16 @@ def get_engine(cfg_key: str):
         and semantic_locked.get("enabled", False)
         and semantic_locked.get("verified_representation", False)
     ):
-        sc = SpERTClient(scfg.get("spert_url", "http://127.0.0.1:8767"))
-        semantic_client = sc if sc.health() else None
+        semantic_url = scfg.get("spert_url", "http://127.0.0.1:8767")
+        semantic_meta = service_metadata(semantic_url)
+        semantic_ok = bool(
+            semantic_meta and semantic_meta.get("status") == "ready"
+            and semantic_meta.get("role") == "rules_then_byt5_semantic_spert"
+            and semantic_meta.get("representation") == "rules_then_byt5_guarded_operational"
+            and semantic_meta.get("weights_sha256") == semantic_locked.get("weight_sha256")
+        )
+        sc = SpERTClient(semantic_url)
+        semantic_client = sc if semantic_ok and sc.health() else None
 
     rr_model = cfg["retrieval"].get("reranker_model") or None
     reranker = (
@@ -340,7 +365,7 @@ def _render_structure_payload(entities, relations, title: str, source: str, grap
 
 def _render_extraction(R):
     source = (
-        "Guarded ByT5 → verified normalized semantic SpERT"
+        "Expert rules → guarded ByT5 → matched semantic SpERT"
         if R.semantic_branch_used
         else "validated raw-matched SpERT fallback"
     )
@@ -504,7 +529,7 @@ def page_diagnose(rec_engine: Recommender, cfg: dict):
 
     normalized = R.normalized_interpretation or R.query
     semantic_label = (
-        "verified normalized semantic SpERT active"
+        "verified hybrid semantic SpERT active"
         if R.semantic_branch_used
         else "safe raw-SpERT fallback"
     )
@@ -517,8 +542,8 @@ def page_diagnose(rec_engine: Recommender, cfg: dict):
         '</div>'
         f'<div style="font-size:1.05rem;margin-top:8px">{normalized}</div>'
         '<div class="muted" style="margin-top:6px">'
-        'Primary Diagnose semantics use the normalized semantic SpERT only when its '
-        'checkpoint representation is verified and the normalization/consistency guards pass.</div></div>',
+        'Primary Diagnose semantics use the matched rules-then-ByT5 SpERT only when its '
+        'checkpoint representation is verified and all protected-value/consistency guards pass.</div></div>',
         unsafe_allow_html=True,
     )
     if R.normalization_warning:
@@ -555,7 +580,7 @@ def page_diagnose(rec_engine: Recommender, cfg: dict):
         st.markdown("**User input**")
         st.code(R.query, language=None)
         if R.normalization_model_input:
-            st.markdown("**ByT5 model input (raw-style case adapted)**")
+            st.markdown("**ByT5 model input (expert-rule normalized)**")
             st.code(R.normalization_model_input, language=None)
         st.markdown("**Normalized interpretation**")
         st.code(R.normalized_interpretation or R.query, language=None)
@@ -564,7 +589,7 @@ def page_diagnose(rec_engine: Recommender, cfg: dict):
         st.markdown("**Validated RQ4 SpERT input**")
         st.code(R.model_input, language=None)
         st.caption(
-            "The optional verified normalized semantic branch can improve Diagnose understanding. "
+            "The optional verified rules-then-ByT5 semantic branch can improve Diagnose understanding. "
             "The frozen RQ4/RQ5 decision branch remains unchanged."
         )
 

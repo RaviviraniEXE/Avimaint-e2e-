@@ -22,11 +22,11 @@ from core.frontend_views import (
 
 ROOT = Path(__file__).resolve().parent
 FRONTEND_DIST = ROOT / "frontend" / "dist"
-FRONTEND_VERSION = "5.0.0"
+FRONTEND_VERSION = "5.0.1"
 
 app = FastAPI(
     title="AviMaint-DSS API",
-    version="1.0.1",
+    version="1.0.2",
     description="Structured maintenance IE, historical retrieval and planning support.",
 )
 
@@ -89,11 +89,21 @@ def health():
     semantic = service_health(rt["semantic_client"])
     nh = rt["normalizer"].health() if rt["normalizer"] else None
     calibrator_ready = bool(rt["calibrator"] and rt["calibrator"].available())
-    critical_ready = bool(raw["ready"] and calibrator_ready)
+    frontend = frontend_health()
+    reranker = rt.get("reranker")
+    reranker_ready = False
+    reranker_error = ""
+    if reranker is not None:
+        try:
+            reranker_ready = bool(reranker.available())
+            reranker_error = str(reranker.last_error() or "")
+        except Exception as exc:
+            reranker_error = f"{type(exc).__name__}: {exc}"
+    critical_ready = bool(raw["ready"] and calibrator_ready and frontend["ready"])
 
     return {
         "status": "ready" if critical_ready else "degraded",
-        "api_version": "1.0.1",
+        "api_version": "1.0.2",
         "rq4_base": cfg["retrieval"].get("default_mode", "structure"),
         "candidate_split": rt["candidate_split"],
         "phase2_compound_decomposition": bool(cfg.get("phase2", {}).get("enabled", False)),
@@ -101,12 +111,20 @@ def health():
         "raw_spert": raw,
         "normalization": {"ready": bool(nh), "metadata": nh},
         "semantic_spert": semantic,
+        "reranker": {
+            "ready": reranker_ready,
+            "configured": reranker is not None,
+            "role": "presentation_only",
+            "model": getattr(reranker, "model_name", "") if reranker else "",
+            "backend": reranker.backend() if reranker else "none",
+            "error": reranker_error,
+        },
         "runtime_model_lock": rt.get("runtime_lock", {}),
         "rq5_calibrator": {
             "ready": calibrator_ready,
             "status": rt["calibrator"].status() if rt["calibrator"] else "",
         },
-        "frontend": frontend_health(),
+        "frontend": frontend,
         "critical_ready": critical_ready,
     }
 

@@ -1,0 +1,114 @@
+Loading LOCKED rules-then-ByT5 model: D:\avimaint-e2e-research\outputs\normalization\models\byt5_gold_v1\checkpoint-1953
+{
+  "status": "ready",
+  "role": "operational_rules_then_byt5_normalizer",
+  "mode": "rules_then_byt5_guarded",
+  "representation": "rules_then_byt5_guarded_operational",
+  "model": "D:\\avimaint-e2e-research\\outputs\\normalization\\models\\byt5_gold_v1\\checkpoint-1953",
+  "model_weight_sha256": "c2d43fcb06a5865db4f0c8a8e5025bdea51bebec576287619b3a398e487d5191",
+  "device": "cpu",
+  "model_input_case_adapter": "expert_rules_lowercase",
+  "task_prefix": "",
+  "max_source_length": 128,
+  "max_target_length": 128,
+  "num_beams": 1,
+  "decoding_strategy": "greedy_deterministic",
+  "guard": "protected_values_directions_identifiers_anchors",
+  "use_for_rq4": false,
+  "use_for_rq5": false
+}
+Rules-then-ByT5 service ready at http://127.0.0.1:8766
+03/Sep/2026 23:00:28 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:00:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:01:01 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:01:02 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:01:17 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:01:32 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:01:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:01:55 127.0.0.1 "POST /normalize HTTP/1.1" 200 -
+03/Sep/2026 23:02:02 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:02:17 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:02:32 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:02:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:03:02 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:03:17 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:03:32 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:03:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:04:02 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:04:17 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:04:32 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:04:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:05:02 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:05:17 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:05:32 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:05:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:06:02 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:06:17 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:06:32 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:06:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:07:02 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:07:17 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:07:32 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:07:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:08:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:09:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:10:02 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:10:17 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:10:32 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:10:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:11:02 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:11:17 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:11:32 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:11:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:12:40 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:12:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:13:02 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:13:17 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:13:32 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:13:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:14:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:15:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:16:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:17:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:18:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:19:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:20:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:21:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:22:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:23:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:24:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:25:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:26:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:27:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:35:16 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:35:17 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:35:32 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:35:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:36:02 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:36:17 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:36:27 127.0.0.1 "POST /normalize HTTP/1.1" 200 -
+03/Sep/2026 23:36:32 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:36:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:37:02 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:37:17 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:37:32 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:37:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:38:02 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:38:17 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:38:32 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:38:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:39:02 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:39:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:40:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:41:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:42:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:43:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:44:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:45:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:46:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:47:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:48:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:49:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:50:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:51:47 127.0.0.1 "GET /health HTTP/1.1" 200 -
+03/Sep/2026 23:52:47 127.0.0.1 "GET /health HTTP/1.1" 200 -

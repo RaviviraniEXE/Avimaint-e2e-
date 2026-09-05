@@ -65,12 +65,22 @@ def classify_evidence(
     if (
         allow_single_cluster
         and int(support) == 1
-        and coverage >= float(limited_min_coverage)
+        # A single grounded historical cluster remains visible as LIMITED
+        # evidence.  Coverage controls the warning text, not whether the
+        # traceable action disappears from Diagnose.  The anchor requirement
+        # above and the validated raw-SpERT runtime gate remain in force.
     ):
+        coverage_note = (
+            " The selected action family has weak anchor coverage; verify the "
+            "source record carefully."
+            if coverage < float(limited_min_coverage)
+            else ""
+        )
         return EvidenceDecision(
             "limited", False, "limited",
             "One independent historical cluster supports this action family; "
-            "show as traceable limited evidence, not as a recurring strategy.",
+            "show as traceable limited evidence, not as a recurring strategy."
+            + coverage_note,
         )
 
     return EvidenceDecision(

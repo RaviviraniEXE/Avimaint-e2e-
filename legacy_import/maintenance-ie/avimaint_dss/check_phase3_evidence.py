@@ -10,7 +10,8 @@ low_coverage = classify_evidence(
     evidence_family="Replace", support=1, family_margin=0.0, coverage=0.25,
     has_anchor=True, require_anchor=True, allow_single_cluster=True,
 )
-assert low_coverage.abstain
+assert low_coverage.badge == "limited" and not low_coverage.abstain
+assert "weak anchor coverage" in low_coverage.note
 
 unanchored = classify_evidence(
     evidence_family="Replace", support=1, family_margin=0.0, coverage=1.0,

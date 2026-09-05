@@ -1,0 +1,6 @@
+{
+  "name": "AviMaint-DSS Phase 5 Frontend",
+  "version": "5.0.0",
+  "apiVersion": "1.0.1",
+  "uiFramework": "React + TypeScript + Vite + Tailwind CSS"
+}

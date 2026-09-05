@@ -18,10 +18,10 @@ missing = required - routes
 assert not missing, missing
 
 schema = api_server.app.openapi()
-assert schema["info"]["version"] == "1.0.1"
+assert schema["info"]["version"] == "1.0.2"
 assert "/api/v1/diagnose" in schema["paths"]
 assert "post" in schema["paths"]["/api/v1/diagnose"]
 
-print("PHASE4_API_CONTRACT_V2_OK")
+print("PHASE4_API_CONTRACT_V3_OK")
 for route in sorted(required):
     print(route)
